@@ -30,9 +30,86 @@
 // Adresa: Petta_Avenija_6 Soba: 12 3 Masa: 1
 
 #include <iostream>
-#include<cstring>
-//vasiot kod ovde
+#include <cstring>
+using namespace std;
 
+class Masa
+{
+private:
+    int dolzina;
+    int sirina;
+
+public:
+    Masa()
+    {
+        this->dolzina = 0;
+        this->sirina = 0;
+    }
+
+    ~Masa() {}
+
+    Masa(int sirina, int dolzina)
+    {
+        this->dolzina = dolzina;
+        this->sirina = sirina;
+    }
+
+    void pecati()
+    {
+        cout << " Masa: " << this->sirina << " " << this->dolzina << endl;
+    }
+};
+
+class Soba
+{
+private:
+    Masa masa;
+    int dolzina;
+    int sirina;
+
+public:
+    Soba()
+    {
+        this->dolzina = 0;
+        this->sirina = 0;
+    }
+    Soba(int sirina, int dolzina, Masa m)
+    {
+        this->sirina = sirina;
+        this->dolzina = dolzina;
+        this->masa = m;
+    }
+    ~Soba() {}
+
+    void pecati()
+    {
+        cout<< " Soba: " << this->sirina << " " << this->dolzina; masa.pecati();
+    }
+};
+
+class Kukja
+{
+private:
+    Soba soba;
+    char adresa[50];
+
+public:
+    Kukja()
+    {
+        strcpy(this->adresa, "");
+    }
+    ~Kukja() {}
+    Kukja(Soba &s, char *adresa)
+    {
+        strcpy(this->adresa, adresa);
+        this->soba = s;
+    }
+
+    void pecati()
+    {
+        cout << "Adresa: " << this->adresa; soba.pecati();
+    }
+};
 
 //ne smee da se menuva main funkcijata!
 int main(){
