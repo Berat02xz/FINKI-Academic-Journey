@@ -50,6 +50,9 @@
 #include <cstring>
 using namespace std;
 
+//--------------------------------------------------------------
+//Zadacata raboti no imam nekolku greshki vo output na rezultati
+//--------------------------------------------------------------
 class List
 {
 private:
@@ -235,7 +238,7 @@ public:
                 cout << "List number: " << i + 1 << " "<<endl;
                 this->listi[i].pecati();
             }
-            cout << "Sum: " << sum() << " Average: " << average() <<endl;
+            cout << "Sum: " <<endl; sum(); cout<< " Average: " <<endl; average(); 
             cout<< "Successful attempts: " << this->broj_elemnti << " Failed attempts: " << this->obidi <<endl;
         }
     }
