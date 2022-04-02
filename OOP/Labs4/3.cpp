@@ -112,7 +112,7 @@ private:
     int parkirani;
 
 public:
-    ParkingPlac(char Adresa[20] = "", char *ID = "", int cena = 0)
+    ParkingPlac(char *Adresa = "", char *ID = "", int cena = 0)
     {
         strcpy(this->Adresa, Adresa);
         this->ID = new char[strlen(ID) + 1];
