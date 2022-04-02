@@ -40,3 +40,57 @@
 // името и локацијата, а потоа бројот на компјутери, па за секој од компјутерите марка,
 // големина на хард дискг, големина на RAM, дали е SSD. Потоа се печатат сите внесени
 // продавници и најдобрата понуда.
+
+#include <stdio.h>
+#include <math.h>
+
+typedef struct Laptop{
+char Marka[100];
+int Mem;
+int SSD;
+}Laptop;
+
+typedef struct ITStore{
+char ime[100];
+char lokacija[100];
+Laptop kompjuteri[100];
+int brojelementi;
+}Store;
+
+
+void print(Store s){
+        printf("%s %s", s.ime, s.lokacija);
+    for(int i=0;i<s.brojelementi;i++){
+        printf("%s %d %d", s.kompjuteri[i].Marka , s.kompjuteri[i].Mem, s.kompjuteri[i].SSD);
+    }
+}
+
+void najdobra_memorija(Store s){
+    for(int i=0;i<s.brojelementi;i++){
+        if(s.kompjuteri[i].Mem >= 8 && s.kompjuteri[i].SSD){
+            printf("samo poveke od 8GB imaat: %s %d %d", s.kompjuteri[i].Marka , s.kompjuteri[i].Mem, s.kompjuteri[i].SSD);
+        }
+    }
+}
+
+int main(){
+int n;
+Store s[10];
+printf("broj na prodavnici:");
+scanf("%d", &n);
+
+for(int i=0; i<n; i++){
+printf("Vnesi ime, lokacija");
+scanf("%s %s", s->ime,s->lokacija );
+printf("Broj na kompjuteri:");
+scanf("%d", s->brojelementi);
+int broj=s->brojelementi;
+for(int j=1; j<broj; j++){
+printf("Vnesi Marka, Golemina Hard Disk & dali ima SSD [1/0] %s %d %d",s->kompjuteri[j].Marka,s->kompjuteri[j].Mem,s->kompjuteri[j].SSD );
+}
+}
+
+print(*s);
+najdobra_memorija(*s);
+
+}
