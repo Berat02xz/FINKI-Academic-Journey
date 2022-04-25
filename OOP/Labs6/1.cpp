@@ -90,3 +90,68 @@
 // Assists: 1.2
 // Rebounds: 6.6
 // Rating: 12.225
+
+int main() {
+
+  char name[50];
+  char team[40];
+  double points;
+  double assists;
+  double rebounds;
+  double allStarPoints;
+  double allStarAssists;
+  double allStarRebounds;
+
+  NBAPlayer * players = new NBAPlayer[5];
+  AllStarPlayer * asPlayers = new AllStarPlayer[5];
+  int n;
+  cin >> n;
+
+  if (n == 1) {
+
+    cout << "NBA PLAYERS:" << endl;
+    cout << "=====================================" << endl;
+    for (int i = 0; i < 5; ++i) {
+      cin >> name >> team >> points >> assists >> rebounds;
+      players[i] = NBAPlayer(name,team,points,assists,rebounds);
+      players[i].print();
+    }
+  }
+  else if (n == 2) {
+
+    for (int i=0; i < 5; ++i){
+      cin >> name >> team >> points >> assists >> rebounds;
+      cin >> allStarPoints >> allStarAssists >> allStarRebounds;
+      players[i] = NBAPlayer(name,team,points,assists,rebounds);
+      asPlayers[i] = AllStarPlayer(players[i],allStarPoints,allStarAssists,allStarRebounds);
+    }
+
+    cout << "NBA PLAYERS:" << endl;
+    cout << "=====================================" << endl;
+    for (int i=0; i < 5; ++i)
+      players[i].print();
+
+    cout << "ALL STAR PLAYERS:" << endl;
+    cout << "=====================================" << endl;
+    for (int i=0; i < 5; ++i)
+      asPlayers[i].print();
+
+    }
+    else if (n == 3) {
+
+      for (int i=0; i < 5; ++i){
+        cin >> name >> team >> points >> assists >> rebounds;
+        cin >> allStarPoints >> allStarAssists >> allStarRebounds;
+        asPlayers[i] = AllStarPlayer(name, team, points, assists, rebounds,
+                                     allStarPoints,allStarAssists,allStarRebounds);
+      }
+      cout << "ALL STAR PLAYERS:" << endl;
+      cout << "=====================================" << endl;
+      for (int i=0; i < 5; ++i)
+        asPlayers[i].print();
+
+    }
+    
+    delete [] players;
+    delete [] asPlayers;
+}
