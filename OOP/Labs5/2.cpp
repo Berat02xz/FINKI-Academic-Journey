@@ -134,9 +134,70 @@ private:
 	char *operators;
 public:
 	Equation(){
-		this->
+		this->operators=nullptr;
+		this->nums=nullptr;
 	}
-};
+	friend istream &operator >> (istream &IS, Equation &E){
+		char op='o';
+		int index=0;
+		float number;
+
+		while(op != '='){
+		ComplexNumber *temp=new ComplexNumber[index+1];
+		char *tempc=new char[index+1];
+
+		for(int i=0;i<index;i++){
+		temp[i]=E.nums[i];
+		tempc[i]=E.operators[i];
+		}
+			IS>>number;
+			temp[index].setReal(number);
+			IS>>number;
+			temp[index].setImaginary(number);
+			IS>>op;
+			tempc[index]=op;
+
+			index++;
+
+			E.nums=temp;
+			E.operators=tempc;
+		}
+
+		return IS;
+	}
+
+	ComplexNumber result(){
+		int index = 0;
+            ComplexNumber result = this->nums[0];
+            while (this->operators[index]!='='){
+                switch (this->operators[index]){
+                    case '+':
+                        result=result+this->nums[index+1];
+                        break;
+                    case '-':
+                        result=result-this->nums[index+1];
+                        break;
+                    case '*':
+                        result=result*this->nums[index+1];
+                        break;
+                    case '/':
+                        result=result/this->nums[index+1];
+                        break;
+                }
+                index++;
+            }
+            return result;
+	}
+
+		double sumModules(){
+            double sum = 0;
+            sum+=this->nums[0].module();
+            for(int i=0;this->operators[i]!='=';i++){
+                sum+=this->nums[i+1].module();
+            }
+            return sum;
+        }
+}
 
 // Не го менувајте main методот.
 
