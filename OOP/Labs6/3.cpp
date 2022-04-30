@@ -69,12 +69,121 @@
 // Osnovnata plata na gorenavedeniot lekar e: 38745.7
 
 #include <iostream>
-#include <string>
+
+#include <cstring>
 using namespace std;
 
 //vasiot kod pocnuva od tuka
 
+class Lekar
+{
+protected:
+	int faksimil;
+	char ime[15];
+	char prezime[15];
+	double poc_plata;
 
+public:
+	Lekar(int faksimil = 0, char *ime = "", char *prezime = "", double osnovnaPlata = 0)
+	{
+		this->faksimil = faksimil;
+		strcpy(this->ime, ime);
+		strcpy(this->prezime, prezime);
+		this->poc_plata = osnovnaPlata;
+	}
+
+	Lekar(Lekar& L){
+		this->faksimil=L.faksimil;
+		strcpy(this->ime,L.ime);
+		strcpy(this->prezime,L.prezime);
+		this->poc_plata=L.poc_plata;
+	}
+
+	void pecati()
+	{
+		cout << faksimil<<":  "<< ime << " " << prezime;
+	}
+
+	double plata()
+	{
+		return poc_plata;
+	}
+
+};
+
+
+
+
+
+
+class MaticenLekar : public Lekar
+{
+private:
+	int broj_pacienti;
+	double *naplateni_pacienti;
+
+public:
+	MaticenLekar() : Lekar() {
+		broj_pacienti=0;
+		naplateni_pacienti=new double[0];
+	}
+
+	MaticenLekar(Lekar &L,int pacienti,double *kotizacii) : Lekar(L) {
+		this->broj_pacienti=pacienti;
+		this->naplateni_pacienti=new double[broj_pacienti];
+		for(int i=0;i<broj_pacienti;i++){
+			this->naplateni_pacienti[i]=kotizacii[i];
+		}
+	}
+	
+	MaticenLekar(int faksimil, char *ime,  char *prezime,double osnovnaPlata,int broj, double *kotizacii) : Lekar(faksimil,ime,prezime,osnovnaPlata) {
+		this->broj_pacienti=broj;
+		this->naplateni_pacienti=new double[broj_pacienti];
+		for(int i=0;i<broj_pacienti;i++){
+			this->naplateni_pacienti[i]=kotizacii[i];
+		}
+	}
+
+	MaticenLekar( MaticenLekar&M ){
+		this->broj_pacienti=M.broj_pacienti;
+		this->naplateni_pacienti=new double[broj_pacienti]; 
+		for(int i=0;i<broj_pacienti;i++){
+			this->naplateni_pacienti[i]=M.naplateni_pacienti[i];
+		}
+
+		this->faksimil=M.faksimil;
+		this->poc_plata=M.poc_plata;
+		strcpy(this->ime,M.ime);
+		strcpy(this->prezime,M.prezime);
+
+	}
+
+	void pecati()
+	{
+		Lekar::pecati();
+		
+		double prosek=0;
+		for(int i=0;i<broj_pacienti;i++){
+			prosek+=naplateni_pacienti[i];
+		}
+		prosek=broj_pacienti / prosek;
+
+		cout << prosek << endl;
+		//а во нов ред го печати и просекот од  котизации
+	}
+
+	double plata()
+	{
+		double prosek=0;
+		for(int i=0;i<broj_pacienti;i++){
+			prosek+=naplateni_pacienti[i];
+		}
+		prosek=broj_pacienti / prosek;
+
+		return poc_plata + (0.3 * prosek);
+	}
+	~MaticenLekar(){ delete [] naplateni_pacienti; }
+};
 
 int main() {
 	int n;
