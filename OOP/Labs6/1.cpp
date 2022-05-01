@@ -91,7 +91,123 @@
 // Rebounds: 6.6
 // Rating: 12.225
 
-int main() {
+#include <iostream>
+#include <cstring>
+using namespace std;
+
+class NBAPlayer
+{
+protected:
+  char *ime;
+  char team[40];
+  double poeni;
+  double asistencii;
+  double skokovi;
+
+public:
+  NBAPlayer(char *ime="", char team[]="", double poeni=0, double asistencii=0, double skokovi=0){
+    this->ime=new char[strlen(ime)+1];
+    strcpy(this->ime,ime);
+    strcpy(this->team,team);
+    this->asistencii=asistencii;
+    this->poeni=poeni;
+    this->skokovi=skokovi;
+  }
+
+  NBAPlayer(NBAPlayer &N){
+    this->ime=new char[strlen(N.ime)+1];
+    strcpy(this->ime,N.ime);
+    strcpy(this->team,N.team);
+    this->asistencii=N.asistencii;
+    this->poeni=N.poeni;
+    this->skokovi=N.skokovi;
+  }
+
+  NBAPlayer&operator=(const NBAPlayer &N){
+    if (this == &N){ return *this; }
+    this->ime=new char[strlen(N.ime)+1];
+    strcpy(this->ime,N.ime);
+    strcpy(this->team,N.team);
+    this->asistencii=N.asistencii;
+    this->poeni=N.poeni;
+    this->skokovi=N.skokovi;
+    return *this;
+  }
+
+  ~NBAPlayer(){ delete [] ime;}
+
+   double rating()
+    {
+        return((poeni*0.45) + (asistencii*0.3) + (skokovi*0.25));
+    }
+
+     void print()
+    {
+        cout<<ime<<" - "<<team<<endl;
+        cout<<"Points: "<<poeni<<endl;
+        cout<<"Assists: "<<asistencii<<endl;
+        cout<<"Rebounds: "<<skokovi<<endl;
+        cout<<"Rating: "<<rating()<<endl;
+    }
+};
+
+class AllStarPlayer : public NBAPlayer
+{
+private:
+  double poeniA;
+  double asistenciiA;
+  double skokoviA;
+
+public:
+  AllStarPlayer(char *ime="", char team[]="", double poeni=0, double asistencii=0, double skokovi=0, double poeniA=0, double asistenciiA=0, double skokoviA=0) : NBAPlayer(ime,team,poeni,asistencii,skokovi)
+{
+  this->asistenciiA=asistenciiA;
+  this->poeniA=poeniA;
+  this->skokoviA=skokoviA;
+}
+
+AllStarPlayer(NBAPlayer &N,double poeniA=0, double asistenciiA=0, double skokoviA=0) : NBAPlayer(N)
+{
+  this->asistenciiA=asistenciiA;
+  this->poeniA=poeniA;
+  this->skokoviA=skokoviA;
+}
+
+AllStarPlayer(AllStarPlayer &A){
+  this->asistenciiA=A.asistenciiA;
+  this->poeniA=A.poeniA;
+  this->skokoviA=A.skokoviA;
+}
+
+AllStarPlayer&operator=(const AllStarPlayer &A){
+  this->asistenciiA=A.asistenciiA;
+  this->poeniA=A.poeniA;
+  this->skokoviA=A.skokoviA;
+}
+
+~AllStarPlayer(){  }
+
+  double allStarRating()
+    {
+        return ((poeniA*0.3)+(asistenciiA*0.4)+(skokoviA*0.3));
+    }
+    double rating()
+    {
+        return(NBAPlayer::rating() + allStarRating())/2;
+    }
+    void print()
+    {
+        NBAPlayer::print();
+        cout<<"All Star Rating: "<<allStarRating()<<endl;
+        cout<<"New Rating: "<<rating()<<endl;
+    }
+
+
+};
+
+int
+main()
+{
 
   char name[50];
   char team[40];
