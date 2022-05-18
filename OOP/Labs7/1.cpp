@@ -33,8 +33,8 @@
 // Filtriranata plata e: 51200
 
 #include <iostream>
-#include <string>
-#include <string.h>
+#include<cstring>
+#include<cmath>
 using namespace std;
 
 class Employee
@@ -45,7 +45,17 @@ protected:
   int rabotno_iskustvo;
 
 public:
-  Employee(char ime[100], int godini, int rabotno_iskustvo)
+//OPERATOR == OVVERIDE
+bool operator ==(Employee &E){
+if (this->godini == E.godini && bonus() == E.bonus()){
+  return true;
+} else {
+  return false;
+}
+}
+
+
+  Employee(char *ime="", int godini=0, int rabotno_iskustvo=0)
   {
     this->godini = godini;
     this->rabotno_iskustvo = rabotno_iskustvo;
@@ -59,13 +69,168 @@ public:
 class SalaryEmployee : public Employee
 {
 protected:
-  int osnovna_plata;
+  double osnovna_plata;
 
 public:
-  SalaryEmployee(char ime[100], int godini, int rabotno_iskustvo, int osnovna_plata) : Employee(ime, godini, rabotno_iskustvo)
+  SalaryEmployee(char *ime="", int godini=0, int rabotno_iskustvo=0, double osnovna_plata=0) : Employee(ime, godini, rabotno_iskustvo)
   {
     this->osnovna_plata = osnovna_plata;
   }
+
+  double plata()
+  {
+    return osnovna_plata + bonus();
+  }
+  double bonus()
+  {
+    return (rabotno_iskustvo * osnovna_plata) / 100;
+  }
+};
+
+class HourlyEmployee : public Employee
+{
+protected:
+  int casovi;
+  double plata_po_cas;
+
+public:
+  HourlyEmployee(char *ime="", int godini=0, int rabotno_iskustvo=0, int casovi=0, double plata_po_cas=0) : Employee(ime, godini, rabotno_iskustvo)
+  {
+    this->casovi = casovi;
+    this->plata_po_cas = plata_po_cas;
+  }
+
+  double plata()
+  {
+    return plata_po_cas * casovi + bonus();
+  }
+
+  double bonus()
+  {
+    return (casovi - 320) * 0.5 * plata_po_cas;
+  }
+};
+
+class Freelancer : public Employee
+{
+protected:
+  int broj_proekti;
+  double sumi[100];
+
+public:
+  Freelancer(char *ime="", int godini=0, int rabotno_iskustvo=0, int broj_proekti=0, double *sumi=0) : Employee(ime, godini, rabotno_iskustvo)
+  {
+    this->broj_proekti = broj_proekti;
+    for (int i = 0; i < broj_proekti; i++)
+    {
+      this->sumi[i]=sumi[i];
+    }
+  }
+
+  double plata()
+  {
+    int rez = 0;
+    for (int i = 0; i < broj_proekti; i++)
+    {
+      rez += sumi[i];
+    }
+    return rez + bonus();
+  }
+
+  double bonus()
+  {
+    if (broj_proekti > 5)
+      return (broj_proekti - 5) * 1000;
+    return 0;
+  }
+};
+
+class Company
+{
+private:
+  char ime[100];
+  int vraboteni;
+  Employee **niza;
+
+public:
+  Company(char *ime="")
+  {
+    strcpy(this->ime, ime);
+    this->vraboteni = 0;
+    niza = new Employee *[0];
+  }
+
+  ~Company() { delete[] niza; }
+
+//OPERATOR += FOR ADDING NEW EMPLOYEE
+  Company &operator+=(Employee *E)
+  {
+    //first create new temporary array and put the new employee there
+    Employee **temp = new Employee *[vraboteni + 1];
+
+    for (int i = 0; i < vraboteni; i++)
+    {
+      temp[i] = niza[i];
+    }
+    temp[vraboteni++] = E;
+
+    //Delete original array and swap the temporary with original
+    delete[] niza;
+    niza = temp;
+
+    //return *this
+    return *this;
+  }
+
+double vkupnaPlata(){
+  double rez=0;
+  for(int i=0;i<vraboteni;i++){
+    rez+=niza[i]->plata();
+  }
+  return rez;
+}
+
+double filtriranaPlata(Employee * emp){
+  double rez=0;
+  for(int i=0;i<vraboteni;i++){
+    if(niza[i]==emp){ rez+=niza[i]->plata(); }
+  }
+  return rez;
+}
+
+void pecatiRabotnici()
+{
+        int countSalary=0,countHourly=0,countFree=0;
+        cout<<"Vo kompanijata "<<ime<< " rabotat:"<<endl;
+        for(int i=0;i<vraboteni;i++)
+        {
+            SalaryEmployee *se = dynamic_cast<SalaryEmployee *>(niza[i]);
+            if(se != 0)
+            {
+                countSalary++;
+                continue;
+            }
+            HourlyEmployee *he = dynamic_cast<HourlyEmployee *>(niza[i]);
+            if(he != 0)
+            {
+                countHourly++;
+                continue;
+            }
+            Freelancer *fl=dynamic_cast<Freelancer*>(niza[i]);
+            if(fl != 0)
+            {
+                countFree++;
+                continue;
+            }
+
+        }
+        cout<<"Salary employees: "<<countSalary<<endl;
+        cout<<"Hourly employees: "<<countHourly<<endl;
+        cout<<"Freelancers: "<<countFree<<endl;
+    }
+
+
+
 };
 
 int main() {
