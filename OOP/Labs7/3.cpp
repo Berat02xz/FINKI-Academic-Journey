@@ -100,8 +100,7 @@
 #include <cmath>
 using namespace std;
 
-
-//TODO: konstruiraj ja abstraknata klasa Shape
+// TODO: konstruiraj ja abstraknata klasa Shape
 class Shape
 {
 protected:
@@ -122,79 +121,89 @@ class Kvadrat : public Shape
 {
 protected:
 public:
-Kvadrat(int strana) : Shape(strana)
+    Kvadrat(int strana) : Shape(strana)
     {
     }
-    double plostina(){
-        return strana*strana;
+    double plostina()
+    {
+        return strana * strana;
     }
-void pecati(){
-    cout<<"Kvadrat so plostina = "<<plostina()<<endl;
-}
-int getType(){
-    return 1;
-}
+    void pecati()
+    {
+        cout << "Kvadrat so plostina = " << plostina() << endl;
+    }
+    int getType()
+    {
+        return 1;
+    }
 };
 // TODO: konstruiraj ja klasata Krug
 class Krug : public Shape
 {
 protected:
 public:
-
-Krug(int strana) : Shape(strana)
+    Krug(int strana) : Shape(strana)
     {
     }
-    double plostina(){
-        return 3.14 *strana*strana;
+    double plostina()
+    {
+        return 3.14 * strana * strana;
     }
-void pecati(){
-    cout<<"Krug so plostina = "<<plostina()<<endl;
-}
-int getType(){
-    return 2;
-}
-
-
+    void pecati()
+    {
+        cout << "Krug so plostina = " << plostina() << endl;
+    }
+    int getType()
+    {
+        return 2;
+    }
 };
 // TODO: konstruiraj ja klasata Triagolnik
 class Triagolnik : public Shape
 {
 protected:
 public:
-Triagolnik(int strana) : Shape(strana)
+    Triagolnik(int strana) : Shape(strana)
     {
     }
-    double plostina(){
-        return (sqrt(3)/4) * strana * strana;
+    double plostina()
+    {
+        return (sqrt(3) / 4) * strana * strana;
     }
-void pecati(){
-    cout<<"Triagolnik so plostina = "<<plostina()<<endl;
-}
-int getType(){
-    return 3;
-}
+    void pecati()
+    {
+        cout << "Triagolnik so plostina = " << plostina() << endl;
+    }
+    int getType()
+    {
+        return 3;
+    }
 };
 
-
-//TODO: definiraj go metodot void checkNumTypes(Shape** niza, int n)
-void checkNumTypes(Shape** niza, int n){
-    int kvadrat=0, triagolnik=0, krug=0;
-    for(int i=0;i<n;i++){
-        if(niza[i]->getType()==1){
+// TODO: definiraj go metodot void checkNumTypes(Shape** niza, int n)
+void checkNumTypes(Shape **niza, int n)
+{
+    int kvadrat = 0, triagolnik = 0, krug = 0;
+    for (int i = 0; i < n; i++)
+    {
+        if (niza[i]->getType() == 1)
+        {
             kvadrat++;
-        } else if(niza[i]->getType()==2){
+        }
+        else if (niza[i]->getType() == 2)
+        {
             krug++;
-        } else {
+        }
+        else
+        {
             triagolnik++;
         }
     }
 
-    cout<<"Broj na kvadrati vo nizata = "<<kvadrat<<endl;
-    cout<<"Broj na krugovi vo nizata = "<<triagolnik<<endl;
-    cout<<"Broj na triagolnici vo nizata = "<<krug<<endl;
+    cout << "Broj na kvadrati vo nizata = " << kvadrat << endl;
+    cout << "Broj na krugovi vo nizata = " << triagolnik << endl;
+    cout << "Broj na triagolnici vo nizata = " << krug << endl;
 }
-
-
 
 int main(){
 
