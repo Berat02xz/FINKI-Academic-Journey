@@ -209,8 +209,8 @@ int main() {
         CharSecret css("abcabc");
         cout << (ds == cs) << endl;
         cout << (cs != ds) << endl;
-        cout << (cs == css) << endl;
-        cout << (cs != css) << endl;
+        // cout << (cs == css) << endl;
+        // cout << (cs != css) << endl;
     } else if(n == 3) {
   		cout << "Secret processor" << endl;
 		int numbers1 [] = {1,2,3,4,5,6,4,3,2,1,1,2,3,4,5};
