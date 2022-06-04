@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Laboratoriska vezba">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Berat Ahmetaj">
+    <title> FinkiPage </title>
+</head>
+
+<style>
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+li{
+margin-top: 30px;
+float: left;
+list-style: none;
+padding-left: 30px;
+width: 80px;
+height: 30px;
+padding-top: 10px;
+border-radius: 5px;
+}
+.right_nav{
+    margin-top: 55px;
+    float: right;
+    margin-right: 10px;
+}
+.activated{
+color: white;
+background-color: rgb(47, 47, 95);
+}
+section{
+    position: relative;
+    top: 115px;
+    height: 1000px;
+    margin: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+.formular{
+    padding-top: 35px;
+    background-color: rgb(252, 252, 252);
+    margin-left: 25px;
+    margin-right: 25px;
+    padding-left: 200px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+}
+input, select{
+    width: 700px;
+    padding: 10px;
+    margin-top: 3px;
+    margin-bottom: 15px;
+    border: solid rgb(226, 226, 226) 1px;
+    border-radius: 3px;
+}
+
+input[type=submit]{
+    width: 400px;
+    padding: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+    border: solid rgb(226, 226, 226) 1px;
+    border-radius: 3px;
+    margin-left: 550px;
+    background-color: rgb(67, 165, 67);
+    color: white;
+    border-radius: 5px;
+    padding: 10px;
+}
+</style>
+
+<body style="background-color: white ;">
+
+<nav>
+    <li> <h1>Finki<span style="color: rgb(99, 236, 99);">Page</span></h1> </li>
+    <li class="right_nav"> <a href="./info.html"> INFO </a>  </li>
+    <li class="right_nav activated" style="padding-right: 17px;"> <a href="./contact.html" class="activated"> CONTACT </a> </li>
+    <li class="right_nav "> <a href="./index.html" > HOME </a> </li>
+</nav>
+
+<section style="background-color: rgb(127, 218, 127);">
+<div style="clear: both ;"></div>
+
+<div class="formular">
+<form>
+<div style="float:left ;">
+<label for="FirstName">First Name</label>
+<br/>
+<input type="text" placeholder="Your Name">
+<br/>
+
+<label for="DateBirth">Date of birth</label>
+<br/>
+<input type="date">
+<br/>
+
+<label for="country">Country</label>
+<br/>
+<select id="country" name="country">
+  <option value="australia">Australia</option>
+  <option value="canada">Canada</option>
+  <option value="usa">USA</option>
+</select>
+<br/>
+
+<label for="CV" style="border: solid black 0px ;">CV</label>
+<input type="file" style="border: solid black 0px ;" >
+</div>
+
+
+
+<div>
+    <label for="LastName">Last Name</label>
+    <br/>
+    <input type="text" placeholder="Your Last Name">
+    <br/>
+
+    <label for="LastName">Subject</label>
+    <br/>
+    <textarea placeholder="Write Something" style="width:720px; height:130px"></textarea>
+    <br/>
+
+</div>
+<div style="clear: both ;"> </div>
+<br/>
+<input type="submit" style="text-align: center ;">
+</form>
+</div>
+</section>
+
+</body>
+</html>
