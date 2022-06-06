@@ -1,0 +1,198 @@
+/* 216130 - Berat Ahmetaj */
+/* 216130 - Berat Ahmetaj */
+
+
+#search_bar{
+    position: absolute;
+    left: 1175px;
+    top: 15px;
+}
+
+input[type="text"]{
+    text-decoration: none;
+    border-color: transparent;
+    color: white;
+    background-color: transparent;
+    width: 130px;
+    border-radius: 15px;
+}
+
+input[type="submit"]{
+   width: 70px;
+   height: 23px;
+   background-color: transparent;
+    width: 130px;
+    border-radius: 15px;
+    border-color: transparent;
+}
+
+body{
+    background-image: url(../image/content_wrapper.jpg);
+
+    margin-left: 500px;
+}
+
+#search_bar_wrapper{
+    width: 1500px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-image: url(../image/search.jpg);
+    margin: auto;
+}
+
+#banner_bar{
+     background-image: url(../image/banner.jpg);
+     width: 980px;
+     height: 160px;
+
+}
+
+#menu_wrapper{
+    background-image: url(../image/menu.jpg);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 980px;
+}
+
+#menu li{
+    display: inline-block;
+    padding: 5px;
+    border-left: solid 1px white;
+}
+
+#menu li a{
+    text-decoration: none;
+    color:white;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+#menu{
+    margin-left: 300px;
+}
+
+#content_wrapper{
+    background-image: url(../image/content_wrapper.jpg);
+    background-repeat: no-repeat;
+    width: 980px;
+}
+
+.section_w950{
+    text-align: center;
+    margin-top: 60px;
+}
+
+.section_w950 h1{
+    color: rgb(240, 240, 94);
+}
+
+.section_w950 p{
+    color: rgb(240, 240, 191);
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.fl{
+    float: left;
+    width: 500px;
+    padding-left: 10px;
+    padding-right: 15px;
+
+}
+
+.section_w450 {
+    background-image: url(../image/image_01.jpg);
+    background-repeat: no-repeat;
+    height: 450px;
+    background-position: 30px 130px;
+}
+
+.section_content ul{
+    margin-top: 120px;
+}
+
+.section_content a{
+text-decoration: none;
+color: white;
+}
+
+.section_content p{
+    color: rgb(245, 233, 178);
+}
+
+.list_01{
+    padding-top: 20px;
+}
+
+.list_01 li{
+    padding-top: 15px;
+    list-style-image: url(../image/list_icon.png);
+    margin-left: 20px;
+}
+
+.list_01 li a{
+
+    color: black;
+}
+
+.section_w450{
+    color: rgb(243, 243, 129);
+    
+}
+
+
+
+.section_w950 h2{
+    text-align: left;
+    padding-left: 75px;
+    color: rgb(231, 231, 125) ;
+    padding-top: 20px;
+}
+
+.image_wrapper_02 {
+    background-image: url(../image/image_02.jpg);
+    width: 90px;
+    height: 150px;
+    display: inline-block;
+    justify-content: center;
+    padding-left: 70px;
+}
+
+.button_01{
+    padding-left: 20px;
+    padding-top: 10px;
+    float: right;
+    background-image: url(../image/read_more.png);
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 50px;
+}
+
+.cleaner{
+    clear: both;
+}
+
+#footer{
+    background-image: url(../image/footer_bg.png);
+    background-repeat: no-repeat;
+        height: 110px;
+}
+
+#footer a{
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+#footer{
+    padding-left: 160px;
+    padding-top: 20px;
+    color: white;
+}
+a:hover{
+    opacity: 50%;
+}
+
+.image_wrapper_02:hover{
+    opacity: 50%;
+}

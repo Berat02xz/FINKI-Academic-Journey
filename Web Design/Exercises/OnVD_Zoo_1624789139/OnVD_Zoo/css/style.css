@@ -1,0 +1,29 @@
+/* Your name, surname and index here! */
+
+/* Good Luck :) */
+
+#page{
+    background-image: url(../images/bg-body.gif);
+}
+
+#header{
+    background-image: url(../images/bg-page.gif);
+    background-repeat:no-repeat;
+    margin: auto;
+    margin-left: 25%;
+}
+
+#content{
+    display: grid;
+    grid-template-areas: "head1 head2 head3";
+    grid-template-columns: 1fr 3fr 1fr;
+}
+
+#featured{
+    grid-area: head3;
+
+}
+
+
+
+

@@ -1,0 +1,44 @@
+/* Indeks, Ime i Prezime */
+body{
+	background-image: url('main_bg_.gif');
+
+}
+#container{
+	background-image: url('containe.jpg');
+	width: 770px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#pageHeader h1{
+	background-image: url('intro_ti.jpg');
+	background-repeat: no-repeat;
+	width: 40%;
+	height: 110px;
+	float: left;
+	text-indent: -9999px;
+
+}
+#pageHeader h2{
+	background-image: url('intro_bg.jpg');
+	background-repeat: no-repeat;
+	width: 40%;
+	float: right;
+	text-indent: -9999px;
+
+}
+#linkList{
+	width: 40%;
+	float: left;
+}
+#quickSummary {
+	width: 40%;
+	float: right;
+}
+#preamble{
+	width: 40%;
+	float: right;
+}
+#supportingText{
+	width: 40%;
+	float: right;
+}

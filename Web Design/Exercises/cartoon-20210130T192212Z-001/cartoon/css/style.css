@@ -1,0 +1,145 @@
+/* Индекс, име и презиме */
+/* ID_NO, Name and Surname */
+
+
+/* Loading fonts */
+@font-face {
+	font-family: 'open_sansregular';
+	src: url('../fonts/opensans-regular-webfont.eot');
+	src: url('../fonts/opensans-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/opensans-regular-webfont.woff') format('woff'),
+	url('../fonts/opensans-regular-webfont.ttf') format('truetype'),
+	url('../fonts/opensans-regular-webfont.svg#open_sansregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'gorditasregular';
+	src: url('../fonts/gorditas-regular-webfont.eot');
+	src: url('../fonts/gorditas-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/gorditas-regular-webfont.woff') format('woff'),
+	url('../fonts/gorditas-regular-webfont.ttf') format('truetype'),
+	url('../fonts/gorditas-regular-webfont.svg#gorditasregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sans_semiboldregular';
+	src: url('../fonts/opensans-semibold-webfont.eot');
+	src: url('../fonts/opensans-semibold-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/opensans-semibold-webfont.woff') format('woff'),
+	url('../fonts/opensans-semibold-webfont.ttf') format('truetype'),
+	url('../fonts/opensans-semibold-webfont.svg#open_sans_semiboldregular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+@font-face {
+	font-family: 'open_sans_semibolditalic';
+	src: url('../fonts/opensans-semibolditalic-webfont.eot');
+	src: url('../fonts/opensans-semibolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+	url('../fonts/opensans-semibolditalic-webfont.woff') format('woff'),
+	url('../fonts/opensans-semibolditalic-webfont.ttf') format('truetype'),
+	url('../fonts/opensans-semibolditalic-webfont.svg#open_sans_semibolditalic') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+/* Your code goes here */
+#header:first-child {
+	background-color: blanchedalmond;
+}
+
+#header{
+	margin: 0;
+	width: 100%;
+}
+
+#header div:first-of-type{
+	display: flex;
+	flex-direction: row;
+}
+
+#header div div:first-of-type{
+	width: 50%;
+}
+
+#header div div:first-of-type img{
+	display: inline-block;
+	margin-left: 100px;
+}
+
+.play{
+	position: absolute;
+	margin-left: 400px;
+	margin-top: 230px;
+}
+#header div div:nth-child(2){
+	display: inline-block;
+	width: 50%;
+	padding: 5% 10%;
+	margin-top: -4%;
+}
+#header div div:nth-child(2) p{
+	width: 63%;
+	text-align: center;
+
+}
+
+body {
+	background-image: url(../images/bg-body.jpg);
+	background-repeat: repeat;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+#body {
+	background-color: white;
+	margin-top: 0;
+	margin-left: 345px;
+	width: 760px;
+
+}
+
+h1{
+	margin-top: 0;
+}
+
+#header ul{
+	background-color: white;
+	margin-bottom: 0;
+	width: 720px;
+	margin-left: 345px;
+}
+
+#header ul li{
+	display: inline-block;
+}
+
+
+.sidebar{
+	width: 30%;
+	display: inline-block;
+}
+
+.sidebar a:first-of-type{
+	background-image: url(/images/twitter.png);
+	display: block;
+	width: 330px;
+	height: 330px;
+}
+
+.sidebar div{
+	height: 400px;
+	width: 400px;
+}
+
+.aside{
+	width: 60%;
+	display: inline-block;
+}
+
+
+
+

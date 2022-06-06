@@ -1,0 +1,264 @@
+body {
+    width: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 600px;
+    background: url('img/top.png'), #edf6ff;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    border-bottom: 5px solid #dd3b2a;
+}
+
+header h1{
+    color: #00374f;
+    font-size: 70px;
+    padding-top: 30px;
+    margin-top: 0;
+    margin-left: 34%;
+    width: 500px;
+}
+
+header h1:before{
+    content: " ";
+    display: block;
+    position: absolute;
+    border-bottom: 2px solid #dd3b2a;
+    margin-top: 26px;
+    width: 80%;
+    margin-left: -30%;
+}
+
+header h1:after{
+    position: absolute;
+    display: block;
+    content: " ";
+    border-bottom: 2px solid #ffffff;
+    width: 32%;
+    margin-left: -20px;
+    margin-top: -55px;
+}
+
+header h2{
+    color: #dd3b2a;
+    font-size: 20px;
+    font-style: italic;
+    margin-left: 60%;
+    margin-top: -50px;
+}
+
+.summary{
+    color: #dd3b2a;
+    position: absolute;
+    width: 300px;
+    margin-top: -375px;
+    margin-left: 63.5%;
+    font-style: italic;
+}
+
+.miniintro{
+    width: 45%;
+    background-color: #fefefe;
+}
+
+.miniintro h3{
+    margin-left: 32.5%;
+    font-size: 30px;
+    color: #dd3b2a;
+    font-weight: normal;
+}
+
+.miniintro p{
+    width: 70%;
+    margin-left: 30%;
+}
+
+.people h3{
+    margin-left: 2.5%;
+    font-size: 30px;
+    color: #dd3b2a;
+    font-weight: normal;
+}
+
+
+.people{
+    position: absolute;
+    width: 500px;
+    margin-left: 50%;
+    margin-top: -420px;
+    background-color: #fefefe;
+}
+
+.walter{
+    border-top: 5px solid #cce4fb;
+    height: 600px;
+    width: 100%;
+    background-color: #edf6ff;
+    background-image: url('img/walter.png');
+    background-repeat: no-repeat;
+    background-position-x: 70%;
+    background-position-y: 150px;
+}
+
+.walter h3{
+    font-size: 30px;
+    color: #dd3b2a;
+    font-weight: normal;
+    margin-left: 200px;
+}
+
+.walter p{
+    width: 33%;
+    margin-left: 13%;
+    padding-bottom: 30px;
+}
+
+.walter:after{
+    content: " ";
+    display: block;
+    width: 230px;
+    border-bottom: 2px solid #dd3b2a;
+    margin-left: 45%;
+    margin-top: 50px;
+}
+
+.jessie{
+    border-top: 5px solid #edf6ff;
+    height: 600px;
+    width: 100%;
+    background-color: #edf6ff;
+    background-image: url('img/jessie.png');
+    background-repeat: no-repeat;
+    background-position-x: 300px;
+    background-position-y: 150px;
+    border-bottom: 5px solid #cce4fb;
+}
+
+.jessie h3{
+    font-size: 30px;
+    color: #dd3b2a;
+    font-weight: normal;
+    margin-left: 52.5%; 
+    margin-top: 150px;  
+}
+
+.jessie p{
+    width: 33%;
+    margin-left: 52.5%;
+}
+
+.history{
+    height: 370px;
+    background-color: #fefefe;
+}
+
+.history h3{
+    margin-top: 50px;
+    font-size: 30px;
+    color: #dd3b2a;
+    font-weight: normal;
+    margin-left: 40%;
+}
+
+.history p{
+    width: 40%;
+    float: left;
+    margin-left: 10%;
+    margin-right: -100px;
+}
+
+.footer{
+    height: 70px;
+    background-color: #00374f;
+    border-bottom: 5px solid #2babe1;
+}
+
+.footer a{
+    display: block;
+    float: left;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 20px;
+    margin-left: 40%;
+    margin-right: -37%;
+    margin-top: 20px;
+}
+
+.sidebar{
+    height: 400px;
+    background-color: #2babe1;
+}
+
+.bb-selection{
+    width: 50%;
+    float: left;
+    border-right: 2px solid #ffffff;
+    height: 100%;
+}
+
+.bb-selection h3{
+    color: #00374f;
+    font-size: 25px;
+    margin-left: 150px;
+}
+
+.bb-selection ul{
+    margin-left: 120px;
+}
+
+.bb-selection li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.bb-selection a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.link-interviews{
+    width: 45%;
+    float: right;
+}
+
+.link-interviews h3{
+    color: #00374f;
+    font-size: 25px;
+}
+
+.link-interviews ul{
+    margin-left: -40px;
+}
+
+.link-interviews li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.link-interviews a{
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.fcse-cls-related{
+    width: 45%;
+    float: right;
+}
+
+.fcse-cls-related ul{
+    margin-left: -40px;
+}
+
+.fcse-cls-related li{
+    list-style: none;
+    padding-bottom: 15px;
+}
+
+.fcse-cls-related a{
+    color: #ffffff;
+    text-decoration: none;
+}

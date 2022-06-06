@@ -1,0 +1,98 @@
+/*-------------------------------------------------------------------------
+
+2100000, Ime i Prezime  
+
+----------------------------------------------------------------------------*/
+#container{
+	background: url("containerbackground.gif") repeat-y;
+	width: 663px;
+	margin:auto;
+}
+
+#pageHeader{
+	background: url("top.gif") no-repeat;
+	margin-left: 29px;
+	height: 332px;
+}
+
+#pageHeader h1 span, #preamble h3 span,
+#explanation h3 span, #participation h3 span,
+#lselect h3 span, #lresources h3 span{
+	display: none;
+}
+
+#preamble{
+	width: 389px;
+	background: url("title1.gif") no-repeat;
+	padding-top: 30px;
+	margin-left: 37px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+#quickSummary{
+	width: 192px;
+	float: right;
+	background: url("summary.gif") no-repeat;
+	padding-top: 30px;
+	margin-right: 37px;	
+}
+
+#explanation{
+	width: 389px;
+	background: url("title2.gif") no-repeat;
+	padding-top: 30px;
+	margin-left: 37px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+#participation{
+	width: 389px;
+	background: url("title3.gif") no-repeat;
+	padding-top: 30px;
+	margin-left: 37px;
+	padding-left: 10px;
+	padding-right: 10px;
+	box-sizing: border-box;
+}
+
+#linkList{
+	float: right;
+	margin-top: -130px;
+}
+
+#supportingText{
+	width: 389px;
+	display: inline-block;
+}
+
+#lselect{
+	width: 192px;
+	background: url("designs.gif") no-repeat;
+	padding-top: 30px;
+	margin-right: 37px;	
+}
+
+#lresources{
+	width: 192px;
+	background: url("resources.gif") no-repeat;
+	padding-top: 30px;
+	margin-right: 37px;	
+}
+
+#lselect ul li{
+	list-style-image: url("paper.gif");
+}
+#lselect ul li:hover{
+	list-style-image: url("paperfolded.gif");
+}
+#lresources ul li{
+	list-style-image: url("paperfolded.gif");
+}
+#lresources a{
+	color: red;
+	text-decoration: none;
+}
