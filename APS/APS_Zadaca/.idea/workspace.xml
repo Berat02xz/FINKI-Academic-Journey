@@ -10,8 +10,18 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2GcrjQw0IMvSQOBYOq3S3S3qNHu" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -40,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1666698848970</updated>
       <workItem from="1666698850781" duration="1275000" />
-      <workItem from="1666781254594" duration="315000" />
+      <workItem from="1666781254594" duration="3799000" />
     </task>
     <servers />
   </component>
