@@ -14,13 +14,23 @@ package Labs1.Second;
 
 
 import java.util.Scanner;
+import static java.lang.Character.toUpperCase;
 
 public class Initials {
-
-    static void printInitials(String name)
-    {
-
+    static void printInitials(String name) {
+        name=name.toUpperCase();
+        char first = name.charAt(0);
+        StringBuilder initials= new StringBuilder(String.valueOf(first));
+        for(int i=0;i<name.length();i++){
+            int Compare = Character.compare(name.charAt(i), ' ');
+            if(Compare==0){
+             char afterspace = name.charAt(i+1);
+             initials.append(afterspace);
+            }
+        }
+        System.out.print(initials);
     }
+
 
     public static void main(String[] args)
     {
