@@ -4,26 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9938e85d-10ac-41cc-83de-6bd1adb1a82a" name="Changes" comment="" />
+    <list default="true" id="6623e80a-a1ca-4da9-94fa-cf10566e49a8" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="Class" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
-  <component name="MarkdownSettingsMigration">
-    <option name="stateVersion" value="1" />
-  </component>
-  <component name="ProjectId" id="2GcrjQw0IMvSQOBYOq3S3S3qNHu" />
+  <component name="ProjectId" id="2GiPG1F2VRTe4GKmA1ASwmcXAdm" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -44,17 +34,13 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="9938e85d-10ac-41cc-83de-6bd1adb1a82a" name="Changes" comment="" />
-      <created>1666698848970</created>
+      <changelist id="6623e80a-a1ca-4da9-94fa-cf10566e49a8" name="Changes" comment="" />
+      <created>1666868333773</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1666698848970</updated>
-      <workItem from="1666698850781" duration="1275000" />
-      <workItem from="1666781254594" duration="9254000" />
-      <workItem from="1666867983543" duration="71000" />
-      <workItem from="1666894725084" duration="6532000" />
-      <workItem from="1666902375617" duration="188000" />
-      <workItem from="1667064697638" duration="1918000" />
+      <updated>1666868333773</updated>
+      <workItem from="1666868334992" duration="787000" />
+      <workItem from="1666894705906" duration="18000" />
     </task>
     <servers />
   </component>

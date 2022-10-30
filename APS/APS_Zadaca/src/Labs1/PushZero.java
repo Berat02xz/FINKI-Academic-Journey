@@ -1,7 +1,9 @@
-package Labs1.First;
+package Labs1;
 
 import java.io.*;
 import java.util.Scanner;
+
+
 
 public class PushZero
 {
