@@ -38,7 +38,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
 }</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -55,6 +55,9 @@
       <workItem from="1666894725084" duration="6532000" />
       <workItem from="1666902375617" duration="188000" />
       <workItem from="1667064697638" duration="1918000" />
+      <workItem from="1667243303097" duration="1561000" />
+      <workItem from="1667331054009" duration="4965000" />
+      <workItem from="1667336139585" duration="241000" />
     </task>
     <servers />
   </component>
