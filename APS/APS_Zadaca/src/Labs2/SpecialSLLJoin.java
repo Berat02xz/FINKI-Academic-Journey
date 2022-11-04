@@ -225,6 +225,22 @@ public class SpecialSLLJoin<E> {
     //todo: implement function
     public SLL<E> specialJoin(SLL<E> list1, SLL<E> list2) {
 
+        SLL<E> Joined = new SLL();
+
+        while(list1.getFirst()!=null || list2.getFirst() !=null){
+            int i,j=0;
+            for(i=0;i<list1.size() && i<2 ;i++){
+                Joined.insertLast((Integer)list1.getFirst().element);
+                list1.deleteFirst();
+            }
+            for(i=0;i<list2.size() && i<2 ;i++){
+                Joined.insertLast((Integer)list2.getFirst().element);
+                list2.deleteFirst();
+            }
+
+        }
+
+        return Joined;
     }
 
     public static void main(String[] args) {
