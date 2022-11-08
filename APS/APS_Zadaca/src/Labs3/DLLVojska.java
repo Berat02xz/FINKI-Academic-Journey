@@ -238,7 +238,42 @@ public class DLLVojska {
 
     public static DLL<Integer> vojska(DLL<Integer> lista, int a, int b, int c, int d) {
 
-        //Vasiot kod tuka
+        DLLNode<Integer> start1 = lista.find(a);
+        DLLNode<Integer> start2 = lista.find(c);
+        DLLNode<Integer> end1 = lista.find(b);
+        DLLNode<Integer> end2 = lista.find(d);
+
+        DLLNode<Integer> prev1 = start1.pred;
+        DLLNode<Integer> prev2 = start2.pred;
+        DLLNode<Integer> next1 = end1.succ;
+        DLLNode<Integer> next2 = end2.succ;
+
+        if(prev1 == null) {
+            lista.setFirst(start2);
+        } else {
+            prev1.succ=start2;
+        }
+
+        if(next2 == null){
+            lista.setLast(end1);
+        } else{
+            next2.pred=end1;
+        }
+
+        end1.succ=next2;
+        start2.pred=prev1;
+        next1.pred=end2;
+        end2.succ = next1.equals(start2) ? start1 : next1;
+
+        if (!end1.equals(prev2)) {
+            start1.pred = prev2;
+            prev2.succ = start1;
+        } else {
+            start1.pred = end2;
+        }
+
+
+
 
         return lista;
     }
