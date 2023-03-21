@@ -39,6 +39,6 @@ public class GreedyCoins {
 
         int sum = input.nextInt();
 
-        System.out.println(minNumCoins(coins[], sum));
+        System.out.println(minNumCoins(coins[].class, sum));
     }
 }
