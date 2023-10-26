@@ -1,0 +1,60 @@
+4. git init
+git branch -m main master
+
+5. git remote add origin https://github.com/BeratAhmetaj/SI_2023_lab1_216130.git
+
+6. git add README.md
+git commit -m "Initial Commit"
+
+7. git add *
+git commit -m "Add java class"
+
+8. git push origin master
+
+9. git branch bug1
+git branch bug2
+git branch bug3
+
+10. git checkout bug1
+
+11. git add * 
+git commit -m "Fix wrong loop for reading"
+
+12. git checkout bug2
+
+13. git add *
+git commit -m "FIx wrong condition in filterOddNumbers
+
+14. git checkout bug3
+
+15. git add *
+git commit -m "Fix method sumEvenNumbers"
+
+16. git push origin bug1
+git push origin bug2
+git push origin bug3
+
+17. git chekcout master
+
+18. git merge bug1
+
+19. git push origin *
+
+20. git merge bug2
+
+21. git push origin *
+
+22. git checkout bug3
+
+23. git rebase master
+
+24. git checkout master
+
+25. git merge bug3
+
+26. git push origin *
+
+27. git add*
+git commit -m "Final commit"
+
+28. git push origin *

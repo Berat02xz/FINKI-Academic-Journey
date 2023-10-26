@@ -1,0 +1,38 @@
+commit ac1daf53fcfde4431f49c901b218d256edf8206e (HEAD -> master, origin/master, origin/bu
+g3, bug3)
+Author: Berat Ahmetaj <beratahmetaj02@gmail.com>
+Date:   Tue Mar 21 15:27:57 2023 +0100
+
+    Fix wrong method sumEvenNumbers
+
+commit eb6c6bc7b5b65ece86156f3a2e600744f55ab637
+Merge: b742e72 600a5f1
+Author: Berat Ahmetaj <beratahmetaj02@gmail.com>
+Date:   Tue Mar 21 15:31:59 2023 +0100
+
+    Merge branch 'bug2'
+
+commit 600a5f17bba81f87c69a8efb8c8ece07a04d5177 (origin/bug2, bug2)
+Author: Berat Ahmetaj <beratahmetaj02@gmail.com>
+Date:   Tue Mar 21 15:25:06 2023 +0100
+
+    Fix wrong condition in filterOddNumbers
+
+commit b742e722fc51878c07a04cdcb30c6386dc652ded (origin/bug1, bug1)
+Author: Berat Ahmetaj <beratahmetaj02@gmail.com>
+Date:   Tue Mar 21 15:19:45 2023 +0100
+
+    Fix wrong loop for reading
+
+commit be3e0ce1ef65c6e6f91353cf1adebb5d5e6ad76b
+Author: Berat Ahmetaj <beratahmetaj02@gmail.com>
+Date:   Tue Mar 21 15:05:52 2023 +0100
+
+    Add java class
+
+commit 379cf4f75e0a99bf98639770934149a630dbbffe
+Author: Berat Ahmetaj <beratahmetaj02@gmail.com>
+Date:   Tue Mar 21 14:18:57 2023 +0100
+
+    Initial Commit
+(END)
