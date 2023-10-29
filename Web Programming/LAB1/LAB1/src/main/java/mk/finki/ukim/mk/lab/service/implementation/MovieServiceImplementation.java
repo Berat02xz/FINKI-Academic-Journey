@@ -11,13 +11,16 @@ import java.util.List;
 @Service
 public class MovieServiceImplementation implements MovieService {
 
-    private final MovieRepository movieRepository;
+    private final MovieRepository movieRepository; //kreiranje na movierepo objekt
 
     @Autowired
     public MovieServiceImplementation(MovieRepository movieRepository) {
         this.movieRepository = movieRepository;
     }
 
+    //
+    // implementiranje na servisite od interfaces i MovieRepo metodite
+    //
     @Override
     public List<Movie> listAll(){
         return movieRepository.findAll();

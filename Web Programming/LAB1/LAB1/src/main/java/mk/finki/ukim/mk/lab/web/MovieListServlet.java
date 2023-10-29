@@ -17,7 +17,7 @@ import java.util.List;
 
 @WebServlet(urlPatterns = {"/index", ""})
 public class MovieListServlet extends HttpServlet {
-    private final SpringTemplateEngine templateEngine;
+    private final SpringTemplateEngine templateEngine;  //za thymeleaf
     private final MovieService movieService;
 
     public MovieListServlet(SpringTemplateEngine templateEngine, MovieService movieService) {
@@ -27,16 +27,16 @@ public class MovieListServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        List<Movie> movies = movieService.listAll();
+        List<Movie> movies = movieService.listAll();  //inicijaliziranje na movies promenliva so site filmovi vnatre
 
         IWebExchange webExchange = JakartaServletWebApplication
                 .buildApplication(getServletContext())
                 .buildExchange(req, resp);
-        WebContext context = new WebContext(webExchange);
+        WebContext context = new WebContext(webExchange); //web context
 
-        context.setVariable("movies", movies);
+        context.setVariable("movies", movies); //mu kazuva na thymeleaf vo index.html deka $movies e movies.
 
-        this.templateEngine.process("index.html", context, resp.getWriter());
+        this.templateEngine.process("index.html", context, resp.getWriter()); //prakja na thymeleaf
     }
 
 }

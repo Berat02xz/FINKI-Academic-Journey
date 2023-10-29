@@ -8,30 +8,6 @@ import javax.management.ConstructorParameters;
 @Data //(automatic getter/setter annotation
 @AllArgsConstructor //automatic constructor
 public class Movie {
-    public String getTitle() {
-        return title;
-    }
-
-    public void setTitle(String title) {
-        this.title = title;
-    }
-
-    public String getSummary() {
-        return summary;
-    }
-
-    public void setSummary(String summary) {
-        this.summary = summary;
-    }
-
-    public double getRating() {
-        return rating;
-    }
-
-    public void setRating(double rating) {
-        this.rating = rating;
-    }
-
     public String title;
     public String summary;
     public double rating;

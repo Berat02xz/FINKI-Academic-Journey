@@ -11,8 +11,11 @@ import java.util.List;
 @Repository //annotation that lets the server know that this is a repo
 public class MovieRepository  {
 
+    //kreiranje lista od filmovi
     public static List<Movie> movies = new ArrayList<>();
 
+
+    //incijaliziranje na 10 filmovi vo konstruktor na MovieRepository, toa znaci koga ke se kreira ovoj repo avtomatski ke ima 10 filmovi vnatre
     public MovieRepository(){
         movies = new ArrayList<>();
         movies.add(new Movie("Catch Me If You Can ", "Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.",8.0));
