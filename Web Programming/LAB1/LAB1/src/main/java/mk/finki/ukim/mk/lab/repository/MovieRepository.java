@@ -36,11 +36,14 @@ public class MovieRepository  {
     }
 
     //returns the requested movies that have the title/summary
-    public List<Movie> searchMovies(String text){
+
+    public List<Movie> searchMovies(String text, double rating){
         List<Movie> searchResults = new ArrayList<>();
         for (int i=0; i< movies.size(); i++){
-            if(movies.get(i).title.contains(text) || movies.get(i).summary.contains(text) ){
-                searchResults.add(movies.get(i));
+            if(movies.get(i).title.contains(text)){
+                if(movies.get(i).rating >= rating) {
+                    searchResults.add(movies.get(i));
+                }
             }}
         return searchResults;
     }

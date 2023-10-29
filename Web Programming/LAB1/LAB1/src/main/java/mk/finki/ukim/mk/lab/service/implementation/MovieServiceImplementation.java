@@ -27,8 +27,8 @@ public class MovieServiceImplementation implements MovieService {
     }
 
     @Override
-    public List<Movie> searchMovies(String text){
-        return movieRepository.searchMovies(text);
+    public List<Movie> searchMovies(String text, double rating){
+        return movieRepository.searchMovies(text,rating);
     }
 
 }

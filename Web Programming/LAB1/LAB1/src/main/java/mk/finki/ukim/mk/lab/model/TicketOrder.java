@@ -9,5 +9,5 @@ public class TicketOrder {
     public String movieTitle;
     public String clientName;
     public String clientAddress;
-    public Long numberOfTickets;
+    public int numberOfTickets;
 }

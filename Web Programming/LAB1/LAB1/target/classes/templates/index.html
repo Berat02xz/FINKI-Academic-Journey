@@ -11,7 +11,7 @@
             margin: auto;
         }
         .movieTitle{
-            font: bold;
+            font-weight: bold;
         }
         .movieSummary{
             font-size: 5px;
@@ -23,11 +23,22 @@
     <h1>Welcome to our Movie Ticket Shop App</h1>
 </header>
 <main>
+
+    <h2>Search for movies:</h2>
+    <form action="/searchMovies" method="post">
+        <label for="searchText">Search Text:</label>
+        <input type="text" name="searchText" id="searchText">
+        <label for="minRating">Minimum Rating:</label>
+        <input type="number" name="minRating" id="minRating" min="0" max="10">
+        <input type="submit" value="Search">
+    </form>
+    <br/>
+    <br/>
     <h2>Choose movie:</h2>
-    <form action="/placeOrder" method="post">
+    <form action="/orderConfirmation" method="post">
         <div th:each="movie : ${movies}">
             </br>
-            <input type="radio" th:name="selectedMovie" th:value="${movie.title}"><br/>
+            <input type="radio" th:name="selectedMovie" name="selectedMovie" th:value="${movie.title}"><br/>
             <label id="movieTitle" th:text="'Title: ' + ${movie.title}"></label>
             </br>
             <label id="movieSummary" th:text="'Summary: ' + ${movie.summary}"></label>
@@ -39,7 +50,7 @@
         </div>
 
         <h2>Choose number of tickets:</h2>
-        <input type="number" name="numTickets" min="1" max="10"><br/><br/>
+        <input type="number" th:name="numTickets" name="numTickets" min="1" max="10"><br/><br/>
         <input type="submit" value="Submit">
     </form>
 </main>
