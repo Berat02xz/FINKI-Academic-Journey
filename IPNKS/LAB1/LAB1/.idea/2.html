@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lab1.2</title>
+</head>
+<body>
+<!--
+2. Да се направи веб страница каде од тастатура (преку prompt) се чита мобилен број во следниот
+формат XXYYYZZZ (пр. 71298486). Програмата треба во конзола да го испечати во формат
+XXX/YYY-ZZZ (пр. 071/298-486). Дополнително, треба да го испечати и името на операторот.
+(070/071/072 - T-mobile, 075/076 – One, 077/078 – Vip).
+-->
+<script type="text/javascript">
+function formatPhoneNumber(input) {
+// Check if the input length is not equal to 8
+if (input.length !== 9) {
+console.log("Невалиден мобилен број.");
+return;
+}
+
+// Extract the parts of the phone number
+const prefix = input.substring(0, 3);
+const middlePart = input.substring(3, 6);
+const lastPart = input.substring(6);
+
+// Determine the operator
+const operator = getOperator(prefix);
+
+// Format the phone number
+const formattedNumber = prefix + "/" + middlePart + "-" + lastPart;
+
+console.log("Форматиран мобилен број:" + formattedNumber );
+console.log("Оператор:" + operator );
+}
+
+function getOperator(prefix) {
+switch (prefix) {
+case '070':
+case '071':
+case '072':
+return 'T-mobile';
+case '075':
+case '076':
+return 'One';
+case '077':
+case '078':
+return 'Vip';
+default:
+return 'Непознат оператор';
+}
+}
+
+const phoneNumber = prompt("Внесете мобилен број во формат XXYYYZZZ (пр. 71298486):");
+formatPhoneNumber(phoneNumber);
+</script>
+
+</body>
+</html>

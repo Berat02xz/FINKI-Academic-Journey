@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--
+     1. Да се направи веб страница која за четирицифрен број внесен од тастатура (преку prompt
+    прозорец) ќе провери дали е палиндром и дали се дели со збирот на неговите цифри. Доколку
+    внесениот број не е четирицифрен треба да се испечати порака во alert прозорец дека не може да се
+    провери внесениот број, во спротивно во една порака исто така во alert прозорец се пишува дали е
+п   алиндром и дали е деллив.
+     -->
+    <meta charset="UTF-8">
+    <title>LAB1</title>
+</head>
+<body>
+
+<script type="text/javascript">
+    function isFourDigitNumber(number) {
+        return number >= 1000 && number <= 9999;
+    }
+
+    function isPalindrome(number) {
+        const numStr = number.toString();
+        return numStr === numStr.split('').reverse().join('');
+    }
+
+    function digitSum(number) {
+        return number.toString().split('').reduce((sum, digit) => sum + parseInt(digit, 10), 0);
+    }
+
+    function isDivisible(number) {
+        return number % digitSum(number) === 0;
+    }
+
+    var numbers = prompt("Внесете четирицифрен број:");
+    numbers = parseInt(numbers, 10); // Convert input to a number
+
+    if (isNaN(numbers) || !isFourDigitNumber(numbers)) {
+        alert("Не може да се провери внесениот број.");
+    } else {
+        var result = "Бројот е ";
+        if (isPalindrome(numbers)) {
+            result += "палиндром ";
+        } else {
+            result += "не палиндром ";
+        }
+        if (isDivisible(numbers)) {
+            result += "и делив со збирот на своите цифри.";
+        } else {
+            result += "и не-делив со збирот на своите цифри.";
+        }
+        alert(result);
+    }
+
+</script>
+
+</body>
+</html>
