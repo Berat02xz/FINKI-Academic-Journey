@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB1.5</title>
+</head>
+<body>
+<!--
+5. Да се направи веб страница каде со JavaScript ќе се изминат броевите од 0 до 30. Во секоја
+итерација тековниот број ќе се печати на екран (document.write) и ќе пишува дали бројот е парен или
+непарен.
+Пример
+0 е парен број.
+1 е непарен број.
+2 е парен број
+-->
+
+
+<script type="text/javascript">
+
+  for (i=0;i<30;i++){
+    document.write(i + paren(i) +"<br>");
+  }
+
+  function paren(broj){
+    if(broj%2==0){
+      return " е парен број.";
+    } else {
+      return " е непарен број.";
+    }
+  }
+
+</script>
+
+</body>
+</html>

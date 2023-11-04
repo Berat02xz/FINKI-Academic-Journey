@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB1.3</title>
+</head>
+<body>
+
+<!--
+Да се направи веб страница каде од тастатура (преку prompt) ќе се внесат 3 стрингови. Програмата
+треба во alert прозорец да го испечати најдолгиот збор во рамките на сите 3 стрингови.
+Пример
+Влез: Прва лабораториска вежба
+Во оваа лабораторија е многу жешко
+Надвор е убав ден
+
+Излез: лабораториска
+ -->
+
+
+<script type="text/javascript">
+    var str1 = prompt("str1:");
+    var str2 = prompt("str2:");
+    var str3 = prompt("str3:");
+
+    var words1=str1.split(" ");
+    var words2=str2.split(" ");
+    var words3=str3.split(" ");
+
+    words1=NajdolgZbor(words1);
+    words2=NajdolgZbor(words2);
+    words3=NajdolgZbor(words3);
+
+    alert(findLongestString(words1,words2,words3));
+
+    function NajdolgZbor(words){
+    var longest="";
+    for (i = 0; i<words.length; i++){
+     if(words[i].length > longest.length){
+         longest=words[i];
+     }
+    }
+    return longest;
+    }
+
+    function findLongestString(str1, str2, str3) {
+        const length1 = str1.length;
+        const length2 = str2.length;
+        const length3 = str3.length;
+
+        if (length1 >= length2 && length1 >= length3) {
+            return str1;
+        } else if (length2 >= length1 && length2 >= length3) {
+            return str2;
+        } else {
+            return str3;
+        }
+    }
+
+</script>
+
+
+</body>
+</html>

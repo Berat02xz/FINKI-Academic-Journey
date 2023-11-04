@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>LAB1.4</title>
+</head>
+<body>
+<form id="bmiCalculator">
+  <label >Тежина:</label>
+  <input type="number" id="weight" required><br>
+  <label >Висина:</label>
+  <input type="number" id="height" required><br>
+  <button type="button" onclick="calculate()">Calculate</button>
+</form>
+
+<script>
+  function calculate() {
+    const weightInput = document.getElementById("weight");
+    const heightInput = document.getElementById("height");
+
+    const weight = parseFloat(weightInput.value);
+    const height = parseFloat(heightInput.value) / 100; // Претвори цм во метри
+
+    if (isNaN(weight) || isNaN(height)) {
+      alert("Ве молиме внесете валидни вредности за тежина и висина.");
+    } else {
+      const bmi = weight / (height * height);
+      alert("Вашиот BMI изнесува: " + bmi.toFixed(2));
+    }
+  }
+</script>
+</body>
+</html>
