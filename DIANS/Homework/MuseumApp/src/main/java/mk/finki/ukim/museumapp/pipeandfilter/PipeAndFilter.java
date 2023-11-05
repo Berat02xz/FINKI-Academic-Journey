@@ -150,7 +150,7 @@ class Museum {
 
     // Getters and setters go here
 }
-
+@Component
 public class PipeAndFilter {
     public static void main(String[] args) {
         Filter museumExtractorFilter = new MuseumExtractorFilter(null);

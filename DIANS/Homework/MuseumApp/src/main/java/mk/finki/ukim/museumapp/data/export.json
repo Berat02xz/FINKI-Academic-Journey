@@ -61,6 +61,8 @@
     {
       "type": "way",
       "id": 32812963,
+      "lat": 42.003194,
+      "lon": 21.4363088,
       "bounds": {
         "minlat": 42.002124,
         "minlon": 21.435522,
@@ -273,6 +275,8 @@
       ],
       "tags": {
         "addr:city": "Cкoпje",
+        "lat": 42.0027925,
+        "lon": 21.4360449,
         "addr:city:en": "Skopje",
         "addr:country": "MK",
         "addr:postcode": "1000",
@@ -298,6 +302,8 @@
     {
       "type": "way",
       "id": 32887087,
+      "lat": 42.0043142,
+      "lon": 21.4325172,
       "bounds": {
         "minlat": 42.0036285,
         "minlon": 21.4325172,
@@ -376,6 +382,8 @@
       "tags": {
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
+        "lat": 42.0043142,
+        "lon": 21.4325172,
         "addr:country": "MK",
         "addr:postcode": "1000",
         "addr:street": "Самоилова",
@@ -402,6 +410,8 @@
     {
       "type": "way",
       "id": 172171547,
+      "lat": 41.998911,
+      "lon": 21.4355586,
       "bounds": {
         "minlat": 41.9985368,
         "minlon": 21.4354288,
@@ -440,6 +450,8 @@
       "tags": {
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
+        "lat": 41.998911,
+        "lon": 21.4355586,
         "addr:country": "MK",
         "addr:postcode": "1000",
         "amenity": "arts_centre",
@@ -459,6 +471,8 @@
     {
       "type": "way",
       "id": 172180530,
+      "lat": 41.9982848,
+      "lon": 21.4329425,
       "bounds": {
         "minlat": 41.9976842,
         "minlon": 21.4327371,
@@ -502,6 +516,8 @@
       "tags": {
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
+        "lat": 41.9981391,
+        "lon": 21.4327371,
         "addr:country": "MK",
         "addr:housenumber": "1",
         "addr:postcode": "1000",
@@ -531,6 +547,8 @@
     {
       "type": "way",
       "id": 172186249,
+      "lat": 41.9984101,
+      "lon": 21.4331205,
       "bounds": {
         "minlat": 41.9982834,
         "minlon": 21.4331205,
@@ -570,6 +588,8 @@
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
         "addr:country": "MK",
+        "lat": 41.9984101,
+        "lon": 21.4331205,
         "addr:housenumber": "2",
         "addr:postcode": "1000",
         "addr:street": "Самоилова",
@@ -594,6 +614,8 @@
     {
       "type": "way",
       "id": 176040285,
+      "lat": 41.9912181,
+      "lon": 21.4288883,
       "bounds": {
         "minlat": 41.9906108,
         "minlon": 21.4285266,
@@ -652,6 +674,8 @@
       "tags": {
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
+        "lat": 41.9912181,
+        "lon": 21.4288883,
         "addr:country": "MK",
         "addr:postcode": "1000",
         "alt_name": "Стара Железничка Станица",
@@ -670,6 +694,8 @@
     },
     {
       "type": "way",
+      "lat": 41.9939282,
+      "lon": 21.4307694,
       "id": 176051871,
       "bounds": {
         "minlat": 41.9937327,
@@ -829,6 +855,8 @@
       "tags": {
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
+        "lat": 41.9939282,
+        "lon": 21.4307694,
         "addr:country": "MK",
         "addr:postcode": "1000",
         "addr:street": "Македонија",
@@ -854,6 +882,8 @@
     {
       "type": "way",
       "id": 229930502,
+      "lat": 41.9970517,
+      "lon": 21.4340186,
       "bounds": {
         "minlat": 41.9965205,
         "minlon": 21.4340186,
@@ -977,6 +1007,8 @@
       "tags": {
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
+        "lat": 41.9970517,
+        "lon": 21.4340186,
         "addr:country": "MK",
         "addr:postcode": "1000",
         "building": "public",
@@ -997,6 +1029,8 @@
     {
       "type": "relation",
       "id": 5360062,
+      "lat": 42.0032027,
+      "lon": 21.4369104,
       "bounds": {
         "minlat": 42.0029156,
         "minlon": 21.4367598,
@@ -1064,6 +1098,8 @@
         }
       ],
       "tags": {
+        "lat": 42.0032027,
+        "lon": 21.4369104,
         "addr:city": "Cкoпje",
         "addr:city:en": "Skopje",
         "addr:country": "MK",
