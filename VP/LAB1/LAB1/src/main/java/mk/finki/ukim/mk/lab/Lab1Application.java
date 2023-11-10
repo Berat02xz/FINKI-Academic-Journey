@@ -15,6 +15,4 @@ public class Lab1Application {
         SpringApplication.run(Lab1Application.class, args);
     }
 
-
-
 }
