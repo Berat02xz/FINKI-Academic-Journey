@@ -1,4 +1,4 @@
-# FINKI
+![fcse_logo](https://2018.skopje.wordcamp.org/files/2018/09/Logo_FINKI_UKIM_EN.jpg)
 вежби од елитниот факултет - Финки Скопје
 
 ## Slow down cowboy
