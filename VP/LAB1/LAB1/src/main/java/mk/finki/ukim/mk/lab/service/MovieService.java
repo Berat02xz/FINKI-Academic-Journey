@@ -7,4 +7,12 @@ import java.util.List;
 public interface MovieService {
     List<Movie> listAll();
     List<Movie> searchMovies(String text, double rating);
+
+    Movie movieById(Long id);
+
+    void delete(Long movieId);
+
+    void edit(Long movieId, String name, String summary, Double rating, Long id);
+
+    void save(String name, String summary, Double rating, Long id);
 }

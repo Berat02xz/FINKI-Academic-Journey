@@ -3,7 +3,9 @@ package mk.finki.ukim.mk.lab.service.implementation;
 import mk.finki.ukim.mk.lab.model.TicketOrder;
 import mk.finki.ukim.mk.lab.repository.TicketOrderRepository;
 import mk.finki.ukim.mk.lab.service.TicketOrderService;
+import org.springframework.stereotype.Service;
 
+@Service
 public class TicketOrderImplementation implements TicketOrderService {
 
     public TicketOrderRepository ticket = new TicketOrderRepository();

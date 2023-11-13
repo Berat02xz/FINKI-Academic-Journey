@@ -29,7 +29,7 @@
         <label for="searchText">Search Text:</label>
         <input type="text" name="searchText" id="searchText">
         <label for="minRating">Minimum Rating:</label>
-        <input type="number" name="minRating" id="minRating" min="0" max="10">
+        <input type="number" name="minRating" id="minRating" min="1" max="10" value="1">
         <input type="submit" value="Search">
     </form>
     <br/>
@@ -41,18 +41,33 @@
             <input type="radio" th:name="selectedMovie" name="selectedMovie" th:value="${movie.title}"><br/>
             <label id="movieTitle" th:text="'Title: ' + ${movie.title}"></label>
             </br>
+            <label id="production" th:text="'Production: ' + ${movie.production.getName()}"></label>
+            </br>
             <label id="movieSummary" th:text="'Summary: ' + ${movie.summary}"></label>
             </br>
             <label th:text="'Rating: ' + ${movie.rating}" ></label>
+            </br>
+            <!-- Edit Button with a link to the edit page -->
+            <a th:href="@{'/movies/edit-form/' + ${movie.id}}"><button type="button">Edit</button></a>
+
+            <!-- Delete Button triggering a form submission -->
+            <a th:href="@{'/movies/delete/' + ${movie.id}}" onclick="return confirm('Are you sure you want to delete this movie?')"><button type="button">Delete</button></a>
             <hr>
             </br>
 
         </div>
 
         <h2>Choose number of tickets:</h2>
-        <input type="number" th:name="numTickets" name="numTickets" min="1" max="10"><br/><br/>
-        <input type="submit" value="Submit">
+        <input type="number" th:name="numTickets" name="numTickets" min="1" max="10" value="1"><br/><br/>
+        <input type="submit" value="ORDER TICKET">
     </form>
+    <hr> </br>
+    <div>
+        <a th:href="@{'/movies/add-form'}">
+            <button type="button">Add New Movie</button>
+        </a>
+    </div> </br> </br>
+
 </main>
 </body>
 </html>

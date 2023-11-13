@@ -31,4 +31,25 @@ public class MovieServiceImplementation implements MovieService {
         return movieRepository.searchMovies(text,rating);
     }
 
+    @Override
+    public Movie movieById(Long id){
+        return movieRepository.movieById(id);
+    }
+
+    @Override
+    public void delete(Long movieId) {
+        movieRepository.delete(movieId);
+    }
+
+    @Override
+    public void edit(Long movieId, String name, String summary, Double rating, Long id) {
+        movieRepository.edit(movieId,name,summary,rating,id);
+    }
+
+    @Override
+    public void save(String name, String summary, Double rating, Long id) {
+        movieRepository.save(name,summary,rating,id);
+    }
+
+
 }

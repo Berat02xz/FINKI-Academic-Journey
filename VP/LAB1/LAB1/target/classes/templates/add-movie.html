@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add/Edit Movie</title>
+</head>
+<body>
+
+<h2>Add/Edit Movie</h2>
+
+<div >
+  <div >
+    <div >
+      <form th:action="@{/movies/add}" th:method="POST">
+        <input id="id" type="hidden" name="id"
+               th:value="(${movie} != null ? ${movie.getId()} : '')">
+        <div >
+          <label for="movieTitle">Movie name</label>
+          <input type="text"
+                 id="movieTitle"
+                 name="movieTitle"
+                 th:value="(${movie} != null ? ${movie.getTitle()} : '')"
+                 required
+                 placeholder="Enter movie title">
+        </div>
+        <div >
+          <label for="summary">Summary</label>
+          <input type="text"
+                 id="summary"
+                 name="summary"
+                 th:value="(${movie} != null ? ${movie.getSummary()} : '')"
+                 placeholder="Summary">
+        </div>
+        <div>
+          <label for="rating">Rating</label>
+          <input type="text"
+                 id="rating"
+                 name="rating"
+                 th:value="(${movie} != null ? ${movie.getRating()} : '')"
+                 placeholder="rating">
+        </div>
+        <div >
+          <label>Production</label>
+          <label for="product">
+            <select id="product" name="productionId" >
+              <option th:if="${movie} != null"
+                      th:selected="${movie.getProduction() != null &&
+                                    movie.getProduction().getId() == prod.getId()}"
+                      th:each="prod : ${productions}"
+                      th:value="${prod.getId()}"
+                      th:text="${prod.getName()}">
+              </option>
+              <option th:if="${movie} == null"
+                      th:each="prod : ${productions}"
+                      th:value="${prod.getId()}"
+                      th:text="${prod.getName()}">
+              </option>
+            </select>
+          </label>
+        </div>
+        <button id="submit" type="submit" >Submit</button>
+        <a type="button"  href="/movies">Back</a>
+      </form>
+    </div>
+  </div>
+</div>
+</div>
+</body>
+</html>
