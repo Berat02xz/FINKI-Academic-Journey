@@ -6,11 +6,12 @@ import lombok.Data;
 @Data
 @AllArgsConstructor
 public class Production {
-    private Long id;
 
-    private String name;
-    private String country;
-    private String address;
+    public Long id;
+
+    public String name;
+    public String country;
+    public String address;
 
     public Production(String name, String country, String address) {
         this.id = (long) (Math.random() * 1000);

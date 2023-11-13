@@ -25,10 +25,14 @@ public class ProductionRepository {
     }
 
     public Production findById(Long id) {
-        return prod.stream()
-                .filter(r -> r.getId().equals(id))
-                .findFirst()
-                .orElse(null); // Return null if no matching element is found
+        for (int i = 0; i < prod.size(); i++) {
+            if (prod.get(i).getId().equals(id)) {
+                return prod.get(i);
+            }
+        }
+        // If the loop completes without finding a match, return null or throw an exception
+        return prod.get(0); // or throw new NoSuchElementException("ID not found");
     }
+
 
 }

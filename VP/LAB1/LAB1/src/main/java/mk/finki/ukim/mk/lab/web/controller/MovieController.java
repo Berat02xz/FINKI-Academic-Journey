@@ -47,7 +47,7 @@ public class MovieController {
         movie.setTitle(movieTitle);
         movie.setSummary(summary);
         movie.setRating(rating);
-        movie.setProduction(this.productionInterface.findById(productionId));
+        movie.setProduction(productionInterface.findById(productionId));
         return "redirect:/movies";
     }
 

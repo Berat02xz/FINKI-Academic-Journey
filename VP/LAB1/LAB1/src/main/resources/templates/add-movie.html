@@ -52,12 +52,12 @@
                                     movie.getProduction().getId() == prod.getId()}"
                       th:each="prod : ${productions}"
                       th:value="${prod.getId()}"
-                      th:text="${prod.getName()}">
+                      th:text="${prod.name}">
               </option>
               <option th:if="${movie} == null"
                       th:each="prod : ${productions}"
                       th:value="${prod.getId()}"
-                      th:text="${prod.getName()}">
+                      th:text="${prod.name}">
               </option>
             </select>
           </label>
