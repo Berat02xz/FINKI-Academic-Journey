@@ -28,35 +28,47 @@ public class MovieController {
         model.addAttribute("movies",movies);
         return "index";
     }
-    @PostMapping("movies/add")
-    public String saveMovie(@RequestParam String name,
+    @PostMapping("/add")
+    public String saveMovie(@RequestParam String movieTitle,
                             @RequestParam String summary,
-                            @RequestParam Double rating ,
-                            @RequestParam Long id){
-        movieService.save(name,summary,rating,id);
+                            @RequestParam double rating,
+                            @RequestParam Long productionId) {
+        this.movieService.save(movieTitle, summary, rating, productionId);
         return "redirect:/movies";
     }
 
-    @PostMapping("movies/edit/{movieId}")
+    @PostMapping("/movies/edit/{movieId}")
     public String editMovie(@PathVariable Long movieId,
-                            @RequestParam String name,
+                            @RequestParam String movieTitle,
                             @RequestParam String summary,
-                            @RequestParam Double rating ,
-                            @RequestParam Long id) {
-        Movie movie = movieService.movieById(movieId);
-        movie.title = name;
-        movie.summary = summary;
-        movie.rating = rating;
-        movie.production = productionInterface.findById(id);
-
-        movieService.edit(movieId, name, summary, rating, id);
+                            @RequestParam double rating,
+                            @RequestParam Long productionId) {
+        Movie movie = this.movieService.movieById(movieId);
+        movie.setTitle(movieTitle);
+        movie.setSummary(summary);
+        movie.setRating(rating);
+        movie.setProduction(this.productionInterface.findById(productionId));
         return "redirect:/movies";
     }
 
-        @PostMapping("movies/delete/{movieId}")
-        public String deleteMovie(@PathVariable Long movieId){
-            movieService.delete(movieId);
+        @GetMapping ("/delete/{id}")
+        public String deleteMovie(@PathVariable Long id){
+            movieService.delete(id);
             return "redirect:/movies";
+        }
+
+        @GetMapping("/edit-form/{id}")
+        public String editMoviePage(@PathVariable Long id, Model model){
+            Movie movie = movieService.movieById(id);
+            model.addAttribute("movie",movie);
+            model.addAttribute("productions",productionInterface.findAll());
+            return "add-movie";
+        }
+
+        @GetMapping("/add-form")
+        public String addMoviePage(Model model){
+            model.addAttribute("productions",productionInterface.findAll());
+            return "add-movie";
         }
 
 }

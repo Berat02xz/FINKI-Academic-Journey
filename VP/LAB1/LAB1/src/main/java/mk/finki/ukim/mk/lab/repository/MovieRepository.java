@@ -7,15 +7,17 @@ import org.springframework.stereotype.Repository;
 import java.util.ArrayList;
 import java.util.List;
 
-@Repository //annotation that lets the server know that this is a repo
+@Repository
 public class MovieRepository  {
 
-    //kreiranje lista od filmovi
+    //creating a new production repo object
+    ProductionRepository production = new ProductionRepository();
     public List<Movie> movies;
-    //incijaliziranje na 10 filmovi vo konstruktor na MovieRepository, toa znaci koga ke se kreira ovoj repo avtomatski ke ima 10 filmovi vnatre
+
+    //constructor that creates the list of movies
     public MovieRepository() {
         movies = new ArrayList<>();
-        ProductionRepository production = new ProductionRepository();
+
         movies.add(new Movie("Catch Me If You Can ", "Barely 21 yet, Frank is a skilled forger who has passed as a doctor, lawyer and pilot. FBI agent Carl becomes obsessed with tracking down the con man, who only revels in the pursuit.", 8.5, production.findAll().get(0)));
         movies.add(new Movie("The Current War", "The dramatic story of the cutthroat race between electricity titans Thomas A. Edison and George Westinghouse to determine whose electrical system would power the modern world.",7.0,production.findAll().get(1)));
         movies.add(new Movie("Gone Girl", "With his wife's disappearance having become the focus of an intense media circus, a man sees the spotlight turned on him when it's suspected that he may not be innocent.",9.5,production.findAll().get(2)));
@@ -57,7 +59,7 @@ public class MovieRepository  {
 
     //adds a new movie to the list
     public void save(String name, String summary, Double rating, Long id){
-        movies.add(new Movie(name,summary,rating,new ProductionRepository().findById(id)));
+        movies.add(new Movie(name,summary,rating,production.findById(id)));
     }
 
     //edits the movie with the requested id
@@ -67,7 +69,7 @@ public class MovieRepository  {
                 movies.get(i).title = name;
                 movies.get(i).summary = summary;
                 movies.get(i).rating = rating;
-                movies.get(i).production = new ProductionRepository().findById(id);
+                movies.get(i).production = production.findById(id);
             }
         }
     }

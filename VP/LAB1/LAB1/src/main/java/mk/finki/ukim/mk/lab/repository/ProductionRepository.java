@@ -25,6 +25,10 @@ public class ProductionRepository {
     }
 
     public Production findById(Long id) {
-        return prod.get(Math.toIntExact(id));
+        return prod.stream()
+                .filter(r -> r.getId().equals(id))
+                .findFirst()
+                .orElse(null); // Return null if no matching element is found
     }
+
 }
