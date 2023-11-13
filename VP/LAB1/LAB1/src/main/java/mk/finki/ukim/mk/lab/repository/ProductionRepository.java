@@ -26,13 +26,14 @@ public class ProductionRepository {
 
     public Production findById(Long id) {
         for (int i = 0; i < prod.size(); i++) {
-            if (prod.get(i).getId().equals(id)) {
+            if (prod.get(i).id.equals(id)) {
                 return prod.get(i);
             }
         }
-        // If the loop completes without finding a match, return null or throw an exception
-        return prod.get(0); // or throw new NoSuchElementException("ID not found");
+        // If the loop completes without finding a match, return prod.get(0)
+        return prod.get(0);
     }
+
 
 
 }

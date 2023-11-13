@@ -1,6 +1,7 @@
 package mk.finki.ukim.mk.lab.web.controller;
 
 import mk.finki.ukim.mk.lab.model.Movie;
+import mk.finki.ukim.mk.lab.model.Production;
 import mk.finki.ukim.mk.lab.service.MovieService;
 import mk.finki.ukim.mk.lab.service.ProductionInterface;
 import org.springframework.stereotype.Controller;
@@ -32,8 +33,8 @@ public class MovieController {
     public String saveMovie(@RequestParam String movieTitle,
                             @RequestParam String summary,
                             @RequestParam double rating,
-                            @RequestParam Long productionId) {
-        this.movieService.save(movieTitle, summary, rating, productionId);
+                            @RequestParam Long productions) {
+        this.movieService.save(movieTitle, summary, rating, productions);
         return "redirect:/movies";
     }
 
@@ -61,13 +62,15 @@ public class MovieController {
         public String editMoviePage(@PathVariable Long id, Model model){
             Movie movie = movieService.movieById(id);
             model.addAttribute("movie",movie);
-            model.addAttribute("productions",productionInterface.findAll());
+            List<Production> productions = productionInterface.findAll();
+            model.addAttribute("productions",productions);
             return "add-movie";
         }
 
         @GetMapping("/add-form")
         public String addMoviePage(Model model){
-            model.addAttribute("productions",productionInterface.findAll());
+            List<Production> productions = productionInterface.findAll();
+            model.addAttribute("productions",productions);
             return "add-movie";
         }
 

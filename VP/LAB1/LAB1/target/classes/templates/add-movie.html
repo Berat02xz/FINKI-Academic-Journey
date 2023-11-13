@@ -44,24 +44,17 @@
                  placeholder="rating">
         </div>
         <div class="form-group">
-          <label>Production</label>
-          <label for="product">
-            <select id="product" name="productionId" class="form-control">
-              <option th:if="${movie} != null"
-                      th:selected="${movie.getProduction() != null &&
-                                    movie.getProduction().getId() == prod.getId()}"
-                      th:each="prod : ${productions}"
-                      th:value="${prod.getId()}"
-                      th:text="${prod.name}">
-              </option>
-              <option th:if="${movie} == null"
-                      th:each="prod : ${productions}"
-                      th:value="${prod.getId()}"
-                      th:text="${prod.name}">
-              </option>
-            </select>
-          </label>
+          <label for="product">Production</label>
+          <select id="product" name="productions" class="form-control">
+            <option th:each="prod : ${productions}"
+                    th:value="${prod.getId()}"
+                    th:text="${prod.getName()}"
+                    th:selected="${movie != null and movie.production != null and movie.production.id == prod.id}">
+            </option>
+          </select>
         </div>
+
+
         <button id="submit" type="submit" class="btn btn-primary">Submit</button>
         <a type="button" class="btn btn-primary" href="/movies">Back</a>
       </form>
