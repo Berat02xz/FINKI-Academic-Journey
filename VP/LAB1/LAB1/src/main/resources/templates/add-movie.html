@@ -13,9 +13,9 @@
   <div class="row">
     <div class="col-md-5">
       <form th:action="@{/movies/add}" th:method="POST">
-        <input id="id" type="hidden" name="id"
-               th:value="(${movie} != null ? ${movie.getId()} : '')">
-        <div class="form-group">
+        <input id="id" type="hidden" name="movieId"
+               th:value="(${movie} != null ? ${movie.getId()} : '0')">
+        <div class="form-group">x
           <label for="movieTitle">Movie name</label>
           <input type="text"
                  class="form-control"
@@ -53,7 +53,6 @@
             </option>
           </select>
         </div>
-
 
         <button id="submit" type="submit" class="btn btn-primary">Submit</button>
         <a type="button" class="btn btn-primary" href="/movies">Back</a>

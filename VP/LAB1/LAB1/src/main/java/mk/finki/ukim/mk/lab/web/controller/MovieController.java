@@ -33,9 +33,19 @@ public class MovieController {
     public String saveMovie(@RequestParam String movieTitle,
                             @RequestParam String summary,
                             @RequestParam double rating,
-                            @RequestParam Long productions) {
-        this.movieService.save(movieTitle, summary, rating, productions);
+                            @RequestParam Long productions,
+                            @RequestParam(required = false) Long movieId) {
+       if(movieId==0){
+           this.movieService.save(movieTitle,summary,rating,productions);
+           return "redirect:/movies";
+       }
+        Movie movie = this.movieService.movieById(movieId);
+        movie.setTitle(movieTitle);
+        movie.setSummary(summary);
+        movie.setRating(rating);
+        movie.setProduction(productionInterface.findById(productions));
         return "redirect:/movies";
+
     }
 
     @PostMapping("/movies/edit/{movieId}")
