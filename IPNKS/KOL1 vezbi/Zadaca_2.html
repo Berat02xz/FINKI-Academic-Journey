@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+        label{
+            display: block;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            margin-left: 5px;
+        }
+        #button{
+            width: 75px;
+            font-size: 18px;
+            font-family: 'Courier New', Courier, monospace;
+            text-align: center;
+        }
+        div{
+            margin-bottom: 10px;
+        }
+        input,select{
+            -webkit-border-radius: 20px;
+            -moz-border-radius: 20px;
+            border-radius: 20px;
+            border: 1px solid #2d9fd9;
+            color: #a0d18c;
+            width: 250px;
+            height: 30px;
+            padding-left: 10px;
+        }
+        #Cards{
+            width: 400px;
+            height: 100px;
+        }
+        li{
+            list-style-type:disc;
+        }
+    </style>
+    </head>
+    <body>
+        <h1>Регистрирај лет</h1>
+        <div><label>Име & Презиме</label><input type="text" id="name"></div>
+        <div><label>Ознака на летало</label><input type="text" id="mark"></div>
+        <div><label>Координати на лет</label><input type="text" id="coord"></div>
+        <div><label>Радиус на лет</label><input type="text" id="rad"></div>
+        <div><label>Висина на лет</label><input type="text" id="heigth"></div>
+        <div><label>Тип на летало</label>
+            <select id="type">
+                <option value="Едрилица">Едрилица</option>
+                <option value="Дрон">Дрон</option>
+            </select>
+        </div>
+        <div><button onclick="login()" id="button">Најави</button></div>
+        <h2>Регистрирани летович</h2>
+        <p>Вкупно најавени летови: <span id="counter">0</span></p>
+        <ul id="Cards">
+
+        </ul>
+        <script>
+            let global=0;
+            function login(){
+                let name = document.getElementById("name").value;
+                let mark = document.getElementById("mark").value;
+                let coord = document.getElementById("coord").value;
+                let rad = document.getElementById("rad").value;
+                let height = document.getElementById("heigth").value;
+                let type = document.getElementById("type").value;
+                let parsedRad = parseInt(rad);
+                let parsedHeight = parseInt(height);
+                if(!name || !mark || !coord || !rad || !height || !type){
+                    alert("Please fill in all the required fields");
+                    return;
+                }
+                if(!MarkChecker(mark)){
+                    alert("Invald format. It should be Z3-UNR-____(4 digits)")
+                    return;
+                }
+                //console.log(mark.slice(7,11))
+                console.log(SameDigit(mark))
+                if((parsedRad>500 && parsedHeight>150)){
+                    if(!SameDigit(mark)){
+                        alert("Exceeds the maximum requirements")
+                        return;
+                    }
+                }
+                let Cards = document.getElementById("Cards");
+                let createCard = document.createElement("li");
+                if(type==="Едрилица"){
+                    createCard.style.border = "2px solid black";
+                }
+                else if(type==="Дрон"){
+                    if(parsedHeight===parsedRad){
+                        createCard.style.border = "2px solid black";
+                    }
+                }
+                createCard.innerHTML="<p>"+name+","+mark+"</p>"+
+                                     "<p>Радиус: "+rad+","+" Висина: "+height+"</p>"+
+                                     "<p>"+type+"</p>"+
+                                     "<button onclick='Confirm(this)'>Confirm</button>  <button onclick='Cancel(this)'>Cancel</button>";   
+                Cards.append(createCard);
+                let counter = document.getElementById("counter");
+                global++;
+                counter.innerHTML=global;
+
+                name.value="";
+                mark.value="";
+                coord.value="";
+                rad.value="";
+                height.value="";
+                type.value="";
+
+            }
+            function MarkChecker(mark){
+                //Z3-UNR-1234
+               if(mark.slice(0,7)=="Z3-UNR-" && !isNaN(parseInt(mark.slice(7,11)))){
+                 return true;
+               }
+               return false;
+            }
+            function SameDigit(mark){
+                if(parseInt(mark.slice(7,11))%1111==0){
+                    return true;
+                }
+                return false;
+            }
+            function Cancel(btn){
+                let del = btn.parentNode;
+                del.remove();
+                let counter = document.getElementById("counter");
+                global--;
+                counter.innerHTML=global;
+            }
+            function Confirm(btn){
+                let bg = btn.parentNode;
+                bg.style.background="lightgreen";
+            }
+        </script>
+    </body>
+</html>
