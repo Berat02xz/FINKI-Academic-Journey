@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            label{
+                display: block;
+                font-size: 18px;
+                font-family: 'Courier New', Courier, monospace;
+                margin-left: 5px;
+            }
+            #button{
+                width: 75px;
+                font-size: 18px;
+                font-family: 'Courier New', Courier, monospace;
+                text-align: center;
+            }
+            div{
+                margin-bottom: 10px;
+            }
+            input,select{
+                -webkit-border-radius: 20px;
+                -moz-border-radius: 20px;
+                border-radius: 20px;
+                border: 1px solid #2d9fd9;
+                color: #a0d18c;
+                width: 250px;
+                height: 30px;
+                padding-left: 10px;
+            }
+            table,td,th{
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding-left: 50px;
+                padding-right: 50px;
+            }
+            .rows{
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Online Classes</h1>
+        <div><label>Name & Surname</label><input type="text" id="name"></div>
+        <div><label>Email</label><input type="text" id="email"></div>
+        <div><label>Age</label><input type="text" id="age"></div>
+        <div><label>Username</label><input type="text" id="Uname"></div>
+        <div><label>Password</label><input type="text" id="pass"></div>
+        <div><label>Role</label>
+            <select id="role">
+                <option>teacher</option>
+                <option>student</option>
+            </select>
+        </div>
+        <div><button id="button" onclick="Add()">Add</button></div>
+        <p>Available teachers <span id="counter">0</span></p>
+        <h2>Users</h2>
+        <table id="users">
+            <thead><th>Name</th><th>Username</th><th>Email</th><th>Age</th><th>Role</th><th>Actions</th></thead>
+        </table>
+        <script>
+            global=0;
+            function Add(){
+                let name = document.getElementById("name").value;
+                let email = document.getElementById("email").value;
+                let age = document.getElementById("age").value;
+                let Uname = document.getElementById("Uname").value;
+                let pass = document.getElementById("pass").value;
+                let role = document.getElementById("role").value;
+
+                if(!name || !email || !age || !Uname || !pass || !role){
+                    alert("Please fill in all the forms");
+                    return;
+                }
+                if(isNaN(age)){
+                    alert("Please enter a numerical value");
+                    return;
+                }
+                if(!CheckPass(pass)){
+                    alert("Please enter a better password");
+                    return;
+                }
+
+                let UserCheck = document.getElementsByClassName("rows");
+                for(let i = 0; i<UserCheck.length;i++){
+                    if(UserCheck[i].children[1].innerHTML === Uname){
+                        alert("Please enter a different username");
+                        return;
+                    }
+                }
+
+                let Users = document.getElementById("users");
+                let createUser = document.createElement("tr");
+                createUser.innerHTML = "<td>"+name+"</td>"+
+                                       "<td>"+Uname+"</td>"+
+                                       "<td>"+email+"</td>"+
+                                       "<td>"+age+"</td>"+
+                                       "<td>"+role+"</td>";
+                                       
+                createUser.setAttribute("class","rows")
+                if(role==="teacher"){
+                    createUser.style.background="lightgreen";
+                    createUser.innerHTML+="<td><button onclick='Hire(this)' style='width=30px'>Hire</button></td>";
+                    
+                    if(age<18){
+                        alert("Teachers can't be under 18");
+                        return;
+                    }
+                    global++;
+                }
+                else if(role ==="student"){
+                    createUser.style.background="lightblue";
+                }
+                Users.append(createUser); 
+                
+                let counter = document.getElementById("counter");
+                counter.innerHTML=global;
+
+            }
+            function CheckPass(pass){
+                let countNum=0, countUpperLetters=0;
+                for(let i = 0;i<pass.length;i++){
+                    if(!isNaN(pass.charAt(i))){
+                        countNum++;
+                    }
+                    if(pass.charAt(i)==pass.charAt(i).toUpperCase() && isNaN(pass.charAt(i))){
+                        countUpperLetters++;
+                    }
+                }
+                if(pass.length<10){
+                    return false;
+                }
+                if(countNum<1){
+                    return false;
+                }
+                else if (countUpperLetters<1){
+                    return false;
+                }
+                else{
+                    return true;
+                }
+            }
+            function Hire(btn){
+                let Job=btn.parentNode.parentNode;
+                Job.style.backgroundColor="gray";
+                btn.remove();
+                global--;
+                let counter = document.getElementById("counter");
+                counter.innerHTML=global;
+            }
+        </script>
+    </body>
+</html>
