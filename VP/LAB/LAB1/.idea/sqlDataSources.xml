@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DdlMappings">
+    <mapping uuid="78cb72db-ffe0-4232-be60-1a4289ad525f" name="cinema@localhost Mapping">
+      <data-sources db="2130ee56-c2df-4f53-9eaf-ef95b568b246" ddl="29cc2e77-3718-43ec-b78f-45fbeef36333" />
+    </mapping>
+  </component>
+</project>
