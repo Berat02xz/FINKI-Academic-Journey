@@ -33,9 +33,13 @@
   <div class="row">
     <div class="col-md-5">
       <form th:action="@{/movies/add}" th:method="POST">
-        <input id="id" type="hidden" name="movieId"
+
+        <div class="form-group">
+          <span>Identifying Number</span>
+          <input readonly  id="id" name="movieId" class="about-language form-control"
                th:value="(${movie} != null ? ${movie.getId()} : '0')">
-        <div class="form-group">x
+          </br> </br> </br>
+
           <label for="movieTitle">Movie name</label>
           <input type="text"
                  class="form-control"
