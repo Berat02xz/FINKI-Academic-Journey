@@ -3,6 +3,7 @@ package mk.finki.ukim.mk.lab.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.time.LocalDate;
 import java.util.List;
@@ -20,6 +21,7 @@ public class User {
     private String name;
     private String surname;
     private String password;
+    @DateTimeFormat(pattern = "dd-MM-yyyy")
     private LocalDate dateOfBirth;
 
     @OneToMany(mappedBy = "user")
