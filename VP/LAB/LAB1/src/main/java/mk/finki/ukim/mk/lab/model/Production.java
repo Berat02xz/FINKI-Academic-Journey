@@ -1,12 +1,16 @@
 package mk.finki.ukim.mk.lab.model;
 
+import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
 @Data
 @AllArgsConstructor
+@Entity
+@Table(name = "production")
 public class Production {
-
+@Id
+@GeneratedValue(strategy = GenerationType.IDENTITY)
     public Long id;
 
     public String name;
@@ -20,4 +24,7 @@ public class Production {
         this.address = address;
     }
 
+    public Production() {
+
+    }
 }

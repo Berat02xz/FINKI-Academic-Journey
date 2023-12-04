@@ -9,8 +9,8 @@ import java.util.List;
 public class TicketOrderRepository {
     public static List<TicketOrder> orders = new ArrayList<>();
 
-    public void addOrder(String movieTitleTitle, String clientName, String clientAddress, int numberOfTickets){
-        orders.add(new TicketOrder(movieTitleTitle,clientName,clientAddress,numberOfTickets));
+    public void addOrder(String movieTitle, String clientName, String address, int numberOfTickets){
+        orders.add(new TicketOrder(movieTitle,clientName,address,numberOfTickets));
     }
 
     public TicketOrder getOrder(){

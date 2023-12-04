@@ -1,12 +1,14 @@
 package mk.finki.ukim.mk.lab.model;
 
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import java.time.LocalDate;
 import java.util.List;
 
 @Data //(automatic getter/setter annotation
+@AllArgsConstructor
 @Entity
 @Table(name = "users")
 public class User {
@@ -20,6 +22,7 @@ public class User {
     private String password;
     private LocalDate dateOfBirth;
 
+    @OneToMany(mappedBy = "user")
     private List <ShoppingCart> carts;
 
     public User(String username, String name, String surname, String password, LocalDate dateOfBirth, List<ShoppingCart> carts) {

@@ -16,6 +16,4 @@ public class TicketOrderImplementation implements TicketOrderService {
         return ticket.getOrder();
     }
 
-
-
 }
