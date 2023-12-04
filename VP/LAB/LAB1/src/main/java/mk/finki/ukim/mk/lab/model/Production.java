@@ -3,11 +3,13 @@ package mk.finki.ukim.mk.lab.model;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.Getter;
 
 @Data
 @AllArgsConstructor
 @Entity
 @Table(name = "production")
+@Getter
 public class Production {
 @Id
 @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -18,7 +20,6 @@ public class Production {
     public String address;
 
     public Production(String name, String country, String address) {
-        this.id = (long) (Math.random() * 1000);
         this.name = name;
         this.country = country;
         this.address = address;
@@ -26,5 +27,9 @@ public class Production {
 
     public Production() {
 
+    }
+
+    public String getName() {
+        return name;
     }
 }

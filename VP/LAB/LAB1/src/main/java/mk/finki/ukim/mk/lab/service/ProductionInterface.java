@@ -6,7 +6,9 @@ import java.util.List;
 
 
 public interface ProductionInterface{
+
     List<Production> findAll();
     Production findById(Long id);
+
 
 }

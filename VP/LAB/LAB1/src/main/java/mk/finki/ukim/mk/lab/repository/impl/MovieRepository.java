@@ -1,7 +1,6 @@
-package mk.finki.ukim.mk.lab.repository;
+package mk.finki.ukim.mk.lab.repository.impl;
 
 import mk.finki.ukim.mk.lab.model.Movie;
-import mk.finki.ukim.mk.lab.model.Production;
 import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;

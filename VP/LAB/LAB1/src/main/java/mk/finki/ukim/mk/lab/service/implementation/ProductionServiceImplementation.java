@@ -1,19 +1,19 @@
 package mk.finki.ukim.mk.lab.service.implementation;
 
 import mk.finki.ukim.mk.lab.model.Production;
-import mk.finki.ukim.mk.lab.repository.ProductionRepository;
+import mk.finki.ukim.mk.lab.repository.impl.ProductionRepository;
+import mk.finki.ukim.mk.lab.repository.jpa.ProductionRepositoryJPA;
 import mk.finki.ukim.mk.lab.service.ProductionInterface;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
-import java.util.Optional;
 
 @Service
 public class ProductionServiceImplementation implements ProductionInterface {
 
-    public ProductionRepository production;
+    public ProductionRepositoryJPA production;
 
-    public ProductionServiceImplementation(ProductionRepository production){
+    public ProductionServiceImplementation(ProductionRepositoryJPA production){
         this.production = production;
     }
 
@@ -24,7 +24,7 @@ public class ProductionServiceImplementation implements ProductionInterface {
 
     @Override
     public Production findById(Long id) {
-        return production.findById(id);
+        return production.findProductionById(id);
     }
 
 
