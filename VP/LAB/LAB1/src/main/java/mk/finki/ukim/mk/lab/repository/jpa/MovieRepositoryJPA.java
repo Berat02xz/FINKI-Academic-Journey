@@ -13,8 +13,7 @@ public interface MovieRepositoryJPA extends JpaRepository<Movie,Long>{
     Movie findMovieById(Long id);
 
     void deleteMovieById(Long id);
-
-    //edit(movieId,name,summary,rating,id);
+    
 
 
 }

@@ -10,7 +10,6 @@ import java.util.List;
 @Repository
 public interface ProductionRepositoryJPA extends JpaRepository<Production,Long> {
     Production findProductionById(Long id);
-    void deleteProductionById(Long id);
-    List<Production> findAllBy();
 
+    List<Production> findAllBy();
 }

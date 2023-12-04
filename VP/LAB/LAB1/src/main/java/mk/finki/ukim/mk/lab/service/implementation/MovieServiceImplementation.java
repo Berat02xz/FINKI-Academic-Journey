@@ -18,7 +18,7 @@ public class MovieServiceImplementation implements MovieService {
     @Autowired
     public MovieServiceImplementation(MovieRepositoryJPA movieRepository, mk.finki.ukim.mk.lab.service.ProductionInterface productionInterface) {
         this.movieRepository = movieRepository;
-        ProductionInterface = productionInterface;
+        this.ProductionInterface = productionInterface;
     }
 
     //
