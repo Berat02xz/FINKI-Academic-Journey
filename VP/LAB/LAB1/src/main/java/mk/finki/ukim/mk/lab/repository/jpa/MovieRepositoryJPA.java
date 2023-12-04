@@ -8,12 +8,14 @@ import java.util.List;
 
 @Repository
 public interface MovieRepositoryJPA extends JpaRepository<Movie,Long>{
-    List<Movie> findMoviesByTitleLikeAndRatingGreaterThanEqual(String title, Double rating);
+    List<Movie> findMoviesByTitleContainingAndRatingGreaterThanEqual(String title, Double rating);
+
+    //findMoviesByTitleContainingLikeAndRatingGreaterThanEqual
 
     Movie findMovieById(Long id);
 
-    void deleteMovieById(Long id);
-    
+    void deleteById(Long id);
+
 
 
 }

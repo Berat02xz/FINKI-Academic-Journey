@@ -31,7 +31,7 @@ public class MovieServiceImplementation implements MovieService {
 
     @Override
     public List<Movie> searchMovies(String text, double rating){
-        return movieRepository.findMoviesByTitleLikeAndRatingGreaterThanEqual(text,rating);
+        return movieRepository.findMoviesByTitleContainingAndRatingGreaterThanEqual(text,rating);
     }
 
     @Override
@@ -41,7 +41,7 @@ public class MovieServiceImplementation implements MovieService {
 
     @Override
     public void delete(Long movieId) {
-        movieRepository.deleteMovieById(movieId);
+        movieRepository.deleteById(movieId);
     }
 
     @Override
