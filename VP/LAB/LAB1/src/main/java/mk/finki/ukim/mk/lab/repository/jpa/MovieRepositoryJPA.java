@@ -16,6 +16,9 @@ public interface MovieRepositoryJPA extends JpaRepository<Movie,Long>{
 
     void deleteById(Long id);
 
+    //edit movie jpa method
+
+
 
 
 }

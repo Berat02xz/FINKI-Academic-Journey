@@ -21,9 +21,6 @@ public class MovieServiceImplementation implements MovieService {
         this.ProductionInterface = productionInterface;
     }
 
-    //
-    // implementiranje na servisite od interfaces i MovieRepo metodite
-    //
     @Override
     public List<Movie> listAll(){
         return movieRepository.findAll();

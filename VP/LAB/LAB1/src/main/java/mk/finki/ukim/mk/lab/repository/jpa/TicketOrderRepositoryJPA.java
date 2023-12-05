@@ -9,4 +9,7 @@ import java.util.List;
 
 @Repository
 public interface TicketOrderRepositoryJPA extends JpaRepository<TicketOrder,Long> {
+
+    TicketOrder findTicketOrderById(Long id);
+
 }

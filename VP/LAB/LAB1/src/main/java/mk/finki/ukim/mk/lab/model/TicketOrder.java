@@ -30,8 +30,15 @@ public class TicketOrder {
     }
 
     public TicketOrder(String movieTitle, String clientName, String address, int numberOfTickets) {
-        this.id = (long) (Math.random() * 1000);
+        this.clientName = clientName;
         this.movieTitle = movieTitle;
         this.numberOfTickets = numberOfTickets;
+    }
+
+    public TicketOrder(String movieTitle, String clientName, String address, int numberOfTickets, Long id) {
+        this.clientName = clientName;
+        this.movieTitle = movieTitle;
+        this.numberOfTickets = numberOfTickets;
+        this.id = Long.valueOf(1);
     }
 }
