@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- Да се направи веб страница каде преку текстуални полиња (прикажани на сликата подолу) ќе се
+внесат два комплексни броеви. Страницата ќе содржи и копче Add кое при клик ќе ги собери двата
+комплексни броеви и резулатот ќе го запише во две текстуални полиња.
+-->
+<form>
+    <input type="text" id="real1" placeholder="Real1">
+    <input type="text" id="imaginary1" placeholder="Imaginary1">
+    <input type="text" id="real2" placeholder="Real2">
+    <input type="text" id="imaginary2" placeholder="Imaginary2">
+    <input type="button" onclick="add()" value="Add">
+    <input type="text" id="real3" placeholder="Real3">
+    <input type="text" id="imaginary3" placeholder="Imaginary3">
+</form>
+
+<script>
+    function add() {
+        var real1 = document.getElementById("real1").value;
+        var imaginary1 = document.getElementById("imaginary1").value;
+        var real2 = document.getElementById("real2").value;
+        var imaginary2 = document.getElementById("imaginary2").value;
+        var real3 = parseInt(real1) + parseInt(real2);
+        var imaginary3 = parseInt(imaginary1) + parseInt(imaginary2);
+        document.getElementById("real3").value = real3;
+        document.getElementById("imaginary3").value = imaginary3;
+    }
+</script>
+
+</body>
+</html>

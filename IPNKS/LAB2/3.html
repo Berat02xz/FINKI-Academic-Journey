@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8"/>
+  <title>About Me</title>
+</head>
+<body>
+<h1>About Me</h1>
+<ul>
+  <li>Name: <span id="name"></span>
+  <li>Index: <span id="index"></span>
+  <li>Hometown: <span id="hometown"></span>
+</ul>
+</body>
+</html>
+
+<!-- Напишете JavaScript кој ќе ги направи следните промени:
+ На body тагот ќе постави Arial фонт
+ Ќе ја пополни содржината на span таговите со соодвените информации (име, презиме и град)
+ На секој од li таговите ќе им постави црвена боја на позадина -->
+
+
+<script>
+  document.body.style.fontFamily = "Arial";
+    document.getElementById("name").innerHTML = "Ivan";
+    document.getElementById("index").innerHTML = "151000";
+    document.getElementById("hometown").innerHTML = "Skopje";
+    var x = document.getElementsByTagName("li");
+    var i;
+    for (i = 0; i < x.length; i++) {
+        x[i].style.backgroundColor = "red";
+    }
+
+</script>
