@@ -1,0 +1,5 @@
+CategoryID	CategoryName
+1	Perfumes
+2	Creams
+3	Lipsticks
+4	NailPolish

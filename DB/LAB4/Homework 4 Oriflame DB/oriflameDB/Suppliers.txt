@@ -1,0 +1,5 @@
+SupplierID	SupplierName	SupplierAdress	SupplierCity	SupplierPostalCode	SupplierCountry	ContactName
+1	Oriflame Germany	Salzburger Strasse 45/3	Munchen	81373	Germany	Helmut Muller
+2	Oriflame Sweden	Brovallavagen 445	Stockholm	S-123 45	Sweden	Anna Bjorn
+3	Oriflame England	30 Gilbert ST.	London	EC1 4SD	UK	Jill Green
+4	Oriflame France	150, Rue des Francs-Bourgeois	Paris	75004	France	Guylene Jarre

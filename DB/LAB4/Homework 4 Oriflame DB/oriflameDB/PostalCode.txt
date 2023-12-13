@@ -1,0 +1,10 @@
+PostalCodeID	ConsultantCity	ConsultantCountry
+1000	Skopje	Macedonia
+1230	Gostivar	Macedonia
+1420	Stip	Macedonia
+1480	Gevgelija	Macedonia
+1500	Prilep	Macedonia
+3000	Veles	Macedonia
+4000	Bitola	Macedonia
+6330	Struga	Macedonia
+9330	Ohrid	Macedonia

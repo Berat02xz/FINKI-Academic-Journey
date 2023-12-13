@@ -1,0 +1,37 @@
+ProductID	ProductName	ProductPrice	ProductPoints	QuantityPerProduct	SupplierID	CategoryID
+1120	Royal Velvet	749	28	100 boxes	2	2
+1136	Time Reversing	1199	30	100 boxes	2	2
+4262	Cotton Candy	299	20	50 pieces x 4 g.	1	3
+4265	Crushed Berries	299	20	50 pieces x 4 g.	1	3
+4266	Precious Spice	299	20	50 pieces x 4 g.	1	3
+4286	Baby Beige	219	15	50 pieces x 4 g.	1	3
+4287	Caramel	219	15	50 pieces x 4 g.	1	3
+4288	Golden Bronze	219	15	50 piees x 4 g.	1	3
+4823	Swedish Care	499	25	100 boxes	2	2
+4880	Oriflame Oil Control	359	23	100 boxes	2	2
+4899	Oriflame Skin Care	159	20	100 boxes	2	2
+4921	Time Prevent	359	23	100 boxes	2	2
+6580	Black Cherries	199	15	30 bottles x 7 ml.	3	4
+6581	Dumson	199	15	30 bottles x 7 ml.	3	4
+6582	Passion Red	199	15	30 bottles x 7 ml.	3	4
+6583	Very Berry	199	15	30 bottles x 7 ml.	3	4
+6584	Cover Haze	199	15	30 bottles x 7 ml.	3	4
+6585	Natural Summer	199	15	30 bottles x 7 ml.	3	4
+6587	Diva	199	15	30 bottles x 7 ml.	3	4
+7013	Solliden	1299	32	50 bottles x 75 ml.	4	1
+7041	Saga	1069	30	50 bottles x 50 ml.	4	1
+7088	Elvie	999	25	50 bottles x 50 ml.	4	1
+7110	Lucia	1169	30	50 bottles x 50 ml.	4	1
+7151	Moon	509	20	50 bottles x 35 ml.	4	1
+7190	Indulgence	1099	30	50 bottles x 50 ml.	4	1
+7192	Mid Summer	1169	30	50 bottles x 75 ml.	4	1
+7421	Volare	939	23	50 bottles x 50 ml.	4	1
+7474	Serene	959	23	50 bottles x 75 ml.	4	1
+7526	Sun	509	20	50 bottles x 35 ml.	4	1
+7527	Eclipse	509	20	50 bottles x 35 ml.	4	1
+7537	Giordani	949	28	50 bottles x 75 ml.	4	1
+7543	Devine	1249	32	50 bottles x 50 ml.	4	1
+7558	Eclat	1049	30	50 bottles x 50 ml.	4	1
+8037	DeMarco	829	28	50 bottles x 100ml.	4	1
+8120	Rebel	849	29	50 bottles x 50 ml.	4	1
+8150	Glacier	799	23	50 bottles x 75 ml.	4	1

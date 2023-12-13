@@ -1,0 +1,13 @@
+ConsultantID	ConsultantName	ConsultantAdress	ConsultantPhone	ConsultantPostalCode
+89002	Popeska Marija	Kuzman Josifovski 29	022-246-078	1000
+89054	Pantekovska Emilija	Goce Delcev 74	047-589-363	4000
+89075	Petkovska Biljana	Licka 4	032-380-330	1420
+89091	Lazarova Nina	Risto Krle 3/1	046-788-583	6330
+89093	Krstevski Ivica	Anastas Mitrev 5	046-238-353	9330
+89100	Nikolovska Marina	Jane Sandanski 3	022-450-901	1000
+89155	Prlickov Nenad	Simeon Kavrakirov 65	034-334-589	1480
+89203	Trpenoska Milica	Mosa Pijade 5/14	045-459-367	1230
+89445	Efremoski Goran	Krali Marko 96	048-412-995	1500
+89555	Stojanovski Filip	Ilindenska 35	022-235-600	1000
+89600	Avramoska Tanja	Elpida Karamandi 5	043-221-209	3000
+89744	Naumova Nevena	Slavco Stojmenski 98	032-340-555	1500
