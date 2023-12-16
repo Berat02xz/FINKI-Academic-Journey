@@ -1,0 +1,1 @@
+Slikite se pregolemi (1GB) za da se postavat vo Github :(
