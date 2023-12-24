@@ -1,0 +1,128 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"AutoImportSettings\">\r\n    <option name=\"autoReloadType\" value=\"SELECTIVE\" />\r\n  </component>\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"45596b6f-7357-4ee5-b975-e989e9ce341d\" name=\"Changes\" comment=\"\">\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/dataSources/91de2957-672d-4472-8d60-77b73689cd49.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/dataSources/91de2957-672d-4472-8d60-77b73689cd49.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/.idea/workspace.xml\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/.idea/workspace.xml\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/java/mk/finki/ukim/museumapp/controllers/MuseumsTable.java\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/java/mk/finki/ukim/museumapp/controllers/MuseumsTable.java\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/templates/MuseumEdit.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/templates/MuseumEdit.html\" afterDir=\"false\" />\r\n      <change beforePath=\"$PROJECT_DIR$/src/main/resources/templates/index.html\" beforeDir=\"false\" afterPath=\"$PROJECT_DIR$/src/main/resources/templates/index.html\" afterDir=\"false\" />\r\n    </list>\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"CodeInsightWorkspaceSettings\">\r\n    <option name=\"optimizeImportsOnTheFly\" value=\"true\" />\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"Interface\" />\r\n        <option value=\"Class\" />\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$/..\" />\r\n  </component>\r\n  <component name=\"MarkdownSettingsMigration\">\r\n    <option name=\"stateVersion\" value=\"1\" />\r\n  </component>\r\n  <component name=\"ProjectColorInfo\">{\r\n  &quot;associatedIndex&quot;: 6\r\n}</component>\r\n  <component name=\"ProjectId\" id=\"2XlBP93TTCAPArEiDnxulJfapah\" />\r\n  <component name=\"ProjectViewState\">\r\n    <option name=\"hideEmptyMiddlePackages\" value=\"true\" />\r\n    <option name=\"showLibraryContents\" value=\"true\" />\r\n  </component>\r\n  <component name=\"PropertiesComponent\">{\r\n  &quot;keyToString&quot;: {\r\n    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,\r\n    &quot;MuseumApp.wasFacetEverAdded&quot;: &quot;true&quot;,\r\n    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,\r\n    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,\r\n    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,\r\n    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,\r\n    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,\r\n    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,\r\n    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,\r\n    &quot;Spring Boot.MuseumAppApplication.executor&quot;: &quot;Run&quot;,\r\n    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,\r\n    &quot;git-widget-placeholder&quot;: &quot;Review-System&quot;,\r\n    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,\r\n    &quot;last_opened_file_path&quot;: &quot;C:/Users/berat/Documents/GitHub/MuseumApp/MuseumApp/APP/src/main/resources&quot;,\r\n    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,\r\n    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,\r\n    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,\r\n    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,\r\n    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,\r\n    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,\r\n    &quot;spring.configuration.checksum&quot;: &quot;02a51466955fff6eee7e766e1d708909&quot;,\r\n    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;\r\n  },\r\n  &quot;keyToStringList&quot;: {\r\n    &quot;DatabaseDriversLRU&quot;: [\r\n      &quot;azure&quot;\r\n    ]\r\n  }\r\n}</component>\r\n  <component name=\"ReactorSettings\">\r\n    <option name=\"notificationShown\" value=\"true\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"CopyFile.RECENT_KEYS\">\r\n      <recent name=\"C:\\Users\\berat\\Documents\\GitHub\\MuseumApp\\MuseumApp\\APP\\src\\main\\resources\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunManager\" selected=\"Spring Boot.MuseumAppApplication\">\r\n    <configuration default=\"true\" type=\"AZURE_FUNCTION_SUPPORT\" factoryName=\"Run Functions\">\r\n      <option name=\"appName\" />\r\n      <option name=\"appServicePlanName\" />\r\n      <option name=\"appServicePlanResourceGroup\" />\r\n      <option name=\"appSettingsKey\" value=\"84ed431b-4ee1-4d4b-8a5e-de2c3892ec2c\" />\r\n      <option name=\"artifact\" />\r\n      <option name=\"debugOptions\" />\r\n      <option name=\"deployment\" />\r\n      <option name=\"deploymentStagingDirectoryPath\" />\r\n      <option name=\"funcPath\" />\r\n      <option name=\"functionHostArguments\" />\r\n      <option name=\"hostJsonPath\" />\r\n      <option name=\"insightsName\" />\r\n      <option name=\"instrumentationKey\" />\r\n      <option name=\"javaVersion\" />\r\n      <option name=\"localSettingsJsonPath\" />\r\n      <option name=\"moduleName\" />\r\n      <option name=\"os\" />\r\n      <option name=\"pricingTier\" />\r\n      <option name=\"providerMap\">\r\n        <map />\r\n      </option>\r\n      <option name=\"region\" />\r\n      <option name=\"resourceGroup\" />\r\n      <option name=\"stagingFolder\" />\r\n      <option name=\"subscription\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"PipeAndFilter\" type=\"Application\" factoryName=\"Application\" temporary=\"true\" nameIsGenerated=\"true\">\r\n      <option name=\"MAIN_CLASS_NAME\" value=\"mk.finki.ukim.museumapp.PipeAndFilter.PipeAndFilter\" />\r\n      <module name=\"MuseumApp\" />\r\n      <extension name=\"coverage\">\r\n        <pattern>\r\n          <option name=\"PATTERN\" value=\"mk.finki.ukim.museumapp.model.*\" />\r\n          <option name=\"ENABLED\" value=\"true\" />\r\n        </pattern>\r\n      </extension>\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <configuration name=\"MuseumAppApplication\" type=\"SpringBootApplicationConfigurationType\" factoryName=\"Spring Boot\">\r\n      <module name=\"MuseumApp\" />\r\n      <option name=\"SPRING_BOOT_MAIN_CLASS\" value=\"mk.finki.ukim.museumapp.MuseumAppApplication\" />\r\n      <method v=\"2\">\r\n        <option name=\"Make\" enabled=\"true\" />\r\n      </method>\r\n    </configuration>\r\n    <recent_temporary>\r\n      <list>\r\n        <item itemvalue=\"Application.PipeAndFilter\" />\r\n      </list>\r\n    </recent_temporary>\r\n  </component>\r\n  <component name=\"SharedIndexes\">\r\n    <attachedChunks>\r\n      <set>\r\n        <option value=\"jdk-17.0.9-corretto-17.0.9-3183f394aec4-8f899f12\" />\r\n      </set>\r\n    </attachedChunks>\r\n  </component>\r\n  <component name=\"SpellCheckerSettings\" RuntimeDictionaries=\"0\" Folders=\"0\" CustomDictionaries=\"0\" DefaultDictionary=\"application-level\" UseSingleDictionary=\"true\" transferred=\"true\" />\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"45596b6f-7357-4ee5-b975-e989e9ce341d\" name=\"Changes\" comment=\"\" />\r\n      <created>1699193762751</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1699193762751</updated>\r\n      <workItem from=\"1699193765023\" duration=\"597000\" />\r\n      <workItem from=\"1699194506809\" duration=\"2852000\" />\r\n      <workItem from=\"1699204707548\" duration=\"5185000\" />\r\n      <workItem from=\"1699288130285\" duration=\"718000\" />\r\n      <workItem from=\"1699388119499\" duration=\"1872000\" />\r\n      <workItem from=\"1699783186233\" duration=\"45000\" />\r\n      <workItem from=\"1699907884801\" duration=\"8000\" />\r\n      <workItem from=\"1699956379392\" duration=\"14000\" />\r\n      <workItem from=\"1701346028950\" duration=\"5606000\" />\r\n      <workItem from=\"1701357759912\" duration=\"3934000\" />\r\n      <workItem from=\"1701375625544\" duration=\"3913000\" />\r\n      <workItem from=\"1701456391178\" duration=\"25000\" />\r\n      <workItem from=\"1701462398989\" duration=\"730000\" />\r\n      <workItem from=\"1701464752945\" duration=\"58000\" />\r\n      <workItem from=\"1701551592117\" duration=\"51000\" />\r\n      <workItem from=\"1702491365844\" duration=\"788000\" />\r\n      <workItem from=\"1702492244404\" duration=\"2755000\" />\r\n      <workItem from=\"1702732424327\" duration=\"3927000\" />\r\n      <workItem from=\"1702736382278\" duration=\"376000\" />\r\n      <workItem from=\"1702736784116\" duration=\"139000\" />\r\n      <workItem from=\"1702737271977\" duration=\"1492000\" />\r\n      <workItem from=\"1702746222283\" duration=\"9829000\" />\r\n      <workItem from=\"1702758088874\" duration=\"163000\" />\r\n      <workItem from=\"1702770023560\" duration=\"999000\" />\r\n      <workItem from=\"1702808571306\" duration=\"7346000\" />\r\n      <workItem from=\"1703080721093\" duration=\"3017000\" />\r\n    </task>\r\n    <servers />\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"3\" />\r\n  </component>\r\n  <component name=\"Vcs.Log.Tabs.Properties\">\r\n    <option name=\"TAB_STATES\">\r\n      <map>\r\n        <entry key=\"MAIN\">\r\n          <value>\r\n            <State />\r\n          </value>\r\n        </entry>\r\n      </map>\r\n    </option>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+--- a/.idea/workspace.xml	(revision 819cc8e4f56b767962818d8a52a3241d95b9332c)
++++ b/.idea/workspace.xml	(date 1703245237143)
+@@ -4,13 +4,7 @@
+     <option name="autoReloadType" value="SELECTIVE" />
+   </component>
+   <component name="ChangeListManager">
+-    <list default="true" id="45596b6f-7357-4ee5-b975-e989e9ce341d" name="Changes" comment="">
+-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91de2957-672d-4472-8d60-77b73689cd49.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91de2957-672d-4472-8d60-77b73689cd49.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/java/mk/finki/ukim/museumapp/controllers/MuseumsTable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/mk/finki/ukim/museumapp/controllers/MuseumsTable.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/MuseumEdit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/MuseumEdit.html" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
+-    </list>
++    <list default="true" id="45596b6f-7357-4ee5-b975-e989e9ce341d" name="Changes" comment="" />
+     <option name="SHOW_DIALOG" value="false" />
+     <option name="HIGHLIGHT_CONFLICTS" value="true" />
+     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+@@ -29,6 +23,11 @@
+     </option>
+   </component>
+   <component name="Git.Settings">
++    <option name="RECENT_BRANCH_BY_REPOSITORY">
++      <map>
++        <entry key="$PROJECT_DIR$/.." value="Review-System" />
++      </map>
++    </option>
+     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+   </component>
+   <component name="MarkdownSettingsMigration">
+@@ -42,40 +41,40 @@
+     <option name="hideEmptyMiddlePackages" value="true" />
+     <option name="showLibraryContents" value="true" />
+   </component>
+-  <component name="PropertiesComponent">{
+-  &quot;keyToString&quot;: {
+-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+-    &quot;MuseumApp.wasFacetEverAdded&quot;: &quot;true&quot;,
+-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+-    &quot;Spring Boot.MuseumAppApplication.executor&quot;: &quot;Run&quot;,
+-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+-    &quot;git-widget-placeholder&quot;: &quot;Review-System&quot;,
+-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+-    &quot;last_opened_file_path&quot;: &quot;C:/Users/berat/Documents/GitHub/MuseumApp/MuseumApp/APP/src/main/resources&quot;,
+-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;,
+-    &quot;spring.configuration.checksum&quot;: &quot;02a51466955fff6eee7e766e1d708909&quot;,
+-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "DefaultHtmlFileTemplate": "HTML File",
++    "MuseumApp.wasFacetEverAdded": "true",
++    "RequestMappingsPanelOrder0": "0",
++    "RequestMappingsPanelOrder1": "1",
++    "RequestMappingsPanelWidth0": "75",
++    "RequestMappingsPanelWidth1": "75",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
++    "Spring Boot.MuseumAppApplication.executor": "Run",
++    "WebServerToolWindowFactoryState": "false",
++    "git-widget-placeholder": "Review-System-Working",
++    "kotlin-language-version-configured": "true",
++    "last_opened_file_path": "C:/Users/berat/Documents/GitHub/MuseumApp/MuseumApp/APP/src/main/resources",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "project.structure.last.edited": "Libraries",
++    "project.structure.proportion": "0.0",
++    "project.structure.side.proportion": "0.0",
++    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
++    "spring.configuration.checksum": "02a51466955fff6eee7e766e1d708909",
++    "vue.rearranger.settings.migration": "true"
+   },
+-  &quot;keyToStringList&quot;: {
+-    &quot;DatabaseDriversLRU&quot;: [
+-      &quot;azure&quot;
++  "keyToStringList": {
++    "DatabaseDriversLRU": [
++      "azure"
+     ]
+   }
+-}</component>
++}]]></component>
+   <component name="ReactorSettings">
+     <option name="notificationShown" value="true" />
+   </component>
+@@ -135,6 +134,10 @@
+         <option name="Make" enabled="true" />
+       </method>
+     </configuration>
++    <list>
++      <item itemvalue="Application.PipeAndFilter" />
++      <item itemvalue="Spring Boot.MuseumAppApplication" />
++    </list>
+     <recent_temporary>
+       <list>
+         <item itemvalue="Application.PipeAndFilter" />
+@@ -181,7 +184,6 @@
+       <workItem from="1702758088874" duration="163000" />
+       <workItem from="1702770023560" duration="999000" />
+       <workItem from="1702808571306" duration="7346000" />
+-      <workItem from="1703080721093" duration="3017000" />
+     </task>
+     <servers />
+   </component>

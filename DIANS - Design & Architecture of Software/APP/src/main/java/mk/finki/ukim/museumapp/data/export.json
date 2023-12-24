@@ -1,0 +1,1120 @@
+{
+  "version": 0.6,
+  "generator": "Overpass API 0.7.61.5 4133829e",
+  "osm3s": {
+    "timestamp_osm_base": "2023-11-05T14:04:08Z",
+    "timestamp_areas_base": "2023-11-05T10:46:30Z",
+    "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL."
+  },
+  "elements": [
+    {
+      "type": "node",
+      "id": 172348137,
+      "lat": 42.005709,
+      "lon": 21.4174425,
+      "tags": {
+        "contact:phone": "+38923117669",
+        "fee": "yes",
+        "name": "Природонаучен Музеј",
+        "name:en": "Macedonian Museum of Natural History",
+        "name:pl": "Muzeum Przyrodnicze",
+        "name:tr": "Ulusal Tarih Müzesi",
+        "opening_hours": "Tu-Su 09:00-16:00",
+        "tourism": "museum",
+        "wikidata": "Q20567394",
+        "wikimedia_commons": "Category:Macedonian Museum of Natural History",
+        "wikipedia": "mk:Природонаучен музеј на Македонија"
+      }
+    },
+    {
+      "type": "node",
+      "id": 6987611917,
+      "lat": 41.9962134,
+      "lon": 21.4291373,
+      "tags": {
+        "addr:housenumber": "10",
+        "addr:street": "Максим Горки",
+        "name:en": "Museum of illusions",
+        "name:ru": "Музей иллюзий",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "node",
+      "id": 7102244287,
+      "lat": 41.9989569,
+      "lon": 21.3865879,
+      "tags": {
+        "addr:housenumber": "94",
+        "addr:postcode": "1000",
+        "addr:street": "Војвода Васил Чакаларов",
+        "email": "galerija.ra@gmail.com",
+        "internet_access": "wlan",
+        "name": "Galerija RA",
+        "name:en": "Gallery RA",
+        "name:hr": "Macedonian",
+        "opening_hours": "Mo-Sa 10:00-20:00",
+        "phone": "+389075435402",
+        "tourism": "museum"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32812963,
+      "lat": 42.003194,
+      "lon": 21.4363088,
+      "bounds": {
+        "minlat": 42.002124,
+        "minlon": 21.435522,
+        "maxlat": 42.0032112,
+        "maxlon": 21.4369057
+      },
+      "nodes": [
+        4346059294,
+        6387796922,
+        6387796921,
+        369746135,
+        369746136,
+        369746137,
+        369746138,
+        369746139,
+        369746140,
+        369746141,
+        369746142,
+        369746143,
+        369746144,
+        369746145,
+        369746146,
+        369746147,
+        369746148,
+        369746149,
+        369746150,
+        369746151,
+        369746152,
+        369746153,
+        369746154,
+        369746155,
+        369746156,
+        369746157,
+        369746158,
+        369746159,
+        369746160,
+        369746161,
+        369746162,
+        369746163,
+        369746164,
+        369746165,
+        369746166,
+        369746167,
+        6387796924,
+        6387796923,
+        369746168,
+        4346059294
+      ],
+      "geometry": [
+        {
+          "lat": 42.003194,
+          "lon": 21.4363088
+        },
+        {
+          "lat": 42.0031811,
+          "lon": 21.4360166
+        },
+        {
+          "lat": 42.0031614,
+          "lon": 21.4360182
+        },
+        {
+          "lat": 42.0031606,
+          "lon": 21.4359983
+        },
+        {
+          "lat": 42.0032112,
+          "lon": 21.4359201
+        },
+        {
+          "lat": 42.00306,
+          "lon": 21.4357426
+        },
+        {
+          "lat": 42.0030127,
+          "lon": 21.4358156
+        },
+        {
+          "lat": 42.0027625,
+          "lon": 21.435522
+        },
+        {
+          "lat": 42.0026771,
+          "lon": 21.4356538
+        },
+        {
+          "lat": 42.002579,
+          "lon": 21.4355387
+        },
+        {
+          "lat": 42.0024403,
+          "lon": 21.4357527
+        },
+        {
+          "lat": 42.0023757,
+          "lon": 21.4356769
+        },
+        {
+          "lat": 42.002124,
+          "lon": 21.4360651
+        },
+        {
+          "lat": 42.0022357,
+          "lon": 21.4361962
+        },
+        {
+          "lat": 42.0021831,
+          "lon": 21.4362774
+        },
+        {
+          "lat": 42.0022794,
+          "lon": 21.4363905
+        },
+        {
+          "lat": 42.0021937,
+          "lon": 21.4365227
+        },
+        {
+          "lat": 42.0022985,
+          "lon": 21.4366458
+        },
+        {
+          "lat": 42.002213,
+          "lon": 21.4367776
+        },
+        {
+          "lat": 42.0023221,
+          "lon": 21.4369057
+        },
+        {
+          "lat": 42.0024079,
+          "lon": 21.4367734
+        },
+        {
+          "lat": 42.0025069,
+          "lon": 21.4368897
+        },
+        {
+          "lat": 42.0026001,
+          "lon": 21.4367461
+        },
+        {
+          "lat": 42.002501,
+          "lon": 21.4366296
+        },
+        {
+          "lat": 42.0025885,
+          "lon": 21.4364947
+        },
+        {
+          "lat": 42.0024867,
+          "lon": 21.4363752
+        },
+        {
+          "lat": 42.0025734,
+          "lon": 21.4362416
+        },
+        {
+          "lat": 42.0024664,
+          "lon": 21.436116
+        },
+        {
+          "lat": 42.002549,
+          "lon": 21.4359887
+        },
+        {
+          "lat": 42.0026065,
+          "lon": 21.4360562
+        },
+        {
+          "lat": 42.0026911,
+          "lon": 21.4359258
+        },
+        {
+          "lat": 42.0027925,
+          "lon": 21.4360449
+        },
+        {
+          "lat": 42.0028765,
+          "lon": 21.4359153
+        },
+        {
+          "lat": 42.0029704,
+          "lon": 21.4360256
+        },
+        {
+          "lat": 42.0030178,
+          "lon": 21.4359525
+        },
+        {
+          "lat": 42.0030716,
+          "lon": 21.4360157
+        },
+        {
+          "lat": 42.0030724,
+          "lon": 21.4360334
+        },
+        {
+          "lat": 42.0030574,
+          "lon": 21.4360346
+        },
+        {
+          "lat": 42.0030699,
+          "lon": 21.4363187
+        },
+        {
+          "lat": 42.003194,
+          "lon": 21.4363088
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "lat": 42.0027925,
+        "lon": 21.4360449,
+        "addr:city:en": "Skopje",
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "addr:street": "Прохор Пчински",
+        "addr:street:en": "Prohor Pcinski",
+        "building": "public",
+        "fee": "yes",
+        "int_name": "Muzej na Makedonija",
+        "name": "Музеј на Македонија",
+        "name:bg": "Музей на Македония",
+        "name:en": "Museum of Macedonia",
+        "name:es": "Museo de Macedonia",
+        "name:fr": "Musée de Macédoine",
+        "name:pl": "Muzeum Macedońskie",
+        "name:tr": "Makedonya müzesi",
+        "payment:notes": "yes",
+        "tourism": "museum",
+        "wikidata": "Q3133557",
+        "wikimedia_commons": "Category:Museum of Macedonia, Skopje",
+        "wikipedia": "mk:Музеј на Македонија"
+      }
+    },
+    {
+      "type": "way",
+      "id": 32887087,
+      "lat": 42.0043142,
+      "lon": 21.4325172,
+      "bounds": {
+        "minlat": 42.0036285,
+        "minlon": 21.4325172,
+        "maxlat": 42.0044165,
+        "maxlon": 21.4332925
+      },
+      "nodes": [
+        370404760,
+        370404762,
+        370404766,
+        370404768,
+        1830951668,
+        1830951677,
+        370404771,
+        370404773,
+        370404774,
+        370404775,
+        370404778,
+        370404781,
+        370404760
+      ],
+      "geometry": [
+        {
+          "lat": 42.0043142,
+          "lon": 21.4325172
+        },
+        {
+          "lat": 42.0044165,
+          "lon": 21.4330687
+        },
+        {
+          "lat": 42.0042536,
+          "lon": 21.4331234
+        },
+        {
+          "lat": 42.0042325,
+          "lon": 21.4330097
+        },
+        {
+          "lat": 42.0041084,
+          "lon": 21.4330514
+        },
+        {
+          "lat": 42.0041283,
+          "lon": 21.4331584
+        },
+        {
+          "lat": 42.0037291,
+          "lon": 21.4332925
+        },
+        {
+          "lat": 42.0036285,
+          "lon": 21.43275
+        },
+        {
+          "lat": 42.0040442,
+          "lon": 21.4326104
+        },
+        {
+          "lat": 42.004079,
+          "lon": 21.4327984
+        },
+        {
+          "lat": 42.0042024,
+          "lon": 21.4327569
+        },
+        {
+          "lat": 42.0041671,
+          "lon": 21.4325666
+        },
+        {
+          "lat": 42.0043142,
+          "lon": 21.4325172
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "lat": 42.0043142,
+        "lon": 21.4325172,
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "addr:street": "Самоилова",
+        "addr:street:en": "Samoilova",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "charge": "50 MKD",
+        "email": "msu-info@msuskopje.org.mk",
+        "fax": "+389 2 3110123",
+        "fee": "yes",
+        "name": "Музеј на современата уметност",
+        "name:en": "Contemporary Art Museum of Macedonia",
+        "name:pl": "Muzeum Sztuki Współczesnej",
+        "name:zh": "当代艺术博物馆",
+        "opening_hours": "Tu-Sa 10:00-15:00; Su 09:00-13:00",
+        "phone": "+389 2 3117734",
+        "tourism": "museum",
+        "website": "https://msu.mk/home/",
+        "wikidata": "Q3329592",
+        "wikimedia_commons": "Category:Contemporary Art Museum (North Macedonia)",
+        "wikipedia": "mk:Музеј на современата уметност (Скопје)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172171547,
+      "lat": 41.998911,
+      "lon": 21.4355586,
+      "bounds": {
+        "minlat": 41.9985368,
+        "minlon": 21.4354288,
+        "maxlat": 41.998911,
+        "maxlon": 21.4360185
+      },
+      "nodes": [
+        1831061821,
+        1831061818,
+        1831061820,
+        1831061819,
+        1831061821
+      ],
+      "geometry": [
+        {
+          "lat": 41.998911,
+          "lon": 21.4355586
+        },
+        {
+          "lat": 41.9986787,
+          "lon": 21.4354288
+        },
+        {
+          "lat": 41.9985368,
+          "lon": 21.4358887
+        },
+        {
+          "lat": 41.9987691,
+          "lon": 21.4360185
+        },
+        {
+          "lat": 41.998911,
+          "lon": 21.4355586
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "lat": 41.998911,
+        "lon": 21.4355586,
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "email": "contact@nationalgallery.mk",
+        "fee": "yes",
+        "int_name": "Nacionalna Galerija -Daut Pašin Amam",
+        "name": "Национална галерија „Даут-пашин амам“",
+        "name:en": "Daut Pasha Hamam National Gallery",
+        "opening_hours": "Tu-Su 10:00-18:00",
+        "phone": "+389 2 3133102",
+        "tourism": "museum",
+        "website": "https://nationalgallery.mk/",
+        "wikipedia": "en:National Gallery of Macedonia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172180530,
+      "lat": 41.9982848,
+      "lon": 21.4329425,
+      "bounds": {
+        "minlat": 41.9976842,
+        "minlon": 21.4327371,
+        "maxlat": 41.9982848,
+        "maxlon": 21.4335269
+      },
+      "nodes": [
+        1831127085,
+        1831127083,
+        5339314471,
+        1831127084,
+        1831127081,
+        1831127085
+      ],
+      "geometry": [
+        {
+          "lat": 41.9982848,
+          "lon": 21.4329425
+        },
+        {
+          "lat": 41.9981391,
+          "lon": 21.4327371
+        },
+        {
+          "lat": 41.9976842,
+          "lon": 21.4333215
+        },
+        {
+          "lat": 41.9978299,
+          "lon": 21.4335269
+        },
+        {
+          "lat": 41.9980543,
+          "lon": 21.4332386
+        },
+        {
+          "lat": 41.9982848,
+          "lon": 21.4329425
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "lat": 41.9981391,
+        "lon": 21.4327371,
+        "addr:country": "MK",
+        "addr:housenumber": "1",
+        "addr:postcode": "1000",
+        "addr:street": "11 Март",
+        "building": "public",
+        "building:levels": "3",
+        "email": "mmb@mmb.org.mk",
+        "fax": "+389 2 3256 668",
+        "fee": "yes",
+        "int_name": "Muzej na Makedonskata borba",
+        "name": "Музеј на македонската борба",
+        "name:de": "Museum des mazedonischen Kampfes",
+        "name:en": "Museum of the Macedonian struggle",
+        "name:tr": "Museum of the",
+        "opening_hours": "Tu-Su 10:00-18:00",
+        "phone": "+389 2 3256 667",
+        "roof:levels": "0",
+        "roof:shape": "hipped",
+        "tourism": "museum",
+        "website": "http://mmb.org.mk/w/",
+        "wheelchair": "limited",
+        "wikidata": "Q986531",
+        "wikimedia_commons": "Category:Museum of the Macedonian Struggle (Skopje)",
+        "wikipedia": "en:Museum of the Macedonian Struggle (Skopje)"
+      }
+    },
+    {
+      "type": "way",
+      "id": 172186249,
+      "lat": 41.9984101,
+      "lon": 21.4331205,
+      "bounds": {
+        "minlat": 41.9982834,
+        "minlon": 21.4331205,
+        "maxlat": 41.9986478,
+        "maxlon": 21.433646
+      },
+      "nodes": [
+        1831180534,
+        1831180452,
+        5339314490,
+        5339314489,
+        1831180534
+      ],
+      "geometry": [
+        {
+          "lat": 41.9984101,
+          "lon": 21.4331205
+        },
+        {
+          "lat": 41.9986478,
+          "lon": 21.4335037
+        },
+        {
+          "lat": 41.9985211,
+          "lon": 21.433646
+        },
+        {
+          "lat": 41.9982834,
+          "lon": 21.4332627
+        },
+        {
+          "lat": 41.9984101,
+          "lon": 21.4331205
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "addr:country": "MK",
+        "lat": 41.9984101,
+        "lon": 21.4331205,
+        "addr:housenumber": "2",
+        "addr:postcode": "1000",
+        "addr:street": "Самоилова",
+        "addr:street:en": "Samoilova",
+        "building": "public",
+        "email": "info@holocaustfund.org.mk",
+        "fax": "+389 2 3232310",
+        "historic": "memorial",
+        "int_name": "Memorijalen centar na holokaustot na Evreite na Makedonija",
+        "name": "Меморијален центар на холокаустот на Евреите од Македонија",
+        "name:en": "Holocaust Memorial Center for the Jews of Macedonia",
+        "name:tr": "Holocaust Memorial Center for the Jews of Macedonia",
+        "name:zh": "犹太人大屠杀纪念中心",
+        "phone": "+389 2 3122697",
+        "tourism": "museum",
+        "website": "https://www.holocaustfund.org/",
+        "wikidata": "Q3333150",
+        "wikimedia_commons": "Category:Holocaust Memorial Center for the Jews of Macedonia",
+        "wikipedia": "en:Holocaust Memorial Center for the Jews of Macedonia"
+      }
+    },
+    {
+      "type": "way",
+      "id": 176040285,
+      "lat": 41.9912181,
+      "lon": 21.4288883,
+      "bounds": {
+        "minlat": 41.9906108,
+        "minlon": 21.4285266,
+        "maxlat": 41.9912181,
+        "maxlon": 21.4294908
+      },
+      "nodes": [
+        1866027751,
+        1866027765,
+        1866027756,
+        1866027750,
+        1866027754,
+        1866027752,
+        11296257711,
+        11296257710,
+        1866027751
+      ],
+      "geometry": [
+        {
+          "lat": 41.9912181,
+          "lon": 21.4288883
+        },
+        {
+          "lat": 41.9909894,
+          "lon": 21.4287012
+        },
+        {
+          "lat": 41.9910357,
+          "lon": 21.4285987
+        },
+        {
+          "lat": 41.9909477,
+          "lon": 21.4285266
+        },
+        {
+          "lat": 41.9906108,
+          "lon": 21.4292717
+        },
+        {
+          "lat": 41.9908785,
+          "lon": 21.4294908
+        },
+        {
+          "lat": 41.9909621,
+          "lon": 21.4293057
+        },
+        {
+          "lat": 41.9910113,
+          "lon": 21.4293459
+        },
+        {
+          "lat": 41.9912181,
+          "lon": 21.4288883
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "lat": 41.9912181,
+        "lon": 21.4288883,
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "alt_name": "Стара Железничка Станица",
+        "building": "yes",
+        "fee": "yes",
+        "name": "Музеј на Град Скопје",
+        "name:en": "Museum of the City of Skopje",
+        "name:pl": "Muzeum Miasta Skopje",
+        "phone": "+389 2 3114742",
+        "tourism": "museum",
+        "website": "http://www.mgs.org.mk/",
+        "wikidata": "Q922143",
+        "wikimedia_commons": "Category:Museum of the City of Skopje",
+        "wikipedia": "en:Museum of the City of Skopje"
+      }
+    },
+    {
+      "type": "way",
+      "lat": 41.9939282,
+      "lon": 21.4307694,
+      "id": 176051871,
+      "bounds": {
+        "minlat": 41.9937327,
+        "minlon": 21.4307134,
+        "maxlat": 41.9939282,
+        "maxlon": 21.4310047
+      },
+      "nodes": [
+        1866191465,
+        1866191459,
+        5731830727,
+        5731830728,
+        5731830726,
+        5731830729,
+        5731830725,
+        5731830730,
+        5731830724,
+        5731830731,
+        5731830723,
+        5731830732,
+        5731830722,
+        5731830733,
+        5731830721,
+        5731830734,
+        5731830735,
+        1866191463,
+        5731830736,
+        5731830737,
+        5731830720,
+        5731830738,
+        5731830719,
+        5731830739,
+        5731830718,
+        5731830740,
+        1866191468,
+        1866191471,
+        1866191465
+      ],
+      "geometry": [
+        {
+          "lat": 41.9939282,
+          "lon": 21.4307694
+        },
+        {
+          "lat": 41.9937951,
+          "lon": 21.4307134
+        },
+        {
+          "lat": 41.9937589,
+          "lon": 21.4308694
+        },
+        {
+          "lat": 41.9937557,
+          "lon": 21.4308689
+        },
+        {
+          "lat": 41.9937525,
+          "lon": 21.4308695
+        },
+        {
+          "lat": 41.993747,
+          "lon": 21.4308715
+        },
+        {
+          "lat": 41.993742,
+          "lon": 21.4308751
+        },
+        {
+          "lat": 41.993738,
+          "lon": 21.430879
+        },
+        {
+          "lat": 41.9937347,
+          "lon": 21.4308849
+        },
+        {
+          "lat": 41.9937329,
+          "lon": 21.4308922
+        },
+        {
+          "lat": 41.9937327,
+          "lon": 21.4309002
+        },
+        {
+          "lat": 41.9937334,
+          "lon": 21.4309068
+        },
+        {
+          "lat": 41.9937351,
+          "lon": 21.4309124
+        },
+        {
+          "lat": 41.9937378,
+          "lon": 21.4309173
+        },
+        {
+          "lat": 41.9937409,
+          "lon": 21.4309213
+        },
+        {
+          "lat": 41.9937414,
+          "lon": 21.4309299
+        },
+        {
+          "lat": 41.9937423,
+          "lon": 21.4309395
+        },
+        {
+          "lat": 41.9937442,
+          "lon": 21.4309475
+        },
+        {
+          "lat": 41.9937471,
+          "lon": 21.4309553
+        },
+        {
+          "lat": 41.9937512,
+          "lon": 21.4309626
+        },
+        {
+          "lat": 41.9937561,
+          "lon": 21.4309682
+        },
+        {
+          "lat": 41.993763,
+          "lon": 21.4309737
+        },
+        {
+          "lat": 41.9937728,
+          "lon": 21.4309799
+        },
+        {
+          "lat": 41.9937832,
+          "lon": 21.4309848
+        },
+        {
+          "lat": 41.9937944,
+          "lon": 21.4309875
+        },
+        {
+          "lat": 41.9938053,
+          "lon": 21.4309851
+        },
+        {
+          "lat": 41.9938161,
+          "lon": 21.4309805
+        },
+        {
+          "lat": 41.9938735,
+          "lon": 21.4310047
+        },
+        {
+          "lat": 41.9939282,
+          "lon": 21.4307694
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "lat": 41.9939282,
+        "lon": 21.4307694,
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "addr:street": "Македонија",
+        "addr:street:en": "Makedonija",
+        "building": "yes",
+        "email": "info@memorialhouseofmotherteresa.org",
+        "fee": "no",
+        "int_name": "Muzej-kuḱa na Majka Tereza",
+        "name": "Спомен куќа на Мајка Тереза",
+        "name:en": "Memorial House of Mother Teresa",
+        "name:tr": "Rahibe Terasa Anıt Evi",
+        "name:zh": "特蕾莎修女纪念馆",
+        "opening_hours": "Mo-Fr 09:00-20:00, Sa-Su 09:00-14:00",
+        "phone": "+389 2 3290674",
+        "tourism": "museum",
+        "website": "http://www.memorialhouseofmotherteresa.org/",
+        "wheelchair": "yes",
+        "wikidata": "Q587617",
+        "wikimedia_commons": "Category:Mother Teresa Memorial Home (Skopje)",
+        "wikipedia": "en:Memorial House of Mother Teresa"
+      }
+    },
+    {
+      "type": "way",
+      "id": 229930502,
+      "lat": 41.9970517,
+      "lon": 21.4340186,
+      "bounds": {
+        "minlat": 41.9965205,
+        "minlon": 21.4340186,
+        "maxlat": 41.9971983,
+        "maxlon": 21.4349649
+      },
+      "nodes": [
+        2384661789,
+        2384661802,
+        2384661787,
+        2384661800,
+        2384661799,
+        2384661794,
+        2384661763,
+        2384661801,
+        2384661753,
+        2384661774,
+        2384661754,
+        2384661769,
+        2384661762,
+        2384661796,
+        2384661778,
+        2384661777,
+        2384661791,
+        2384661755,
+        4128156199,
+        2384661750,
+        2384661781,
+        2384661789
+      ],
+      "geometry": [
+        {
+          "lat": 41.9970517,
+          "lon": 21.4340186
+        },
+        {
+          "lat": 41.9969032,
+          "lon": 21.4341817
+        },
+        {
+          "lat": 41.9968594,
+          "lon": 21.4341495
+        },
+        {
+          "lat": 41.996676,
+          "lon": 21.4344124
+        },
+        {
+          "lat": 41.996688,
+          "lon": 21.4344875
+        },
+        {
+          "lat": 41.9966002,
+          "lon": 21.4346323
+        },
+        {
+          "lat": 41.9965245,
+          "lon": 21.4347879
+        },
+        {
+          "lat": 41.9965205,
+          "lon": 21.4348898
+        },
+        {
+          "lat": 41.9965723,
+          "lon": 21.4349649
+        },
+        {
+          "lat": 41.9966521,
+          "lon": 21.4349649
+        },
+        {
+          "lat": 41.9967079,
+          "lon": 21.434922
+        },
+        {
+          "lat": 41.9967318,
+          "lon": 21.4348254
+        },
+        {
+          "lat": 41.9968036,
+          "lon": 21.434686
+        },
+        {
+          "lat": 41.996977,
+          "lon": 21.4344177
+        },
+        {
+          "lat": 41.9970667,
+          "lon": 21.4343212
+        },
+        {
+          "lat": 41.9971305,
+          "lon": 21.4343104
+        },
+        {
+          "lat": 41.9971823,
+          "lon": 21.4342407
+        },
+        {
+          "lat": 41.9971983,
+          "lon": 21.4341495
+        },
+        {
+          "lat": 41.9971761,
+          "lon": 21.4340907
+        },
+        {
+          "lat": 41.9971664,
+          "lon": 21.4340691
+        },
+        {
+          "lat": 41.9971305,
+          "lon": 21.4340369
+        },
+        {
+          "lat": 41.9970517,
+          "lon": 21.4340186
+        }
+      ],
+      "tags": {
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "lat": 41.9970517,
+        "lon": 21.4340186,
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "building": "public",
+        "fee": "yes",
+        "int_name": "Arheološki Muzej na Makedonija",
+        "name": "Археолошки музеј на Македонија",
+        "name:de": "Archäologisches Museum von Mazedonien",
+        "name:en": "Archaeological Museum of Macedonia",
+        "name:pl": "Muzeum Archeologiczne",
+        "name:tr": "Kuzey Makedonya Arkeoloji Müzesi",
+        "opening_hours": "Tu-Su 10:00-18:00",
+        "tourism": "museum",
+        "wikidata": "Q65295584",
+        "wikimedia_commons": "Category:Archaeological Museum of Macedonia",
+        "wikipedia": "mk:Археолошки музеј (Скопје)"
+      }
+    },
+    {
+      "type": "relation",
+      "id": 5360062,
+      "lat": 42.0032027,
+      "lon": 21.4369104,
+      "bounds": {
+        "minlat": 42.0029156,
+        "minlon": 21.4367598,
+        "maxlat": 42.0033173,
+        "maxlon": 21.4373291
+      },
+      "members": [
+        {
+          "type": "way",
+          "ref": "_fullGeom77127894",
+          "role": "inner",
+          "geometry": [
+            {
+              "lat": 42.0032027,
+              "lon": 21.4369104
+            },
+            {
+              "lat": 42.0030207,
+              "lon": 21.4369259
+            },
+            {
+              "lat": 42.0030331,
+              "lon": 21.437191
+            },
+            {
+              "lat": 42.0032151,
+              "lon": 21.4371756
+            },
+            {
+              "lat": 42.0032027,
+              "lon": 21.4369104
+            }
+          ]
+        },
+        {
+          "type": "way",
+          "ref": "_fullGeom32813025",
+          "role": "outer",
+          "geometry": [
+            {
+              "lat": 42.0032939,
+              "lon": 21.4367598
+            },
+            {
+              "lat": 42.0030971,
+              "lon": 21.4367753
+            },
+            {
+              "lat": 42.0029156,
+              "lon": 21.4367896
+            },
+            {
+              "lat": 42.002939,
+              "lon": 21.4373291
+            },
+            {
+              "lat": 42.0033173,
+              "lon": 21.4372994
+            },
+            {
+              "lat": 42.0032939,
+              "lon": 21.4367598
+            }
+          ]
+        }
+      ],
+      "tags": {
+        "lat": 42.0032027,
+        "lon": 21.4369104,
+        "addr:city": "Cкoпje",
+        "addr:city:en": "Skopje",
+        "addr:country": "MK",
+        "addr:postcode": "1000",
+        "amenity": "arts_centre",
+        "building": "yes",
+        "description": "Concert venue",
+        "int_name": "Kursumli An",
+        "name": "Куршумли-ан",
+        "note": "Concert venue & Lapidarium of the Museum of Macedonia",
+        "note:mk": "Концертен двор и Лапидариум на Музејот на Македонија",
+        "tourism": "museum",
+        "type": "multipolygon",
+        "wikidata": "Q1273251"
+      }
+    }
+  ]
+}

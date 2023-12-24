@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Element from Array</title>
+</head>
+<body>
+<h1>Remove Element from Array</h1>
+
+<label for="originalList">Original List: </label>
+<input type="text" id="originalList" placeholder="2, 5, 9, 6">
+
+<label for="elementToRemove">Element to Remove: </label>
+<input type="text" id="elementToRemove" placeholder="Enter element to remove">
+
+<button onclick="removeElementAndDisplay()">Remove Element</button>
+
+<p id="result"></p>
+
+<script>
+    function removeArrayElement(originalList, elementToRemove) {
+        let modifiedList = originalList.filter(item => item !== elementToRemove);
+        return modifiedList;
+    }
+
+    function removeElementAndDisplay() {
+        let originalListElement = document.getElementById("originalList");
+        let elementToRemoveElement = document.getElementById("elementToRemove");
+        let resultElement = document.getElementById("result");
+
+        // Get input values
+        let originalListValue = originalListElement.value.split(',').map(item => parseInt(item));
+        let elementToRemoveValue = parseInt(elementToRemoveElement.value);
+
+        // Remove element
+        let resultList = removeArrayElement(originalListValue, elementToRemoveValue);
+
+        // Display the result
+        resultElement.textContent = "Result: [" + resultList.join(', ') + "]";
+    }
+</script>
+</body>
+</html>

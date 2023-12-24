@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cylinder Volume Calculator</title>
+</head>
+<body>
+<h1>Cylinder Volume Calculator</h1>
+
+<label for="radius">Enter the radius (in meters): </label>
+<input type="number" id="radius" step="any">
+
+<label for="height">Enter the height (in meters): </label>
+<input type="number" id="height" step="any">
+
+<button onclick="calculateVolume()">Calculate Volume</button>
+
+<p id="result"></p>
+
+<script>
+    // Define a Cylinder class/prototype
+    function Cylinder(radius, height) {
+        this.radius = radius;
+        this.height = height;
+    }
+
+    // Add a method to the prototype to calculate the volume
+    Cylinder.prototype.calculateVolume = function () {
+        return Math.PI * Math.pow(this.radius, 2) * this.height;
+    };
+
+    // Function to handle the button click and display the result
+    function calculateVolume() {
+        let radiusInput = document.getElementById("radius");
+        let heightInput = document.getElementById("height");
+        let resultElement = document.getElementById("result");
+
+        // Get input values
+        let radius = parseFloat(radiusInput.value);
+        let height = parseFloat(heightInput.value);
+
+        // Create a new Cylinder object
+        let cylinder = new Cylinder(radius, height);
+
+        // Calculate the volume using the prototype method
+        let volume = cylinder.calculateVolume();
+
+        // Display the result
+        resultElement.textContent = "The volume of the cylinder is: " + volume.toFixed(2) + " cubic meters";
+    }
+</script>
+</body>
+</html>

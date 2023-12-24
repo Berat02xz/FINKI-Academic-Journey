@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1</title>
+</head>
+<body>
+<!--Да се напише функција во JavaScript која како аргумент прима листа, а како резултат ја враќа листата
+каде се избришани дупликатите.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Remove Duplicates</title>
+</head>
+<body>
+<h1>Remove Duplicates from List</h1>
+
+<label for="inputList">Enter a list (comma-separated): </label>
+<input type="text" id="inputList" placeholder="1, 2, 3, 4, 2, 3, 5">
+<button onclick="removeDuplicatesAndDisplay()">Remove Duplicates</button>
+
+<p id="result"></p>
+
+<script>
+    function removeDuplicates(arr) {
+        let uniqueSet = new Set(arr);
+        return Array.from(uniqueSet);
+    }
+
+    function removeDuplicatesAndDisplay() {
+        let inputListElement =  document.getElementById("inputList");
+        let resultElement = document.getElementById("result");
+
+        let inputList = inputListElement.value.split(",");
+
+        let result = removeDuplicates(inputList);
+
+        resultElement.innerHTML = result;
+
+
+    }
+</script>
+</body>
+</html>
+
+
+</body>
+</html>

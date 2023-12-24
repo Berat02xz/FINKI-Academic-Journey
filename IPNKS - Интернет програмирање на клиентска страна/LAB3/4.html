@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Library</title>
+</head>
+<body>
+<h1>Book Library</h1>
+<p id="reader"></p>
+<script>
+    // Create an array of book objects
+    const library = [
+        { title: "The Hobbit", author: "J.R.R. Tolkien", alreadyRead: true },
+        { title: "The Lord of the Rings", author: "J.R.R. Tolkien", alreadyRead: false },
+        { title: "To Kill a Mockingbird", author: "Harper Lee", alreadyRead: true },
+        { title: "1984", author: "George Orwell", alreadyRead: false },
+        { title: "The Great Gatsby", author: "F. Scott Fitzgerald", alreadyRead: true},
+        {title: "The Catcher in the Rye", author: "J.D. Salinger", alreadyRead: false},
+    ];
+
+    // Function to display book information
+    function displayBookInfo() {
+        for (let i = 0; i < library.length; i++) {
+            let book = library[i];
+            let readStatus = book.alreadyRead ? 'already read' : 'still need to read';
+
+            console.log(`You ${readStatus} "${book.title}" by ${book.author}.`);
+            let reader = document.getElementById("reader");
+            reader.innerHTML += `You ${readStatus} "${book.title}" by ${book.author}.<br>`;
+        }
+    }
+
+    // Call the function to display book information
+    displayBookInfo();
+</script>
+</body>
+</html>
