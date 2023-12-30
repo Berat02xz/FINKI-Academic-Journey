@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LAB1</title>
+</head>
+<body>
+
+<h1>Форма за внесување оцени</h1>
+
+<label>Ime:</label>
+<input type="text" id="ime" placeholder="ime">
+</br>
+<label>Prezime:</label>
+<input type="text" id="prezime" placeholder="prezime">
+</br>
+<label>Broj na indeks:</label>
+<input type="text" id="indeks" placeholder="broj na indeks">
+</br>
+<label>Predmet:</label>
+<input type="text" id="predmet" placeholder="predmet">
+</br>
+<label>Ocena:</label>
+<select id="ocena">
+    <option value="10">10</option>
+    <option value="9">9</option>
+    <option value="8">8</option>
+    <option value="7">7</option>
+    <option value="6">6</option>
+    <option value="5" >5</option>
+</select>
+</br>
+
+<button onclick="Vnesi()">Vnesi</button>
+
+<script type="application/javascript">
+    function Vnesi(){
+        let ime= document.getElementById("ime").value;
+        let prezime= document.getElementById("prezime").value;
+        let indeks= document.getElementById("indeks").value;
+        let predmet= document.getElementById("predmet").value;
+        let ocena= document.getElementById("ocena").value;
+
+        let table = document.getElementById("HERE");
+
+        table.innerHTML += "<tr><td>"+ime+"</td><td>"+prezime+"</td><td>"+indeks+"</td><td>"+predmet+"</td><td>"+ocena+"</td><td><button onclick='deleterow(this)'>Delete</button></td></tr>";
+    }
+
+    function deleterow(row){
+        let i = row.parentNode.parentNode.rowIndex;
+        document.getElementById("HERE").deleteRow(i);
+    }
+</script>
+
+
+<br/>
+<br/>
+<br/>
+<!--Table to display the added inforation-->
+
+<style>
+    table, th, td {
+        border: 1px solid black;
+
+    }
+    label{
+        display: inline-block;
+        width: 100px;
+        text-align: right;
+    }
+</style>
+
+<table id="HERE">
+    <tr>
+        <th>Ime</th>
+        <th>Prezime</th>
+        <th>Broj na indeks</th>
+        <th>Predmet</th>
+        <th>Ocena</th>
+        <th>action</th>
+    </tr>
+    <!-- INSERT HERE -->
+</table>
+
+
+</body>
+</html>
