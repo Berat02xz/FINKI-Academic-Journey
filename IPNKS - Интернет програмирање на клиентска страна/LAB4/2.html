@@ -2,57 +2,43 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>LAB2</title>
-</head>
-<body>
+    <title>Lab2</title>
+    <script>
+        function show(){
+            const items = document.getElementById("items").value.split(',').map(el => el);
+            const isCheckBox = document.getElementById("option").value;
+            const result = document.getElementById("result");
 
-<style>
-    label{
-        display: inline-block;
-        width: 100px;
-        text-align: left;
-    }
-</style>
-
-<br>
-<br>
-<label>Items:</label>
-<input type="text" id="item" placeholder="item">
-<br>
-
-<label>Type:</label>
-<select id="type">
-    <option value="1">Radio Button</option>
-    <option value="2">Check Box</option>
-</select>
-
-<button onclick="prikazi()">Prikazi</button>
-<span id="here"></span>
-<script>
-    function prikazi() {
-        let items = document.getElementById("item").value;
-        let type = document.getElementById("type").value;
-let here = document.getElementById("here");
-
-        for(let i = 0; i < items; i++){
-            if(type == 1){
-                let radio = document.createElement("input");
-                radio.type = "radio";
-                radio.name = "radio";
-                radio.value = "radio";
-
-            }
-            else if(type == 2){
-                let checkbox = document.createElement("input");
-                checkbox.type = "checkbox";
-                checkbox.name = "checkbox";
-                checkbox.value = "checkbox";
-
+            if (isCheckBox === '2') {
+                let html = '';
+                items.forEach(it => {
+                    html += `<input type="checkbox">${it}</input>`;
+                });
+                result.innerHTML = html;
+            } else {
+                let html = '';
+                items.forEach(it => {
+                    html += `<input name="name" type="radio">${it}</input>`;
+                });
+                result.innerHTML = html;
             }
         }
-    }
 
-</script>
+    </script>
+</head>
+<body>
+<div>
+    <label for="items">Items: </label>
+    <input type="text" id="items"/>
+    <select id="option">
+        <option value="1">Radio button</option>
+        <option value="2">Checkbox</option>
+    </select>
+    <button onclick="show()">Show</button>
+</div>
+<form id="result">
+
+</form>
 
 </body>
 </html>
