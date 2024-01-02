@@ -1,8 +1,12 @@
 package mk.ukim.finki.wp.kol2022.g3.model;
 
+import org.springframework.format.annotation.DateTimeFormat;
+
+import javax.persistence.*;
 import java.time.LocalDate;
 import java.util.List;
 
+@Entity
 public class ForumUser {
 
     public ForumUser() {
@@ -17,8 +21,11 @@ public class ForumUser {
         this.birthday = birthday;
     }
 
+    @Id
+    @GeneratedValue
     private Long id;
 
+    @DateTimeFormat
     private LocalDate birthday;
 
     private String name;
@@ -27,8 +34,10 @@ public class ForumUser {
 
     private String password;
 
+    @Enumerated(EnumType.STRING)
     private ForumUserType type;
 
+    @ManyToMany
     private List<Interest> interests;
 
     public Long getId() {

@@ -2,6 +2,7 @@ package mk.ukim.finki.wp.kol2022.g3.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
+import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity;
 import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 
 /**
@@ -14,6 +15,7 @@ import org.springframework.security.config.annotation.web.configuration.WebSecur
  * For login the forum users from the database should be used, where username should be the email.
  */
 @Configuration
+@EnableWebSecurity
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override

@@ -6,17 +6,21 @@
 <body>
 <!-- The form should submit to ForumUsersController.create or ForumUsersController.update,
      depending on whether we are creating or editing an entity -->
-<form>
+<form method="post" th:action="@{'/users/{id}' (id=${forumUser?.id})}">
     <div>
         <label for="f1">Name</label>
         <input type="text"
                id="f1"
+               name="name"
+               th:value="${forumUser?.name}"
                required>
     </div>
     <div>
         <label for="f2">Email</label>
         <input type="email"
                id="f2"
+                name="email"
+               th:value="${forumUser?.email}"
                required>
     </div>
     <div>
@@ -24,26 +28,30 @@
         <!-- Do not set the value here -->
         <input type="password"
                id="f3"
+                name="password"
+               th:value="${forumUser?.password}"
                required>
     </div>
     <div>
         <label for="f6">Birthday</label>
         <input type="date"
                id="f6"
+                name="birthday"
+               th:value="${forumUser?.birthday}"
                required>
     </div>
     <div>
         <label>Type</label><br/>
-        <select id="f4">
+        <select id="f4" name="type">
             <!-- For each type you should have one <option> like below  -->
-            <option> [type_name]</option>
+            <option th:each="t : ${type}" th:text="${t}" th:value="${t}" th:selected="${forumUser?.type == t}">[type_name]</option>
         </select>
     </div>
     <div>
         <label>Interests</label><br/>
-        <select id="f5" multiple>
+        <select id="f5" multiple name="interestId">
             <!-- For each interest you should have one <option> like below  -->
-            <option value="[interest.id]"> [interest.name]</option>
+            <option value="[interest.id]" th:each="int: ${interests}" th:text="${int.name}" th:value="${int.id}" th:selected="${forumUser?.interests?.contains(int)}"> [interest.name]</option>
         </select>
     </div>
 

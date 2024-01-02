@@ -4,12 +4,15 @@ import mk.ukim.finki.wp.kol2022.g3.model.ForumUserType;
 import mk.ukim.finki.wp.kol2022.g3.model.Interest;
 import mk.ukim.finki.wp.kol2022.g3.service.ForumUserService;
 import mk.ukim.finki.wp.kol2022.g3.service.InterestService;
+import org.springframework.stereotype.Component;
 
+import javax.annotation.PostConstruct;
 import java.time.LocalDate;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+@Component
 public class DataInitializer {
 
     private final InterestService interestService;
@@ -27,6 +30,7 @@ public class DataInitializer {
         return ForumUserType.REGULAR;
     }
 
+    @PostConstruct
     public void initData() {
         for (int i = 1; i < 6; i++) {
             this.interestService.create("Interest: " + i);

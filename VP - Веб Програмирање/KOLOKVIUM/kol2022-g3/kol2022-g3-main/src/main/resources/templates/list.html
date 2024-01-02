@@ -7,22 +7,24 @@
 
 <div>
     <!-- The form below should invoke the method ForumUsersController.showList -->
-    <form id="filter-form">
+    <form id="filter-form" >
         <label for="f1">Age</label>
-        <input id="f1" type="number"/>
+        <input id="f1" type="number" name="age"/>
         <label for="f2">Interest</label>
-        <select id="f2">
+        <select id="f2" name="interestId">
             <option value="">All</option>
             <!-- For each interest you should have one <option> like below  -->
-            <option> [interest]</option>
+            <option th:each="int: ${interests}" th:text="${int.name}" th:value="${int.id}"> [interest]</option>
         </select>
         <button id="filter" type="submit">Filter</button>
     </form>
     <div>
+        <th:block>
         <!-- ForumUsersController.showAdd (Only ADMIN can see this element)-->
-        <a href="" class="add-item">
+        <a href="/users/add" class="add-item">
             Add
         </a>
+        </th:block>
     </div>
     <table>
         <tr>
@@ -33,21 +35,23 @@
             <th>Actions</th>
         </tr>
         <!-- For each user you should have one <tr> like below -->
-        <tr class="item">
-            <td>[user.name]</td>
-            <td>[user.email]</td>
-            <td>[user.type]</td>
+        <tr class="item" th:each="us: ${forumUsers}">
+            <td th:text="${us.name}">[user.name]</td>
+            <td th:text="${us.email}">[user.email]</td>
+            <td th:text="${us.type}">[user.type]</td>
             <td>
                 <!-- For each of the user.interests show the following element-->
-                <span class="item-rel"> [interest.name]</span>
+                <span class="item-rel" th:each="ui: ${us.interests}" th:text="${ui.name}"> [interest.name]</span>
             </td>
             <td>
+                <th:block>
                 <!-- ForumUsersController.delete (Only ADMIN can see this element)-->
-                <form>
+                <form method="post" th:action="@{'/users/{id}/delete' (id=${us.id})}">
                     <button type="submit" class="delete-item">Delete</button>
                 </form>
                 <!-- ForumUsersController.showEdit (Only ADMIN can see this element)-->
-                <a class="edit-item">Edit</a>
+                <a class="edit-item" th:href="@{'/users/{id}/edit' (id=${us.id})}">Edit</a>
+                </th:block>
             </td>
         </tr>
     </table>
