@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>WP Exam</title>
+</head>
+<body>
+
+<div>
+    <!-- The form below should invoke the method StudentController.showList -->
+    <form id="filter-form">
+        <label for="f1">YearsOfStudying</label>
+        <input id="f1" type="number" name="yearsOfStudying"/>
+        <label for="f2">Course</label>
+        <select id="f2" name="courseId">
+            <option value="">All</option>
+            <!-- For each course you should have one <option> like below  -->
+            <option th:each="course: ${courses}" th:value="${course.id}" th:text="${course.name}"> [course]</option>
+        </select>
+        <button id="filter" type="submit">Filter</button>
+    </form>
+    <div>
+        <th:block>
+        <!-- CourseController.showAdd (Only ADMIN can see this element)-->
+            <a href="/students/add" class="add-item">
+                Add
+            </a>
+        </th:block>
+    </div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Type</th>
+            <th>Courses</th>
+            <th>Actions</th>
+        </tr>
+        <!-- For each student you should have one <tr> like below -->
+        <tr class="item" th:each="stud: ${students}">
+            <td th:text="${stud.name}">[student.name]</td>
+            <td th:text="${stud.email}">[student.email]</td>
+            <td th:text="${stud.type}">[student.type]</td>
+            <td>
+                <!-- For each of the student.courses show the following element-->
+                <span class="item-rel" th:each="course: ${stud.courses}" th:text="courses.name"> [course.name]</span>
+            </td>
+            <td>
+                <th:block>
+                    <!-- StudentController.delete (Only ADMIN can see this element)-->
+                    <form method="post" th:action="@{'/students/{id}/delete' (id=${stud.id})}">
+                        <button type="submit" class="delete-item">Delete</button>
+                    </form>
+                    <!-- StudentController.showEdit (Only ADMIN can see this element)-->
+                    <a class="edit-item" th:href="@{'/students/{id}/edit' (id=${stud.id})}">Edit</a>
+                </th:block>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<div>
+    <ul id="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/logout">Logout</a></li>
+    </ul>
+</div>
+</body>
+</html>

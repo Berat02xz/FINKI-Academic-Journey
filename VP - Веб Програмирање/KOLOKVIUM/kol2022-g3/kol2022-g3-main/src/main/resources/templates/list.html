@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>WP Exam</title>
+</head>
+<body>
+
+<div>
+    <!-- The form below should invoke the method ForumUsersController.showList -->
+    <form id="filter-form">
+        <label for="f1">Age</label>
+        <input id="f1" type="number"/>
+        <label for="f2">Interest</label>
+        <select id="f2">
+            <option value="">All</option>
+            <!-- For each interest you should have one <option> like below  -->
+            <option> [interest]</option>
+        </select>
+        <button id="filter" type="submit">Filter</button>
+    </form>
+    <div>
+        <!-- ForumUsersController.showAdd (Only ADMIN can see this element)-->
+        <a href="" class="add-item">
+            Add
+        </a>
+    </div>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Type</th>
+            <th>Interests</th>
+            <th>Actions</th>
+        </tr>
+        <!-- For each user you should have one <tr> like below -->
+        <tr class="item">
+            <td>[user.name]</td>
+            <td>[user.email]</td>
+            <td>[user.type]</td>
+            <td>
+                <!-- For each of the user.interests show the following element-->
+                <span class="item-rel"> [interest.name]</span>
+            </td>
+            <td>
+                <!-- ForumUsersController.delete (Only ADMIN can see this element)-->
+                <form>
+                    <button type="submit" class="delete-item">Delete</button>
+                </form>
+                <!-- ForumUsersController.showEdit (Only ADMIN can see this element)-->
+                <a class="edit-item">Edit</a>
+            </td>
+        </tr>
+    </table>
+
+</div>
+<div>
+    <ul id="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/logout">Logout</a></li>
+    </ul>
+</div>
+</body>
+</html>
