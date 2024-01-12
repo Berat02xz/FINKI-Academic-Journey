@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script>
+    </script>
+</head>
+<body>
+<div>
+    <div style="text-align:right; float:left">
+        <label id="obid">Обиди 0</label>
+        <p>Погодок: <input id="guess" style="width:150px"/></p>
+        <button onclick="pogodi()">Погоди</button>
+        <button onclick="reset_start()">Од почеток</button>
+    </div>
+</div>
+<br/>
+<div id="prikaz" style="clear: both">
+</div>
+
+<!-- Да се направи игра во која корисникот треба да погоди четири цифрен цел број од 10 обиди.
+Формата за играта е прикажана на слика 3. Играта се игра на следниов начин. Пред почетокот на
+играта се генерира случаен четирицифтен број (1000 – 9999). Тоа е бројот кој играчот треба да го
+погоди. Играчот внесува четирицифрен број во input полето и притиска на копчето „Погоди“. Се
+прави проверка колку од цифрите што играчот ги внел се наоѓаат во бројот кој треба да го
+погоди и колку од нив се на вистинска позиција во бројот. Кога играчот ќе го погоди бараниот
+број се испишува порака дека успеал да погоди. Ако по завршувањето на 10те обиди играчот не
+успее да го погоди бројот се испишува соодветна порака дека не успеал да го погоди. На копчето
+„Од почеток“ играчот во секој момент може да ја стартува играта од почеток (со нов случаен
+број). -->
+
+<script>
+    var broj = Math.floor(Math.random() * 9000) + 1000;
+    var obidi = 0;
+    var pogodoci = 0;
+    var prikaz = document.getElementById("prikaz");
+    var obid = document.getElementById("obid");
+    var guess = document.getElementById("guess");
+    function pogodi(){
+        obidi++;
+        obid.innerHTML = "Обиди " + obidi;
+        var guessValue = guess.value;
+        var pogodoci = 0;
+        var pogodociNaMesto = 0;
+        var brojString = broj.toString();
+        var guessValueString = guessValue.toString();
+        for(var i = 0; i < 4; i++){
+            if(brojString.indexOf(guessValueString[i]) != -1){
+                pogodoci++;
+            }
+            if(brojString[i] == guessValueString[i]){
+                pogodociNaMesto++;
+            }
+        }
+        if(pogodociNaMesto == 4){
+            prikaz.innerHTML = "Погодок";
+            guess.disabled = true;
+        }
+        else{
+            prikaz.innerHTML += "Погодоци: " + pogodoci + " Погодоци на место: " + pogodociNaMesto + "<br/>";
+        }
+        if(obidi == 10){
+            prikaz.innerHTML = "Не успеавте да го погодите бројот";
+            guess.disabled = true;
+        }
+    }
+    function reset_start(){
+        broj = Math.floor(Math.random() * 9000) + 1000;
+        obidi = 0;
+        pogodoci = 0;
+        prikaz.innerHTML = "";
+        obid.innerHTML = "Обиди " + obidi;
+        guess.disabled = false;
+    }
+</script>
+
+</body>
+</html>

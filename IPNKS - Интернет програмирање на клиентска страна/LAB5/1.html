@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<head>
+    <script>
+    </script>
+</head>
+<body>
+<h1>Калкулатор</h1>
+<div>
+    <div style="text-align:left; float:left">
+        <p>а <input id="a" style="width:15px"/>
+            b <input id="b" style="width:15px"/></p>
+        <p>
+            <input id="plus" type="radio" name="oper" checked>a+b
+            <input id="minus" type="radio" name="oper">a-b
+            <input id="mnoz" type="radio" name="oper" >a*b
+            <input id="del" type="radio" name="oper" >a/b
+            <br>
+            <input id="sin" type="radio" name="oper">sin(a)
+            <input id="cos" type="radio" name="oper">cos(a)
+            <input id="tg" type="radio" name="oper">tg(a)
+            <br>
+            <input id="cel" type="radio" name="oper">[a]
+            <input id="stepen" type="radio" name="oper">a<sup>b</sup>
+            <input id="koren" type="radio" name="oper">&radic;<span style="text-decoration:
+overline">a</span>
+        </p>
+        <button onclick="kalkuliraj()">Пресметај</button>
+        <p id="rezultat"></p>
+    </div>
+</div>
+
+<script>
+    function kalkuliraj(){
+        var a = document.getElementById("a").value;
+        var b = document.getElementById("b").value;
+        var rezultat = document.getElementById("rezultat");
+        if(document.getElementById("plus").checked){
+            rezultat.innerHTML = parseInt(a) + parseInt(b);
+        }
+        else if(document.getElementById("minus").checked){
+            rezultat.innerHTML = parseInt(a) - parseInt(b);
+        }
+        else if(document.getElementById("mnoz").checked){
+            rezultat.innerHTML = parseInt(a) * parseInt(b);
+        }
+        else if(document.getElementById("del").checked){
+            rezultat.innerHTML = parseInt(a) / parseInt(b);
+        }
+        else if(document.getElementById("sin").checked){
+            rezultat.innerHTML = Math.sin(parseInt(a));
+        }
+        else if(document.getElementById("cos").checked){
+            rezultat.innerHTML = Math.cos(parseInt(a));
+        }
+        else if(document.getElementById("tg").checked){
+            rezultat.innerHTML = Math.tan(parseInt(a));
+        }
+        else if(document.getElementById("cel").checked){
+            rezultat.innerHTML = Math.floor(parseInt(a));
+        }
+        else if(document.getElementById("stepen").checked){
+            rezultat.innerHTML = Math.pow(parseInt(a), parseInt(b));
+        }
+        else if(document.getElementById("koren").checked){
+            rezultat.innerHTML = Math.sqrt(parseInt(a));
+        }
+
+    }
+</script>
+
+<br/>
+</body>
+</html>

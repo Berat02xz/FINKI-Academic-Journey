@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <script>
+    </script>
+</head>
+<body>
+<h1>Memory Game</h1>
+
+<!--
+ Во оваа задача треба да се направи игра слична на играта меморија (Слика 7). Екранот на играта
+е составен од табела, со 4х4 полиња. На почетокот на играта сите полиња се „затворени“
+(прикажана е слика која претставува позадина на полињата). При првиот потег играчот клика на
+едно од полињата и тоа се „отвара“ (се појавува сликата која ја крие полето) (Слика 8). При
+вториот потег се отвора ново поле (Слика 9). При третиот потег се затвора полето што е прво
+отворено. Играта продолжува на ист начин, во секој момент има отворено точно две полиња и
+при секој нареден потег се затвора прво отвореното поле од тие две (Слика 10). Ако во ист
+момент има отворено полиња кој кријат иста слика тие остануваат отворени до крајот на играта.
+Играта завршува кога ќе бидат отворени сите полиња. Под играта се наоѓа копче „RESET“ која ја
+рестартира целата игра.
+-->
+<script>
+    var openCards = [];
+    var matchedCards = 0;
+    var images = ["1.jpg", "2.jpg", "3.jpg", "4.jpg", "5.jpg", "6.jpg", "7.jpg", "8.jpg"];
+
+    function initializeGame() {
+        // Shuffle the 'images' array (you need to implement this function)
+        shuffleArray(images);
+
+        // Assign shuffled images to the cards in the grid
+        var cards = document.querySelectorAll("td img");
+        for (var i = 0; i < cards.length; i++) {
+            cards[i].src = images[i];
+        }
+
+        // Attach click event handlers to each card (td element)
+        var cells = document.querySelectorAll("td");
+        for (var i = 0; i < cells.length; i++) {
+            cells[i].addEventListener("click", function (event) {
+                var row = this.id[0];
+                var col = this.id[1];
+                openCard(row, col);
+            });
+        }
+    }
+    function shuffleArray(array) {
+        var currentIndex = array.length, randomIndex, temporaryValue;
+
+        // While there remain elements to shuffle...
+        while (currentIndex !== 0) {
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex--;
+
+            // And swap it with the current element.
+            temporaryValue = array[currentIndex];
+            array[currentIndex] = array[randomIndex];
+            array[randomIndex] = temporaryValue;
+        }
+
+        return array;
+    }
+
+
+    function openCard(row, col) {
+        var cardId = row.toString() + col.toString();
+        var currentCard = document.getElementById(cardId);
+
+        // Check if the card can be opened (not already opened or matched)
+        if (!openCards.includes(cardId) && openCards.length < 2) {
+            // Update game state based on the clicked card
+            currentCard.src = images[parseInt(cardId) - 1];
+            openCards.push(cardId);
+
+            // Check for a match if two cards are open
+            if (openCards.length === 2) {
+                var card1 = document.getElementById(openCards[0]);
+                var card2 = document.getElementById(openCards[1]);
+
+                if (card1.src === card2.src) {
+                    // Cards match
+                    matchedCards += 2;
+                    openCards = [];
+
+                    // Check if all cards are matched to end the game
+                    if (matchedCards === images.length) {
+                        alert("Congratulations! You've matched all the cards.");
+                        reset();
+                    }
+                } else {
+                    // Cards do not match, close them after a delay
+                    setTimeout(function () {
+                        card1.src = "";
+                        card2.src = "";
+                        openCards = [];
+                    }, 1000);
+                }
+            }
+        }
+    }
+    function reset() {
+        // Reset game variables
+        openCards = [];
+        matchedCards = 0;
+
+        // Reinitialize the game
+        initializeGame();
+    }
+
+    // Call initializeGame when the page loads
+    window.onload = initializeGame;
+
+</script>
+<div style="text-align:left; float:left">
+    <table border="1">
+        <tr>
+            <td id="11"><img src=""/></td>
+            <td id="12"><img src=""/></td>
+            <td id="13"><img src=""/></td>
+            <td id="14"><img src=""/></td>
+        </tr>
+        <tr>
+            <td id="21"><img src=""/></td>
+            <td id="22"><img src=""/></td>
+            <td id="23"><img src=""/></td>
+            <td id="24"><img src=""/></td>
+        </tr>
+        <tr>
+            <td id="31"><img src=""/></td>
+            <td id="32"><img src=""/></td>
+            <td id="33"><img src=""/></td>
+            <td id="34"><img src=""/></td>
+        </tr>
+        <tr>
+            <td id="41"><img src=""/></td>
+            <td id="42"><img src=""/></td>
+            <td id="43"><img src=""/></td>
+            <td id="44"><img src=""/></td>
+        </tr>
+    </table>
+    <input type="submit" onclick="reset()" value="RESET"/>
+</div>
+<br/>
+</body>
