@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vezhba 3</title>
+</head>
+<body>
+
+<label>Red:</label>
+<input type="number" min="0" max="255" value="0" id="red"/>
+<label>(0-255)</label><br><br>
+<label>Green:</label>
+<input type="number" min="0" max="255" value="0" id="green"/>
+<label>(0-255)</label><br><br>
+<label>Blue:</label>
+<input type="number" min="0" max="255" value="0" id="blue"/>
+<label>(0-255)</label><br><br>
+<label>Start</label><input type="radio" name="elementPosition" value="top" id="top"/>
+<label>End</label><input type="radio" name="elementPosition" value="end" id="end"/><br><br>
+<label>Text: </label><input type="text" id="textValue"/><br><br>
+<button onclick="addElement()">Add</button>
+<button onclick="removeElement()">Delete</button>
+<div id="toPutElems"></div>
+
+<script type="text/javascript">
+  function addElement() {
+    let red = document.getElementById('red').value;
+    let green = document.getElementById('green').value;
+    let blue = document.getElementById('blue').value;
+    let top = document.getElementById('top');
+    let end = document.getElementById('end');
+    let textValue = document.getElementById('textValue').value;
+    let toPutElems = document.getElementById('toPutElems');
+
+    if(textValue === "") return;
+    let paragraph = document.createElement('p');
+    paragraph.style.color = `rgb(${red}, ${green}, ${blue})`;
+    paragraph.innerHTML = textValue;
+    if(top.checked) {
+      toPutElems.prepend(paragraph);
+    }
+    if(end.checked) {
+      toPutElems.append(paragraph);
+    }
+    document.getElementById('textValue').value = "";
+  }
+  function removeElement() {
+    let top = document.getElementById('top');
+    let end = document.getElementById('end');
+    let toPutElems = document.getElementById('toPutElems');
+    if(top.checked) {
+      toPutElems.removeChild(toPutElems.childNodes[0]);
+    }
+    if(end.checked) {
+      toPutElems.removeChild(toPutElems.childNodes[toPutElems.childNodes.length-1]);
+    }
+  }
+</script>
+</body>
+</html>

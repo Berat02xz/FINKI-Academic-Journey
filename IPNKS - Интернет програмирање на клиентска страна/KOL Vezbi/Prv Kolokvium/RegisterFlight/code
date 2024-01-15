@@ -1,0 +1,157 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Register Flight</title>
+
+    <script type="text/javascript">
+
+        let counter = 0;
+        function najavi() {
+
+            let name = document.getElementById('name');
+            let flight = document.getElementById('flight');
+            let coordinates = document.getElementById('coordinates');
+            let radius = document.getElementById('radius');
+            let height = document.getElementById('height');
+            let type = document.getElementById('typeFlight');
+            let add = document.getElementById('toAddFlights');
+            let overall = document.getElementById('overall');
+
+            if(checkFlight(flight) === false || checkRadius(radius) === false || checkHeight(height) === false) {
+                alert("Грешка во запис: \nКод за летало; Format(Z3-UNR-XXXX)\nРадиусот не може да биде под 1 или над 500\nВисината не може да биде под 1 или над 150");
+                return;
+            }
+
+            if(name.value === "" || flight.value === "" || coordinates.value === "" || radius.value === "" || height.value === "" || type.value === "") {
+                alert("Неправилен внес на податоци");
+                return;
+            }
+
+            if(type.value === "Едрилица") {
+
+                add.innerHTML += "<div class='edrilica'><p>"+name.value+" "+flight.value+"</p> <p>Радиус "+radius.value+", Висина "+height.value+"</p><p>"+type.value+"</p><p><button onclick='potvrdi(this)'>Potvrdi</button><button onclick='otkazi(this)'>Otkazi</button></p></div>"
+                counter++;
+                overall.innerHTML = counter;
+            }
+
+            if(type.value === 'Дрон') {
+                if(radius.value === height.value) {
+                    add.innerHTML += "<div class='dron'><p>"+name.value+" "+flight.value+"</p> <p>Радиус "+radius.value+", Висина "+height.value+"</p><p>"+type.value+"</p><p><button onclick='potvrdi(this)'>Potvrdi</button><button onclick='otkazi(this)'>Otkazi</button></p></div>"
+                    counter++;
+                    overall.innerHTML = counter;
+                }
+                else {
+                    add.innerHTML += "<div><p>"+name.value+" "+flight.value+"</p> <p>Радиус "+radius.value+", Висина "+height.value+"</p><p>"+type.value+"</p><p><button onclick='potvrdi(this)'>Potvrdi</button><button onclick='otkazi(this)'>Otkazi</button></p></div>"
+                    counter++;
+                    overall.innerHTML = counter;
+                }
+            }
+
+            name.value = '';
+            flight.value = '';
+            coordinates.value = '';
+            radius.value = '';
+            height.value = '';
+            type.value = '';
+        }
+
+        function checkFlight(flightID) {
+            let firstPart = flightID.value.slice(0,7);
+            let secondPart = flightID.value.slice(7);
+            secondPart = parseInt(secondPart);
+            if(firstPart === "Z3-UNR-" && !isNaN(secondPart) && flightID.value.slice(7).length === 4)
+                return true;
+            else {
+                return false;
+            }
+        }
+
+        function checkRadius(r) {
+            let radius = r.value;
+            radius = parseInt(r.value);
+            if(radius < 1 || radius > 500) {
+                return false;
+            }
+        }
+
+        function checkHeight(h) {
+            let height = h.value;
+            height = parseInt(height);
+            if(height < 1 || height > 150) {
+                return false;
+            }
+        }
+
+        function potvrdi(o) {
+            let parent = o.parentNode.parentNode;
+            parent.style.backgroundColor = "greenyellow";
+            o.disabled = true;
+            o.nextSibling.disabled = true;
+        }
+
+        function otkazi(o) {
+            let parent = o.parentNode.parentNode;
+            counter--;
+            overall.innerHTML = counter;
+            parent.remove(o);
+        }
+
+
+    </script>
+
+    <style>
+
+        .edrilica, .dron {
+
+            width: 250px;
+            height: 180px;
+            border: 1px solid black;
+
+        }
+
+        #toAddFlights div{
+            display: inline-block;
+            margin: 10px;
+        }
+
+    </style>
+</head>
+<body>
+<h2>Регистрирај летало</h2>
+<div>
+
+    <label>Име и презиме</label>
+    <input type="text" id="name"/><br><br>
+
+    <label>Ознака на летало</label>
+    <input type="text" id="flight"/><br><br>
+
+    <label>Координати</label>
+    <input type="text" id="coordinates"/><br><br>
+
+    <label>Радиус на лет</label>
+    <input type="text" id="radius"/><br><br>
+
+    <label>Висина на лет</label>
+    <input type="text" id="height"/><br><br>
+
+    <label>Тип на лет</label>
+    <select id="typeFlight">
+
+        <option></option>
+        <option>Едрилица</option>
+        <option>Дрон</option>
+
+    </select>
+
+
+</div>
+<br>
+<button onclick="najavi()">Најави</button>
+<h2>Регистрирани летови</h2>
+<h3>Вкупно летови: <span id="overall"></span></h3><br>
+<div id="toAddFlights"></div>
+</body>
+</html>

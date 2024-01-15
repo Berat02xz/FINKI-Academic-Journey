@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Kolokvium termin 2</title>
+</head>
+
+<body>
+
+<h2 class="random"></h2>
+
+<div id="tables">
+
+</div>
+
+</body>
+    
+<style>
+    .random {
+        width: 300px;
+        margin: auto;
+        text-align: center;
+    }
+    #tables {
+        width: 300px;
+        margin: auto;
+    }
+    table {
+        border: 1px solid black;
+        margin-bottom: 10px;
+    }
+    table:first-of-type {
+        margin-top: 100px;
+    }
+    td {
+       border: 1px solid black;
+    }
+</style>
+
+<script type="text/javascript">
+
+    let gameFinished = false;
+
+    let data = '[{"id":"0","numbers":[54,12,78,91,36,5,67,22,43,89,14,76,28,61,97]},{"id":"1","numbers":[88,41,16,73,29,95,60,3,65,32,79,18,47,83,10]},{"id":"2","numbers":[17,64,9,45,82,30,52,70,11,68,25,57,94,39,75]}]';
+
+    data = JSON.parse(data);
+
+    console.log(data[0].numbers.length);
+
+    function handleClick(cell) {
+            var numberClicked = cell.textContent;
+            parseInt(numberClicked);
+            parseInt(random.innerHTML);
+
+            if(numberClicked === random.innerHTML) {
+                cell.style.backgroundColor = "limegreen";
+            }
+
+            console.log(cell.parentNode.parentNode);
+
+            var allCellsClicked = true;
+            var allTableCells = document.querySelectorAll("td");
+            allTableCells.forEach(function (tableCell) {
+                if (tableCell.style.backgroundColor !== "limegreen") {
+                    allCellsClicked = false;
+                    return;
+                }
+            });
+
+            if (allCellsClicked) {
+                gameFinished = true;
+            }
+
+    }
+    
+    var random = document.getElementsByClassName('random')[0];
+    var interval = setInterval(() => {
+        random.innerHTML = Math.floor(Math.random()*99+1);
+
+        if(gameFinished) {
+            clearInterval(interval);
+        }
+
+    },3000);
+
+    var tables = document.getElementById('tables');
+
+    for(let i=0; i<data.length; i++) {
+        let table = document.createElement('table');
+        table.setAttribute('id', data[i].id);
+
+        for(let j=0; j<data[i].numbers.length; j += 5){
+            let row = document.createElement('row');
+            row.style.display = "block";
+
+            for(let k=j; k < j + 5 && k < data[i].numbers.length; k++) {
+                let cell = document.createElement('td');
+                cell.textContent = data[i].numbers[k];
+                cell.addEventListener('click', function(){
+                    handleClick(this);
+                })
+
+                row.appendChild(cell);
+            }
+
+            table.appendChild(row);
+        }
+        tables.appendChild(table);
+        
+    }
+
+    
+
+</script>
+
+</html>

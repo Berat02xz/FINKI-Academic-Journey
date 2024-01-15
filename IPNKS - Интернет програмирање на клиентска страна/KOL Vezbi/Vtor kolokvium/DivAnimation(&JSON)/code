@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vezhba 4</title>
+</head>
+<body>
+
+<input type="button" value=">" onclick="moveRight()"/>
+<input type="button" value="<" onclick="moveLeft()"/><br><br>
+
+<script>
+  let data = '[{"background-color":"red", "width":"100px", "height":"100px"}, {"background-color":"green", "width":"50px", "height":"100px"}, {"background-color":"blue", "width":"100px", "height":"50px"}]';
+  data = JSON.parse(data);
+
+  let divCard = document.createElement('div');
+  let index = 0;
+
+  divCard.style.backgroundColor = data[0]['background-color'];
+  divCard.style.width = data[0].width;
+  divCard.style.height = data[0].height;
+  divCard.style.position = "absolute";
+  divCard.left = 0;
+
+  document.body.append(divCard);
+
+  function changeDiv() {
+    divCard.style.backgroundColor = data[index]['background-color'];
+    divCard.style.width = data[index].width;
+    divCard.style.height = data[index].height;
+  }
+
+  function moveRight() {
+    animRight = setInterval(moveRightAnim, 10);
+  }
+
+  function moveRightAnim() {
+    divCard.left++;
+    divCard.style.left = divCard.left+"px";
+    if(divCard.left > 300) {
+      index--;
+      if(index < 0) {
+        index = data.length-1;
+      }
+      changeDiv();
+      divCard.left = -data[index].width.split("px")[0]-5;
+      divCard.style.left = divCard.left+"px";
+    }
+    if(divCard.left == 0) {
+      clearInterval(animRight);
+    }
+  }
+
+  function moveLeft() {
+    animLeft = setInterval(moveLeftAnim, 10);
+  }
+
+  function moveLeftAnim() {
+    divCard.left--;
+    divCard.style.left = divCard.left+"px";
+    if(divCard.left < -data[index].width.split("px")[0]-5) {
+      index++;
+      if(index >= data.length) {
+        index = 0;
+      }
+      changeDiv();
+      divCard.left = 200;
+      divCard.style.left = divCard.left+"px";
+    }
+    if(divCard.left == 0) {
+      clearInterval(animLeft);
+    }
+  }
+</script>
+
+</body>
+</html>

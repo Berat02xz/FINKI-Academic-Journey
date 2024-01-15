@@ -1,0 +1,173 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Kolokvium - Recreation</title>
+
+    <script type="text/javascript">
+
+        let arrOfUsers = [];
+
+        function addCard() {
+            let username = document.getElementById('username');
+            let widthValue = document.getElementById('widthValue');
+            let heightValue = document.getElementById('heightValue');
+            let cardCode = document.getElementById('cardID');
+            let cardColor = document.getElementById('cardColor');
+            let cardDiv = document.getElementById('createdCards');
+
+            if(username.value === "" || widthValue.value === "" || heightValue.value === "" || cardCode.value === "" || cardColor.value === "") {
+                alert("ERROR: Invalid input");
+                return;
+            }
+
+            if(checkCardID(cardCode) && checkValueOf(widthValue) && checkValueOf(heightValue)) {
+                if(!checkCardDuplicates(cardCode.value)) {
+                    let newCard = {
+                        username: username.value,
+                        width: widthValue.value,
+                        height: heightValue.value,
+                        cardCode: cardCode.value,
+                        cardColor: cardColor.value
+                    }
+                    let newDiv = document.createElement('div');
+                    newDiv.style.background = cardColor.value.toLowerCase();
+                    newDiv.id = cardCode.value;
+                    newDiv.style.width = widthValue.value + 'px';
+                    newDiv.style.height = heightValue.value + 'px';
+                    let cardValue = cardColor.value === "Green" ? valueCalculator(widthValue.value, heightValue.value)*1000 : valueCalculator(widthValue.value, heightValue.value);
+                    newDiv.innerHTML = `<p>CardID: ${cardCode.value}</p><p>Width: ${widthValue.value}</p><p>Height: ${heightValue.value}</p><p>Value: ${cardValue}</p><p><button onclick="sell(${cardCode.value})">Sell card</button></p>`;
+                    cardDiv.appendChild(newDiv);
+                    arrOfUsers.push(newCard);
+                }
+                else {
+                    let storedCard = arrOfUsers.find(u => u.cardCode === cardCode.value);
+                    let user = document.getElementById(cardCode.value);
+                    user.style.background = cardColor.value.toLowerCase();
+                    user.style.width = widthValue.value + 'px';
+                    user.style.height = heightValue.value + 'px';
+                    let cardValue = cardColor.value === "Green" ? valueCalculator(widthValue.value, heightValue.value)*1000 : valueCalculator(widthValue.value, heightValue.value);
+                    user.innerHTML = `<p>CardID: ${cardCode.value}</p><p>Width: ${widthValue.value}</p><p>Height: ${heightValue.value}</p><p>Value: ${cardValue}</p><p><button onclick="sell(${cardCode.value})">Sell card</button></p>`;
+                    storedCard.username = username.value;
+                    storedCard.width = widthValue.value;
+                    storedCard.height = heightValue.value;
+                    storedCard.cardColor = cardColor.value;
+                }
+            }
+
+        }
+
+        function checkCardID(cardID) {
+            if(cardID.value.match(/[A-Z]+/) || cardID.value.match(/[0-9]+/))
+                return false;
+            return true;
+        }
+
+        function valueCalculator(width, height) {
+            return parseInt(width) * parseInt(height) * 0.5;
+        }
+
+        function checkValueOf(widthorheight) {
+            if(parseInt(widthorheight.value) > 350) return false;
+            return true;
+        }
+
+        function sell(cardId) {
+            let storedCard = arrOfUsers.find(u => u.cardCode === cardId.id);
+            let toPutValue = document.getElementById('toPutValue');
+            let putValueCurrent = parseInt(toPutValue.innerHTML);
+            let v = storedCard.cardColor === "Green" ? valueCalculator(storedCard.width, storedCard.height)*1000 : valueCalculator(storedCard.width, storedCard.height);
+            toPutValue.innerHTML = putValueCurrent+v;
+            let card = document.getElementById(storedCard.cardCode);
+            let cardDiv = document.getElementById('createdCards');
+            arrOfUsers = arrOfUsers.filter(u => u.cardCode !== cardId.id);
+            cardDiv.removeChild(card);
+        }
+
+        function checkCardDuplicates(cardid) {
+            return Boolean(arrOfUsers.find(u => u.cardCode === cardid));
+        }
+
+    </script>
+
+    <style>
+
+        h1 {
+            text-align: center;
+        }
+
+        #inputs div{
+            margin: 10px;
+        }
+
+        #inputs label {
+            font-size: 1.2rem;
+        }
+
+        #btnAdd {
+            padding: 2px;
+            font-size: 1.15rem;
+            text-align: center;
+        }
+        p {
+            font-weight: bold;
+            font-size: 1.1rem;
+            text-align: center;
+        }
+        .pp {
+            color: white;
+        }
+        #createdCards div {
+            display: inline-block;
+            margin: 10px;
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+<h1>User Cards</h1>
+<div id="inputs">
+
+    <div>
+        <label>Username</label>
+        <input type="text" id="username"/>
+    </div>
+
+    <div>
+        <label>Width</label>
+        <input type="text" id="widthValue"/>
+        <label>px</label>
+    </div>
+
+    <div>
+        <label>Height</label>
+        <input type="text" id="heightValue"/>
+        <label>px</label>
+    </div>
+
+    <div>
+        <label>Card Code</label>
+        <input type="text" id="cardID"/>
+    </div>
+
+    <div>
+        <label>Card Color</label>
+        <select id="cardColor">
+            <option></option>
+            <option>Red</option>
+            <option>Blueviolet</option>
+            <option>Green</option>
+            <option>Yellow</option>
+        </select>
+    </div>
+
+</div>
+
+<button id="btnAdd" onclick="addCard()">Create card</button>
+
+<h3>Sold cards (value): <span id="toPutValue">0</span></h3><br>
+<div id="createdCards"></div>
+</body>
+</html>

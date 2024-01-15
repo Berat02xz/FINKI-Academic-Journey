@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vrteleshka</title>
+    <script type="text/javascript">
+
+        function storeNumber() {
+            let store = document.getElementById("numberToChoke");
+            let whereToPut = document.getElementById("toAdd");
+            let num = parseInt(store.value);
+            if(!isNaN(num) && store.value.length === 10) {
+                whereToPut.innerHTML += "<li>"+num+"</li>"
+            }
+            else {
+                alert("Not a number or longer than 10 digits");
+            }
+        }
+
+        function flipNumber() {
+            let store = document.getElementById("numberToChoke");
+            let putStringInArray = store.value.split("");
+            let reverseArray = putStringInArray.reverse();
+            let flipNum = reverseArray.join("");
+            flipNum = parseInt(flipNum);
+            if(!isNaN(flipNum) && store.value.length === 10) {
+                store.value = flipNum;
+            }
+            else {
+                alert("Not a number or longer than 10 digits");
+            }
+        }
+
+        function first() {
+            let store = document.getElementById("numberToChoke");
+            let toPutFirst = store.value.slice(store.value.length-1);
+            let afterFirst = store.value.slice(0, store.value.length-1);
+            let putTogether = toPutFirst+afterFirst;
+            store.value = putTogether;
+        }
+
+        function last() {
+            let store = document.getElementById("numberToChoke");
+            let toPutLast = store.value.slice(0,1);
+            let beforeLast = store.value.slice(1);
+            let putTogether = beforeLast+toPutLast;
+            store.value = putTogether;
+        }
+
+        function checkNumber() {
+            let store = document.getElementById("numberToChoke");
+            let perfectNumber = document.getElementById("perfecto");
+            for(let i = 0; i < store.value.length - 1; i++){
+                if(parseInt(store.value[i]) % 2 === 0 && parseInt(store.value[i+1]) % 2 === 0)
+                    perfectNumber.innerHTML = "Perfect number: "+store.value+" ";
+                else
+                    perfectNumber.innerHTML = "Not a Perfect number";
+            }
+        }
+
+    </script>
+</head>
+<body>
+
+<input type="number" id="numberToChoke"/>
+<input type="button" value="<" onclick="last()">
+<input type="button" value=">" onclick="first()">
+<input type="button" value="FLIP" onclick="flipNumber()">
+<input type="button" value="STORE" onclick="storeNumber()">
+<input type="button" value="CHECK" onclick="checkNumber()">
+<h2 id="perfecto"></h2>
+<ul id="toAdd"></ul>
+
+</body>
+</html>

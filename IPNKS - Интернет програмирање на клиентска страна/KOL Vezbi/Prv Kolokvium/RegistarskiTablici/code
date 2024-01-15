@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anthony's workspace</title>
+    <style>
+        label {
+            font-size: 1.1rem;
+        }
+        #btn {
+            padding: 5px;
+            font-size: 1.1rem;
+        }
+        table, tr, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        .gold {
+            background-color: goldenrod;
+            border: 1px solid black;
+            width: 250px;
+            height: 200px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .normal {
+            background-color: darkviolet;
+            color: white;
+            border: 1px solid black;
+            width: 250px;
+            height: 200px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .red {
+            background-color: red;
+            color: white;
+            border: 1px solid black;
+            width: 250px;
+            height: 200px;
+            font-size: 1.1rem;
+            font-weight: bold;
+        }
+        .namesti {
+            display: inline-block;
+            margin-right: 10px;
+        }
+        #licenceKeys {
+            width: 100%;
+            height: 350px;
+        }
+    </style>
+    <script type="text/javascript">
+        let counter = 0;
+
+        function payTax(o) {
+            let conf = confirm("Are you sure you wanna pay?");
+            if(conf) alert("You payed your tax");
+            o.disabled = true;
+            o.nextSibling.disabled = true;
+        }
+
+        function deleteCard(o) {
+            o = o.parentNode;
+            o.parentNode.removeChild(o);
+            counter--;
+            let licCounter = document.getElementById("licCounter");
+            licCounter.innerHTML = counter;
+        }
+
+        function remove(o) {
+            o = o.parentNode.parentNode;
+            o.parentNode.removeChild(o);
+        }
+
+        function add() {
+            let name = document.getElementById("name");
+            let surname = document.getElementById("surname");
+            let licPlate = document.getElementById("licPlate");
+            let table = document.getElementById("tabela");
+            let regdate = document.getElementById("regDate");
+            let cards = document.getElementById("licenceKeys");
+            let licCounter = document.getElementById("licCounter");
+
+            if(name.value === "" || surname.value === "" || regdate.value === "" || licPlate.value === "") {
+                alert("You are missing some part of the form!");
+                return;
+            }
+
+            if(checkLicensePlate(licPlate) === false) {
+                alert("Please enter correct license plate");
+                return;
+            }
+
+            table.innerHTML += "<tr><td>Name "+name.value+"</td><td>Surname: "+surname.value+"</td><td>Manufacture Year "+regdate.value+"</td><td>License Plate "+licPlate.value+"</td><td><button onclick='remove(this)'>Remove</button></td></tr>"
+            let baseTax = 1500;
+            let currTax = baseTax;
+            // Ako voziloto e postaro od 2004 togas se plakja +500$, vo sprotivno ne se plakja nishto.
+            // Ako voziloto ima zlatni tablicki se plakja +3000$.
+            if(checkCarAge(regdate)) {
+                if(isPremiumLicensePlate(licPlate)) {
+                    currTax += 3000;
+                    cards.innerHTML += "<div class='gold namesti'><p>Name & Surname: "+name.value+" "+surname.value+"</p><p>License Plate: "+licPlate.value+"</p><p>Total cost: "+currTax+"$</p><input type='button' onclick='payTax(this)' value='Pay'/><input type='button' onclick='deleteCard(this)' value='Delete'/></div>"
+                    counter++;
+                    licCounter.innerHTML = counter;
+                }
+                else {
+                    cards.innerHTML += "<div class='normal namesti'><p>Name & Surname: "+name.value+" "+surname.value+"</p><p>License Plate: "+licPlate.value+"</p><p>Total cost: "+currTax+"$</p><input type='button' onclick='payTax(this)' value='Pay'/><input type='button' onclick='deleteCard(this)' value='Delete'/></div>"
+                    counter++;
+                    licCounter.innerHTML = counter;
+                }
+            }
+            else {
+                currTax += 500;
+                cards.innerHTML += "<div class='red namesti'><p>Name & Surname: "+name.value+" "+surname.value+"</p><p>License Plate: "+licPlate.value+"</p><p>Total cost: "+currTax+"$</p><input type='button' onclick='payTax(this)' value='Pay'/><input type='button' onclick='deleteCard(this)' value='Delete'/> </div>"
+                counter++;
+                licCounter.innerHTML = counter;
+            }
+
+
+            name.value = "";
+            surname.value = "";
+            regdate.value = "";
+            licPlate.value = "";
+
+        }
+
+        function checkCarAge(regdate) {
+            if(regdate.value < 2004) return false;
+            return true;
+
+        }
+
+        function isPremiumLicensePlate(licensePlate) {
+            let fnum = licensePlate.value.slice(3,7);
+            for(let i=0; i<fnum.length-1; i++) {
+                if(fnum[i] !== fnum[i+1])
+                    return false;
+            }
+            return true;
+        }
+
+        function checkLicensePlate(licensePlate) {
+            let controller = /^[A-Z][A-Z]-[0-9][0-9][0-9][0-9]-[A-Z][A-Z]$/;
+            if(licensePlate.value.length === 10 && controller.test(licensePlate.value)) return true;
+            else return false;
+        }
+
+    </script>
+</head>
+<body>
+<div>
+    <label>Name</label>
+    <input type="text" id="name"/> <br><br>
+
+    <label>Surname</label>
+    <input type="text" id="surname"/> <br><br>
+
+    <label>Car Manufacture Year: </label>
+    <input type="text" id="regDate"/> <br><br>
+
+    <label>License Plate</label>
+    <input type="text" id="licPlate"/> <br><br>
+</div>
+<button id="btn" onclick="add()">Add user</button>
+<br><br>
+<table id="tabela">
+    <thead>
+    <th>Name</th>
+    <th>Surname</th>
+    <th>Manufacture Year</th>
+    <th>License Plate</th>
+    </thead>
+</table>
+<br><br>
+<h2>Total licenses created: <span id="licCounter">0</span></h2>
+<div id="licenceKeys"></div>
+</body>
+</html>

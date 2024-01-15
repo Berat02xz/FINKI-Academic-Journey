@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students' grades</title>
+
+    <style>
+        label {
+            font-size: 1.2rem;
+            margin-right: 5px;
+        }
+        table, tr, th, td {
+            border: 1px solid black;
+            padding: 3px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        .thisOne {
+            display: flex;
+            justify-content: space-around;
+        }
+        ul {
+            list-style-type: circle;
+        }
+        li {
+            font-size: 1.21rem;
+        }
+    </style>
+    <script type="text/javascript">
+
+        function displayRadioValue() {
+            let ele = document.getElementsByName('grades');
+
+            for(i = 0; i < ele.length; i++) {
+                if(ele[i].checked)
+                    return ele[i].value;
+            }
+        }
+
+        function checkIfRadioClicked() {
+            let ele = document.getElementsByName('grades');
+            let counter = 0;
+            for(let i=0; i<ele.length; i++) {
+                if(ele[i].checked === false) {
+                    counter++;
+                }
+            }
+            if(counter === ele.length) return false;
+            else return true;
+        }
+
+        let gradesCounter = 0;
+        let allGrades = 0;
+        function importStudent() {
+
+            let name = document.getElementById("name");
+            let index = document.getElementById("index");
+            let phone = document.getElementById("phone");
+            let grades = document.getElementsByName("grades");
+            let session = document.getElementById("session");
+            let tableAdd = document.getElementById("studentTable");
+            let averageGrades = document.getElementById("ocenki");
+
+            if(phone.value.length !== 9) {
+                alert("Invalid phone number!");
+                return;
+            }
+
+            if(name.value === "" || index.value === "" || phone.value === "" || session.value === "" || checkIfRadioClicked() === false) {
+                alert("Invalid input");
+                return;
+            }
+
+            tableAdd.innerHTML += "<tr><td>"+name.value+"</td><td>"+index.value+"</td><td>"+formatTel(phone.value)+"</td><td id='valueOfGrade'>"+displayRadioValue()+"</td><td>"+session.value+"</td><td><button onclick='confirmGrade(this)'>Confirm</button><button onclick='revert(this)'>Revert</button> </td></tr>"
+            gradesCounter++;
+            let getGrade = displayRadioValue();
+            let parsedGrade = parseInt(getGrade);
+            allGrades = allGrades + parsedGrade;
+            let average = allGrades / gradesCounter;
+            console.log(parsedGrade +" "+allGrades+" "+gradesCounter);
+            averageGrades.innerHTML = average.toFixed(1)
+
+            name.value = '';
+            index.value = '';
+            phone.value = '';
+            session.value = 'January';
+            for(let i=0; i<grades.length; i++) {
+                grades[i].checked = false;
+            }
+        }
+
+        function confirmGrade(o) {
+                let parent = o.parentNode.parentNode;
+                parent.style.backgroundColor = "greenyellow";
+                o.disabled = true;
+                o.nextSibling.disabled = true;
+        }
+
+        function revert(o) {
+            let addToRevert = document.getElementById("revertList");
+            let parent = o.parentNode.parentNode;
+            let index = o.parentNode.previousSibling.previousSibling.previousSibling.previousSibling;
+            let grade = o.parentNode.previousSibling.previousSibling;
+            addToRevert.innerHTML += "<li>"+index.innerHTML+" - grade: "+grade.innerHTML+" </li>"
+            parent.remove(o);
+            let averageGrades = document.getElementById("ocenki");
+            gradesCounter--;
+            allGrades -= parseInt(grade.innerHTML);
+            let average = allGrades / gradesCounter;
+            if(gradesCounter === 0) averageGrades.innerHTML = 0;
+            else
+            averageGrades.innerHTML = average.toFixed(1);
+        }
+
+        function formatTel(tel) {
+            let firstPart = tel.slice(0,3);
+            firstPart = parseInt(firstPart);
+            let secondPart = tel.slice(3,6);
+            secondPart = parseInt(secondPart);
+            let thirdPart = tel.slice(6);
+            thirdPart = parseInt(thirdPart);
+            if(!isNaN(firstPart) && !isNaN(secondPart) && !isNaN(thirdPart)) {
+                return tel.slice(0,3)+"/"+tel.slice(3,6)+"-"+tel.slice(6);
+            }
+        }
+    </script>
+</head>
+<body>
+<div class="thisOne">
+<div class="first">
+<h2>Details</h2>
+<div>
+    <label>Name</label>
+    <input type="text" id="name"/><br><br>
+
+    <label>Index</label>
+    <input type="text" id="index"/><br><br>
+
+    <label>Phone</label>
+    <input type="text" id="phone"/><br><br>
+
+    <form id="st_grades">
+        <label>Grade</label>
+        <input type="radio" id="grade5" value="5" name="grades"/><label>5</label>
+        <input type="radio" id="grade6" value="6" name="grades"/><label>6</label>
+        <input type="radio" id="grade7" value="7" name="grades"/><label>7</label>
+        <input type="radio" id="grade8" value="8" name="grades"/><label>8</label>
+        <input type="radio" id="grade9" value="9" name="grades"/><label>9</label>
+        <input type="radio" id="grade10" value="10" name="grades"/><label>10</label>
+    </form>
+    <br>
+    <label>Session</label>
+    <select id="session">
+        <option>January</option>
+        <option>June</option>
+        <option>September</option>
+    </select>
+</div>
+<br>
+<button id="imprt" onclick="importStudent()">Import student</button>
+<br><br>
+<h3>Average grade: <span id="ocenki">0</span></h3>
+<table id="studentTable">
+    <thead>
+    <th>Name</th>
+    <th>Index</th>
+    <th>Phone</th>
+    <th>Grade</th>
+    <th>Session</th>
+    <th>Actions</th>
+    </thead>
+</table>
+</div>
+<div class="second">
+    <h2>Revert history</h2>
+    <ul id="revertList">
+    </ul>
+</div>
+</div>
+</body>
+</html>
