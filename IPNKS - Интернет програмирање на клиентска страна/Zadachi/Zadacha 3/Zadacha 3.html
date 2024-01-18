@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<input type="button" value="<" onclick="move('<')">
+<input type="button" value=">" onclick="move('>')">
+
+<script>
+    data = '[{"background-color":"red", "width":"100px", "height":"100px"}, {"background-color":"green", "width":"50px", "height":"100px"}, {"background-color":"blue", "width":"100px", "height":"50px"}]';
+    data = JSON.parse(data);
+
+    index = 0;
+    animStart = false;
+
+    var newDiv = document.createElement("div");
+
+    newDiv['left'] = 0;
+    changeDiv(data[0]);
+    document.body.appendChild(newDiv);
+
+    function changeDiv(dataElem)
+    {
+        newDiv.style.backgroundColor = dataElem['background-color'];
+        newDiv.style.width = dataElem['width'];
+        newDiv.style.height = dataElem['height'];
+        newDiv.style.position = 'absolute'
+    }
+
+    function move(dir)
+    {
+        if (!animStart) {
+            if (dir == '<')
+                inter = setInterval(animMoveLeft, 10);
+            if (dir == '>')
+                inter = setInterval(animMoveRight, 10);
+        }
+    }
+
+    function animMoveLeft()
+    {
+        animStart = true;
+        newDiv['left']-=5;
+        newDiv.style.left = newDiv['left']+"px";
+        if(newDiv['left'] < -150)
+        {
+            index++;
+            if(index>=data.length)
+                index = 0;
+            changeDiv(data[index]);
+
+            newDiv['left'] = 1500;
+            newDiv.style.left = newDiv['left']+"px";
+        }
+
+        if(newDiv['left'] == 0) {
+            clearInterval(inter);
+            animStart = false;
+        }
+    }
+
+    function animMoveRight()
+    {
+        animStart = true;
+        newDiv['left']+=5;
+        newDiv.style.left = newDiv['left']+"px";
+        if(newDiv['left'] > 1500)
+        {
+            index--;
+            if(index < 0)
+                index = data.length - 1;
+
+            changeDiv(data[index]);
+
+            newDiv['left'] = -150;
+            newDiv.style.left = newDiv['left']+"px";
+        }
+
+        if(newDiv['left'] == 0) {
+            clearInterval(inter);
+            animStart = false;
+        }
+    }
+
+</script>
+</body>
+</html>

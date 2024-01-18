@@ -1,0 +1,46 @@
+<html>
+<head></head>
+<body>
+<p>Colors</p><input id="colors"></input>
+<p>Delimiter</p><input id="delimiter"></input>
+<br/><br/>
+<input type="button" value="Draw" onclick="draw()"></input>
+<div id="ploter"></div>
+
+<script>
+function draw()
+{
+  colors_text = document.getElementById('colors').value;
+  delimiter_text = document.getElementById('delimiter').value;
+
+  colors = colors_text.split(delimiter_text);
+
+  ploter = document.getElementById('ploter')
+
+  new_html = ""
+  colors.forEach(function(element) {
+      new_html += "<div style='background-color:"+element+";width: 50px;height: 50px;float:left' onclick='remove(this)'></div>"
+    });
+
+    console.log(new_html);
+  ploter.innerHTML = new_html;
+
+  console.log(colors);
+}
+
+function remove(elem)
+{
+  var children = elem.parentNode.children;
+  elem.parentNode.removeChild(elem);
+
+  new_text=""
+  for (var i = 0; i < children.length - 1; i++) {
+    new_text += children[i].style.backgroundColor+",";
+  }
+  if(children.length - 1 >= 0)
+    new_text += children[children.length - 1].style.backgroundColor;
+  document.getElementById('colors').value = new_text;
+}
+</script>
+</body>
+</html>

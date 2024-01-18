@@ -1,0 +1,32 @@
+<html>
+<head>
+</head>
+<body>
+  <img src="s1.png"/>
+  <img src="s2.png"/>
+  <img src="s3.png"/>
+  <img src="s4.png"/>
+  <img src="s5.png"/>
+  <img src="s6.png"/>
+
+  <script>
+    imgs = document.getElementsByTagName("img");
+    for(i=0;i<imgs.length;i++)
+    {
+      imgs[i].style.position = 'absolute';
+      imgs[i].style.top = '-200px';
+      imgs[i].style.left = Math.random()*1200;
+      imgs[i].style.width = '150px';
+      setInterval(fall, (Math.random() + 0.5) * 5, imgs[i]);
+    }
+
+    function fall(elem)
+    {
+      var pos = Number(elem.style.top.split("px")[0]);
+      elem.style.top=pos+1+"px";
+      if(pos>1000)
+        elem.style.top="-200px";
+    }
+  </script>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!doctype html><html><head>
+<meta charset="UTF-8" /></head>
+<body>
+<div>
+Red:<input id="red" type="number" min="1" max="255" value="0"></input> (0-255) <br />
+Green:<input id="green" type="number" min="1" max="255" value="0"></input> (0-255) <br />
+Blue:<input id="blue" type="number" min="1" max="255" value="0"></input> (0-255) <br />
+<br />
+<form>
+  <input id="start" type="radio" name="where" value="male" checked> Start<br>
+  <input id="end" type="radio" name="where" value="female"> End<br>
+</form>
+<br />
+Text:<input id="text" type="text" width="500px"></input><br /><br />
+<input type="button" value="Add" onclick="addText()"></input>
+<input type="button" value="Delete" onclick="removeText()"></input>
+<p id="main"></p>
+</div>
+
+<script type="text/javascript">
+var main = document.getElementById("main");
+var text = document.getElementById("text");
+var red = document.getElementById("red");
+var green = document.getElementById("green");
+var blue = document.getElementById("blue");
+
+function addText()
+{
+	var p = document.createElement("p");
+	p.textContent = text.value;
+	var color = "#"+componentToHex(parseInt(red.value))+componentToHex(parseInt(green.value))+componentToHex(parseInt(blue.value));
+	p.setAttribute("style", "color:"+color+";");
+	if(document.getElementById("end").checked)
+		main.appendChild(p);
+	
+	if(document.getElementById("start").checked)
+		if(main.hasChildNodes())
+			main.insertBefore(p, main.firstChild);
+		else
+			main.appendChild(p);
+	
+	text.value="";
+}
+
+function removeText()
+{
+	if(document.getElementById("end").checked)
+		main.removeChild(main.childNodes[main.childNodes.length-1]);
+	
+	if(document.getElementById("start").checked)
+		main.removeChild(main.childNodes[0]);
+}
+
+function componentToHex(c) {
+    var hex = c.toString(16);
+    return hex.length == 1 ? "0" + hex : hex;
+}
+
+</script>
+</body></html>

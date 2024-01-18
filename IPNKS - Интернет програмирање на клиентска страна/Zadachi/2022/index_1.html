@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+</head>
+<body>
+</body>
+<script>
+    data = '[{"size":50,"color":"red"},{"size":40,"color":"green"},{"size":20,"color":"blue"},{"size":35,"color":"yellow"},{"size":25,"color":"orange"}]';
+    data = JSON.parse(data);
+
+    data.forEach(function(element){add_element(element)});
+
+    function add_element(element){
+        var div = document.createElement('div');
+        div.style.backgroundColor = element.color;
+        div.style.width = element.size+"px";
+        div.style.height = element.size+"px";
+        div.style.position = "absolute";
+        div.style.top = Math.random()*400+"px";
+        div.style.left = Math.random()*400+"px";
+
+        div.onclick = move_element;
+
+        document.body.appendChild(div);
+    }
+
+    function move_element(event)
+    {
+        div = event.target;
+
+        // slide(div, parseInt(div.style.height) , parseInt(div.style.width));
+
+        anime({
+            targets: div,
+            top: parseInt(div.style.top)+parseInt(div.style.height),
+            left: parseInt(div.style.left)+parseInt(div.style.width),
+            loop: false,
+            easing: 'linear',
+        });
+
+        let dir=[{x:parseInt(div.style.height), y:-parseInt(div.style.width)}, {x:-parseInt(div.style.height), y:parseInt(div.style.width)}, {x:-parseInt(div.style.height), y:-parseInt(div.style.width)}]
+
+        for(let i=0;i<3;i++){
+            let clone = div.cloneNode();
+            document.body.appendChild(clone);
+            clone.onclick = move_element;
+
+            // slide(clone, dir[i].x, dir[i].y);
+
+            anime({
+                targets: clone,
+                top: parseInt(div.style.top)+dir[i].x,
+                left: parseInt(div.style.left)+dir[i].y,
+                loop: false,
+                easing: 'linear',
+            });
+
+            console.log(clone.style.top);
+        }
+    }
+
+    function slide(elem, x, y)
+    {
+        console.log(elem, x, y);
+        let x_end = parseInt(elem.style.top) + x;
+        let y_end = parseInt(elem.style.left) + y;
+        var inter = setInterval(
+            function(elem, x, y, x_end, y_end)
+            {
+                if(x>0) {
+                    elem.style.top = parseInt(elem.style.top) + 1 + 'px';
+                    if (parseInt(elem.style.top) > x_end)
+                        clearInterval(inter);
+                }
+                else {
+                    elem.style.top = parseInt(elem.style.top) - 1 + 'px';
+                    if (parseInt(elem.style.top) < x_end)
+                        clearInterval(inter);
+                }
+                if(y>0)
+                    elem.style.left =  parseInt(elem.style.left) + 1 + 'px';
+                else
+                    elem.style.left =  parseInt(elem.style.left) - 1 + 'px';
+
+            }
+        , 1, elem, x, y, x_end, y_end);
+    }
+</script>
+</html>
+
