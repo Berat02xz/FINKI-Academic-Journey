@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        #num
+        {
+            width: 30px;
+        }
+        body
+        {
+            background: mediumpurple;
+        }
+        td
+        {
+            text-align: center;
+        }
+    </style>
+
+    <script>
+        var data = '[{"artist":"Marc", "title":"TheWorks", "genre":"Pop", "releaseYear":"2022"}, {"artist":"James", "title":"Jinx", "genre":"Rock", "releaseYear":"2021"},{"artist":"Jayne", "title":"Roll", "genre":"Blues", "releaseYear":"2023"},{"artist":"Alfie", "title":"MegaGiga", "genre":"Pop", "releaseYear":"2019"},{"artist":"Rick", "title":"Extract", "genre":"Rock", "releaseYear":"2028"},{"artist":"William", "title":"Extract", "genre":"Blues", "releaseYear":"2026"}]'
+        var parsedData = JSON.parse(data)
+        var rock = true
+        var blues = true
+        var pop = true
+        window.onload = function ()
+        {
+            for(i=0;i<parsedData.length;i++)
+            {
+                let z = parsedData[i].genre
+                let opcija = document.createElement("option")
+                opcija.innerHTML = z
+                let add = document.getElementById("g")
+
+                if(z==="Pop" && pop===true)
+                {
+                    add.append(opcija)
+                    pop=false
+                }
+                else if(z==="Blues" && blues===true)
+                {
+                    add.append(opcija)
+                    blues=false
+                }
+                else if(z==="Rock" && rock===true)
+                {
+                    add.append(opcija)
+                    rock=false
+                }
+            }
+        }
+
+        function mix()
+        {
+            let broj = document.getElementById("num")
+            let finalBroj = parseInt(broj.value)
+            let odbranZhanr = document.getElementById("g").value
+            let tabela = document.getElementById("tuka")
+            tabela.innerHTML = ""
+
+            if(finalBroj>=parsedData.length)
+            {
+                for(i=0;i<parsedData.length;i++)
+                {
+                    let red = document.createElement("tr")
+
+                    let nasl = parsedData[i].title
+                    let art = parsedData[i].artist
+                    let zh = parsedData[i].genre
+                    let year = parsedData[i].releaseYear
+
+                    let id = createID(art,nasl)
+                    if(zh===odbranZhanr)
+                    {
+                        red.innerHTML = "<td>"+id+"</td>" +
+                            "<td>"+art+"</td>" +
+                            "<td>"+nasl+"</td>" +
+                            "<td>"+zh+"</td>" +
+                            "<td>"+year+"</td>" +
+                            "<td><button style='color: red' onclick='up(this)'>UP</button><button style='color: blue' onclick='down(this)'>DOWN</button></td>"
+                        red.setAttribute("class","redici")
+                    }
+                    else if(odbranZhanr==="all")
+                    {
+                        red.innerHTML = "<td>"+id+"</td>" +
+                            "<td>"+art+"</td>" +
+                            "<td>"+nasl+"</td>" +
+                            "<td>"+zh+"</td>" +
+                            "<td>"+year+"</td>" +
+                            "<td><button style='color: red' onclick='up(this)'>UP</button><button style='color: blue' onclick='down(this)'>DOWN</button></td>"
+                        red.setAttribute("class","redici")
+                    }
+                    tabela.appendChild(red)
+                }
+            }
+            else if(finalBroj<parsedData.length)
+            {
+                for(i=0;i<finalBroj;i++)
+                {
+                    let red = document.createElement("tr")
+                    let nasl = parsedData[i].title
+                    let art = parsedData[i].artist
+                    let zh = parsedData[i].genre
+                    let year = parsedData[i].releaseYear
+
+                    let id = createID(art,nasl)
+                    if(zh===odbranZhanr)
+                    {
+                        red.innerHTML = "<td>"+id+"</td>" +
+                            "<td>"+art+"</td>" +
+                            "<td>"+nasl+"</td>" +
+                            "<td>"+zh+"</td>" +
+                            "<td>"+year+"</td>" +
+                            "<td><button style='color: red' onclick='up(this)'>UP</button><button style='color: blue' onclick='down(this)'>DOWN</button></td>"
+                        red.setAttribute("class","redici")
+                    }
+                    else if(odbranZhanr==="all")
+                    {
+                        red.innerHTML = "<td>"+id+"</td>" +
+                            "<td>"+art+"</td>" +
+                            "<td>"+nasl+"</td>" +
+                            "<td>"+zh+"</td>" +
+                            "<td>"+year+"</td>" +
+                            "<td><button style='color: red' onclick='up(this)'>UP</button><button style='color: blue' onclick='down(this)'>DOWN</button></td>"
+                        red.setAttribute("class","redici")
+                    }
+                    tabela.appendChild(red)
+                }
+            }
+        }
+
+        function up(btn)
+        {
+            var redici = document.getElementsByClassName("redici")
+            var current = btn.parentNode.parentElement
+
+            for(i=0;i<redici.length;i++)
+            {
+                if(i===0 && redici[i]===current)
+                {
+                    break;
+                }
+                if(redici[i]===current)
+                {
+                    var swap = current.innerHTML
+                    current.innerHTML = redici[i-1].innerHTML
+                    redici[i-1].innerHTML = swap
+                }
+            }
+        }
+        function down(btn)
+        {
+            var redici = document.getElementsByClassName("redici")
+            var current = btn.parentNode.parentElement
+            for(i=0;i<redici.length;i++)
+            {
+                if(i===5 && redici[i]===current)
+                {
+                    break
+                }
+                if(redici[i]===current)
+                {
+                    var swap = current.innerHTML
+                    current.innerHTML = redici[i+1].innerHTML
+                    redici[i+1].innerHTML = swap
+                }
+            }
+
+        }
+
+        function createID(artist,title)
+        {
+            let songID = ""
+            let i = ""
+            let j = ""
+            for(i=0;i<artist.length;i++)
+            {
+                if(artist[i].toUpperCase() === artist[i])
+                {
+                    songID += artist[i]
+                }
+            }
+            for(j=0;j<title.length;j++)
+            {
+                if(title[j].toUpperCase() === title[j])
+                {
+                    songID += title[j]
+                }
+            }
+            console.log(songID)
+            return songID
+        }
+
+    </script>
+
+</head>
+<body>
+<label>Get <input type="number" id="num">songs!</label>
+<button onclick="mix()">Mix!</button>
+<select id="g">
+    <option>all</option>
+</select>
+
+<table>
+    <thead>
+    <th>id</th>
+    <th>artist</th>
+    <th>title</th>
+    <th>genre</th>
+    <th>releaseYear</th>
+    <th>move</th>
+    </thead>
+
+    <tbody id="tuka">
+
+    </tbody>
+</table>
+</body>
+</html>

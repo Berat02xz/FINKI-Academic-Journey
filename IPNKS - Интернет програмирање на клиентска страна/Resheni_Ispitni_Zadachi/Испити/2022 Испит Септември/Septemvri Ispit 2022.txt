@@ -1,0 +1,12 @@
+Дадено инпут поле со броеви, селект елемент и button mix!
+Од jsonot само да се додадат опциите (Pop,Rock,Blues) по еднаш, да не се додаваат дупликатите.
+Се бира n број на песни во инпут полето со броеви, и доколку n е поголемо од бројот на песни, 
+се прикажуваат сите песни од jsonot, ако е помало се прикажуваат онолку песни колку што е n.
+Id-то се добива така што од Title и Artist се земаат само големите букви и се спојуваат
+Имаше копчиња две UP и DOWN, ако се кликне UP редицата се носи една позиција нагоре, ако се кликне DOWN редицата се носи надолу
+во табелата.
+Koга се бира жанр се додаваат песните само од тој жанр, или ако се кликне all се додаваат сите пeсни.
+Се додаваат работиве во табела id artist title genre releaseYear move.
+
+JSON (Нешто вака беше со многу повеќе песни)
+'[{"artist":"Marc", "title":"TheWorks", "genre":"Pop", "releaseYear":"2022"}, {"artist":"James", "title":"Jinx", "genre":"Rock", "releaseYear":"2021"},{"artist":"Jayne", "title":"Roll", "genre":"Blues", "releaseYear":"2023"},{"artist":"Alfie", "title":"MegaGiga", "genre":"Pop", "releaseYear":"2019"},{"artist":"Rick", "title":"Extract", "genre":"Rock", "releaseYear":"2028"},{"artist":"William", "title":"Extract", "genre":"Blues", "releaseYear":"2026"}]'

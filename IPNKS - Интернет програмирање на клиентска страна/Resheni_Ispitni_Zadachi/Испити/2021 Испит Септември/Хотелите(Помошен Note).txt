@@ -1,0 +1,24 @@
+Monastero
+od: 31.8.2021    
+do: 11.9.2021	 
+sobi: 3
+
+Hotel 71
+od: 1.9.2021
+do: 3.9.2021
+sobi: 1
+
+RAAS Jodhpur
+od: 28.8.2021
+do: 10.10.2021
+sobi: 10
+
+Archer Hotel
+od: 1.8.2021
+do: 1.10.2021
+sobi: 0
+
+The Langham Huntington
+od: 3.8.2021
+do: 3.9.2021
+sobi: 5

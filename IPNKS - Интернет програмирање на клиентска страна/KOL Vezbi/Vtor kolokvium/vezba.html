@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<script src="https://cdn.jsdelivr.net/npm/animejs@3.2.2/lib/anime.min.js"></script>
+<body>
+
+
+<script>
+    let data = '[{"color":"red", "size":"50"},{"color":"blue", "size":"40"},{"color":"orange", "size":"30"},{"color":"green", "size":"20"},{"color":"yellow", "size":"50"}]'
+    data = JSON.parse(data);
+
+    data.forEach(e=>add_element(e))
+
+
+    function add_element(element_data){
+        let element = document.createElement("div")
+        element.style.backgroundColor = element_data.color;
+        element.style.width = element_data.size + "px";
+        element.style.height = element_data.size + "px";
+        element.style.top = Math.floor(Math.random()*700) +"px"
+        element.style.left = Math.floor(Math.random()*700) +"px"
+        element.style.position = "absolute"
+
+        element.onclick = function (){
+            click_element(element)
+        }
+
+        document.body.appendChild(element)
+    }
+    function click_element(element) {
+        let el_array = [element];
+        for (let i = 0; i < 3; i++) {
+            let newDiv = element.cloneNode(true);
+            newDiv.onclick = function () {
+                click_element(newDiv);
+            }
+            document.body.appendChild(newDiv);
+            el_array.push(newDiv);
+        }
+        let value = parseInt(element.style.width.replace("px",""))
+        let translations = [
+            { translateX: value, translateY: value },
+            { translateX: -value, translateY: value },
+            { translateX: -value, translateY: -value },
+            { translateX: value, translateY: -value }
+        ];
+
+        for (let i = 0; i < 4; i++) {
+            let x = parseInt(el_array[i].style.left.replace("px",""))
+            let y = parseInt(el_array[i].style.top.replace("px",""))
+            anime({
+                targets: el_array[i],
+                top: y + (translations[i].translateX),
+                left: x + (translations[i].translateY) ,
+                duration: 300,
+                easing:"linear"
+            });
+        }
+    }
+
+</script>
+</body>
+</html>

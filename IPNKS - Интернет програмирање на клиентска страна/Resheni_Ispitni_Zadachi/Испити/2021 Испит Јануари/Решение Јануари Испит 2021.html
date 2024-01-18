@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div
+        {
+            padding: 10px;
+        }
+        label
+        {
+            width: 200px;
+            display: inline-block;
+        }
+        .dodavanje
+        {
+            display: inline-block;
+            padding: 28px;
+            margin: 10px;
+            border: 1px solid black;
+            height: 200px;
+        }
+        #plata
+        {
+            position: absolute;
+            left: 10px;
+            top: 700px;
+        }
+        li
+        {
+            list-style-type: none;
+        }
+    </style>
+    <script>
+
+        var data = '[{"ime":"Nikola","prezime":"Nikolovski","id":"NNN1asdfgh","promet":"1000"},' +
+            '{"ime":"Nikolina","prezime":"Nikolovska","id":"NNN2asdfgh","promet":"3000"}]'
+        var novaData = JSON.parse(data)
+        window.onload = function ()
+        {
+            for(i=0;i<novaData.length;i++)
+            {
+                var Name = novaData[i].ime
+                var Surname = novaData[i].prezime
+                var IDs = novaData[i].id
+                var Suma = novaData[i].promet
+
+                var newDiv = document.getElementById("vnesi")
+                var newestDiv = document.createElement("div")
+
+                var bill = Math.floor(Math.random() * 100000)
+                console.log(bill)
+
+                newestDiv.innerHTML = "<p>Сметка број: "+bill+"</p>" +
+                    "<p>Име: "+Name+"</p>" +
+                    "<p>Презиме: "+Surname+"</p>" +
+                    "<p>ID: <span class='proveriID'>"+IDs+"</span></p>" +
+                    "<p>Промет: <span>"+Suma+"</span></p>" +
+                    "<button onclick='payUp(this)'>Плати</button>"
+                    newestDiv.setAttribute("class","dodavanje")
+
+                if(Suma<5000)
+                {
+                    newestDiv.style.backgroundColor = "lightgreen"
+                }
+                else if(Suma>=5000)
+                {
+                    newestDiv.style.backgroundColor = "red"
+                }
+               newDiv.append(newestDiv)
+            }
+        }
+
+        function zacuvaj()
+        {
+            var name = document.getElementById("ime")
+            var surname = document.getElementById("prezime")
+            var id = document.getElementById("userID")
+            var promet = document.getElementById("promet")
+
+            if(name.value=="" || surname.value=="" || id.value=="" || promet.value=="")
+            {
+                alert("Внесете ги сите податоци!")
+                return;
+            }
+
+            var elementi = document.getElementsByClassName("dodavanje")
+            for(i=0;i<elementi.length;i++)
+            {
+               if(elementi[i].children[3].children[0].innerHTML===id.value)
+               {
+                   var novaSuma =  parseInt(promet.value)
+                   var postoecka = parseInt(elementi[i].children[4].children[0].innerHTML)
+                   var finalSuma = novaSuma + postoecka
+                   elementi[i].children[4].children[0].innerHTML = finalSuma
+                   return;
+               }
+            }
+
+            if(checkID(id.value))
+            {
+                alert("Внесете валиден идентификационен број!")
+                return;
+            }
+            var smetka = Math.floor(Math.random() * 100000)
+            console.log(smetka)
+
+            var novDiv = document.getElementById("vnesi")
+            var div1 = document.createElement("div")
+
+            div1.innerHTML = "<p>Сметка број: "+smetka+"</p>" +
+                "<p>Име: "+name.value+"</p>" +
+                "<p>Презиме: "+surname.value+"</p>" +
+                "<p>ID: <span class='proveriID'>"+id.value+"</span></p>" +
+                "<p>Промет: <span>"+promet.value+"</span></p>" +
+                "<button onclick='payUp(this)'>Плати</button>"
+            div1.setAttribute("class","dodavanje")
+
+            if(promet.value<5000)
+            {
+                div1.style.backgroundColor = "lightgreen"
+            }
+            else if(promet.value>=5000)
+            {
+                div1.style.backgroundColor = "red"
+            }
+
+            novDiv.append(div1)
+
+        }
+        function payUp(btn)
+        {
+            var parent = btn.parentNode
+            parent.style.opacity = 1;
+            var myInterval = setInterval(function (){
+                parent.style.opacity -= 0.1
+            },200)
+
+            setTimeout(function ()
+            {
+                clearInterval(myInterval)
+                var element = parent
+                element.style.opacity = 1
+                var lista = document.getElementById("plateni")
+                lista.append(element)
+            },2000)
+
+        }
+
+        function checkID(ID)
+        {
+            var golemaBukva = 0
+            var brojka = 0
+
+            for(i=0;i<ID.length;i++)
+            {
+                if(ID[i].toUpperCase() === ID[i] && isNaN(ID[i]))
+                {
+                    golemaBukva++
+                }
+            }
+            for(j=0;j<ID.length;j++)
+            {
+                if(!isNaN(ID[j]))
+                {
+                    brojka++
+                }
+            }
+
+            if(ID.length===10 && golemaBukva>=3 && brojka===1)
+            {
+                console.log(ID.length)
+                return false
+            }
+            else
+            {
+                return true
+            }
+
+        }
+
+    </script>
+</head>
+<body>
+<div>
+    <h1>Систем за сметки</h1>
+    <div>
+        <label>Име:</label>
+        <input type="text" id="ime">
+    </div>
+    <div>
+        <label>Презиме:</label>
+        <input type="text" id="prezime">
+    </div>
+    <div>
+        <label>ID:</label>
+        <input type="text" id="userID">
+    </div>
+    <div>
+        <label>Промет:</label>
+        <input type="text" id="promet">
+    </div>
+    <div>
+        <button onclick="zacuvaj()">Зачувај</button>
+    </div>
+    <h2>Внесени сметки</h2>
+    <br>
+    <div>
+        <ul id="vnesi">
+
+        </ul>
+    </div>
+
+    <div id="plata">
+        <h2>Платени сметки</h2>
+        <ul id="plateni">
+
+        </ul>
+    </div>
+</div>
+</body>
+</html>

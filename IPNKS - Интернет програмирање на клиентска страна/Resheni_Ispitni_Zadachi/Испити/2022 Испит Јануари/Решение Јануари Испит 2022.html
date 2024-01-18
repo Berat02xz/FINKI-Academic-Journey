@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+        .prv
+        {
+            padding: 10px;
+        }
+        label
+        {
+            width: 200px;
+            display: inline-block;
+        }
+        #tabela,th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        #lista
+        {
+            position: absolute;
+            left: 680px;
+            top: 27px;
+        }
+
+    </style>
+
+    <script>
+        var data = '[{"title":"FCSE announcement", "post":"FSCE is starting with classes this semestar from 15th Feb.", "type":"Free", "category":"Education", "published":true},{"title":"What is ann NFT", "post":"An NFT, which stands for non-fungible token, is a unique unit of data employing technology that allows digital content to become logged and authenticated on cryptocurrency blockchains", "type":"Free", "category":"Science", "published": false}]'
+        var newData = JSON.parse(data)
+        var counter = 0
+        window.onload = function ()
+        {
+            for (i = 0; i < newData.length; i++)
+            {
+                var title = newData[i].title
+                var post = newData[i].post
+                var type = newData[i].type
+                var category = newData[i].category
+
+                var votabela = document.getElementById("tuka")
+                var red = document.createElement("tr")
+
+                var novTitle = "finki.ukim.mk/" + title.toLowerCase().split(" ").join("-")
+                red.innerHTML = "<td>"+title+"</td>" +
+                    "<td>"+post+"</td>" +
+                    "<td>"+novTitle+"</td>" +
+                    "<td>"+type+"</td>" +
+                    "<td>"+category+"</td>" +
+                    "<td><button id='pub' onclick='publish(this)'>Publish</button><br><button id='rem' onclick='brishi(this)'>Remove</button></td>"
+                    votabela.append(red);
+            }
+        }
+
+        function importPost()
+        {
+            var naslov = document.getElementById("naslov")
+            var post = document.getElementById("content")
+            var free = document.getElementById("free")
+            var paid = document.getElementById("paid")
+            var kategorija = document.getElementById("opcii")
+
+            if(naslov.value=="" || post.value=="" || (free.checked==false && paid.checked==false) || kategorija.value=="")
+            {
+                alert("Внесете ги сите податоци!")
+                return;
+            }
+            if(checkTitle(naslov.value))
+            {
+                alert("Насловот содржи специјални знаци!")
+                return;
+            }
+            var type;
+            if(free.checked==true)
+            {
+                type = free.value
+            }
+            else if(paid.checked==true)
+            {
+                type = paid.value
+            }
+
+            var link = "finki.ukim.mk/" + naslov.value.toLowerCase().split(" ").join("-")
+
+            var novatabela = document.getElementById("tuka")
+            var redica = document.createElement("tr")
+
+            redica.innerHTML = "<td>"+naslov.value+"</td>" +
+                "<td>"+post.value+"</td>" +
+                "<td>"+link+"</td> " +
+                "<td>"+type+"</td>" +
+                "<td>"+kategorija.value+"</td>" +
+                "<td><button  id='pub2' onclick='publish(this)'>Publish</button><br><button id='rem2' onclick='brishi(this)'>Remove</button></td>"
+                novatabela.append(redica)
+        }
+
+        function checkTitle(title)
+        {
+            var special = /[^a-zA-Z ]/
+            console.log(special.test(title))
+            return special.test(title)
+        }
+        function publish(btn)
+        {
+            var row = btn.parentNode.parentNode
+            row.style.backgroundColor = "lightblue"
+            btn.disabled = true
+            btn.nextElementSibling.nextElementSibling.disabled = true
+
+            var objava = document.getElementById("brojac")
+            counter++;
+            objava.innerHTML = counter
+        }
+        function brishi(btn)
+        {
+            var parent = btn.parentNode.parentNode
+            parent.style.opacity = 1
+
+            var myInterval = setInterval(function (){
+                parent.style.opacity -= 0.1
+            },200);
+
+            setTimeout(function ()
+            {
+                clearInterval(myInterval)
+                var lista = document.getElementById("links")
+                var li = document.createElement("li")
+                li.innerHTML = parent.children[2].innerHTML
+                lista.append(li)
+                parent.remove()
+            },2000)
+        }
+
+    </script>
+
+</head>
+<body>
+
+<div class="prv">
+    <h1>Post Details</h1>
+    <div>
+        <label>Title</label>
+        <input type="text" id="naslov">
+    </div>
+    <div>
+        <label>Post</label>
+        <textarea id="content"></textarea>
+    </div>
+    <div>
+        <label>Content type</label>
+        <label style="display: inline ">Free</label>
+        <input type="radio" name="same" id="free">
+        <label style="display: inline ">Paid</label>
+        <input type="radio" name="same" id="paid">
+    </div>
+    <div>
+        <label>Category</label>
+        <select id="opcii">
+            <option></option>
+            <option>Science</option>
+            <option>Education</option>
+            <option>Industry</option>
+        </select>
+    </div>
+    <div>
+        <button onclick="importPost()">Import post</button>
+    </div>
+    <h2>Published posts <span id="brojac">0</span></h2>
+    <table id="tabela">
+        <thead>
+        <th>Title</th>
+        <th>Post</th>
+        <th>Link</th>
+        <th>Type</th>
+        <th>Category</th>
+        <th>Actions</th>
+        </thead>
+        <tbody id="tuka">
+
+        </tbody>
+    </table>
+
+</div>
+<div id="lista">
+    <h2>Removed links</h2>
+    <ul id="links">
+
+    </ul>
+</div>
+</body>
+</html>

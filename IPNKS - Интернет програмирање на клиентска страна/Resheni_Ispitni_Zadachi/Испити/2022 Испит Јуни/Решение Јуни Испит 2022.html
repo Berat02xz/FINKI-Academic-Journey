@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+    div
+    {
+        padding: 10px;
+    }
+    label
+    {
+        width: 200px;
+        display: inline-block;
+    }
+    #tabela,th,td
+    {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    #natamu
+    {
+        position: relative;
+        left: 588px;
+        top: -151px;
+    }
+
+    </style>
+
+    <script>
+        var data = '[{"address_from":"Partizanska 1", "address_to":"Kliment Ohridski 15", "weight":"3.5", "paid_type":"on_send", "ID":"Id902 90sUsdql3", "delivery": "on_hold"},{"address_from":"Ruzveltova 3", "address_to":"3MUB 43", "weight":"15", "paid_type":"on_receive", "ID":"W8902 90sWmPqLzl3", "delivery": "false"}]'
+        var newData = JSON.parse(data)
+        var suma = 0
+        window.onload = function ()
+        {
+            for(i=0;i<newData.length;i++)
+            {
+                var prakjach = newData[i].address_from
+                var primach = newData[i].address_to
+                var tezhina = newData[i].weight
+                var nachin = newData[i].paid_type
+                var id = newData[i].ID
+
+
+                var novoid = id.toLowerCase().split(" ").join("-")
+                var price
+                var tabela = document.getElementById("telo")
+                var redica = document.createElement("tr")
+
+                var realtezina = parseInt(tezhina);
+
+                if(realtezina<5)
+                {
+                        price = 500
+                }
+                else if(realtezina>5)
+                {
+                        price = 1200
+                }
+
+                redica.innerHTML = "<td class='proba'>"+novoid+"</td>" +
+                "<td>"+prakjach+"</td>" +
+                "<td>"+primach+"</td>" +
+                "<td>"+price+"</td>" +
+                "<td><button id='o1' onclick='dostavi(this)'>Доставено</button><br><button id='o2' onclick='otkazi(this)'>Откажано</button></td>"
+                tabela.append(redica)
+            }
+        }
+        function check() {
+            var sender = document.getElementById("send")
+            var receiver = document.getElementById("receive")
+            var weight = document.getElementById("weight")
+            var sent = document.getElementById("prati")
+            var receive = document.getElementById("primi")
+            var id = document.getElementById("profile")
+
+            //Proverka dali site podatoci se vneseni od Korisnikot
+            if (sender.value == "" || receiver.value == "" || weight.value == "" || (sent.checked == false && receive.checked == false) || id.value == "") {
+                alert("Внесете ги сите податоци!")
+                return;
+            }
+
+            //Sreduvanje na ID-to i proverka dali vekje postoi takvo ID
+            var novoid = id.value.toLowerCase().split(" ").join("-")
+
+            if (checkID(novoid)) {
+                alert("Веќе активна нарачка!")
+                return;
+            }
+
+            //Proverka za cenata
+
+            var price = 0
+            var realweight = parseInt(weight.value)
+            if (!isNaN(realweight)) {
+                if (realweight < 5) {
+                    price = 500
+                } else if (realweight > 5) {
+                    price = 1200
+                }
+            } else {
+                alert("Внесете бројка во полето за тежина!")
+                return;
+            }
+
+            //Dodavanje vo tabelata vo HTML-ot
+            var tabelce = document.getElementById("telo")
+            var row = document.createElement("tr")
+            row.innerHTML = "<td class='proba'>" + novoid + "</td>" +
+                "<td>" + sender.value + "</td>" +
+                "<td>" + receiver.value + "</td>" +
+                "<td>" + price + "</td>" +
+                "<td><button id='d1' onclick='dostavi(this)'>Доставено</button><br><button id='o1' onclick='otkazi(this)'>Откажано</button></td>"
+            tabelce.append(row)
+        }
+        function dostavi(kopce)
+        {
+            var element = kopce.parentNode.parentNode
+            element.style.backgroundColor = "lightgreen"
+            kopce.disabled = true
+            kopce.nextElementSibling.nextElementSibling.disabled = true
+
+            var nov = document.getElementById("vkupno")
+            var brojka = element.children[3].innerHTML;
+            var final = parseInt(brojka)
+            suma+=final
+            nov.innerHTML = suma
+        }
+
+        function otkazi(btn)
+        {
+            var redica = btn.parentNode.parentNode
+            console.log(redica)
+            redica.style.opacity = 1
+
+            var myInterval = setInterval(function ()
+            {
+                redica.style.opacity -= 0.1
+            },200)
+
+            setTimeout(function ()
+            {
+                clearInterval(myInterval)
+                var item = document.createElement("li")
+                var lista = document.getElementById("otkazani")
+                item.innerHTML = redica.children[0].innerHTML
+                lista.append(item)
+                redica.remove()
+            },2000)
+        }
+
+        function checkID(id)
+        {
+            var ids = document.getElementsByClassName("proba")
+            console.log(ids.length)
+            for(i=0;i<ids.length;i++)
+            {
+                if(ids[i].innerHTML===id)
+                {
+                    return true;
+                }
+            }
+            return false;
+        }
+
+    </script>
+
+</head>
+<body>
+<div>
+    <h1>Карго достава на пратки</h1>
+<div>
+    <label>Адреса на испраќач:</label>
+    <input type="text" id="send">
+</div>
+<div>
+    <label>Адреса на примач:</label>
+    <input type="text" id="receive">
+</div>
+<div>
+    <label>Тежина:</label>
+    <input type="text" id="weight">
+</div>
+
+<div>
+    <label>Начин на плаќање:</label>
+    <label style="display:inline">Праќање:</label>
+    <input type="radio" name="way" id="prati" style="display:inline">
+    <label style="display:inline">Примање:</label>
+    <input type="radio" name="way" id="primi" style="display:inline">
+</div>
+
+<div>
+    <label>ID на профил:</label>
+    <input type="text" id="profile">
+</div>
+
+    <div>
+        <button onclick="check()">Внеси</button>
+    </div>
+
+<h2>Внесени пратки</h2>
+<h3>Вкупна сума: <span id="vkupno"> 0</span></h3>
+
+<table id="tabela">
+    <thead>
+    <th>ID</th>
+    <th>Адреса испраќач</th>
+    <th>Адреса примач</th>
+    <th>Цена</th>
+    <th>Акции</th>
+    </thead>
+    <tbody id="telo">
+
+    </tbody>
+</table>
+    <div id="natamu">
+        <h2>Откажани нарачки</h2>
+        <ul id="otkazani">
+
+        </ul>
+    </div>
+
+</div>
+</body>
+</html>

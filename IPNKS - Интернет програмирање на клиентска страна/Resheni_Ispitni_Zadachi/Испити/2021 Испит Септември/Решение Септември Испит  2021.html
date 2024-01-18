@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+    <style>
+
+        table,th,td
+        {
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+    </style>
+
+    <script>
+        var data = '[{"hoteli":[{"ime":"Monastero","od":"31.8.2021","do":"11.9.2021","sobi":3},{"ime":"Hotel 71","od":"1.9.2021","do":"3.9.2021","sobi":1},{"ime":"RAAS Jodhpur","od":"28.8.2021","do":"10.10.2021","sobi":10},{"ime":"Archer Hotel ","od":"1.8.2021","do":"1.10.2021","sobi":0},{"ime":"The Langham Huntington","od":"3.8.2021","do":"3.9.2021","sobi":5}]}]'
+        var parsedData = JSON.parse(data)
+
+        function checkDate(yearFrom,monthFrom,dayFrom,yearTo,monthTo,dayTo,brSoba)
+        {
+            var pokazhi = document.getElementById("tuka")
+            pokazhi.innerHTML = ""
+            for(i=0;i<parsedData.length;i++)
+            {
+                for(j=0;j<parsedData[0].hoteli.length;j++)
+                {
+                    var hotelName = parsedData[0].hoteli[j].ime
+                    var fromDate = parsedData[0].hoteli[j].od
+                    var toDate = parsedData[0].hoteli[j].do
+                    var roomNumber = parsedData[0].hoteli[j].sobi
+
+                    var newFromDate = fromDate.split(".")
+                    var newToDate = toDate.split(".")
+                    var rooms = parseInt(roomNumber)
+
+                    var fromDay = parseInt(newFromDate[0])
+                    var fromMonth = parseInt(newFromDate[1])
+                    var fromYear = parseInt(newFromDate[2])
+
+                    var ToDay = parseInt(newToDate[0])
+                    var ToMonth = parseInt(newToDate[1])
+                    var ToYear = parseInt(newToDate[2])
+
+                    if( (fromMonth===monthFrom && fromYear===yearFrom) && (ToMonth<=monthTo && ToYear<=yearTo) && brSoba<=rooms)
+                    {
+                        if(fromDay>=dayFrom && (ToDay<=dayTo || ToDay>dayTo))
+                        {
+                            var tabela = document.getElementById("tuka")
+                            var redica = document.createElement("tr")
+                            redica.innerHTML = "<td>"+hotelName+"</td>" +
+                                "<td>"+fromDate+"</td>" +
+                                "<td>"+toDate+"</td>" +
+                                "<td>"+roomNumber+"</td>" +
+                                "<td><button onclick='reserve(this)'>Rezerviraj</button></td>"
+                            tabela.append(redica)
+                            console.log("Od:" + fromDate)
+                            console.log("Do:" + toDate)
+                        }
+                    }
+                    else if( (fromMonth>monthFrom && fromYear>=yearFrom) &&  (ToMonth<=monthTo && ToYear<=yearTo) && brSoba<=rooms)
+                    {
+                        if( (fromDay<dayFrom || fromDay>=dayFrom) && (ToDay<=dayTo || ToDay>dayTo))
+                        {
+                            var tabela = document.getElementById("tuka")
+                            var redica = document.createElement("tr")
+                            redica.innerHTML = "<td>"+hotelName+"</td>" +
+                                "<td>"+fromDate+"</td>" +
+                                "<td>"+toDate+"</td>" +
+                                "<td>"+roomNumber+"</td>" +
+                                "<td><button onclick='reserve(this)'>Rezerviraj</button></td>"
+                            tabela.append(redica)
+                            console.log("Od:" + fromDate)
+                            console.log("Do:" + toDate)
+                        }
+                    }
+
+                }
+            }
+        }
+
+        function reserve(btn)
+        {
+            var red = btn.parentNode.parentNode
+            red.style.backgroundColor = "green"
+            btn.disabled=true
+
+            var brSobi = red.children[3].innerHTML
+            var parsedSobi = parseInt(brSobi)
+            var vneseniSobi = document.getElementById("rooms")
+            var parsedVneseniSobi = parseInt(vneseniSobi.value)
+
+            var razlika = parsedSobi - parsedVneseniSobi
+            red.children[3].innerHTML = razlika
+
+            alert("Rezervirano!")
+        }
+
+        function baraj()
+        {
+            var OD = document.getElementById("from")
+            var DO = document.getElementById("to")
+            var roomNum = document.getElementById("rooms")
+
+            var podelbaOD = OD.value.split("-")
+            var podelbaDO = DO.value.split("-")
+            var brSoba = parseInt(roomNum.value)
+
+            var yearFrom = parseInt(podelbaOD[0])
+            var monthFrom = parseInt(podelbaOD[1])
+            var dayFrom = parseInt(podelbaOD[2])
+
+            var yearTo = parseInt(podelbaDO[0])
+            var monthTo = parseInt(podelbaDO[1])
+            var dayTo = parseInt(podelbaDO[2])
+
+            var od1 = dayFrom + "." + monthFrom + "." + yearFrom
+            var do1 = dayTo + "." + monthTo + "." + yearTo
+            console.log("OD1:"+od1)
+            console.log("DO1:"+do1)
+            checkDate(yearFrom,monthFrom,dayFrom,yearTo,monthTo,dayTo,brSoba)
+        }
+    </script>
+</head>
+<body>
+<label>Od</label>
+<input type="date" value="2021-08-27" id="from">
+<label>Do</label>
+<input type="date" value="2021-08-27" id="to">
+<label>Broj na sobi</label>
+<input type="text" id="rooms" value="1">
+<button onclick="baraj()">Prebaraj</button>
+
+<table id="tabela">
+    <thead>
+    <th>Ime</th>
+    <th>Od</th>
+    <th>Do</th>
+    <th>Sobi</th>
+    </thead>
+    <tbody id="tuka">
+
+    </tbody>
+</table>
+</body>
+</html>
