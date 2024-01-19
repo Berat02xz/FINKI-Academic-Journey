@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>WP Exam</title>
+</head>
+<body>
+<!-- The form should submit to MoviesController.create or MoviesController.update,
+     depending on whether we are creating or editing a movie -->
+<form>
+    <div>
+        <label for="name">Name</label>
+        <input type="text"
+               id="name"
+               name=""
+               required>
+    </div>
+    <div>
+        <label for="description">Description</label>
+        <input type="text"
+               id="description"
+               name=""
+               required>
+    </div>
+    <div>
+        <label for="rating">Rating</label>
+        <input type="number"
+               id="rating"
+               name=""
+               required>
+    </div>
+    <div>
+        <label>Genre</label><br/>
+        <select id="genre" name="" multiple="multiple" size="5">
+            <!-- For each genre you should have one <option> like below  -->
+            <option value="[genre]"> [genre.name]</option>
+        </select>
+    </div>
+    <div>
+        <label>Director</label><br/>
+        <select id="director" name="" multiple="multiple" size="5">
+            <!-- For each director you should have one <option> like below  -->
+            <option value="[director.id]"> [director.name]</option>
+        </select>
+    </div>
+
+    <button id="submit" type="submit">Submit</button>
+    <a id="back" href="/movies" type="button" class="btn btn-primary">Back to movies</a>
+</form>
+
+<div>
+    <ul id="nav">
+        <li><a href="/">Home</a></li>
+        <li><a href="/login">Login</a></li>
+        <li><a href="/logout">Logout</a></li>
+    </ul>
+</div>
+
+</body>
+</html>
