@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Vezhba 2</title>
+</head>
+<body>
+<label>Colors</label><br>
+<input type="text" id="colors">
+<br><br>
+<label>Delimeter</label><br>
+<input type="text" id="delimeter">
+<br><br>
+<button onclick="draw()">Draw</button>
+<div id="cards"></div>
+<script>
+    function draw() {
+        let colors = document.getElementById('colors').value;
+        let delimeter = document.getElementById('delimeter').value;
+        let cards = document.getElementById('cards');
+        colors = colors.split(delimeter);
+        for(let i=0; i<colors.length; i++) {
+            let card = document.createElement('div');
+            card.style.backgroundColor = colors[i];
+            card.style.width = '100px';
+            card.style.height = '100px';
+            card.style.display = 'inline-block';
+            card.onclick = function () {
+                console.log("remove");
+                cards.removeChild(card);
+            }
+            cards.appendChild(card);
+        }
+    }
+</script>
+</body>
+</html>

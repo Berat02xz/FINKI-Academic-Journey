@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div id="generateMath"></div>
+
+<input type="text" id="texted"><button onclick="proveri()">PROVERI</button>
+
+<div id="toksi">Preostanato vreme <span id="vreme"></span> sekundi</div>
+
+<script>
+  function proveri(){
+    let texted = document.getElementById("texted").value;
+    let result = eval(texted);
+    let toresult = document.getElementById("finalnumber").value;
+    if(isNaN(result)){
+      console.log("not a number");
+    }
+
+
+    if(result === toresult){
+      let crote=document.getElementById("toksi");
+      let create=document.createElement(div);
+      create.innerHTML="CONGRATS";
+      crote.appendChild(create);
+    }
+  }
+</script>
+
+<script>
+  function randomgenerate(){
+    let digit1 = gerRandomInt(1,9);
+    let digit2 = gerRandomInt(1,9);
+
+    let digit3 = gerRandomInt(10,99);
+    let digit4 = gerRandomInt(10,99);
+
+    let digit5 = gerRandomInt(100,999);
+    let digit6 = gerRandomInt(100,999);
+
+    let texted=document.getElementById("generateMath");
+    texted.innerHTML=`<span> ${digit1} ${digit2} ${digit3} ${digit4} ${digit5} = <span id="finalnumber"> ${digit6} </span> </span>`;
+  }
+
+  function gerRandomInt(min,max){
+    return Math.floor(Math.random()*  max);
+  }
+
+</script>
+
+
+
+<script type="application/javascript">
+  let start = 60;
+
+  window.onload = function() {
+    vreme(start);
+    randomgenerate();
+  };
+
+  function vreme(currentTime) {
+    let vremeElement = document.getElementById("vreme");
+    vremeElement.innerHTML = currentTime;
+
+    if (currentTime === 0) {
+      vremeElement.innerHTML = 0;
+    } else {
+      console.log(currentTime);
+      setTimeout(function() {
+        vreme(currentTime - 1);
+      }, 1000);
+    }
+  }
+</script>
+
+</body>
+</html>

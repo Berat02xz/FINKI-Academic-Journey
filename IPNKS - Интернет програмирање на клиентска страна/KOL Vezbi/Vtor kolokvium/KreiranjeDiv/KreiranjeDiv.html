@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadacha 7</title>
+</head>
+<body>
+<input type="text" id="values"/>
+<button onclick="postavi()">Postavi</button>
+<div id="addDiv"></div>
+<script>
+
+    function postavi(){
+        var texte= document.getElementById("values").value;
+        var texted=texte.split(",");
+        var addiv = document.getElementById("addDiv");
+
+        var div = document.createElement(div);
+        div.style.backgroundColor=texted[0];
+        div.style.width=texted[1]+"px";
+        div.style.height=texted[2]+"px";
+        div.innerHTML=texted[3];
+        div.style.textAlign="center";
+        addiv.appendChild(div);
+    }
+
+</script>
+</body>
+</html>
