@@ -14,15 +14,17 @@
         <select id="genre" name="">
             <option value="">All</option>
             <!-- For each genre you should have one <option> like below  -->
-            <option value="[genre]"> [genre.name]</option>
+            <option value="[genre]" th:each="gr: ${genre}" th:text="${gr.name()}" th:value="${gr.name()}"> [genre.name]</option>
         </select>
         <button id="filter" type="submit">Filter</button>
     </form>
     <div>
+        <th:block>
         <!-- MoviesController.showAdd -->
-        <a href="" class="add-item">
+        <a href="/movies/add" class="add-item">
             Add new movie
         </a>
+        </th:block>
     </div>
     <table>
         <tr>
@@ -35,24 +37,26 @@
             <th>Actions</th>
         </tr>
         <!-- For each movie you should have one <tr> like below -->
-        <tr class="item">
-            <td>[movie.name]</td>
-            <td>[movie.description]</td>
-            <td>[movie.rating]</td>
-            <td>[movie.genre]</td>
-            <td>[movie.director]</td>
-            <td>[movie.votes]</td>
+        <tr class="item" th:each="mov: ${movies}">
+            <td th:text="${mov.name}">[movie.name]</td>
+            <td th:text="${mov.description}">[movie.description]</td>
+            <td th:text="${mov.rating}">[movie.rating]</td>
+            <td th:text="${mov.genre}">[movie.genre]</td>
+            <td th:text="${mov.director}">[movie.director]</td>
+            <td th:text="${mov.votes}">[movie.votes]</td>
             <td>
+                <th:block>
                 <!-- MoviesController.delete -->
-                <form>
+                <form method="post" th:action="@{'/movies/{id}/delete' (id=${mov.id})}">
                     <button type="submit" class="delete-item">Delete</button>
                 </form>
                 <!-- MoviesController.showEdit -->
-                <a href="" class="edit-item">Edit</a>
+                <a th:href="@{'/movies/{id}' (id=${mov.id})}" class="edit-item">Edit</a>
                 <!-- MoviesController.vote -->
-                <form>
+                <form method="post" th:action="@{'/movies/{id}/vote' (id=${mov.id})}">
                     <button type="submit" class="like-item">Vote for Movie</button>
                 </form>
+                </th:block>
             </td>
         </tr>
     </table>

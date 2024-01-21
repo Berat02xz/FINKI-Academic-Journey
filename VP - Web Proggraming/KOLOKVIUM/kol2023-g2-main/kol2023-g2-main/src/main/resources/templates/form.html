@@ -6,40 +6,43 @@
 <body>
 <!-- The form should submit to MoviesController.create or MoviesController.update,
      depending on whether we are creating or editing a movie -->
-<form>
+<form method="post" th:action="@{'/movies/{id}' (id=${movie.id})}">
     <div>
         <label for="name">Name</label>
         <input type="text"
                id="name"
-               name=""
+               name="name"
+               th:text="${movie?.name}"
                required>
     </div>
     <div>
         <label for="description">Description</label>
         <input type="text"
                id="description"
-               name=""
+               name="description"
+                th:text="${movie?.description}"
                required>
     </div>
     <div>
         <label for="rating">Rating</label>
         <input type="number"
                id="rating"
-               name=""
+               name="rating"
+               th:text="${movie?.rating}"
                required>
     </div>
     <div>
         <label>Genre</label><br/>
-        <select id="genre" name="" multiple="multiple" size="5">
+        <select id="genre" name="genre" multiple="multiple" size="5">
             <!-- For each genre you should have one <option> like below  -->
-            <option value="[genre]"> [genre.name]</option>
+            <option value="[genre]" th:each="gr: ${genre}" th:text="${gr.name()}"  th:value="${gr.name()}" th:selected="${movie?.getGenre()?.name() == gr.name()}" > [genre.name]</option>
         </select>
     </div>
     <div>
         <label>Director</label><br/>
-        <select id="director" name="" multiple="multiple" size="5">
+        <select id="director" name="director" multiple="multiple" size="5">
             <!-- For each director you should have one <option> like below  -->
-            <option value="[director.id]"> [director.name]</option>
+            <option value="[director.id]" th:each="dir :${director}" th:text="${dir.name}" th:value="${dir.id}" th:selected="${movie?.getDirector()?.name == dir.name}" > [director.name]</option>
         </select>
     </div>
 

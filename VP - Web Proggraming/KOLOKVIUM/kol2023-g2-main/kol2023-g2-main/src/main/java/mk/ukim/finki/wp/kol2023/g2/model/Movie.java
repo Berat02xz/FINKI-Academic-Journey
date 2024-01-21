@@ -1,5 +1,8 @@
 package mk.ukim.finki.wp.kol2023.g2.model;
 
+import javax.persistence.*;
+
+@Entity
 public class Movie {
 
     public Movie() {
@@ -13,7 +16,8 @@ public class Movie {
         this.director = director;
         this.votes = 0;
     }
-
+    @Id
+    @GeneratedValue
     private Long id;
 
     private String name;
@@ -22,8 +26,10 @@ public class Movie {
 
     private Double rating;
 
+    @Enumerated(EnumType.STRING)
     private Genre genre;
 
+    @ManyToOne
     private Director director;
 
     private Integer votes = 0;
