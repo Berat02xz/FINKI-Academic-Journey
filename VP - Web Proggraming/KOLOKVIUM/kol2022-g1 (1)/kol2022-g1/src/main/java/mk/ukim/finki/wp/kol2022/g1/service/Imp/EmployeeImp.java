@@ -38,14 +38,13 @@ public class EmployeeImp implements mk.ukim.finki.wp.kol2022.g1.service.Employee
     @Override
     public Employee create(String name, String email, String password, EmployeeType type, List<Long> skillId, LocalDate employmentDate) {
         List<Skill> listskills = new ArrayList<>();
-
-        for (int i = 0; i < skillId.size(); i++) {
+        for(int i = 0; i < skillId.size(); i++){
             Long id = skillId.get(i);
             Skill skill = this.skillService.findById(id);
             listskills.add(skill);
         }
-
-        return repository.save(new Employee(name, email, passwordEncoder.encode(password), type , listskills , employmentDate));
+        Employee emp = new Employee(name, email, this.passwordEncoder.encode(password), type, listskills, employmentDate);
+        return repository.save(emp);
     }
 
     @Override
