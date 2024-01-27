@@ -1,9 +1,6 @@
 ![fcse_logo](https://2018.skopje.wordcamp.org/files/2018/09/Logo_FINKI_UKIM_EN.jpg)
 вежби од елитниот факултет - Финки Скопје
 
-##
-These tasks are here to help you sharpen your skills, not for playing the copycat game.</b>
-
 ## Предмети
 - [Архитектура и организација на компјутери](https://github.com/BeratAhmetaj/FINKI/tree/main/AOK%20-%20%D0%90%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D0%B0%20%D0%B8%20%D0%BE%D1%80%D0%B3%D0%B0%D0%BD%D0%B8%D0%B7%D0%B0%D1%86%D0%B8%D1%98%D0%B0%20%D0%BD%D0%B0%20%D0%BA%D0%BE%D0%BC%D0%BF%D1%98%D1%83%D1%82%D0%B5%D1%80%D0%B8)
 - [Алгоритми и податочни структури](https://github.com/BeratAhmetaj/FINKI/tree/main/APS%20-%20%D0%90%D0%BB%D0%B3%D0%BE%D1%80%D0%B8%D1%82%D0%BC%D0%B8%20%D0%B8%20%D0%BF%D0%BE%D0%B4%D0%B0%D1%82%D0%BE%D1%87%D0%BD%D0%B8%20%D1%81%D1%82%D1%80%D1%83%D0%BA%D1%82%D1%83%D1%80%D0%B8)
