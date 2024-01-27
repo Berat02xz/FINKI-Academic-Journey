@@ -38,7 +38,7 @@ import java.util.List;
 public class SeleniumScenarioTest {
 
     static {
-        SubmissionHelper.exam = "wp-kol-2022-g1";
+        SubmissionHelper.exam = "wp-kol-2024-g3";
         SubmissionHelper.index = "216130";
     }
 
