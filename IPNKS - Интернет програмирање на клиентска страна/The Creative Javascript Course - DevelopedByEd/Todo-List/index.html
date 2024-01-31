@@ -44,6 +44,44 @@
         color: white;
         transition: all 0.5s ease;
     }
+    .todo-button{
+        padding: 10.5px;
+    }
+
+    .todo-container{
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        align-items: center;
+    }
+    .todo-list{
+        min-width: 30%;
+        list-style: none;
+    }
+    .todo{
+        margin: 0.5rem;
+        background: white;
+        color: black;
+        font-size: 1.5rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .todo li{
+        flex: 1;
+    }
+    .fa-trash, .fa-check{
+        background: #050200;
+        color: white;
+        border: none;
+        padding: 1rem;
+        cursor: pointer;
+        font-size: 1rem;
+    }
+    .fa-check{
+        background: #82c027;
+    }
+
 </style>
 <body>
 
@@ -68,13 +106,33 @@
         const todoButton = document.querySelector('.todo-button');
         const todoList = document.querySelector('.todo-list');
 
+
+        //EVENT LISTENER FOR BUTTON CLICKS
+        todoList.addEventListener("click", deleteitem );
+
+        function deleteitem(e){
+            const item = e.target;
+
+            //delete
+            if(item.classList[1] === 'fa-trash'){
+                item.parentElement.remove();
+            }
+
+            //check
+            if(item.classList[1] ==='fa-check'){
+                item.parentElement.style.backgroundColor = '#33a65c';
+                item.remove();
+            }
+        }
+
         //Functions
         function addTodo(){
             //CREATE TEXT
             const todoDiv = document.createElement('div');
             todoDiv.classList.add('todo');
             const newTodo = document.createElement('li');
-            newTodo.innerText = "hey"
+            const todoText = document.querySelector('.todo-input').value;
+            newTodo.innerText = todoText;
             newTodo.classList.add('.todo-item');
             todoDiv.appendChild(newTodo);
 
@@ -91,6 +149,12 @@
             //APPEND EVERYTHING
             todoList.appendChild(todoDiv);
         }
+
+
+
+
+
+
 
     </script>
    
