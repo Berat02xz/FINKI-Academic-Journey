@@ -11,41 +11,47 @@
         margin: 0;
         padding: 0;
         box-sizing: border-box;
+        transition: all 0.5s ease;
     }
     body{
-        background-image: linear-gradient(120deg, #f2912f, #e0604c);
+        background-image: linear-gradient(120deg, #000001, #000001);
         color: white;
         font-family: "Poppins", sans-serif;
         min-height: 100vh;
+        transition: all 0.5s ease;
     }
     header{
         font-size: 1.5rem;
+        transition: all 0.5s ease;
     }
     header, form{
         min-height: 20vh;
         display: flex;
         justify-content: center;
         align-items: center;
+        transition: all 0.5s ease;
     }
     form input, form button{
         padding: 0.5rem;
         font-size: 2rem;
         border: none;
         background: white;
+        transition: all 0.5s ease;
     }
     form button{
-        color: #e0604c;
+        color: #000000;
         background: white;
         cursor: pointer;
         transition: all 0.3s ease;
     }
     form button:hover{
-        background-color: #e0604c;
+        background-color: #000000;
         color: white;
         transition: all 0.5s ease;
     }
     .todo-button{
         padding: 10.5px;
+        transition: all 0.5s ease;
     }
 
     .todo-container{
@@ -53,10 +59,12 @@
         justify-content: center;
         align-content: center;
         align-items: center;
+        transition: all 0.5s ease;
     }
     .todo-list{
         min-width: 30%;
         list-style: none;
+        transition: all 0.5s ease;
     }
     .todo{
         margin: 0.5rem;
@@ -66,9 +74,13 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
+        transition: all 0.5s ease;
     }
     .todo li{
         flex: 1;
+        padding-right: 33px;
+        transition: all 0.5s ease;
+
     }
     .fa-trash, .fa-check{
         background: #050200;
@@ -77,9 +89,11 @@
         padding: 1rem;
         cursor: pointer;
         font-size: 1rem;
+        transition: all 0.5s ease;
     }
     .fa-check{
-        background: #82c027;
+        background: #be27c2;
+        transition: all 0.5s ease;
     }
     .fall{
         transform: translateX(100px);
@@ -90,23 +104,33 @@
         padding: 1rem;
         border: none;
         margin: 1rem;
-        color: #f2912f;
+        color: #000000;
         font-family: "Poppins", sans-serif;
+        transition: all 0.5s ease;
     }
     option{
         border: none;
         font-family: "Poppins", sans-serif;
         padding: 1rem;
+        transition: all 0.5s ease;
+    }
+    #emptypromcounter{
+        display: none;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        font-size: 11px;
+        color: #8b8c8b;
     }
 
 </style>
 <body>
 
     <header>
-        <h1>ToDo List</h1>
+        <h1>Ultimate Useless Notepad</h1>
     </header>
-    
-    <form>
+
+<form>
         <input type="text" class="todo-input">
         <button class="todo-button" onclick="addTodo()" type="button"> <i class="fas fa-plus-square"></i> </button>
         <select id="selection">
@@ -114,25 +138,27 @@
             <option id="completed">Completed</option>
             <option id="uncompleted">Uncompleted</option>
         </select>
-    </form>
-
+</form>
     <div class="todo-container">
         <ul class="todo-list">
 
         </ul>
     </div>
-    
+<p id="emptypromcounter"></p>
+
     <script type="application/javascript">
-        //selectors
+        //SELECTORS
         const todoInput = document.querySelector('.todo-input');
         const todoButton = document.querySelector('.todo-button');
         const todoList = document.querySelector('.todo-list');
         const filterBtn = document.getElementById("selection");
+        let emptycounter = 0;
 
         //EVENT LISTENER FOR BUTTON CLICKS
         todoList.addEventListener("click", deleteitem );
         filterBtn.addEventListener("click", filter );
 
+        //FILTER
         function filter(e) {
             const filterType = e.target.value;
             const notes = Array.from(todoList.children);
@@ -152,25 +178,27 @@
             });
         }
 
+        //DELETE SELECTED ITEM
         function deleteitem(e){
             const item = e.target;
 
-            //delete
+            //DELETE
             if(item.classList[1] === 'fa-trash'){
                 item.parentElement.classList.add('fall');
                 setTimeout(function (){item.parentElement.remove()},500);
 
             }
 
-            //check
+            //COMPLETE
             if(item.classList[1] ==='fa-check'){
-                item.parentElement.style.backgroundColor = '#33a65c';
+                item.parentElement.style.backgroundColor = '#969696';
+                item.parentElement.style.textDecoration = 'line-through';
                 item.parentElement.classList.add("completed");
                 item.remove();
             }
         }
 
-        //Functions
+        //ADD TODOLIST
         function addTodo(){
             //CREATE TEXT
             const todoDiv = document.createElement('div');
@@ -178,6 +206,39 @@
             const newTodo = document.createElement('li');
             const todoText = document.querySelector('.todo-input').value;
             newTodo.innerText = todoText;
+
+            //Useless Counter
+            const emptypromisescounter = document.getElementById("emptypromcounter");
+            emptypromisescounter.innerHTML = "by the way thats " + emptycounter + " empty promises."
+            //Useless Function
+            if(todoText === ""){
+                const empty = document.createElement('p');
+                if(emptycounter===4){
+                    alert("congratulations, you are the winner of 4 MORE EMPTY NOTES");
+                    for (let i = 0; i < 3; i++) {
+                        emptycounter++;
+                        emptypromisescounter.style.display = "flex";
+                        addTodo(); // Cloning the empty element and appending it to todoDiv
+                    }
+                }
+                else if(emptycounter>2){
+                    empty.innerText = "making empty promises...";
+                }
+                else if(emptycounter>1){
+                    empty.innerText = "that's so lazy";
+
+                }else if(emptycounter>0){
+                    empty.innerText = "huh";
+                }
+                else{
+                    empty.innerText = "Empty";
+
+                }
+                todoDiv.appendChild(empty);
+                emptycounter++;
+            }
+
+            //ADD ITEM
             newTodo.classList.add('.todo-item');
             todoDiv.appendChild(newTodo);
 
@@ -193,15 +254,64 @@
 
             //APPEND EVERYTHING
             todoList.appendChild(todoDiv);
+
+            // Clear input value
+            document.querySelector('.todo-input').value = "";
         }
-
-
-
-
-
-
-
     </script>
-   
+
+
+    <!--############################################################### -->
+<style>
+    span {
+        color: #666;
+        font-size: 12px;
+        display: block;
+        position: absolute;
+        bottom: 10px;
+        position: absolute;
+        width: 90%;
+        left: 50%;
+        top: 45%;
+        bottom: auto;
+        right: auto;
+        transform: translateX(-50%) translateY(-50%);
+        text-align: center;
+    }
+    span a {
+        color: #000000;
+        text-decoration: none;
+    }
+    span .fa {
+        color: #E90606;
+        margin: 0 3px;
+        font-size: 10px;
+        animation: pound 0.35s infinite alternate;
+        -webkit-animation: pound 0.35s infinite alternate;
+    }
+    @-webkit-keyframes pound {
+        to {
+            transform: scale(1.1);
+        }
+    }
+    @keyframes pound {
+        to {
+            transform: scale(1.1);
+        }
+    }
+    footer {
+        background-color: #f0f0f0;
+        padding: 20px;
+        width: 100%;
+        position: fixed;
+        bottom: 0;
+    }
+</style>
+<footer>
+    <span>
+    Made with <i class="fa fa-heart pulse"></i> by <a href="https://github.com/BeratAhmetaj" target="_blank">Berat</a>
+</span>
+</footer>
+<!--############################################################### -->
 </body>
 </html>
