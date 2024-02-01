@@ -81,6 +81,23 @@
     .fa-check{
         background: #82c027;
     }
+    .fall{
+        transform: translateX(100px);
+        opacity: 0;
+        transition: all 0.5s ease;
+    }
+    #selection{
+        padding: 1rem;
+        border: none;
+        margin: 1rem;
+        color: #f2912f;
+        font-family: "Poppins", sans-serif;
+    }
+    option{
+        border: none;
+        font-family: "Poppins", sans-serif;
+        padding: 1rem;
+    }
 
 </style>
 <body>
@@ -92,6 +109,11 @@
     <form>
         <input type="text" class="todo-input">
         <button class="todo-button" onclick="addTodo()" type="button"> <i class="fas fa-plus-square"></i> </button>
+        <select id="selection">
+            <option id="all">All</option>
+            <option id="completed">Completed</option>
+            <option id="uncompleted">Uncompleted</option>
+        </select>
     </form>
 
     <div class="todo-container">
@@ -105,22 +127,45 @@
         const todoInput = document.querySelector('.todo-input');
         const todoButton = document.querySelector('.todo-button');
         const todoList = document.querySelector('.todo-list');
-
+        const filterBtn = document.getElementById("selection");
 
         //EVENT LISTENER FOR BUTTON CLICKS
         todoList.addEventListener("click", deleteitem );
+        filterBtn.addEventListener("click", filter );
+
+        function filter(e) {
+            const filterType = e.target.value;
+            const notes = Array.from(todoList.children);
+
+            notes.forEach(function (item) {
+                const isCompleted = item.classList.contains('completed');
+
+                if (filterType === 'All') {
+                    item.style.display = "flex";
+                } else if (filterType === 'Completed' && isCompleted) {
+                    item.style.display = "flex";
+                } else if (filterType === 'Uncompleted' && !isCompleted) {
+                    item.style.display = "flex";
+                } else {
+                    item.style.display = "none";
+                }
+            });
+        }
 
         function deleteitem(e){
             const item = e.target;
 
             //delete
             if(item.classList[1] === 'fa-trash'){
-                item.parentElement.remove();
+                item.parentElement.classList.add('fall');
+                setTimeout(function (){item.parentElement.remove()},500);
+
             }
 
             //check
             if(item.classList[1] ==='fa-check'){
                 item.parentElement.style.backgroundColor = '#33a65c';
+                item.parentElement.classList.add("completed");
                 item.remove();
             }
         }
