@@ -233,7 +233,14 @@
         background: rgb(41, 41, 41);
         color: white;
     }
-
+input[type="range"]{
+    -webkit-appearance: none;
+    margin: 1rem 0rem;
+    width: 100%;
+    position: relative;
+    border-radius: 1rem;
+    cursor: pointer;
+}
 </style>
 
 <div class="colors">
@@ -339,7 +346,7 @@
     const sliders = document.querySelectorAll('input[type="range"]');
     const currentHexes = document.querySelectorAll('.color h2');
     let initialColors;
-
+    randomColors();
     //Functions
     function randomColors(){
         colordivs.forEach((div,index) => {
@@ -349,15 +356,43 @@
            //Add color to background
             div.style.backgroundColor = randomColor;
             hexText.innerText = randomColor;
+            //czech contrast
+            checkTextContrast(randomColor,hexText);
+            //sliders
+            const color = chroma(randomColor);
+            const sliders = div.querySelectorAll('.sliders input');
+            const hue = sliders[0];
+            const brightness= sliders[1];
+            const saturation = sliders[2];
+            colorizeSliders(color,hue,brightness,saturation);
+            //
         });
     }
-    randomColors();
+    function colorizeSliders(color,hue,brightness,saturation){
+        //scale saturation
+        const nosat = color.set('hsl.s', 0);
+        const fullsat = color.set('hsl.s', 1);
+        const scaleSat = chroma.scale([nosat,color,fullsat]);
+        //scale brightness
+        const midBright = color.set('hsl.l', 0.5);
+        const brightscale = chroma.scale(["black", midBright ,"white"]);
+        //Huehue
+        const colorscale = chroma.scale();
+        //Input update
+        hue.style.backgroundImage = `linear-gradient(to right, rgb(204,75,75), rgb(204,204,75), rgb(75,204,75), rgb(75,204,204), rgb(75,75,204), rgb(204,75,204), rgb(204,75,75))`;
+        brightness.style.backgroundImage = `linear-gradient(to right,  ${brightscale(0)} , ${brightscale(1)} `;
+        saturation.style.backgroundImage = `linear-gradient(to right, ${scaleSat(0)},${scaleSat(1)}),`;
+    }
+
+    function checkTextContrast(color, text){
+        const luminance = chroma(color).luminance();
+        if(luminance > 0.5){
+            text.style.color = "black";
+        }else {
+            text.style.color = "white";
+        }
+    }
     function GenerateHex(){
-        // const letters = '#0123456789';
-        // let hash = '#' ;
-        // for(let i=0; i<6; i++){
-        //     hash+=letters[Math.floor(Math.random()*16)];
-        // }
         const hexColor = chroma.random();
         return hexColor;
     }
