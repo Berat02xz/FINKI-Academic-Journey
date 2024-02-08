@@ -74,6 +74,9 @@
                 return;
             }
             var type;
+
+            var free = document.getElementById("free")
+            var paid = document.getElementById("paid")
             if(free.checked==true)
             {
                 type = free.value
@@ -102,6 +105,7 @@
             var special = /[^a-zA-Z ]/
             console.log(special.test(title))
             return special.test(title)
+            //ako gore e tocno alert("Насловот содржи специјални знаци!")
         }
         function publish(btn)
         {
