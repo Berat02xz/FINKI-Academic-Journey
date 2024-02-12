@@ -37,7 +37,7 @@ public class Student {
     @Enumerated(EnumType.STRING)
     private StudentType type;
 
-    @ManyToMany
+    @ManyToMany(fetch = FetchType.EAGER)
     private List<Course> courses;
 
     public Long getId() {
