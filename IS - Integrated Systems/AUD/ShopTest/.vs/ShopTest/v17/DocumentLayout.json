@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\AUD\\ShopTest\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D18E1517-0DA9-4FB1-994E-7D5D685B0F9E}|TestApp\\TestApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\aud\\shoptest\\testapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{D18E1517-0DA9-4FB1-994E-7D5D685B0F9E}|TestApp\\TestApp.csproj|solutionrelative:testapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\AUD\\ShopTest\\TestApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "TestApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\AUD\\ShopTest\\TestApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "TestApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-12T13:30:14.548Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
