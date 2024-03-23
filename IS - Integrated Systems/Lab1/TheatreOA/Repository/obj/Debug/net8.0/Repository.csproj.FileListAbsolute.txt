@@ -1,0 +1,11 @@
+C:\Users\216130\source\repos\TheatreOA\Repository\bin\Debug\net8.0\Repository.deps.json
+C:\Users\216130\source\repos\TheatreOA\Repository\bin\Debug\net8.0\Repository.dll
+C:\Users\216130\source\repos\TheatreOA\Repository\bin\Debug\net8.0\Repository.pdb
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\Repository.AssemblyInfoInputs.cache
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\Repository.AssemblyInfo.cs
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\Repository.csproj.CoreCompileInputs.cache
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\Repository.dll
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\refint\Repository.dll
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\Repository.pdb
+C:\Users\216130\source\repos\TheatreOA\Repository\obj\Debug\net8.0\ref\Repository.dll
