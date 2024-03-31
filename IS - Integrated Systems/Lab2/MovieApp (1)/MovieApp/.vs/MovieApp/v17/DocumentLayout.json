@@ -3,51 +3,59 @@
   "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\controllers\\ticketinorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\controllers\\ticketinorderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\tickets\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MovieApp_47163186_e8da_4c48_ba85_4c4f901aeb18/True/SqlTable/dbo.TicketInOrders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\controllers\\orderscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\views\\tickets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\tickets\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|solutionrelative:movieapp\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240331124259_migromigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:MovieApp\\Migrations\\20240331124259_migromigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MovieApp_47163186_e8da_4c48_ba85_4c4f901aeb18/True/SqlTable/dbo.TicketInOrders.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3CCE6686-EBE6-4E52-AD8D-E84AF8F427C0}|MovieApp\\MovieApp.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\movieapp (1)\\movieapp\\movieapp\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -117,32 +125,137 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TicketInOrdersController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Controllers\\TicketInOrdersController.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Controllers\\TicketInOrdersController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Controllers\\TicketInOrdersController.cs",
+              "RelativeToolTip": "MovieApp\\Controllers\\TicketInOrdersController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-31T13:46:04.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T12:18:09.208Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Tickets\\Index.cshtml",
               "RelativeDocumentMoniker": "MovieApp\\Views\\Tickets\\Index.cshtml",
               "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Tickets\\Index.cshtml",
               "RelativeToolTip": "MovieApp\\Views\\Tickets\\Index.cshtml",
-              "ViewState": "AQIAADEAAAAAAAAAAAAcwFAAAAAEAAAA",
+              "ViewState": "AQIAACoAAAAAAAAAAAAAADsAAAAPAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-30T13:07:08.49Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Tickets\\Details.cshtml",
+              "RelativeDocumentMoniker": "MovieApp\\Views\\Tickets\\Details.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Tickets\\Details.cshtml",
+              "RelativeToolTip": "MovieApp\\Views\\Tickets\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-30T14:01:42.587Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "TicketsController.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Controllers\\TicketsController.cs",
               "RelativeDocumentMoniker": "MovieApp\\Controllers\\TicketsController.cs",
               "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Controllers\\TicketsController.cs",
               "RelativeToolTip": "MovieApp\\Controllers\\TicketsController.cs",
-              "ViewState": "AQIAAN4AAAAAAAAAAAAAAP4AAAAJAAAA",
+              "ViewState": "AQIAABMAAAAAAAAAAAAqwC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-25T00:41:51.267Z"
+              "WhenOpened": "2024-03-25T00:41:51.267Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "MovieApp\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T12:09:58.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Order.cs",
+              "RelativeToolTip": "MovieApp\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T12:06:09.031Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "TicketInOrder.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\TicketInOrder.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Models\\TicketInOrder.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\TicketInOrder.cs",
+              "RelativeToolTip": "MovieApp\\Models\\TicketInOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-30T12:05:33.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Ticket.cs",
+              "RelativeToolTip": "MovieApp\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T21:38:43.637Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Movie.cs",
+              "RelativeToolTip": "MovieApp\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-21T21:13:56.815Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -152,37 +265,40 @@
               "RelativeDocumentMoniker": "MovieApp\\Controllers\\OrdersController.cs",
               "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Controllers\\OrdersController.cs",
               "RelativeToolTip": "MovieApp\\Controllers\\OrdersController.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwD8AAAAqAAAA",
+              "ViewState": "AQIAAKcAAAAAAAAAAAAuwLoAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T12:14:38.145Z"
+              "WhenOpened": "2024-03-30T12:14:38.145Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "TicketInOrder.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\TicketInOrder.cs",
-              "RelativeDocumentMoniker": "MovieApp\\Models\\TicketInOrder.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\TicketInOrder.cs",
-              "RelativeToolTip": "MovieApp\\Models\\TicketInOrder.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAArAAAA",
+              "DocumentIndex": 11,
+              "Title": "EShopApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\EShopApplicationUser.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Models\\EShopApplicationUser.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\EShopApplicationUser.cs",
+              "RelativeToolTip": "MovieApp\\Models\\EShopApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T12:05:33.153Z"
+              "WhenOpened": "2024-03-21T21:41:05.39Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Ticket.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Ticket.cs",
-              "RelativeDocumentMoniker": "MovieApp\\Models\\Ticket.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Ticket.cs",
-              "RelativeToolTip": "MovieApp\\Models\\Ticket.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "DocumentIndex": 12,
+              "Title": "20240331124259_migromigro.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240331124259_migromigro.cs",
+              "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240331124259_migromigro.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240331124259_migromigro.cs",
+              "RelativeToolTip": "MovieApp\\Migrations\\20240331124259_migromigro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T21:38:43.637Z"
+              "WhenOpened": "2024-03-31T12:42:59.747Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 13,
               "Title": "dbo.TicketInOrders [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_MovieApp_47163186_e8da_4c48_ba85_4c4f901aeb18/True/SqlTable/dbo.TicketInOrders.sql",
               "ToolTip": "dbo.TicketInOrders [Data]",
@@ -191,31 +307,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Order.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Order.cs",
-              "RelativeDocumentMoniker": "MovieApp\\Models\\Order.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Order.cs",
-              "RelativeToolTip": "MovieApp\\Models\\Order.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T12:06:09.031Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Movie.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Movie.cs",
-              "RelativeDocumentMoniker": "MovieApp\\Models\\Movie.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\Movie.cs",
-              "RelativeToolTip": "MovieApp\\Models\\Movie.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T21:13:56.815Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 22,
               "Title": "20240330151004_firx.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240330151004_firx.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240330151004_firx.cs",
@@ -227,7 +319,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "20240330145815_fixerino.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240330145815_fixerino.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240330145815_fixerino.cs",
@@ -239,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "20240330145646_mixo.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240330145646_mixo.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240330145646_mixo.cs",
@@ -251,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "20240330143221_migrfix.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240330143221_migrfix.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240330143221_migrfix.cs",
@@ -263,43 +355,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "MovieApp\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "MovieApp\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-30T12:09:58.036Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "EShopApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\EShopApplicationUser.cs",
-              "RelativeDocumentMoniker": "MovieApp\\Models\\EShopApplicationUser.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\EShopApplicationUser.cs",
-              "RelativeToolTip": "MovieApp\\Models\\EShopApplicationUser.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-21T21:41:05.39Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Tickets\\Details.cshtml",
-              "RelativeDocumentMoniker": "MovieApp\\Views\\Tickets\\Details.cshtml",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Tickets\\Details.cshtml",
-              "RelativeToolTip": "MovieApp\\Views\\Tickets\\Details.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACAAAAALAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-30T14:01:42.587Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "20240330135806_classfix.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240330135806_classfix.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240330135806_classfix.cs",
@@ -311,7 +367,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "20240330125144_TotalPricechange.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240330125144_TotalPricechange.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240330125144_TotalPricechange.cs",
@@ -323,19 +379,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "MovieApp\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "MovieApp\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAACAAAAAdAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-30T12:18:09.208Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 28,
               "Title": "20240330121331_mgro.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240330121331_mgro.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240330121331_mgro.cs",
@@ -347,7 +391,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "MovieApp\\Models\\ErrorViewModel.cs",
@@ -359,7 +403,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20240325110912_initial.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Migrations\\20240325110912_initial.cs",
               "RelativeDocumentMoniker": "MovieApp\\Migrations\\20240325110912_initial.cs",
@@ -371,7 +415,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\appsettings.json",
               "RelativeDocumentMoniker": "MovieApp\\appsettings.json",
@@ -383,7 +427,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "Register.cshtml",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "MovieApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
@@ -395,7 +439,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "Register.cshtml.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "MovieApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
@@ -407,7 +451,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Program.cs",
               "RelativeDocumentMoniker": "MovieApp\\Program.cs",
@@ -419,7 +463,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "MovieApp\\Areas\\Identity\\Pages\\_ValidationScriptsPartial.cshtml",
@@ -431,7 +475,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "MoviesController.cs",
               "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\MovieApp (1)\\MovieApp\\MovieApp\\Controllers\\MoviesController.cs",
               "RelativeDocumentMoniker": "MovieApp\\Controllers\\MoviesController.cs",

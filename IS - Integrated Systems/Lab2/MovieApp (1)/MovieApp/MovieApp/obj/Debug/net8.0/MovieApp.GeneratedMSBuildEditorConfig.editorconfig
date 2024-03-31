@@ -106,6 +106,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/berat/OneDrive/Documents/Github/FINKI/IS - Integrated Systems/Lab2/MovieApp (1)/MovieApp/MovieApp/Views/TicketInOrders/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0SW5PcmRlcnNcQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berat/OneDrive/Documents/Github/FINKI/IS - Integrated Systems/Lab2/MovieApp (1)/MovieApp/MovieApp/Views/TicketInOrders/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0SW5PcmRlcnNcRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berat/OneDrive/Documents/Github/FINKI/IS - Integrated Systems/Lab2/MovieApp (1)/MovieApp/MovieApp/Views/TicketInOrders/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0SW5PcmRlcnNcRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berat/OneDrive/Documents/Github/FINKI/IS - Integrated Systems/Lab2/MovieApp (1)/MovieApp/MovieApp/Views/TicketInOrders/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0SW5PcmRlcnNcRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/berat/OneDrive/Documents/Github/FINKI/IS - Integrated Systems/Lab2/MovieApp (1)/MovieApp/MovieApp/Views/TicketInOrders/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0SW5PcmRlcnNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/berat/OneDrive/Documents/Github/FINKI/IS - Integrated Systems/Lab2/MovieApp (1)/MovieApp/MovieApp/Views/Tickets/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVGlja2V0c1xDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

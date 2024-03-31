@@ -12,7 +12,6 @@ namespace MovieApp.Data
         }
         public virtual DbSet<MovieApp.Models.Movie> Movies { get; set; }
         public virtual DbSet<MovieApp.Models.Ticket> Tickets { get; set; }
-   
         public virtual DbSet<MovieApp.Models.TicketInOrder> TicketInOrders { get; set; }
         public virtual DbSet<MovieApp.Models.Order> Orders { get; set; }
 
