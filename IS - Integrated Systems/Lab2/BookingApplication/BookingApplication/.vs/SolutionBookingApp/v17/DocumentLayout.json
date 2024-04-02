@@ -1,56 +1,64 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\",
+  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402105141_ininin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingApplication\\Migrations\\20240402105141_ininin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\models\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\models\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\models\\reservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\models\\bookreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\models\\bookreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\models\\bookreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402184413_igigigig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingApplication\\Migrations\\20240402184413_igigigig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402184235_inininini.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BookingApplication\\Migrations\\20240402184235_inininini.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\migrations\\20240402105141_ininin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\migrations\\20240402105141_ininin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\models\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\models\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BookingApplication_10407ce4_157b_4a89_b3ca_c69154bc17ca/True/SqlTable/dbo.BookingList.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\controllers\\bookreservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\controllers\\bookreservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\bookreservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\models\\bookingapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\models\\bookingapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\models\\bookingapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\views\\bookinglists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\views\\bookinglists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\bookinglists\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
@@ -60,22 +68,22 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401105152_fix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401104622_migro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\migrations\\20240401115327_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\migrations\\20240401115327_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\migrations\\20240401115327_final.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\migrations\\20240401112023_mixerino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\migrations\\20240401112023_mixerino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\migrations\\20240401112023_mixerino.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 2 - goup b\\bookingapplication\\bookingapplication\\bookingapplication\\migrations\\20240401111146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab2\\bookingapplication\\bookingapplication\\bookingapplication\\migrations\\20240401111146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\migrations\\20240401111146_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -86,15 +94,41 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "20240402184413_igigigig.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402184413_igigigig.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Migrations\\20240402184413_igigigig.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402184413_igigigig.cs",
+              "RelativeToolTip": "BookingApplication\\Migrations\\20240402184413_igigigig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:44:13.676Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "20240402184235_inininini.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402184235_inininini.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Migrations\\20240402184235_inininini.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402184235_inininini.cs",
+              "RelativeToolTip": "BookingApplication\\Migrations\\20240402184235_inininini.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-02T18:42:35.519Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "20240402105141_ininin.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402105141_ininin.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402105141_ininin.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Migrations\\20240402105141_ininin.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402105141_ininin.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240402105141_ininin.cs",
               "RelativeToolTip": "BookingApplication\\Migrations\\20240402105141_ininin.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -103,24 +137,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 5,
               "Title": "BookingList.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingList.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingList.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Models\\BookingList.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingList.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingList.cs",
               "RelativeToolTip": "BookingApplication\\Models\\BookingList.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAA5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T10:43:09.293Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T10:43:09.293Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "BookReservation.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookReservation.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookReservation.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Models\\BookReservation.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookReservation.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookReservation.cs",
               "RelativeToolTip": "BookingApplication\\Models\\BookReservation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -129,60 +162,57 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Reservation.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\Reservation.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\Reservation.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Models\\Reservation.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\Reservation.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\Reservation.cs",
               "RelativeToolTip": "BookingApplication\\Models\\Reservation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-01T10:39:54.259Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "BookingListsController.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Controllers\\BookingListsController.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
               "RelativeToolTip": "BookingApplication\\Controllers\\BookingListsController.cs",
               "ViewState": "AQIAAKEAAAAAAAAAAAAAALgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T10:47:26.956Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T10:47:26.956Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "dbo.BookingList [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/aspnet_BookingApplication_10407ce4_157b_4a89_b3ca_c69154bc17ca/True/SqlTable/dbo.BookingList.sql",
               "ToolTip": "dbo.BookingList [Data]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
-              "WhenOpened": "2024-04-02T10:46:54.896Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-02T10:46:54.896Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ReservationsController.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Controllers\\ReservationsController.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
               "RelativeToolTip": "BookingApplication\\Controllers\\ReservationsController.cs",
               "ViewState": "AQIAAJ0AAAAAAAAAAAAuwMMAAAAqAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T11:28:35.106Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T11:28:35.106Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\BookingLists\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\BookingLists\\Index.cshtml",
               "RelativeDocumentMoniker": "BookingApplication\\Views\\BookingLists\\Index.cshtml",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\BookingLists\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\BookingLists\\Index.cshtml",
               "RelativeToolTip": "BookingApplication\\Views\\BookingLists\\Index.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -190,24 +220,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "BookReservationsController.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookReservationsController.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Controllers\\BookReservationsController.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookReservationsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Controllers\\BookReservationsController.cs",
               "RelativeToolTip": "BookingApplication\\Controllers\\BookReservationsController.cs",
               "ViewState": "AQIAAHUAAAAAAAAAAAAAwC0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T10:47:04.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T10:47:04.202Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
               "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\Index.cshtml",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
               "RelativeToolTip": "BookingApplication\\Views\\Reservations\\Index.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAABAAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -215,24 +244,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "BookingApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingApplicationUser.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Models\\BookingApplicationUser.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingApplicationUser.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Models\\BookingApplicationUser.cs",
               "RelativeToolTip": "BookingApplication\\Models\\BookingApplicationUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-01T11:00:32.818Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-01T11:00:32.818Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "20240401115327_final.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401115327_final.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401115327_final.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Migrations\\20240401115327_final.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401115327_final.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401115327_final.cs",
               "RelativeToolTip": "BookingApplication\\Migrations\\20240401115327_final.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -240,11 +268,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "20240401112023_mixerino.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401112023_mixerino.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401112023_mixerino.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Migrations\\20240401112023_mixerino.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401112023_mixerino.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401112023_mixerino.cs",
               "RelativeToolTip": "BookingApplication\\Migrations\\20240401112023_mixerino.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -252,11 +280,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Details.cshtml",
               "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\Details.cshtml",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Details.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Reservations\\Details.cshtml",
               "RelativeToolTip": "BookingApplication\\Views\\Reservations\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -264,11 +292,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "20240401111146_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401111146_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401111146_Initial.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Migrations\\20240401111146_Initial.cs",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401111146_Initial.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Migrations\\20240401111146_Initial.cs",
               "RelativeToolTip": "BookingApplication\\Migrations\\20240401111146_Initial.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -276,11 +304,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "_LoginPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeDocumentMoniker": "BookingApplication\\Views\\Shared\\_LoginPartial.cshtml",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_LoginPartial.cshtml",
               "RelativeToolTip": "BookingApplication\\Views\\Shared\\_LoginPartial.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -288,7 +316,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "20240401105519_fixerino.cs",
               "DocumentMoniker": "C:\\Users\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401105519_fixerino.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401105519_fixerino.cs",
@@ -300,7 +328,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "20240401105152_fix.cs",
               "DocumentMoniker": "C:\\Users\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401105152_fix.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401105152_fix.cs",
@@ -312,11 +340,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "BookingApplication\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 2 - Goup B\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab2\\BookingApplication\\BookingApplication\\BookingApplication\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "BookingApplication\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAA4AAABDAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -324,7 +352,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "20240401104622_migro.cs",
               "DocumentMoniker": "C:\\Users\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401104622_migro.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\216130\\Downloads\\BookingApplication\\BookingApplication\\Data\\Migrations\\20240401104622_migro.cs",

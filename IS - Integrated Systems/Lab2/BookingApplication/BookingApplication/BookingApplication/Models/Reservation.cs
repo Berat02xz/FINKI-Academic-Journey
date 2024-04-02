@@ -9,7 +9,6 @@ namespace BookingApplication.Models
         [Required]
         public DateTime Check_in_date { get; set; }
         public Guid ApartmentId { get; set; }
-        [Required]
         public Apartment? Apartment { get; set; }
         public virtual BookingApplicationUser? User { get; set; }
         public string? UserId { get; set; }
