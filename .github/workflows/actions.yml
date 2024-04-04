@@ -13,5 +13,5 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
       
-      - name: OpenCommit
+      - name: OpenCommit — improve commits with AI 🧙
         uses: di-sukharev/opencommit@github-action-v1.0.2
