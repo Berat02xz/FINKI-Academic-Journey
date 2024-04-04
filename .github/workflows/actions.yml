@@ -1,0 +1,17 @@
+name: OpenCommit — improve commits with AI 🧙
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  opencommit:
+    runs-on: ubuntu-latest
+    name: OpenCommit
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+      
+      - name: OpenCommit
+        uses: di-sukharev/opencommit@github-action-v1.0.2
