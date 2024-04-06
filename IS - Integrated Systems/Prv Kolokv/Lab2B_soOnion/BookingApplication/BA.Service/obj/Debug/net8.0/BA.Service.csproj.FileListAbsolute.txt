@@ -1,0 +1,17 @@
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\bin\Debug\net8.0\BA.Service.deps.json
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\bin\Debug\net8.0\BA.Service.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\bin\Debug\net8.0\BA.Service.pdb
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\bin\Debug\net8.0\BA.Domain.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\bin\Debug\net8.0\BA.Repository.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\bin\Debug\net8.0\BA.Domain.pdb
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\bin\Debug\net8.0\BA.Repository.pdb
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.csproj.AssemblyReference.cache
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.AssemblyInfoInputs.cache
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.AssemblyInfo.cs
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.csproj.CoreCompileInputs.cache
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.csproj.Up2Date
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\refint\BA.Service.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\BA.Service.pdb
+C:\Users\anaja\Downloads\BookingApplication\BA.Service\obj\Debug\net8.0\ref\BA.Service.dll

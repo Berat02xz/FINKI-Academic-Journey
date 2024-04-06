@@ -1,0 +1,61 @@
+﻿@model BA.Domain.DTO.BookingListDTO
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Your Booking List</h1>
+<div class="row-4">
+    <a asp-action="BookNow" class="btn btn-info">Book now</a>
+</div>
+
+<table class="table">
+    <thead class="thead-dark">
+        <tr>
+            <th>#</th>
+            <th>Booking For</th>
+            <th>Number of nights</th>
+            <th>Price per night</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model.AllReservations.Count() == 0)
+        {
+            <tr>
+                <td colspan="5" class="text-center"><b><i>No active products</i></b></td>
+            </tr>
+        }
+        else
+        {
+            @for (int i = 0; i < Model.AllReservations.Count(); i++)
+            {
+                var item = Model?.AllReservations[i];
+                var apartment = item.Reservation.Apartment;
+                <tr>
+                <tr>
+                    <th scope="row">@(i + 1)</th>
+                    <td>@item?.Reservation.Apartment.ApartmentName</td>
+                    <td>@item?.Number_Of_Nights</td>
+                    <td>@item?.Reservation.Apartment.Price_per_night</td>
+                    <td><a asp-controller="BookingLists" asp-action="DeleteFromList" asp-route-id="@item.ReservationId" class="btn btn-danger">Delete From List</a></td>
+                </tr>
+
+                </tr>
+            }
+        }
+    </tbody>
+    <tfoot>
+        @if (Model.AllReservations.Count() != 0)
+        {
+            <tr>
+                <th>Total Booking Price:</th>
+                <th></th>
+                <th></th>
+                <th>Ден:@Model.TotalPrice</th>
+                <th></th>
+            </tr>
+        }
+    </tfoot>
+</table>

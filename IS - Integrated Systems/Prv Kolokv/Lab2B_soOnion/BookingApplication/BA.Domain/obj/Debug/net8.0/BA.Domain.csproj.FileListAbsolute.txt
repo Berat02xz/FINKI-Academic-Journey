@@ -1,0 +1,12 @@
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\bin\Debug\net8.0\BA.Domain.deps.json
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\bin\Debug\net8.0\BA.Domain.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\bin\Debug\net8.0\BA.Domain.pdb
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\BA.Domain.csproj.AssemblyReference.cache
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\BA.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\BA.Domain.AssemblyInfoInputs.cache
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\BA.Domain.AssemblyInfo.cs
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\BA.Domain.csproj.CoreCompileInputs.cache
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\BA.Domain.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\refint\BA.Domain.dll
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\BA.Domain.pdb
+C:\Users\anaja\Downloads\BookingApplication\BA.Domain\obj\Debug\net8.0\ref\BA.Domain.dll

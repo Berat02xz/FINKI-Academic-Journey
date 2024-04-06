@@ -1,0 +1,36 @@
+﻿@model BA.Domain.Domain.BookReservation
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+@{
+    ViewData["Title"] = "AddReservationToList";
+}
+@{
+    ViewData["Title"] = "AddReservationToList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>AddReservationToList</h1>
+
+
+<div class="container">
+    <form method="post" asp-action="AddReservationToList">
+
+        <input type="hidden" asp-for="ReservationId" value="@Model.ReservationId" class="form-control" />
+
+        <div class="row mt-4">
+            <div class="form-group">
+                <label asp-for="Number_Of_Nights" class="control-label"></label>
+                <input asp-for="Number_Of_Nights" type="number" class="form-control" />
+                <span asp-validation-for="Number_Of_Nights" class="text-danger"></span>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <button type="submit" class="btn btn-success">Add To Cart</button>
+        </div>
+    </form>
+
+</div>
