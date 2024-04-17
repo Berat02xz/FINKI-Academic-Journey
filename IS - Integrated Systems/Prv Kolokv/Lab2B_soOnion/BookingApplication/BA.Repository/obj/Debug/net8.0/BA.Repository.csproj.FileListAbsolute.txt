@@ -13,3 +13,19 @@ C:\Users\anaja\Downloads\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Re
 C:\Users\anaja\Downloads\BookingApplication\BA.Repository\obj\Debug\net8.0\refint\BA.Repository.dll
 C:\Users\anaja\Downloads\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.pdb
 C:\Users\anaja\Downloads\BookingApplication\BA.Repository\obj\Debug\net8.0\ref\BA.Repository.dll
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\bin\Debug\net8.0\BA.Repository.deps.json
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\bin\Debug\net8.0\BA.Repository.dll
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\bin\Debug\net8.0\BA.Repository.pdb
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\bin\Debug\net8.0\BA.Domain.dll
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\bin\Debug\net8.0\BA.Domain.pdb
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.csproj.AssemblyReference.cache
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.AssemblyInfoInputs.cache
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.AssemblyInfo.cs
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.csproj.CoreCompileInputs.cache
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.sourcelink.json
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repos.7C73EA82.Up2Date
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.dll
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\refint\BA.Repository.dll
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\BA.Repository.pdb
+C:\Users\berat\OneDrive\Documents\Github\FINKI\IS - Integrated Systems\Prv Kolokv\Lab2B_soOnion\BookingApplication\BA.Repository\obj\Debug\net8.0\ref\BA.Repository.dll

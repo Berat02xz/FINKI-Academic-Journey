@@ -1,94 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\anaja\\Downloads\\BookingApplication\\",
+  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.service\\implementation\\bookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\implementation\\bookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|solutionrelative:ba.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|solutionrelative:ba.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\implementation\\reservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.service\\implementation\\bookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\implementation\\bookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\views\\reservations\\addreservationtolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\addreservationtolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.domain\\domain\\bookreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|solutionrelative:ba.domain\\domain\\bookreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.service\\interface\\ibookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\interface\\ibookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Repository\\Migrations\\20240406141439_initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BA.Repository\\Migrations\\20240406141439_initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.domain\\ba.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.domain\\ba.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|solutionrelative:ba.domain\\ba.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.domain\\domain\\bookreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|solutionrelative:ba.domain\\domain\\bookreservation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.domain\\domain\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|solutionrelative:ba.domain\\domain\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.domain\\domain\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.domain\\domain\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|solutionrelative:ba.domain\\domain\\apartment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.service\\interface\\iapartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\apartmentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\bookinglistscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\controllers\\reservationscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|solutionrelative:ba.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|solutionrelative:ba.repository\\implementation\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\views\\reservations\\addreservationtolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\addreservationtolist.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\reservations\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.service\\interface\\ibookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\interface\\ibookinglistservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\interface\\ireservationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.service\\interface\\iapartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1C55316D-7A63-42F1-8015-BD24DF4F22A5}|BA.Service\\BA.Service.csproj|solutionrelative:ba.service\\interface\\iapartmentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\views\\apartments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\views\\apartments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\views\\apartments\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\bookingapplication\\bookingapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\bookingapplication\\bookingapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{75F18148-27CE-4B39-B1AA-753B6766B868}|BookingApplication\\BookingApplication.csproj|solutionrelative:bookingapplication\\bookingapplication.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|c:\\users\\anaja\\downloads\\bookingapplication\\ba.domain\\domain\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{143F094D-523D-4358-ACE9-00FCA098B9C4}|BA.Domain\\BA.Domain.csproj|solutionrelative:ba.domain\\domain\\bookinglist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\prv kolokv\\lab2b_soonion\\bookingapplication\\ba.repository\\migrations\\20240406141439_initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{857B0FA9-0AF5-4ECF-AB56-13E68328B8DF}|BA.Repository\\BA.Repository.csproj|solutionrelative:ba.repository\\migrations\\20240406141439_initial1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -98,202 +98,210 @@
       "DocumentGroups": [
         {
           "DockedHeight": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "BookingListService.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Implementation\\BookingListService.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Implementation\\BookingListService.cs",
               "RelativeDocumentMoniker": "BA.Service\\Implementation\\BookingListService.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Implementation\\BookingListService.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Implementation\\BookingListService.cs",
               "RelativeToolTip": "BA.Service\\Implementation\\BookingListService.cs",
               "ViewState": "AQIAADQAAAAAAAAAAAAiwE4AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T15:15:19.479Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "ReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Implementation\\ReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Implementation\\ReservationService.cs",
               "RelativeDocumentMoniker": "BA.Service\\Implementation\\ReservationService.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Implementation\\ReservationService.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Implementation\\ReservationService.cs",
               "RelativeToolTip": "BA.Service\\Implementation\\ReservationService.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAuwCYAAAAIAAAA",
+              "ViewState": "AQIAACMAAAAAAAAAAAAuwDYAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-05T15:24:23.613Z",
               "IsPinned": true,
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{6324226f-61b6-4f28-92ee-18d4b5fe1e48}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:130:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "BookingListsController.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
-              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\BookingListsController.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
-              "RelativeToolTip": "BookingApplication\\Controllers\\BookingListsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAMAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T14:37:14.043Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
-              "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\Index.cshtml",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
-              "RelativeToolTip": "BookingApplication\\Views\\Reservations\\Index.cshtml",
-              "ViewState": "AQIAABgAAAAAAAAAAAAAAAMAAAAgAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-06T14:31:17.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "BookReservation.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\Domain\\BookReservation.cs",
-              "RelativeDocumentMoniker": "BA.Domain\\Domain\\BookReservation.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\Domain\\BookReservation.cs",
-              "RelativeToolTip": "BA.Domain\\Domain\\BookReservation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T14:30:51.2Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Repository\\Implementation\\Repository.cs",
-              "RelativeDocumentMoniker": "BA.Repository\\Implementation\\Repository.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Repository\\Implementation\\Repository.cs",
-              "RelativeToolTip": "BA.Repository\\Implementation\\Repository.cs",
-              "ViewState": "AQIAABoAAAAAAAAAAAAgwCwAAAAIAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T15:22:12.409Z",
-              "EditorCaption": ""
+              "Title": "BA.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\BA.Domain.csproj",
+              "RelativeDocumentMoniker": "BA.Domain\\BA.Domain.csproj",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\BA.Domain.csproj",
+              "RelativeToolTip": "BA.Domain\\BA.Domain.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-04-06T13:55:56.078Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "UserRepository.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Repository\\Implementation\\UserRepository.cs",
-              "RelativeDocumentMoniker": "BA.Repository\\Implementation\\UserRepository.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Repository\\Implementation\\UserRepository.cs",
-              "RelativeToolTip": "BA.Repository\\Implementation\\UserRepository.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAA0wBwAAAAIAAAA",
+              "Title": "BookReservation.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\Domain\\BookReservation.cs",
+              "RelativeDocumentMoniker": "BA.Domain\\Domain\\BookReservation.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\Domain\\BookReservation.cs",
+              "RelativeToolTip": "BA.Domain\\Domain\\BookReservation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T15:37:47.693Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-06T14:30:51.2Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BookingList.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\Domain\\BookingList.cs",
+              "RelativeDocumentMoniker": "BA.Domain\\Domain\\BookingList.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\Domain\\BookingList.cs",
+              "RelativeToolTip": "BA.Domain\\Domain\\BookingList.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T11:05:38.978Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ReservationsController.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
-              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\ReservationsController.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
-              "RelativeToolTip": "BookingApplication\\Controllers\\ReservationsController.cs",
-              "ViewState": "AQIAAJQAAAAAAAAAAAAiwKcAAAAMAAAA",
+              "Title": "Apartment.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\Domain\\Apartment.cs",
+              "RelativeDocumentMoniker": "BA.Domain\\Domain\\Apartment.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Domain\\Domain\\Apartment.cs",
+              "RelativeToolTip": "BA.Domain\\Domain\\Apartment.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:29:05.622Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "AddReservationToList.cshtml",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
-              "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
-              "RelativeToolTip": "BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABpAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-05T16:31:39.881Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T11:05:35.704Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Program.cs",
-              "RelativeDocumentMoniker": "BookingApplication\\Program.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Program.cs",
-              "RelativeToolTip": "BookingApplication\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
+              "Title": "ApartmentsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Controllers\\ApartmentsController.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\ApartmentsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Controllers\\ApartmentsController.cs",
+              "RelativeToolTip": "BookingApplication\\Controllers\\ApartmentsController.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAAABsAAAA6AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:52:18.856Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T16:36:08.476Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "BookingListsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\BookingListsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Controllers\\BookingListsController.cs",
+              "RelativeToolTip": "BookingApplication\\Controllers\\BookingListsController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:37:14.043Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
-              "Title": "IBookingListService.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Interface\\IBookingListService.cs",
-              "RelativeDocumentMoniker": "BA.Service\\Interface\\IBookingListService.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Interface\\IBookingListService.cs",
-              "RelativeToolTip": "BA.Service\\Interface\\IBookingListService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Repository\\Implementation\\UserRepository.cs",
+              "RelativeDocumentMoniker": "BA.Repository\\Implementation\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Repository\\Implementation\\UserRepository.cs",
+              "RelativeToolTip": "BA.Repository\\Implementation\\UserRepository.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAA0wBwAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T14:31:42.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T15:37:47.693Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ReservationsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\ReservationsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Controllers\\ReservationsController.cs",
+              "RelativeToolTip": "BookingApplication\\Controllers\\ReservationsController.cs",
+              "ViewState": "AQIAAJQAAAAAAAAAAAAiwKcAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T14:29:05.622Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
-              "Title": "BA.Domain.csproj",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\BA.Domain.csproj",
-              "RelativeDocumentMoniker": "BA.Domain\\BA.Domain.csproj",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\BA.Domain.csproj",
-              "RelativeToolTip": "BA.Domain\\BA.Domain.csproj",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-06T13:55:56.078Z",
-              "EditorCaption": ""
+              "Title": "AddReservationToList.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
+              "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
+              "RelativeToolTip": "BookingApplication\\Views\\Reservations\\AddReservationToList.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAABpAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-05T16:31:39.881Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "20240406141439_initial1.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Repository\\Migrations\\20240406141439_initial1.cs",
-              "RelativeDocumentMoniker": "BA.Repository\\Migrations\\20240406141439_initial1.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Repository\\Migrations\\20240406141439_initial1.cs",
-              "RelativeToolTip": "BA.Repository\\Migrations\\20240406141439_initial1.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Program.cs",
+              "RelativeDocumentMoniker": "BookingApplication\\Program.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Program.cs",
+              "RelativeToolTip": "BookingApplication\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-06T14:14:40.621Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-05T11:52:18.856Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Repository.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Repository\\Implementation\\Repository.cs",
+              "RelativeDocumentMoniker": "BA.Repository\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Repository\\Implementation\\Repository.cs",
+              "RelativeToolTip": "BA.Repository\\Implementation\\Repository.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAgwCwAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T15:22:12.409Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "RelativeDocumentMoniker": "BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "RelativeToolTip": "BookingApplication\\Views\\Reservations\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAAAMAAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-06T14:31:17.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IBookingListService.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Interface\\IBookingListService.cs",
+              "RelativeDocumentMoniker": "BA.Service\\Interface\\IBookingListService.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Interface\\IBookingListService.cs",
+              "RelativeToolTip": "BA.Service\\Interface\\IBookingListService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-05T14:31:42.442Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20240406141439_initial1.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Repository\\Migrations\\20240406141439_initial1.cs",
+              "RelativeDocumentMoniker": "BA.Repository\\Migrations\\20240406141439_initial1.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Repository\\Migrations\\20240406141439_initial1.cs",
+              "RelativeToolTip": "BA.Repository\\Migrations\\20240406141439_initial1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-06T14:14:40.621Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\appsettings.json",
               "RelativeDocumentMoniker": "BookingApplication\\appsettings.json",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\appsettings.json",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\appsettings.json",
               "RelativeToolTip": "BookingApplication\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -301,11 +309,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "IReservationService.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Interface\\IReservationService.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Interface\\IReservationService.cs",
               "RelativeDocumentMoniker": "BA.Service\\Interface\\IReservationService.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Interface\\IReservationService.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Interface\\IReservationService.cs",
               "RelativeToolTip": "BA.Service\\Interface\\IReservationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,35 +321,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "ApartmentsController.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Controllers\\ApartmentsController.cs",
-              "RelativeDocumentMoniker": "BookingApplication\\Controllers\\ApartmentsController.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Controllers\\ApartmentsController.cs",
-              "RelativeToolTip": "BookingApplication\\Controllers\\ApartmentsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAIBJwBsAAAA6AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T16:36:08.476Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Apartment.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\Domain\\Apartment.cs",
-              "RelativeDocumentMoniker": "BA.Domain\\Domain\\Apartment.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\Domain\\Apartment.cs",
-              "RelativeToolTip": "BA.Domain\\Domain\\Apartment.cs",
-              "ViewState": "AQIAAAgAAAAAAAAAAAAAwAcAAAAWAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:05:35.704Z"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 17,
               "Title": "IApartmentService.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Interface\\IApartmentService.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Interface\\IApartmentService.cs",
               "RelativeDocumentMoniker": "BA.Service\\Interface\\IApartmentService.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Service\\Interface\\IApartmentService.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BA.Service\\Interface\\IApartmentService.cs",
               "RelativeToolTip": "BA.Service\\Interface\\IApartmentService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -351,9 +335,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Views\\Apartments\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Views\\Apartments\\Create.cshtml",
               "RelativeDocumentMoniker": "BookingApplication\\Views\\Apartments\\Create.cshtml",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Views\\Apartments\\Create.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Views\\Apartments\\Create.cshtml",
               "RelativeToolTip": "BookingApplication\\Views\\Apartments\\Create.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -363,9 +347,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "BookingApplication\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "BookingApplication\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AQIAABIAAAAAAAAAAAAWwBsAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -375,26 +359,13 @@
               "$type": "Document",
               "DocumentIndex": 20,
               "Title": "BookingApplication.csproj",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
               "RelativeDocumentMoniker": "BookingApplication\\BookingApplication.csproj",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Prv Kolokv\\Lab2B_soOnion\\BookingApplication\\BookingApplication\\BookingApplication.csproj",
               "RelativeToolTip": "BookingApplication\\BookingApplication.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAACQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-04-05T15:50:56.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "BookingList.cs",
-              "DocumentMoniker": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\Domain\\BookingList.cs",
-              "RelativeDocumentMoniker": "BA.Domain\\Domain\\BookingList.cs",
-              "ToolTip": "C:\\Users\\anaja\\Downloads\\BookingApplication\\BA.Domain\\Domain\\BookingList.cs",
-              "RelativeToolTip": "BA.Domain\\Domain\\BookingList.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAVAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-05T11:05:38.978Z"
+              "WhenOpened": "2024-04-05T15:50:56.67Z"
             }
           ]
         }
