@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Museum Main Page</title>
+</head>
+<body>
+<style>
+    .container {
+        margin-top: 50px;
+    }
+    /* Make table data so that text box has limit*/
+    td {
+        max-width: 100px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+
+    /* make table look nice */
+    table {
+        border-collapse: collapse;
+        border-spacing: 0;
+        width: 100%;
+        border: 1px solid #ddd;
+    }
+
+    /* make table header look nice */
+    th {
+        text-align: left;
+        padding: 16px;
+    }
+
+    /* make table data look nice */
+    td {
+        text-align: left;
+        padding: 16px;
+    }
+
+    /*make table from start to end of screen */
+    .table {
+        width: 100%;
+        margin-bottom: 1rem;
+        color: #212529;
+    }
+
+    /*make table striped */
+    .table-striped tbody tr:nth-of-type(odd) {
+        background-color: rgba(0, 0, 0, 0.05);
+    }
+
+    /* make table hoverable */
+    .table-hover tbody tr:hover {
+        background-color: rgba(0, 0, 0, 0.075);
+    }
+
+    /* make table responsive */
+    @media screen and (max-width: 768px) {
+        .table-responsive {
+            display: block;
+            width: 100%;
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            -ms-overflow-style: -ms-autohiding-scrollbar;
+        }
+        .table-responsive.table-bordered {
+            border: 0;
+        }
+    }
+
+
+
+
+</style>
+
+<!-- Showing all museums data as cards css -->
+<div class="container">
+    <div class="row">
+        <div class="col-md-12">
+            <h1>Admin Dashboard</h1>
+            <h6>Your Account is of type Admin Role, which grants you permissions such as:</h6>
+            <ul>
+                <li>Viewing all museums</li>
+                <li>Creating new museums</li>
+                <li>Editing museums</li>
+                <li>Deleting museums</li>
+                <li>Viewing all users</li>
+                <li>Viewing all Reviews</li>
+                <li>Deleting Unappropriated Reviews</li>
+            </ul>
+            </br>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <a th:href="@{/museums/create}" class="btn btn-primary">Create Museum</a>
+            <hr>
+            <a th:href="@{/museums/editreviews}" class="btn btn-primary">Check Reviews</a>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-striped">
+                <tr>
+                    <th>Name</th>
+                    <th>Street</th>
+                    <th>Email</th>
+                    <th>Internet</th>
+                    <th>Working Hours</th>
+                    <th>Phone</th>
+                    <th>Fee</th>
+                    <th>Wiki</th>
+                    <th>Charge</th>
+                    <th>Website</th>
+                    <th>Actions</th>
+                </tr>
+                <tr th:each="museum : ${museums}">
+                    <td th:text="${museum.name}"></td>
+                    <td th:text="${museum.street}"></td>
+                    <td th:text="${museum.email}"></td>
+                    <td th:text="${museum.internetAccess}"></td>
+                    <td th:text="${museum.openingHours}"></td>
+                    <td th:text="${museum.phone}"></td>
+                    <td th:text="${museum.fee}"></td>
+                    <td th:text="${museum.wikidata}"></td>
+                    <td th:text="${museum.charge}"></td>
+                    <td th:text="${museum.website}"></td>
+                    <td>
+                        <a th:href="@{/museums/edit/{id}(id=${museum.id})}" class="btn btn-primary">Edit</a> </br>
+                        <a th:href="@{/museums/delete/{id}(id=${museum.id})}" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Review</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/jquery-3.5.1.slim.min.js"></script>
+<script src="/js/jquery-3.5.1.slim.js"></script>
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/jquery-3.5.1.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/popper.js"></script>
+<script src="/js/popper-utils.min.js"></script>
+<script src="/js/popper-utils.js"></script>
+<script src="/js/popper-base.min.js"></script>
+<script src="/js/popper-base.js"></script>
+<script src="/js/popper-base-utils.min.js"></script>
+<script src="/js/popper-base-utils.js"></script>
+<script src="/js/popper-base-utils.js.map"></script>
+<script src="/js/popper-base-utils.min.js.map"></script>
+<script src="/js/popper-utils.js.map"></script>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            </br></br></br>
+            <h2>Add/Edit Museum</h2>
+            <form th:action="@{/museum/createReview}" th:method="POST">
+                <div class="form-group">
+                    <span>Museum Name</span>
+                    <input readonly type="text" id="name" class="about-language form-control"
+                           th:value="${museum.name}">
+                    <input readonly type="hidden" id="museum_id" name="museum_id" class="about-language form-control"
+                           th:value="${museum.id}">
+                    </br> </br> </br>
+
+                    <label for="review">Review:</label>
+                    <input type="text"
+                           class="form-control"
+                           id="review"
+                           name="review"
+                           required
+                           placeholder="Enter Review">
+                </div>
+                <div class="form-group">
+                    <label for="stars">Rate 1 to 10:</label>
+                    <input type="number"
+                           min="1" max="5"
+                           class="form-control"
+                           id="stars"
+                           name="stars"
+                           required
+                           placeholder="1 - 5">
+                </div>
+
+                <div class="form-group">
+                    <label for="username">Your Username:</label>
+                    <input type="text"
+                           class="form-control"
+                           id="username"
+                           name="username"
+                           required
+                           placeholder="Your Username">
+                </div>
+                <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                <a type="button" class="btn btn-primary" href="/All">Back</a>
+            </form>
+        </div>
+        </br>
+        </br>
+        </br>
+        </br>
+    </div>
+</div>
+</div>
+</body>
+</html>

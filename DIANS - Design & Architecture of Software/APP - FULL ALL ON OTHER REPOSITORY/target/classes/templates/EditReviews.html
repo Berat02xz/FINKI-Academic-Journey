@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        crossorigin="anonymous">
+  <meta charset="UTF-8">
+  <title>Review Check</title>
+</head>
+<body>
+<style>
+  .container {
+    margin-top: 50px;
+  }
+  /* Make table data so that text box has limit*/
+  td {
+    max-width: 100px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+
+  /* make table look nice */
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;
+    border: 1px solid #ddd;
+  }
+
+  /* make table header look nice */
+  th {
+    text-align: left;
+    padding: 16px;
+  }
+
+  /* make table data look nice */
+  td {
+    text-align: left;
+    padding: 16px;
+  }
+
+  /*make table from start to end of screen */
+  .table {
+    width: 100%;
+    margin-bottom: 1rem;
+    color: #212529;
+  }
+
+  /*make table striped */
+  .table-striped tbody tr:nth-of-type(odd) {
+    background-color: rgba(0, 0, 0, 0.05);
+  }
+
+  /* make table hoverable */
+  .table-hover tbody tr:hover {
+    background-color: rgba(0, 0, 0, 0.075);
+  }
+
+  /* make table responsive */
+  @media screen and (max-width: 768px) {
+    .table-responsive {
+      display: block;
+      width: 100%;
+      overflow-x: auto;
+      -webkit-overflow-scrolling: touch;
+      -ms-overflow-style: -ms-autohiding-scrollbar;
+    }
+    .table-responsive.table-bordered {
+      border: 0;
+    }
+  }
+
+
+
+
+</style>
+
+<!-- Showing all museums data as cards css -->
+<div class="container">
+  <div class="row">
+    <div class="col-md-12">
+      <h1>Review Dashboard</h1>
+      <h6>Your Account is of type Admin Role, which grants you permissions such as:</h6>
+      <ul>
+        <li>Deleting Unappropriated Reviews</li>
+      </ul>
+      </br>
+      <a th:href="@{/edit.html}" class="btn btn-primary">Go Back</a>
+    </div>
+  </div>
+    <div class="row">
+        <div class="col-md-12">
+        <table class="table table-striped">
+            <tr>
+            <th>Review ID</th>
+            <th>Review Text</th>
+            <th>Review Rating</th>
+            <th>Review User</th>
+            <th>Review Museum</th>
+            <th>Actions</th>
+            </tr>
+            <tr th:each="review : ${reviews}">
+            <td th:text="${review.id}"></td>
+            <td th:text="${review.review}"></td>
+            <td th:text="${review.stars}"></td>
+            <td th:text="${review.username}"></td>
+            <td th:text="${review.museum.name}"></td>
+            <td>
+                <a th:href="@{/reviews/delete/{id}(id=${review.id})}" class="btn btn-danger" onclick="return confirm('Are you sure you want to delete this item?');">Delete</a>
+            </td>
+            </tr>
+        </table>
+        </div>
+      </div>
+    </div>
+</body>
+</html>

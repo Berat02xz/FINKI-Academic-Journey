@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <title>Museum Main Page</title>
+</head>
+<body>
+<style>
+    .navbar {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+    }
+    .card {
+        border-radius: 10px;
+        border: none;
+        transition: all 0.3s ease;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+    }
+    /* make the cards look nice */
+    .card:hover {
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+    }
+
+    .text1 {
+        font-size: 14px;
+        color: #a2a2a2;
+    }
+
+    /* make the footer nice */
+    footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: #fff;
+        color: #a2a2a2;
+        text-align: center;
+    }
+
+    .form-inline {
+        display: inline-block;
+    }
+
+    .form-control {
+        width: 100%;
+    }
+    .navbar-nav {
+        flex-direction: row;
+    }
+
+
+</style>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Museum Main Page</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <!-- search bar -->
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+            <form class="form-inline my-2 my-lg-0" th:action="@{/search}" method="get">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"
+                       name="search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            <!-- buttons for selecting options for search -->
+            <!-- something that says filter by -->
+            <a class="nav-item nav-link active" href="#">Filter by <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="/All">All Museums</a>
+            <a class="nav-item nav-link" href="/freeentry">Free entry</a>
+            <a class="nav-item nav-link" href="/InternetAccess">Internet Access</a>
+            <a class="nav-item nav-link" href="/OpenNow">Open Now</a>
+            <a class="nav-item nav-link" href="/Skopje">Skopje</a>
+        </div>
+    </div>
+<a href="/Login.html"> <button type="button" class="btn btn-primary" >Login</button></a>
+</nav>
+
+
+<!-- div of cards for every museum  -->
+<div class="container mt-5 mb-3"  >
+    <div class="row" >
+        <div class="col-md-4" th:each="museum : ${museums}">
+            <div class="card p-3 mb-2">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex flex-row align-items-center">
+                        <div class="icon"> <i class="bx bxl-dribbble"></i> </div>
+                        <div class="ms-2 c-details">
+                           <h7>Street:</h7> <h6 class="mb-0" th:text="${museum.street}"></h6>
+                            <h7>Charge:</h7> <span th:text="${museum.charge}"></span>
+                        </div>
+                    </div>
+                    <div class="badge"><span>WikiData:</span> <span th:text="${museum.wikidata}"></span> </div>
+                </div>
+                <div class="mt-5">
+                    <span>Name:</span> <h3 class="heading" th:text="${museum.name}"></h3>
+                    <div class="mt-5">
+                        <div class="progress">
+                            <div class="progress-bar" role="progressbar" th:style="${museum.fee == 'yes'} ? 'width: 0%' : 'width: 100%'" aria-valuenow="0" aria-valuemin="0" aria-valuemax="100"><span style="color: #e9ecef">FREE ENTRY</span></div>
+                        </div>
+
+                        <!-- Google Maps embedded link -->
+
+                        <iframe
+                                th:src="@{'https://maps.google.com/maps?q=' + ${museum.latitude} + ',' + ${museum.longitude} + '&output=embed'}"
+                                width=100%
+                                height="200"
+                                style="border:0">
+                        </iframe>
+
+
+                        <div class="mt-3"> <span>Email:</span> <span class="text1" th:text="${museum.email}"></span> </div>
+                        <div class="mt-3"> <span>Internet Access:</span>  <span class="text1" th:text="${museum.internetAccess}"></span> </div>
+                        <div class="mt-3">  <span>Opening Hours:</span>  <span class="text1" th:text="${museum.openingHours}"></span> </div>
+                        <div class="mt-3">  <span>Phone:</span>  <span class="text1" th:text="${museum.phone}"></span> </div>
+                        <div class="mt-3"> <span>Website:</span>  <a class="text1" th:href="${museum.website}" th:text="${museum.website}" target="_blank"></a>
+                        </div>
+                        <div class="mt-3">  <span>ID:</span>   <span class="text1" th:text="${museum.id}"></span> </div>
+                    </div>
+                <hr/>
+                    <a class="btn btn-secondary btn-sm" th:href="@{/addreview/{id}(id=${museum.id})}">
+                        Add Review
+                    </a>
+                    <!-- div for reviews -->
+                    <div class="mt-3" th:each="review : ${museum.reviews}">
+                        <div>
+                            <!-- Display review details here -->
+                            <hr/>
+                            <div class="mt-3">
+                                <span>Review:</span>
+                                <span th:text="${review.username}"></span>
+                                <span class="text1"> - </span>
+                                <span class="text1" th:text="${review.review}"></span>
+                                <span th:each="starNumber : ${#numbers.sequence(1, review.stars)}">&#x2605;</span>
+
+                            </div>
+                            <!-- Other review details -->
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+</div>
+<!-- footer that says made with love emoji -->
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0);">
+        Made with ❤️ by   <a class="text-dark" href="https://github.com/BeratAhmetaj/MuseumApp">FINKI Students</a> </div>
+</body>
+</html>

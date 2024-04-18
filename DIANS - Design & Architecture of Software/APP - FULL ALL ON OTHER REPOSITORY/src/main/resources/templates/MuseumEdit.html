@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add/Edit Museum</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script src="/js/bootstrap.min.js"></script>
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/bootstrap.bundle.min.js"></script>
+<script src="/js/bootstrap.bundle.js"></script>
+<script src="/js/bootstrap.js"></script>
+<script src="/js/jquery-3.5.1.slim.min.js"></script>
+<script src="/js/jquery-3.5.1.slim.js"></script>
+<script src="/js/jquery-3.5.1.min.js"></script>
+<script src="/js/jquery-3.5.1.js"></script>
+<script src="/js/popper.min.js"></script>
+<script src="/js/popper.js"></script>
+<script src="/js/popper-utils.min.js"></script>
+<script src="/js/popper-utils.js"></script>
+<script src="/js/popper-base.min.js"></script>
+<script src="/js/popper-base.js"></script>
+<script src="/js/popper-base-utils.min.js"></script>
+<script src="/js/popper-base-utils.js"></script>
+<script src="/js/popper-base-utils.js.map"></script>
+<script src="/js/popper-base-utils.min.js.map"></script>
+<script src="/js/popper-utils.js.map"></script>
+<body>
+<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+            </br></br></br>
+            <h2>Add/Edit Museum</h2>
+            <form th:action="@{/museum/add}" th:method="POST">
+                <div class="form-group">
+                    <span>Identifying Number</span>
+                    <input readonly type="number" id="id" name="id" class="about-language form-control"
+                           th:value="(${museum} != null ? ${museum.getId()} : '0')">
+                    </br> </br> </br>
+
+                    <label for="Name">Museum Name</label>
+                    <input type="text"
+                           class="form-control"
+                           id="Name"
+                           name="name"
+                           th:value="(${museum} != null ? ${museum.getName()} : '')"
+                           required
+                           placeholder="Enter Museum Name">
+                </div>
+                <div class="form-group">
+                    <label for="street">street</label>
+                    <input type="text"
+                           class="form-control"
+                           id="street"
+                           name="street"
+                           th:value="(${museum} != null ? ${museum.getStreet()} : '')"
+                           placeholder="street">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">email</label>
+                    <input type="text"
+                           class="form-control"
+                           id="email"
+                           name="email"
+                           th:value="(${museum} != null ? ${museum.getEmail()} : '')"
+                           placeholder="muzej@muzej.com">
+                </div>
+
+                <div class="form-group">
+                    <label for="internetAccess">internetAccess</label>
+                    <input type="text"
+                           class="form-control"
+                           id="internetAccess"
+                           name="internetAccess"
+                           th:value="(${museum} != null ? ${museum.getInternetAccess()} : '')"
+                           placeholder="yes">
+                </div>
+                <div class="form-group">
+                    <label for="openingHours">openingHours</label>
+                    <input type="text"
+                           class="form-control"
+                           id="openingHours"
+                           name="openingHours"
+                           th:value="(${museum} != null ? ${museum.getOpeningHours()} : '')"
+                           placeholder="Mo-Su">
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">phone</label>
+                    <input type="tel"
+                           class="form-control"
+                           id="phone"
+                           name="phone"
+                           th:value="(${museum} != null ? ${museum.getPhone()} : '')"
+                           placeholder="070-000-000">
+                </div>
+
+                <div class="form-group">
+                    <label for="fee">fee</label>
+                    <input type="text"
+                           class="form-control"
+                           id="fee"
+                           name="fee"
+                           th:value="(${museum} != null ? ${museum.getFee()} : '')"
+                           placeholder="yes">
+                </div>
+
+                <div class="form-group">
+                    <label for="wikidata">wikidata</label>
+                    <input type="text"
+                           class="form-control"
+                           id="wikidata"
+                           name="wikidata"
+                           th:value="(${museum} != null ? ${museum.getWikidata()} : '')"
+                           placeholder="Unknown">
+                </div>
+
+                <div class="form-group">
+                    <label for="charge">charge</label>
+                    <input type="text"
+                           class="form-control"
+                           id="charge"
+                           name="charge"
+                           th:value="(${museum} != null ? ${museum.getCharge()} : '')"
+                           placeholder="70 MKD">
+                </div>
+
+                <div class="form-group">
+                    <label for="website">website Link</label>
+                    <input type="text"
+                           class="form-control"
+                           id="website"
+                           name="website"
+                           th:value="(${museum} != null ? ${museum.getWebsite()} : '')"
+                           placeholder="www.muzej.com.mk">
+                </div>
+
+                <div class="form-group">
+                    </br>
+                    <span>Coordinates:</span></br>
+                    <label for="latitude">latitude</label>
+                    <input type="text"
+                           class="form-control"
+                           id="latitude"
+                           name="latitude"
+                           th:value="(${museum} != null ? ${museum.getLatitude()} : '')"
+                           placeholder="42.000669606267515">
+                    <label for="longitude">longitude</label>
+                    <input type="text"
+                           class="form-control"
+                           id="longitude"
+                           name="longitude"
+                           th:value="(${museum} != null ? ${museum.getLongitude()} : '')"
+                           placeholder="436300499999987">
+                </div>
+
+                <button id="submit" type="submit" class="btn btn-primary">Submit</button>
+                <a type="button" class="btn btn-primary" href="/edit.html">Back</a>
+            </form>
+        </div>
+        </br>
+        </br>
+        </br>
+        </br>
+    </div>
+</div>
+</div>
+</body>
+</html>
