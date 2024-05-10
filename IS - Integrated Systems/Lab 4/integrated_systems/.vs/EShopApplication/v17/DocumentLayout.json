@@ -1,0 +1,156 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\216130\\Downloads\\integrated_systems\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{34ED5C71-5A20-4B99-9F19-ECB0BCE2FFC5}|EShop.Repository\\EShop.Repository.csproj|c:\\users\\216130\\downloads\\integrated_systems\\eshop.repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ED5C71-5A20-4B99-9F19-ECB0BCE2FFC5}|EShop.Repository\\EShop.Repository.csproj|solutionrelative:eshop.repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{34ED5C71-5A20-4B99-9F19-ECB0BCE2FFC5}|EShop.Repository\\EShop.Repository.csproj|c:\\users\\216130\\downloads\\integrated_systems\\eshop.repository\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{34ED5C71-5A20-4B99-9F19-ECB0BCE2FFC5}|EShop.Repository\\EShop.Repository.csproj|solutionrelative:eshop.repository\\implementation\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72913C86-C107-4398-8248-95613BBF07D2}|EShop.Service\\EShop.Service.csproj|c:\\users\\216130\\downloads\\integrated_systems\\eshop.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72913C86-C107-4398-8248-95613BBF07D2}|EShop.Service\\EShop.Service.csproj|solutionrelative:eshop.service\\implementation\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{72913C86-C107-4398-8248-95613BBF07D2}|EShop.Service\\EShop.Service.csproj|c:\\users\\216130\\downloads\\integrated_systems\\eshop.service\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{72913C86-C107-4398-8248-95613BBF07D2}|EShop.Service\\EShop.Service.csproj|solutionrelative:eshop.service\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9F430419-6F39-4DF6-8DC4-DFC1DD7A0E08}|EShop.Web\\EShop.Web.csproj|c:\\users\\216130\\downloads\\integrated_systems\\eshop.web\\controllers\\api\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9F430419-6F39-4DF6-8DC4-DFC1DD7A0E08}|EShop.Web\\EShop.Web.csproj|solutionrelative:eshop.web\\controllers\\api\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03C1F39D-48A3-41EA-B173-89B53EC0593E}|EShop.Domain\\EShop.Domain.csproj|c:\\users\\216130\\downloads\\integrated_systems\\eshop.domain\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03C1F39D-48A3-41EA-B173-89B53EC0593E}|EShop.Domain\\EShop.Domain.csproj|solutionrelative:eshop.domain\\domain\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Migrations\\20240509171734_migros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EShop.Repository\\Migrations\\20240509171734_migros.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Migrations\\20240509164402_migro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:EShop.Repository\\Migrations\\20240509164402_migro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Domain\\Domain\\Order.cs",
+              "RelativeDocumentMoniker": "EShop.Domain\\Domain\\Order.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Domain\\Domain\\Order.cs",
+              "RelativeToolTip": "EShop.Domain\\Domain\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T17:02:15.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20240509171734_migros.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Migrations\\20240509171734_migros.cs",
+              "RelativeDocumentMoniker": "EShop.Repository\\Migrations\\20240509171734_migros.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Migrations\\20240509171734_migros.cs",
+              "RelativeToolTip": "EShop.Repository\\Migrations\\20240509171734_migros.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T17:17:35.101Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdminController.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Web\\Controllers\\API\\AdminController.cs",
+              "RelativeDocumentMoniker": "EShop.Web\\Controllers\\API\\AdminController.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Web\\Controllers\\API\\AdminController.cs",
+              "RelativeToolTip": "EShop.Web\\Controllers\\API\\AdminController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T17:05:41.495Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Implementation\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "EShop.Repository\\Implementation\\OrderRepository.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Implementation\\OrderRepository.cs",
+              "RelativeToolTip": "EShop.Repository\\Implementation\\OrderRepository.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAxwCgAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:55:27.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "EShop.Repository\\Interface\\IOrderRepository.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "EShop.Repository\\Interface\\IOrderRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:54:40.987Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Service\\Implementation\\OrderService.cs",
+              "RelativeDocumentMoniker": "EShop.Service\\Implementation\\OrderService.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Service\\Implementation\\OrderService.cs",
+              "RelativeToolTip": "EShop.Service\\Implementation\\OrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:52:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Service\\Interface\\IOrderService.cs",
+              "RelativeDocumentMoniker": "EShop.Service\\Interface\\IOrderService.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Service\\Interface\\IOrderService.cs",
+              "RelativeToolTip": "EShop.Service\\Interface\\IOrderService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:51:01.394Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "20240509164402_migro.cs",
+              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Migrations\\20240509164402_migro.cs",
+              "RelativeDocumentMoniker": "EShop.Repository\\Migrations\\20240509164402_migro.cs",
+              "ToolTip": "C:\\Users\\216130\\Downloads\\integrated_systems\\EShop.Repository\\Migrations\\20240509164402_migro.cs",
+              "RelativeToolTip": "EShop.Repository\\Migrations\\20240509164402_migro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-09T16:44:02.856Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
