@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h3>Dishes</h3>
+    {% for d in dishes %}
+        <h5>{{d.name}}</h5>
+        <ul>
+            <li>ingredients: {{d.ingredients}}</li>
+            {% if d.calories <= 200 %}
+            <li>calories: low</li>
+            {% else %}
+            <li>calories: {{d.calories}}</li>
+            {% endif %}
+        </ul>
+        <br/>
+    {% endfor %}
+{% endblock %}
+
+
+{% block end_content %} 
+Number of dishes {{count}}.
+{% endblock %}
+

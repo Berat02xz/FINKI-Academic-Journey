@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1fc06f27-f526-48a0-8e0d-1e9b1446aed2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/DNIC - Design of Interaction Human-Computer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/DNIC - Design of Interaction Human-Computer.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/.idea/AUD1.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/aud1/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/aud1/asgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/aud1/settings.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/aud1/urls.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/aud1/wsgi.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/admin.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/apps.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/migrations/0002_song_ep_album_songs.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/migrations/0003_alter_musician_last_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/migrations/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/models.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/tests.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/audapp/views.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AUD1/aud1/manage.py" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 3
+}</component>
+  <component name="ProjectId" id="2gV47QmuLDUDkurDGaGkrojIsjj" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.manage.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/berat/OneDrive/Documents/Github/FINKI/DNIC - Design of Interaction Human-Computer&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PythonContentEntriesConfigurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-09665e90c3a7-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.15026.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1fc06f27-f526-48a0-8e0d-1e9b1446aed2" name="Changes" comment="" />
+      <created>1715769244836</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1715769244836</updated>
+      <workItem from="1715769245929" duration="4924000" />
+      <workItem from="1715854768243" duration="1458000" />
+      <workItem from="1716124061008" duration="1880000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/DNIC___Design_of_Interaction_Human_Computer$manage.coverage" NAME="manage Coverage Results" MODIFIED="1715769410450" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Restaurant-Project-DNICK-main/Restaurant-Project-DNICK-main" />
+  </component>
+</project>

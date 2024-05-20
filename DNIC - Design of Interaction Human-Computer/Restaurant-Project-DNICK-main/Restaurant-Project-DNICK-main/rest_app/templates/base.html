@@ -1,0 +1,27 @@
+<html>
+    <head>
+
+    </head>
+    <body>
+        <div style="float:right;">
+            {% if user.is_authenticated %}
+                Hi {{ user.username }}!
+                <form action="{% url 'logout' %}" method="post" style="float:right;">
+                {% csrf_token %}
+                <button type="submit">Log Out</button>
+                </form>
+                {% else %}
+                <p>You are not logged in. <a href="{% url 'login' %}" >Log In</a></p>
+                
+            {% endif %}
+        </div>
+        <h1>Wellcome to restaurants app!!!</h1>
+        
+        <div>
+            {% block content %} {% endblock %}
+        </div>
+        <div>
+            {% block end_content %} {% endblock %}
+        </div>
+    </body>
+</html>

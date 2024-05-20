@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <title>ADD BOOK</title>
+</head>
+<body>
+
+<!-- Book Add Form -->
+<div class="container">
+    <h1 class="my-4">ADD BOOK</h1>
+<a href="{% url 'index' %}" class="btn btn-secondary">Back to list</a>
+    <hr>    
+</br>  
+    
+<form action="/books_add" method="post">
+    {% csrf_token %}
+    {{ form }}
+    <input type="submit" value="Submit">
+</form>
+    
+</div>
+
+
+
+</body>
+</html>

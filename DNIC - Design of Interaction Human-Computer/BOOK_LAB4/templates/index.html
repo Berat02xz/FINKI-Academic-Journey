@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+<div class="container">
+    <!-- List of Books -->
+    <h1 class="my-4">BOOKS</h1>
+<div>
+    <a href="{% url 'books_add' %}" class="btn btn-primary">Add Book</a>
+</div>
+    <div class="row">
+        {% for book in books %}
+        <div class="col-md-4">
+            <div class="card mb-4 shadow-sm">
+              <a href="{% url 'book_detail' book.id %}">
+                <img class="card-img-top" src="{{ book.image.url }}" alt="{{ book.title }}">
+                </a>
+                <div class="card-body">
+                    <h5 class="card-title">{{ book.title }}</h5>
+                    <p class="card-text">${{ book.price }}</p>
+                    <a href="{% url 'book_detail' book.id %}" class="btn btn-primary">View Details</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
