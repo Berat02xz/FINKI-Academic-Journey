@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INDEX</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+</head>
+  <style>
+        .line-below {
+            border-bottom: 2px solid #000; /* Adjust thickness and color */
+
+        }
+    </style>
+<body>
+<div class="container-fluid">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">EVENTUALLY</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+
+
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav mr-5 mt-3 mt-lg-0 ">
+      <li class="nav-item active line-below mr-3">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item line-below mr-3">
+        <a class="nav-link" href="AskForEvent.html">Ask For Event</a>
+      </li>
+                <li class="nav-item line-below mr-3">
+        <a class="nav-link" href="#">Services</a>
+      </li>
+                <li class="nav-item line-below mr-3">
+        <a class="nav-link" href="#">Contact Us</a>
+      </li>
+                                <li class="nav-item line-below mr-3" >
+        <a class="nav-link" href="#">News</a>
+      </li>
+                <!-- Facebook logo for socials -->
+                <li class="nav-item">
+        <a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/facebook.png" width="30" height="30"></a>
+        </li>
+                    <!-- Twitter logo for socials -->
+                    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/twitter.png" width="30" height="30"></a>
+        </li>
+                    <!-- Instagram logo for socials -->
+                    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/instagram-new.png" width="30" height="30"></a>
+        </li>
+                    <!-- Linkedin logo for socials -->
+                    <li class="nav-item">
+        <a class="nav-link" href="#"><img src="https://img.icons8.com/color/48/000000/linkedin.png" width="30" height="30"></a>
+        </li>
+    </ul>
+    </form>
+  </div>
+</nav>
+</div>
+
+<div class="container">
+    <div class="row">
+        {% for show in shows %}
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="{{ show.Poster.url }}" class="card-img-top" alt="Event Image">
+                    <div class="card-body">
+    <h5 class="card-title">{{ show.Title }}</h5>
+    <p>Date: {{ show.Date }}</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+</div>
+
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</div>
+
+</body>
+</html>
