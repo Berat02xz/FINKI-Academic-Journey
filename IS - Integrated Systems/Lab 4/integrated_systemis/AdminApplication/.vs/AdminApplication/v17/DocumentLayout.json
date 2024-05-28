@@ -1,0 +1,196 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\models\\ticketinshoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\ticketinshoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 4\\integrated_systemis\\adminapplication\\adminapplication\\models\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{03A09D87-79E7-4480-B91D-965116622130}|AdminApplication\\AdminApplication.csproj|solutionrelative:adminapplication\\models\\concert.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 294,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\Ticket.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:34:12.017Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:33:41.917Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\Order.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:33:03.122Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "AdminApplication\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "AdminApplication\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACkAAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T15:56:04.777Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TicketInOrder.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\TicketInOrder.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\TicketInOrder.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\TicketInOrder.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\TicketInOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:34:20.522Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "TicketInShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\TicketInShoppingCart.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\TicketInShoppingCart.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\TicketInShoppingCart.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\TicketInShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:34:25.442Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "EShopApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\EShopApplicationUser.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\EShopApplicationUser.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\EShopApplicationUser.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\EShopApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:32:51.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Concert.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\Concert.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Models\\Concert.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Models\\Concert.cs",
+              "RelativeToolTip": "AdminApplication\\Models\\Concert.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAYAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T16:32:34.698Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "AdminApplication\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "AdminApplication\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-28T15:53:25.723Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 219,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 4\\integrated_systemis\\AdminApplication\\AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "AdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-28T16:53:48.039Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
