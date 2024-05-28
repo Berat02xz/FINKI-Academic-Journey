@@ -1,0 +1,48 @@
+﻿@model EShop.Domain.Domain.Concert
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Movie</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ConcertName" class="control-label"></label>
+                <input asp-for="ConcertName" class="form-control" />
+                <span asp-validation-for="ConcertName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConcertDescription" class="control-label"></label>
+                <input asp-for="ConcertDescription" class="form-control" />
+                <span asp-validation-for="ConcertDescription" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="ConcertImage" class="control-label"></label>
+                <input asp-for="ConcertImage" class="form-control" />
+                <span asp-validation-for="ConcertImage" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Rating" class="control-label"></label>
+                <input asp-for="Rating" class="form-control" />
+                <span asp-validation-for="Rating" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
