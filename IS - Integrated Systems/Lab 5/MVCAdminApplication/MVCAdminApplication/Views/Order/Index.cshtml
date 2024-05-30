@@ -1,0 +1,56 @@
+﻿﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model List<MVCAdminApplication.Models.Order>
+
+
+<div class="container">
+
+    <div class="row m-5">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>
+                        #
+                    </th>
+                    <th>
+                        Customer details
+                    </th>
+                    <th>
+                        Number of products
+                    </th>
+                    <th>Order</th>
+                    <th>Invoice</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @for (int i = 0; i < Model.Count(); i++)
+                {
+                    var item = Model[i];
+                    <tr>
+                        <td>@(i + 1)</td>
+                        <td>
+                            @item.Owner.FirstName @item.Owner.LastName
+                        </td>
+
+                        <td>
+                            @item.ProductInOrders.Count()
+                        </td>
+                        <td>
+                            |
+                            <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">View Order</a>
+                        </td>
+                        <td>
+                            |
+                            <a asp-action="ExportInvoice" asp-route-id="@item.Id" class="btn btn-info">Export Invoice</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+</div>

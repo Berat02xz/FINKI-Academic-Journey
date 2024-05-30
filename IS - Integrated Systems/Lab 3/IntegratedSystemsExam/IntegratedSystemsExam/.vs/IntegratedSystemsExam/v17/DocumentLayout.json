@@ -1,105 +1,93 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\",
+  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\controllers\\vaccinationcenterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240530150002_inital2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntegratedSystems.Repository\\Migrations\\20240530150002_inital2.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\controllers\\vaccinationcenterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\controllers\\vaccinationcenterscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\views\\vaccines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\views\\vaccines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\views\\vaccines\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\controllers\\vaccinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\controllers\\vaccinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\controllers\\vaccinescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.domain\\domain models\\vaccinationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.domain\\domain models\\vaccinationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\domain models\\vaccinationcenter.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.domain\\domain models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.domain\\domain models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\domain models\\vaccine.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.domain\\domain models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.domain\\domain models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\domain models\\patient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\views\\vaccinationcenters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\views\\vaccinationcenters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\views\\vaccinationcenters\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.service\\implementation\\vaccinationcentersimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.service\\implementation\\vaccinationcentersimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|solutionrelative:integratedsystems.service\\implementation\\vaccinationcentersimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\views\\vaccinationcenters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\views\\vaccinationcenters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\views\\vaccinationcenters\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\controllers\\patientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.service\\interface\\vaccinationcentersinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.service\\interface\\vaccinationcentersinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|solutionrelative:integratedsystems.service\\interface\\vaccinationcentersinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.service\\interface\\patientsinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.service\\interface\\patientsinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|solutionrelative:integratedsystems.service\\interface\\patientsinterface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.service\\implementation\\patientsimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.service\\implementation\\patientsimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C4A68030-021C-4648-B06F-5DCB2935C75C}|IntegratedSystems.Service\\IntegratedSystems.Service.csproj|solutionrelative:integratedsystems.service\\implementation\\patientsimplementation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\implementation\\repository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\interface\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.repository\\migrations\\20240408232639_addedinitialdomainmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\migrations\\20240408232639_addedinitialdomainmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\migrations\\20240408232639_addedinitialdomainmodels.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{5D2A778A-9191-47AB-9C68-BC15327486E2}|IntegratedSystems.Web\\IntegratedSystems.Web.csproj|solutionrelative:integratedsystems.web\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
@@ -112,8 +100,24 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160325_UpdateVaccineTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\216130\\downloads\\integratedsystemsexam\\integratedsystems.domain\\identity models\\integratedsystemsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.domain\\identity models\\integratedsystemsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D0073BE5-0BAF-4052-B937-11E30B47FDDE}|IntegratedSystems.Domain\\IntegratedSystems.Domain.csproj|solutionrelative:integratedsystems.domain\\identity models\\integratedsystemsuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\migrations\\20240422111553_viewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\migrations\\20240422111553_viewdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\migrations\\20240422103800_initikomigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\migrations\\20240422103800_initikomigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\migrations\\20240422104941_seconditional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\migrations\\20240422104941_seconditional.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 3\\integratedsystemsexam\\integratedsystemsexam\\integratedsystems.repository\\migrations\\20240422105230_intko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4D7C870D-36DE-42BE-B840-52E8C16CF645}|IntegratedSystems.Repository\\IntegratedSystems.Repository.csproj|solutionrelative:integratedsystems.repository\\migrations\\20240422105230_intko.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -123,67 +127,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "20240530150002_inital2.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240530150002_inital2.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Migrations\\20240530150002_inital2.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240530150002_inital2.cs",
+              "RelativeToolTip": "IntegratedSystems.Repository\\Migrations\\20240530150002_inital2.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T15:00:02.62Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
               "Title": "20240422111553_viewdata.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\Migrations\\20240422111553_viewdata.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:15:53.305Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T11:15:53.305Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "Create.cshtml",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Vaccines\\Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Vaccines\\Create.cshtml",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Views\\Vaccines\\Create.cshtml",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Vaccines\\Create.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Vaccines\\Create.cshtml",
               "RelativeToolTip": "IntegratedSystems.Web\\Views\\Vaccines\\Create.cshtml",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T11:07:57.743Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T11:07:57.743Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "VaccinesController.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinesController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinesController.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Controllers\\VaccinesController.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinesController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinesController.cs",
               "RelativeToolTip": "IntegratedSystems.Web\\Controllers\\VaccinesController.cs",
               "ViewState": "AQIAACAAAAAAAAAAAAAwwDMAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T11:00:27.863Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T11:00:27.863Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Details.cshtml",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Views\\VaccinationCenters\\Details.cshtml",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Details.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Details.cshtml",
               "RelativeToolTip": "IntegratedSystems.Web\\Views\\VaccinationCenters\\Details.cshtml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T10:54:03.061Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:54:03.061Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "VaccinationCentersController.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
               "RelativeToolTip": "IntegratedSystems.Web\\Controllers\\VaccinationCentersController.cs",
               "ViewState": "AQIAAJcAAAAAAAAAAAAAwK0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -194,213 +207,197 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Vaccine.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
               "RelativeToolTip": "IntegratedSystems.Domain\\Domain Models\\Vaccine.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAzAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:40:05.565Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T15:40:05.565Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "PatientsController.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\PatientsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\PatientsController.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Controllers\\PatientsController.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\PatientsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Controllers\\PatientsController.cs",
               "RelativeToolTip": "IntegratedSystems.Web\\Controllers\\PatientsController.cs",
               "ViewState": "AQIAAAwAAAAAAAAAAAAAAJ0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:25:50.632Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:25:50.632Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 27,
               "Title": "20240422103800_InitikoMigro.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\Migrations\\20240422103800_InitikoMigro.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:38:00.574Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:38:00.574Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 28,
               "Title": "20240422104941_Seconditional.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\Migrations\\20240422104941_Seconditional.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:49:41.088Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:49:41.088Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "VaccinationCenter.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
               "RelativeToolTip": "IntegratedSystems.Domain\\Domain Models\\VaccinationCenter.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:41:40.879Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T15:41:40.879Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "Patient.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Patient.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Patient.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Domain Models\\Patient.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Patient.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Domain Models\\Patient.cs",
               "RelativeToolTip": "IntegratedSystems.Domain\\Domain Models\\Patient.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:43:38.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T15:43:38.664Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "VaccinationCentersImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\VaccinationCentersImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\VaccinationCentersImplementation.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Service\\Implementation\\VaccinationCentersImplementation.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\VaccinationCentersImplementation.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\VaccinationCentersImplementation.cs",
               "RelativeToolTip": "IntegratedSystems.Service\\Implementation\\VaccinationCentersImplementation.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:34:33.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:34:33.591Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "IntegratedSystems.Web\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAeAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T10:35:56.119Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:35:56.119Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 29,
               "Title": "20240422105230_intko.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\Migrations\\20240422105230_intko.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:52:30.2Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:52:30.2Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Program.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Program.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Program.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Program.cs",
               "RelativeToolTip": "IntegratedSystems.Web\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T16:07:39.052Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T16:07:39.052Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Index.cshtml",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\Views\\VaccinationCenters\\Index.cshtml",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\Views\\VaccinationCenters\\Index.cshtml",
               "RelativeToolTip": "IntegratedSystems.Web\\Views\\VaccinationCenters\\Index.cshtml",
               "ViewState": "AQIAABIAAAAAAAAAAAAAACoAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-04-22T10:53:35.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:53:35.866Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\ApplicationDbContext.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\ApplicationDbContext.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwA0AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:50:31.155Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T15:50:31.155Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 14,
               "Title": "VaccinationCentersInterface.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\VaccinationCentersInterface.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\VaccinationCentersInterface.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Service\\Interface\\VaccinationCentersInterface.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\VaccinationCentersInterface.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\VaccinationCentersInterface.cs",
               "RelativeToolTip": "IntegratedSystems.Service\\Interface\\VaccinationCentersInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:31:28.875Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:31:28.875Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 15,
               "Title": "PatientsInterface.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\PatientsInterface.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\PatientsInterface.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Service\\Interface\\PatientsInterface.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\PatientsInterface.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Interface\\PatientsInterface.cs",
               "RelativeToolTip": "IntegratedSystems.Service\\Interface\\PatientsInterface.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:26:33.98Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-22T10:26:33.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "PatientsImplementation.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
+              "RelativeDocumentMoniker": "IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
+              "RelativeToolTip": "IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-22T10:28:04.004Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "PatientsImplementation.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
-              "RelativeDocumentMoniker": "IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
-              "RelativeToolTip": "IntegratedSystems.Service\\Implementation\\PatientsImplementation.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADEAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-22T10:28:04.004Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
               "Title": "20240408232639_AddedInitialDomainModels.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408232639_AddedInitialDomainModels.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408232639_AddedInitialDomainModels.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Migrations\\20240408232639_AddedInitialDomainModels.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408232639_AddedInitialDomainModels.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408232639_AddedInitialDomainModels.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\Migrations\\20240408232639_AddedInitialDomainModels.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAFkAAABbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T23:26:39.552Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T23:26:39.552Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 23,
               "Title": "dbo.__EFMigrationsHistory [Data]",
               "DocumentMoniker": "ViewDataWindow_MSSQL__/_localdb__MSSQLLocalDB/IntegratedSystemsExamDatabase/True/SqlTable/dbo.__EFMigrationsHistory.sql",
               "ToolTip": "dbo.__EFMigrationsHistory [Data]",
@@ -409,11 +406,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 20,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.json",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\appsettings.json",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.json",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.json",
               "RelativeToolTip": "IntegratedSystems.Web\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -421,61 +418,59 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 24,
               "Title": "20240408160325_UpdateVaccineTable.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160325_UpdateVaccineTable.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160325_UpdateVaccineTable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160325_UpdateVaccineTable.cs",
               "ToolTip": "C:\\Users\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160325_UpdateVaccineTable.cs",
-              "RelativeToolTip": "..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160325_UpdateVaccineTable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160325_UpdateVaccineTable.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAQwAgAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T16:03:25.206Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 18,
               "Title": "IRepository.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Interface\\IRepository.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Interface\\IRepository.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Interface\\IRepository.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Interface\\IRepository.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Interface\\IRepository.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\Interface\\IRepository.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:38:55.185Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T15:38:55.185Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 17,
               "Title": "Repository.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Implementation\\Repository.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Implementation\\Repository.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Repository\\Implementation\\Repository.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Implementation\\Repository.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Implementation\\Repository.cs",
               "RelativeToolTip": "IntegratedSystems.Repository\\Implementation\\Repository.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAQwCwAAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-04-08T15:38:56.194Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-04-08T15:38:56.194Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 22,
               "Title": "20240408160547_UpdateVaccineTable.cs",
               "DocumentMoniker": "C:\\Users\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160547_UpdateVaccineTable.cs",
-              "RelativeDocumentMoniker": "..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160547_UpdateVaccineTable.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160547_UpdateVaccineTable.cs",
               "ToolTip": "C:\\Users\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160547_UpdateVaccineTable.cs",
-              "RelativeToolTip": "..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160547_UpdateVaccineTable.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\..\\..\\dimit\\Desktop\\IntegratedSystemsExam\\IntegratedSystems.Repository\\Migrations\\20240408160547_UpdateVaccineTable.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-04-08T16:05:47.539Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 21,
               "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.Development.json",
               "RelativeDocumentMoniker": "IntegratedSystems.Web\\appsettings.Development.json",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Web\\appsettings.Development.json",
               "RelativeToolTip": "IntegratedSystems.Web\\appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAUAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -483,11 +478,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 25,
               "Title": "IntegratedSystemsUser.cs",
-              "DocumentMoniker": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
               "RelativeDocumentMoniker": "IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
-              "ToolTip": "C:\\Users\\216130\\Downloads\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 3\\IntegratedSystemsExam\\IntegratedSystemsExam\\IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
               "RelativeToolTip": "IntegratedSystems.Domain\\Identity Models\\IntegratedSystemsUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",

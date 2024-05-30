@@ -1,0 +1,374 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\eshopapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\views\\user\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\README.md||{EFC0BB08-EA7D-40C6-A696-C870411A895B}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\ticketinorder.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\ThirdPartyCodeLicenses\\b2xtranslator License.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\EULA.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\views\\shared\\_layout.cshtml.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\movie.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\ticketinshoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\ticketinshoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab 5\\mvcadminapplication\\mvcadminapplication\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9A8A4523-8DEA-4BFB-85E0-E6CACBE95C75}|MVCAdminApplication\\MVCAdminApplication.csproj|solutionrelative:mvcadminapplication\\models\\shoppingcart.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\User\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Views\\User\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\User\\Index.cshtml",
+              "RelativeToolTip": "MVCAdminApplication\\Views\\User\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T14:42:24.836Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Controllers\\UserController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Controllers\\UserController.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Controllers\\UserController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-30T14:41:53.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MVCAdminApplication\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABsAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-30T14:40:17.8Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Controllers\\OrderController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Controllers\\OrderController.cs",
+              "ViewState": "AQIAADcAAAAAAAAAAAAAAFMAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T16:59:36.525Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EULA.txt",
+              "DocumentMoniker": "C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\EULA.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\EULA.txt",
+              "ToolTip": "C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\EULA.txt [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\EULA.txt [Read Only]",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-30T13:46:13.34Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EShopApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\EShopApplicationUser.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\EShopApplicationUser.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\EShopApplicationUser.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\EShopApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:38:41.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "TicketInOrder.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\TicketInOrder.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\TicketInOrder.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\TicketInOrder.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\TicketInOrder.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:01:03.363Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Order.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\Order.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\Order.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\Order.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\Order.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:01:00.459Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Order\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Views\\Order\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Order\\Index.cshtml",
+              "RelativeToolTip": "MVCAdminApplication\\Views\\Order\\Index.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAC8AAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T15:59:29.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-19T15:35:58.15Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "b2xtranslator License.txt",
+              "DocumentMoniker": "C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\ThirdPartyCodeLicenses\\b2xtranslator License.txt",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\ThirdPartyCodeLicenses\\b2xtranslator License.txt",
+              "ToolTip": "C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\ThirdPartyCodeLicenses\\b2xtranslator License.txt [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\gembox.document\\35.0.1749\\licenses\\ThirdPartyCodeLicenses\\b2xtranslator License.txt [Read Only]",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-05-30T13:46:17.223Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "README.md",
+              "DocumentMoniker": "C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\README.md",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\gembox.document\\35.0.1749\\README.md",
+              "ToolTip": "C:\\Users\\berat\\.nuget\\packages\\gembox.document\\35.0.1749\\README.md [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\.nuget\\packages\\gembox.document\\35.0.1749\\README.md [Read Only]",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001818|",
+              "WhenOpened": "2024-05-30T13:46:22.314Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Views\\Order\\Details.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "MVCAdminApplication\\Views\\Order\\Details.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T15:55:51.056Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\Ticket.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\Ticket.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\Ticket.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:01:02.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "_Layout.cshtml.css",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Views\\Shared\\_Layout.cshtml.css",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Shared\\_Layout.cshtml.css",
+              "RelativeToolTip": "MVCAdminApplication\\Views\\Shared\\_Layout.cshtml.css",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-05-19T15:46:59.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Home\\Privacy.cshtml",
+              "RelativeToolTip": "MVCAdminApplication\\Views\\Home\\Privacy.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T15:47:24.742Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MVCAdminApplication\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-05-19T15:47:21.926Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Movie.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\Movie.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\Movie.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\Movie.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\Movie.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:00:59.23Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TicketInShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\TicketInShoppingCart.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\TicketInShoppingCart.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\TicketInShoppingCart.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\TicketInShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:01:04.986Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\BaseEntity.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:00:58.178Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ShoppingCart.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\ShoppingCart.cs",
+              "RelativeDocumentMoniker": "MVCAdminApplication\\Models\\ShoppingCart.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\MVCAdminApplication\\MVCAdminApplication\\Models\\ShoppingCart.cs",
+              "RelativeToolTip": "MVCAdminApplication\\Models\\ShoppingCart.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-30T17:01:01.508Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
