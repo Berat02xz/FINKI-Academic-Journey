@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h2>Details for: {{ listing.listing_title }}</h2>
+	<div class="card" style="width: 18rem;">
+            <img src="{{ listing.listing_image }}" class="card-img-top" alt="{{ listing.listing_title }}">
+            <div class="card-body">
+                <h5 class="card-title">{{ listing.listing_title }}</h5>
+                <p class="card-text">{{ listing.listing_description }}</p>
+                <p class="card-text">{{ listing.listing_price }} $</p>
+                <p class="card-text">{{ listing.listing_status }}</p>
+                <a href="http://127.0.0.1:8000/index/" class="btn btn-danger">Go back</a>
+            </div>
+        </div>
+{% endblock %}

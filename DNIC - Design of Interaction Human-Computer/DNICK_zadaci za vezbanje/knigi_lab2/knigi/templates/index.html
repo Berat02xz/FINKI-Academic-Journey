@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <div class="container">
+    <a href="http://127.0.0.1:8000/books/add/" class="btn btn-success">Add a new book</a>
+        <div class="row">
+            {% for book in books %}
+                <div class="col-md-4 mb-4">
+                    <div class="card" style="width: 18rem;">
+                      <img src="{{book.book_image}}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">{{ book.book_title}}</h5>
+                        <p class="card-text">Цена: {{ book.book_price }}</p>
+                        <a href="http://127.0.0.1:8000/books/{{ book.id }}" class="btn btn-primary">Details</a>
+                      </div>
+</div>
+                </div>
+            {% endfor %}
+        </div>
+
+    </div>
+
+{% endblock %}

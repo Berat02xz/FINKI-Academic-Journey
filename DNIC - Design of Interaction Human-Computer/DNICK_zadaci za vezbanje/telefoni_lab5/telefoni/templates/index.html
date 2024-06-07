@@ -1,0 +1,29 @@
+
+
+{% extends "base.html" %}
+
+{% block content %}
+	<h3>All phones</h3>
+    <a href="http://127.0.0.1:8000/newProduct/create/" class="btn btn-success">Add a new phone</a>
+    <div class="container">
+    <div class="row">
+    {% for phone in phones %}
+    <div class="col-md-4 mb-4">
+        <div class="card" style="width: 18rem;">
+      <img src="{{ phone.phone_image }}" class="card-img-top" alt="{{ phone.phone_model }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ phone.phone_model }}</h5>
+        <p class="card-text">{{ phone.phone_type }} screen</p>
+        <p class="card-text">Цена: {{ phone.phone_price }}€</p>
+          <a class="btn btn-primary" href="http://127.0.0.1:8000/details/{{ phone.id }}">Details</a>
+      </div>
+    </div>
+    </div>
+
+    {% endfor %}
+
+    </div>
+
+    </div>
+
+{% endblock %}

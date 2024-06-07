@@ -1,0 +1,14 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+	 <div class="card" style="width: 18rem;">
+      <img src="{{ phone.phone_image }}" class="card-img-top" alt="{{ phone.phone_model }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ phone.phone_model }}</h5>
+        <p class="card-text">{{ phone.phone_type }} screen</p>
+        <p class="card-text">Цена: {{ phone.phone_price }} €</p>
+          <a class="btn btn-danger" href="http://127.0.0.1:8000/index/">Go back</a>
+      </div>
+    </div>
+{% endblock %}

@@ -1,0 +1,28 @@
+
+{% extends "base.html" %}
+
+{% block content %}
+	<h3>Cars</h3>
+    <a href="http://127.0.0.1:8000/newProduct/create" class="btn btn-success">Add a new car</a>
+    <div class="container">
+    <div class="row">
+    {% for car in cars %}
+    <div class="col-md-4 mb-4">
+        <div class="card" style="width: 18rem;">
+      <img src="{{ car.car_image }}" class="card-img-top" alt="{{ car.car_model }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ car.car_model }}</h5>
+        <p class="card-text">{{ car.car_mileage }} km</p>
+        <p class="card-text">Цена: {{ car.car_price }}$</p>
+          <a class="btn btn-primary" href="http://127.0.0.1:8000/details/{{ car.id }}">Details</a>
+      </div>
+    </div>
+    </div>
+
+    {% endfor %}
+
+    </div>
+
+    </div>
+
+{% endblock %}

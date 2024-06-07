@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+    <div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="{{ supplement.supplement_image }}" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">{{ supplement.supplement_name}}</h5>
+        <p class="card-text">Цена: {{ supplement.supplement_price }}</p>
+        <p class="card-text"><small class="text-muted">{{ supplement.supplement_category }}</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+{% endblock %}

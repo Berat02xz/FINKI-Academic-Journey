@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<h3>All supplements</h3>
+    <div class="container">
+    <div class="row">
+    {% for supp in supplements %}
+    <div class="col-md-4 mb-4">
+        <div class="card" style="width: 18rem;">
+      <img src="{{ supp.supplement_image }}" class="card-img-top" alt="{{ supp.supplement_name }}">
+      <div class="card-body">
+        <h5 class="card-title">{{ supp.supplement_name}}</h5>
+        <p class="card-text">{{ supp.supplement_manufacturer }}</p>
+        <p class="card-text">Цена: {{ supp.supplement_price }}$</p>
+          <a class="btn btn-primary" href="http://127.0.0.1:8000/supplement_details/{{ supp.id }}">Details</a>
+      </div>
+    </div>
+    </div>
+
+    {% endfor %}
+
+    </div>
+
+    </div>
+
+{% endblock %}

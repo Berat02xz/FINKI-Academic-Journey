@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<div class="card" style="width: 18rem;">
+                      <img src="{{book.book_image}}" class="card-img-top" alt="...">
+                      <div class="card-body">
+                        <h5 class="card-title">{{ book.book_title}}</h5>
+                        <p class="card-text">Цена: {{ book.book_price }} денари</p>
+                      </div>
+{% endblock %}
