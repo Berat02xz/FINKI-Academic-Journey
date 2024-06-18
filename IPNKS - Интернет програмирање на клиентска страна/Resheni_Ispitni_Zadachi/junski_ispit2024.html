@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Table</title>
+    <style>
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: left;
+            cursor: pointer;
+        }
+        tr.removed {
+            transition: opacity 0.5s ease;
+            opacity: 0;
+        }
+        form {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <table id="productTable">
+        <thead>
+            <tr>
+                <th onclick="sortTable('name')">Name</th>
+                <th onclick="sortTable('price')">Price</th>
+                <th onclick="sortTable('color')">Color</th>
+            </tr>
+        </thead>
+        <tbody>
+        </tbody>
+    </table>
+
+    <form id="addProductForm">
+        <label>
+            Name: <input type="text" id="productName" required>
+        </label>
+        <br/>
+        <label>
+            Price: <input type="text" id="productPrice" required>
+        </label>
+        <br/>
+        <label>
+            Color: <input type="color" id="productColor" required>
+        </label>
+        <br/>
+        <button type="submit">Add Product</button>
+    </form>
+
+    <script>
+        const tableBody = document.querySelector('#productTable tbody');
+        let sortOrder = { name: 'asc', price: 'asc', color: 'asc' };
+
+        const initialData = [
+            { name: "Product 1", price: "$10", color: "red" },
+            { name: "Product 2", price: "$20", color: "green" },
+            { name: "Product 3", price: "$30", color: "blue" }
+        ];
+
+        function addRow(product) {
+            const row = document.createElement('tr');
+            row.style.backgroundColor = product.color;
+            row.innerHTML = `
+                <td>${product.name}</td>
+                <td>${product.price}</td>
+                <td>${product.color}</td>
+            `;
+            row.onclick = () => deleteRow(row);
+            tableBody.appendChild(row);
+        }
+
+        function deleteRow(row) {
+            row.classList.add('removed');
+            setTimeout(() => row.remove(), 500);
+        }
+
+        function sortTable(column) {
+            const rows = Array.from(tableBody.rows);
+            const direction = sortOrder[column] === 'asc' ? 1 : -1;
+
+            rows.sort((a, b) => {
+                const aText = a.querySelector(`td:nth-child(${getColumnIndex(column)})`).innerText;
+                const bText = b.querySelector(`td:nth-child(${getColumnIndex(column)})`).innerText;
+
+                if (column === 'price') {
+                    return direction * (parseFloat(aText.substring(1)) - parseFloat(bText.substring(1)));
+                }
+                return direction * aText.localeCompare(bText);
+            });
+
+            sortOrder[column] = sortOrder[column] === 'asc' ? 'desc' : 'asc';
+
+            rows.forEach(row => tableBody.appendChild(row));
+        }
+
+        function getColumnIndex(column) {
+            return ['name', 'price', 'color'].indexOf(column) + 1;
+        }
+
+        document.getElementById('addProductForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            const name = document.getElementById('productName').value;
+            const price = document.getElementById('productPrice').value;
+            const color = document.getElementById('productColor').value;
+
+            addRow({ name, price, color });
+            this.reset();
+        });
+
+        initialData.forEach(addRow);
+    </script>
+</body>
+</html>

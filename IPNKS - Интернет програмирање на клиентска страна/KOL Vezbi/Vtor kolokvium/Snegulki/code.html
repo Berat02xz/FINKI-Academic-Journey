@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <img src="s1.png"/>
+    <img src="s2.png"/>
+    <img src="s3.png"/>
+    <img src="s4.png"/>
+    <img src="s5.png"/>
+    <img src="s6.png"/>
+
+
+
+<script>
+let imgs = document.getElementsByTagName("img");
+
+for(let i=0; i<imgs.length; i++) {
+    imgs[i].style.width = "150px";
+    imgs[i].style.height = "150px";
+    imgs[i].style.position = "absolute";
+    imgs[i].style.top = "-200px";
+    imgs[i].style.left = Math.random()*1000+"px";
+    setInterval(fallElement, Math.random()*10, imgs[i]);
+}
+
+function fallElement(elem) {
+    let pos = Number(elem.style.top.split('px')[0]);
+    elem.style.top = pos + 1 + "px";
+    if(pos > 1000) {
+        elem.style.top = "-200px";
+    }
+}
+</script>    
+</body>
+</html>

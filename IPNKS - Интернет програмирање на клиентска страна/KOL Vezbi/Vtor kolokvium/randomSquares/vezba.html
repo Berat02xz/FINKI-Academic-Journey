@@ -25,13 +25,15 @@
         element.style.position = "absolute"
 
         element.onclick = function (){
-            click_element(element)
+            click_element(element);        
         }
 
-        document.body.appendChild(element)
+
+        document.body.appendChild(element);
     }
     function click_element(element) {
         let el_array = [element];
+        
         for (let i = 0; i < 3; i++) {
             let newDiv = element.cloneNode(true);
             newDiv.onclick = function () {

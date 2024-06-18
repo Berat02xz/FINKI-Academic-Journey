@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game</title>
+    <style>
+        .random {
+            width: 300px;
+            margin: auto;
+            text-align: center;
+        }
+        #tables {
+            width: 300px;
+            margin: auto;
+        }
+        table {
+            border: 1px solid black;
+            margin-bottom: 10px;
+        }
+        table:first-of-type {
+            margin-top: 100px;
+        }
+        td {
+            border: 1px solid black;
+            cursor: pointer;
+            text-align: center;
+            width: 40px;
+            height: 40px;
+        }
+    </style>
+</head>
+<body>
+    <h2 class="random"></h2>
+    <div id="tables"></div>
+
+    <script type="text/javascript">
+        let gameFinished = false;
+
+        let data = '[{"id":"0","numbers":[54,12,78,91,36,5,67,22,43,89,14,76,28,61,97]},{"id":"1","numbers":[88,41,16,73,29,95,60,3,65,32,79,18,47,83,10]},{"id":"2","numbers":[17,64,9,45,82,30,52,70,11,68,25,57,94,39,75]}]';
+        data = JSON.parse(data);
+
+        function handleClick(cell) {
+            var numberClicked = parseInt(cell.textContent);
+            var randomNum = parseInt(random.innerHTML);
+
+            if (numberClicked === randomNum) {
+                cell.style.backgroundColor = "limegreen";
+            }
+
+            var allCellsClicked = true;
+            var allTableCells = document.querySelectorAll("td");
+            allTableCells.forEach(function (tableCell) {
+                if (tableCell.style.backgroundColor !== "limegreen") {
+                    allCellsClicked = false;
+                }
+            });
+
+            if (allCellsClicked) {
+                gameFinished = true;
+            }
+        }
+
+        var random = document.getElementsByClassName('random')[0];
+        var interval = setInterval(() => {
+            random.innerHTML = Math.floor(Math.random() * 99 + 1);
+
+            if (gameFinished) {
+                clearInterval(interval);
+            }
+        }, 500);
+
+        var tables = document.getElementById('tables');
+
+        data.forEach((tableData) => {
+            let table = document.createElement('table');
+            table.setAttribute('id', tableData.id);
+
+            for (let j = 0; j < tableData.numbers.length; j += 5) {
+                let row = document.createElement('tr');
+
+                for (let k = j; k < j + 5 && k < tableData.numbers.length; k++) {
+                    let cell = document.createElement('td');
+                    cell.textContent = tableData.numbers[k];
+                    cell.addEventListener('click', function () {
+                        handleClick(this);
+                    });
+
+                    row.appendChild(cell);
+                }
+
+                table.appendChild(row);
+            }
+            tables.appendChild(table);
+        });
+    </script>
+</body>
+</html>

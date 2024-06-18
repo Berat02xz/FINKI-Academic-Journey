@@ -2,76 +2,114 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Square game</title>
+    <title>Square Game</title>
+    <style>
+        #PlayingField {
+            width: 800px;
+            height: 600px;
+            border: solid black 2px;
+            position: relative;
+            overflow: hidden;
+        }
+        .block {
+            position: absolute;
+        }
+        .line {
+            position: absolute;
+            width: 2px;
+            height: 100%;
+            background-color: red;
+        }
+    </style>
 </head>
 <body>
-<style>
-  #PlayingfField{
-    width: 800px;
-    height: 600px;
-    border: solid black 2px;
-  }
-  #blocks{
-      position: relative;
-  }
-</style>
-<div id="PlayingfField">
-  <div id="blocks">
-
-  </div>
+<div id="PlayingField">
+    <div id="blocks"></div>
 </div>
-<h1>Score: <span id="scoretext"></span></h1>
-
+<h1>Score: <span id="scoretext">0</span></h1>
 
 <script type="application/javascript">
-
     var data = '[{"id":0,"width":10,"height":15,"top":20,"left":30,"direction":"Horizontal","score":8},{"id":1,"width":12,"height":18,"top":25,"left":35,"direction":"Vertical","score":5},{"id":2,"width":8,"height":14,"top":22,"left":40,"direction":"Horizontal","score":10},{"id":3,"width":15,"height":20,"top":30,"left":45,"direction":"Vertical","score":7},{"id":4,"width":11,"height":17,"top":28,"left":50,"direction":"Horizontal","score":9}]';
-
+    
     var newdata = JSON.parse(data);
-
-    for (let i = 0; i < newdata.length; i++) {
-        var id = newdata[i].id;
-        var width = parseInt(newdata[i].width) * 10;
-        var height = parseInt(newdata[i].height) * 5;
-        var top = parseInt(Math.floor(Math.random() * 400)); // Parse to integer
-        var left = parseInt(Math.floor(Math.random() * 400)); // Parse to integer
-        var direction = newdata[i].direction;
-        var score = parseInt(newdata[i].score);
-
-        console.log("Square ID:", id);
-        console.log("Width:", width);
-        console.log("Height:", height);
-        console.log("Top position:", top);
-        console.log("Left position:", left);
-        console.log("Direction:", direction);
-        console.log("Score:", score);
-        console.log("--------------------");
-
-        var color = '#' + Math.floor(Math.random()*10000000).toString(16); // Generate random color
-
-        var div = document.createElement('div');
-        div.style.width = width + 'px';
-        div.style.height = height + 'px';
-        div.style.position = 'relative';
-        div.style.top = top + 'px'; // Now top is a number
-        div.style.left = left + 'px'; // Now left is a number
-        div.style.backgroundColor = color;
-
-        document.getElementById("blocks").appendChild(div);
-    }
-
     var score = 0;
     var scoretext = document.getElementById("scoretext");
     var blocks = document.getElementById("blocks");
 
-    //make the blocks move up and down if they have direction vertical or left and right if they have direction horizontal
-    setInterval( function(){
-        for(let i=0; i<blocks.children.length; i++){
+    function createBlock(blockData) {
+        var div = document.createElement('div');
+        div.className = 'block';
+        div.id = 'block-' + blockData.id;
+        div.style.width = blockData.width * 10 + 'px';
+        div.style.height = blockData.height * 5 + 'px';
+        div.style.top = blockData.top + 'px';
+        div.style.left = blockData.left + 'px';
+        div.style.backgroundColor = '#' + Math.floor(Math.random()*10000000).toString(16);
+        div.dataset.direction = blockData.direction;
+        div.dataset.score = blockData.score;
+        div.dataset.dx = blockData.direction === 'Horizontal' ? 1 : 0;
+        div.dataset.dy = blockData.direction === 'Vertical' ? 1 : 0;
+        blocks.appendChild(div);
+    }
 
-        }
-    } , 100 );
+    function moveBlocks() {
+        var blockElems = document.querySelectorAll('.block');
+        blockElems.forEach(block => {
+            var top = parseInt(block.style.top);
+            var left = parseInt(block.style.left);
+            var width = parseInt(block.style.width);
+            var height = parseInt(block.style.height);
+            var dx = parseInt(block.dataset.dx);
+            var dy = parseInt(block.dataset.dy);
 
+            // Update positions
+            top += dy;
+            left += dx;
+
+            // Reverse direction if hitting a wall
+            if (top <= 0 || top + height >= 600) {
+                block.dataset.dy = -dy;
+                top = top <= 0 ? 0 : 600 - height;
+            }
+            if (left <= 0 || left + width >= 800) {
+                block.dataset.dx = -dx;
+                left = left <= 0 ? 0 : 800 - width;
+            }
+
+            block.style.top = top + 'px';
+            block.style.left = left + 'px';
+        });
+    }
+
+    function generateRandomLine() {
+        var line = document.createElement('div');
+        line.className = 'line';
+        line.style.left = Math.random() * 798 + 'px'; // Generate random left position
+        document.getElementById("PlayingField").appendChild(line);
+
+        // Remove blocks that are within the line
+        var lineLeft = parseInt(line.style.left);
+        var blockElems = document.querySelectorAll('.block');
+        blockElems.forEach(block => {
+            var blockLeft = parseInt(block.style.left);
+            var blockWidth = parseInt(block.style.width);
+            if (blockLeft <= lineLeft && blockLeft + blockWidth >= lineLeft) {
+                score += parseInt(block.dataset.score);
+                block.remove();
+            }
+        });
+
+        scoretext.textContent = score;
+
+        setTimeout(() => {
+            line.remove();
+        }, 1000);
+    }
+
+    newdata.forEach(blockData => createBlock(blockData));
+    
+    setInterval(moveBlocks, 1);
+    setInterval(generateRandomLine, 3000);
 </script>
-
 </body>
 </html>

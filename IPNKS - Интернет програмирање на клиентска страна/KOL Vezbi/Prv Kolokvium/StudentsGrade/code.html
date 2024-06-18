@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Students' grades</title>
+    <style>
+        label {
+            font-size: 1.2rem;
+            margin-right: 5px;
+        }
+        table, th, td {
+            border: 1px solid black;
+            padding: 3px;
+        }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+        .thisOne {
+            display: flex;
+            justify-content: space-around;
+        }
+        ul {
+            list-style-type: circle;
+        }
+        li {
+            font-size: 1.21rem;
+        }
+    </style>
+    <script type="text/javascript">
+        let gradesCounter = 0;
+        let allGrades = 0;
+
+        function importStudent() {
+            const name = document.getElementById("name").value;
+            const index = document.getElementById("index").value;
+            const phone = document.getElementById("phone").value;
+            const session = document.getElementById("session").value;
+            const grade = document.querySelector('input[name="grades"]:checked')?.value;
+            const table = document.getElementById("studentTable").querySelector("tbody");
+            const averageGrades = document.getElementById("ocenki");
+
+            if (!name || !index || !phone || !session || !grade || phone.length !== 9 || isNaN(phone)) {
+                alert("Invalid input");
+                return;
+            }
+
+            table.innerHTML += `
+                <tr>
+                    <td>${name}</td>
+                    <td>${index}</td>
+                    <td>${formatTel(phone)}</td>
+                    <td>${grade}</td>
+                    <td>${session}</td>
+                    <td>
+                        <button onclick="confirmGrade(this)">Confirm</button>
+                        <button onclick="revert(this)">Revert</button>
+                    </td>
+                </tr>`;
+
+            gradesCounter++;
+            allGrades += parseInt(grade);
+            averageGrades.textContent = (allGrades / gradesCounter).toFixed(1);
+
+            document.getElementById("name").value = '';
+            document.getElementById("index").value = '';
+            document.getElementById("phone").value = '';
+            document.getElementById("session").value = 'January';
+            document.querySelectorAll('input[name="grades"]').forEach(g => g.checked = false);
+        }
+
+        function confirmGrade(button) {
+            const row = button.parentNode.parentNode;
+            row.style.backgroundColor = "greenyellow";
+            button.disabled = true;
+            button.nextElementSibling.disabled = true;
+        }
+
+        function revert(button) {
+            const row = button.parentNode.parentNode;
+            const grade = parseInt(row.cells[3].textContent);
+            const index = row.cells[1].textContent;
+
+            document.getElementById("revertList").innerHTML += `<li>${index} - grade: ${grade}</li>`;
+            row.remove();
+
+            gradesCounter--;
+            allGrades -= grade;
+            document.getElementById("ocenki").textContent = gradesCounter === 0 ? '0' : (allGrades / gradesCounter).toFixed(1);
+        }
+
+        function formatTel(tel) {
+            return `${tel.slice(0, 3)}/${tel.slice(3, 6)}-${tel.slice(6)}`;
+        }
+    </script>
+</head>
+<body>
+<div class="thisOne">
+    <div>
+        <h2>Details</h2>
+        <label>Name</label><input type="text" id="name"/><br><br>
+        <label>Index</label><input type="text" id="index"/><br><br>
+        <label>Phone</label><input type="text" id="phone"/><br><br>
+        <label>Grade</label>
+        <form id="st_grades">
+            <input type="radio" value="5" name="grades"/><label>5</label>
+            <input type="radio" value="6" name="grades"/><label>6</label>
+            <input type="radio" value="7" name="grades"/><label>7</label>
+            <input type="radio" value="8" name="grades"/><label>8</label>
+            <input type="radio" value="9" name="grades"/><label>9</label>
+            <input type="radio" value="10" name="grades"/><label>10</label>
+        </form><br>
+        <label>Session</label>
+        <select id="session">
+            <option>January</option>
+            <option>June</option>
+            <option>September</option>
+        </select><br><br>
+        <button onclick="importStudent()">Import student</button><br><br>
+        <h3>Average grade: <span id="ocenki">0</span></h3>
+        <table id="studentTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Index</th>
+                    <th>Phone</th>
+                    <th>Grade</th>
+                    <th>Session</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Revert history</h2>
+        <ul id="revertList"></ul>
+    </div>
+</div>
+</body>
+</html>

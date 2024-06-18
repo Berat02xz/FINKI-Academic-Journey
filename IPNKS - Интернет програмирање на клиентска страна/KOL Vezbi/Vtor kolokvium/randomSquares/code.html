@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="playground"></div>
+
+    <script>
+        let data = '[{"color":"red", "size":"50"},{"color":"blue", "size":"40"},{"color":"orange", "size":"30"},{"color":"green", "size":"20"},{"color":"yellow", "size":"50"}]'
+        data = JSON.parse(data);
+
+        let playground = document.getElementById("playground");
+
+        for (let i = 0; i < data.length; i++) {
+            let square = document.createElement("div");
+            square.style.backgroundColor = data[i].color;
+            square.style.width = data[i].size + "px";
+            square.style.height = data[i].size + "px";
+            square.style.top = Math.floor(Math.random() * 700) + "px"
+            square.style.left = Math.floor(Math.random() * 700) + "px"
+            square.style.position = "absolute"
+            square.setAttribute("onclick","handeClick(this)");
+            playground.appendChild(square);
+        }
+
+    </script>
+</body>
+
+</html>

@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Example</title>
+    <style>
+        div {
+            align-self: auto;
+            align-items: center;
+            position: fixed;
+            left: 30%;
+        }
+        table {
+            border: 1px solid black;
+            align-self: center;
+            margin-bottom: 20px;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div id="randomNum"></div>
+<br/>
+<br/>
+<br/>
+<div id="body"></div>
+
+<script>
+    let data = '[{"id":"0","numbers":[54,12,78,91,36,5,67,22,43,89,14,76,28,61,97]},{"id":"1","numbers":[88,41,16,73,29,95,60,3,65,32,79,18,47,83,10]},{"id":"2","numbers":[17,64,9,45,82,30,52,70,11,68,25,57,94,39,75]}]';
+    data = JSON.parse(data);
+
+    let body = document.getElementById("body");
+
+    for (let i = 0; i < data.length; i++) {
+        let table = document.createElement("table");
+
+        for (let j = 0; j < data[i].numbers.length; j++) {
+            if (j % 5 === 0) {
+                var tr = document.createElement("tr");
+                table.appendChild(tr);
+            }
+            let td = document.createElement("td");
+            td.setAttribute('onclick', 'handleClick(this)');
+            td.innerHTML = data[i].numbers[j];
+            tr.appendChild(td);
+        }
+        body.appendChild(table);
+    }
+
+    let randomNumber = document.createElement("p");
+    let erandom = document.getElementById("randomNum");
+    erandom.appendChild(randomNumber);
+
+    function generateRandomNumber() {
+        randomNumber.innerHTML = Math.floor(Math.random() * 99) + 1;
+    }
+
+    setInterval(generateRandomNumber, 200);
+
+    function handleClick(cell){
+        let numberClicked = parseInt(cell.innerHTML);
+        let radnomNumberNow = parseInt(randomNumber.innerHTML);
+
+        if(numberClicked === radnomNumberNow){
+            cell.style.backgroundColor = "limegreen";
+        }
+    }
+
+    //Alternative way, it plays bingo itself
+    function playGame() {
+        let randomNum = parseInt(randomNumber.innerHTML);
+        let allTableCells = document.querySelectorAll("td");
+
+        allTableCells.forEach(function (cell) {
+            let cellValue = parseInt(cell.textContent);
+            if (cellValue === randomNum) {
+                handleClick(cell);
+            }
+        });
+    }
+    setInterval(playGame, 300);
+
+</script>
+
+</body>
+</html>

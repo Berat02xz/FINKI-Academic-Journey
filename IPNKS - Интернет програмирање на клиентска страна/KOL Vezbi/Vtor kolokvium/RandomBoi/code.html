@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Zadacha 5</title>
+    <style>
+        p {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+<textarea rows="10" cols="40" id="text"></textarea>
+<br>
+<button onclick="prikazhi()">Prikazhi</button>
+<button onclick="location.reload()">Izbrishi</button>
+<div id="content-container"></div>
+
+<script>
+    // Generate random number between min and max
+    function generateRandomNumber(min, max) {
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+
+    function prikazhi() {
+        let text = document.getElementById("text").value;
+        let texted = text.split(" ");
+        let contentContainer = document.getElementById("content-container");
+        
+        // Array to store words
+        let words = [];
+
+        for (let i = 0; i < texted.length; i++) {
+            let p = document.createElement("p");
+            p.innerHTML = texted[i];
+            p.style.top = generateRandomNumber(0, 90) + "vh";
+            p.style.left = generateRandomNumber(0, 90) + "vw";
+            p.style.fontSize = generateRandomNumber(20, 50) + "px"; // Adjusted font size range
+            p.style.color = "rgb(" + generateRandomNumber(0, 255) + "," + generateRandomNumber(0, 255) + "," + generateRandomNumber(0, 255) + ")";
+            // Store word in array
+            words.push(p);        
+        }
+
+        let index = 0;
+        function showWords() {
+                contentContainer.appendChild(words[index]);
+                index++;
+        }
+
+        let intervalId = setInterval(showWords, 300); // Show a new word every 300ms
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Vezhba 11</title>
+</head>
+
+<body>
+
+    <div id="cars"></div>
+    <button onclick="sort()">Sortiraj</button>
+
+    <script>
+        let carData = '[{"brand":"audi","model":"q7","color":"#FF5733","max_speed":"230"},{"brand":"bmw","model":"x7","color":"#33FF3F","max_speed":"250"},{"brand":"chevrolet","model":"camaro","color":"#F0FF33","max_speed":"270"},{"brand":"ford","model":"mustang","color":"#0064B2","max_speed":"265"}]';
+        carData = JSON.parse(carData);
+        let cars = document.getElementById("cars");
+
+        for (let i = 0; i < carData.length; i++) {
+            let paragraph = document.createElement("p");
+            paragraph.setAttribute("colorrel", `${carData[i].color}`);
+            paragraph.innerHTML = `<strong>marka:</strong> ${carData[i].brand} <strong>model:</strong> ${carData[i].model} <strong>boja:</strong> <input type="color" value="${carData[i].color}"/> <strong>max speed:</strong> <input type="number" value="${carData[i].max_speed}" style="width: 50px;" class="sort"/>`;
+            cars.appendChild(paragraph);
+        }
+
+
+        function sort() {
+            // Get all paragraph elements and convert them to an array
+            let paragraphs = Array.from(document.querySelectorAll('p'));
+
+            // Loop through each paragraph
+            paragraphs.forEach(paragraph => {
+                // Set a custom attribute "rel" based on the value of the last child element
+                let lastChildValue = paragraph.lastElementChild.value;
+                paragraph.setAttribute("rel", lastChildValue);
+
+                // Set the background color based on the "colorrel" attribute
+                let color = paragraph.getAttribute("colorrel");
+                paragraph.style.background = color;
+            });
+
+            // Sort the paragraphs based on the "rel" attribute value
+            paragraphs.sort((a, b) => a.getAttribute("rel") - b.getAttribute("rel"));
+
+            // Get the element with the id "cars"
+            let cars = document.getElementById('cars');
+
+            // Clear the content of the "cars" element
+            cars.innerHTML = "";
+
+            // Append each sorted paragraph back to the "cars" element
+            paragraphs.forEach(paragraph => cars.appendChild(paragraph));
+        }
+
+
+    </script>
+</body>
+
+</html>

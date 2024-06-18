@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modify Paragraph Style</title>
+</head>
+
+<body>
+    <div id="div">
+        <p id="paragraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin at lectus maximus, condimentum
+            velit at, dapibus nisl. Mauris imperdiet, libero non blandit viverra, metus augue dignissim arcu, id
+            accumsan sapien erat nec risus. Nulla facilisi. Aliquam et turpis ipsum. Ut augue nisi, venenatis a quam
+            vel, vestibulum convallis ligula. Nullam molestie quam ac mauris molestie, sit amet imperdiet augue dictum.
+            Curabitur non cursus felis. Suspendisse pulvinar nisi mauris, vel tempor orci condimentum sed. In fringilla,
+            ipsum sit amet eleifend lobortis, quam lacus euismod lacus, ac malesuada justo justo ut ex. Pellentesque
+            sagittis libero ac odio semper, nec aliquam quam euismod. Cras tristique lacus vitae ipsum sollicitudin
+            cursus.</p>
+    </div>
+
+    <label for="color">Color:</label>
+    <select id="color"></select>
+
+    <label for="width">Width:</label>
+    <select id="width"></select>
+
+    <label for="bgkcolor">Background Color:</label>
+    <select id="bgkcolor"></select>
+
+    <script>
+        let data = '[{"name":"color", "options":["red", "blue", "green", "#FF00FF"]}, {"name":"width", "options":["250px", "350px", "600px"]},{"name":"background-color", "options":["yellow", "black", "pink"]}]';
+        data = JSON.parse(data);
+
+
+        for (let i = 0; i < data.length; i++) {
+            let name = data[i].name;
+            let selectId = name === 'background-color' ? 'bgkcolor' : name;
+            let getId = document.getElementById(selectId);
+
+            for (let j = 0; j < data[i].options.length; j++) {
+                let element = document.createElement("option");
+                element.innerHTML = data[i].options[j];
+                element.value = data[i].options[j];
+                getId.appendChild(element);
+            }
+        }
+
+
+        function changeColor() {
+            let colorSelector = document.getElementById('color').value;
+            document.getElementById('paragraph').style.color = colorSelector;
+        }
+
+        function changeWidth() {
+            let widthSelector = document.getElementById('width').value;
+            document.getElementById('paragraph').style.width = widthSelector;
+        }
+
+        function changeBackgroundColor() {
+            let bgcolor = document.getElementById('bgkcolor').value;
+            document.getElementById('paragraph').style.backgroundColor = bgcolor;
+        }
+
+
+        // Call the functions on change
+        document.getElementById('color').onchange = changeColor;
+        document.getElementById('width').onchange = changeWidth;
+        document.getElementById('bgkcolor').onchange = changeBackgroundColor;
+    </script>
+</body>
+
+</html>
