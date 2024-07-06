@@ -1,19 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
-using Microsoft.EntityFrameworkCore;
-using EShop.Repository;
-using EShop.Domain.Domain;
 using System.Security.Claims;
 using Microsoft.AspNetCore.Authorization;
-using EShop.Domain.DTO;
-using EShop.Service.Interface;
-using Movie_App.Service.Interface;
+using MusicStore.Service.Interface;
+using MusicStore.Domain.Domain;
+using MusicStore.Domain.DTO;
 
-namespace EShop.Web.Controllers
+namespace MusicStore.Web.Controllers
 {
     public class TicketsController : Controller
     {

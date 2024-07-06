@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
-namespace EShop.Repository.Migrations
+namespace MusicStore.Repository.Migrations
 {
     /// <inheritdoc />
     public partial class initial : Migration

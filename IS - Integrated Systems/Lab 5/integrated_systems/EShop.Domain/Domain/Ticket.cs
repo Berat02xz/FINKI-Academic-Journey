@@ -1,7 +1,7 @@
-﻿using EShop.Domain.Identity;
+﻿using MusicStore.Domain.Identity;
 using System.ComponentModel.DataAnnotations;
 
-namespace EShop.Domain.Domain
+namespace MusicStore.Domain.Domain
 {
     public class Ticket : BaseEntity
     {
@@ -11,7 +11,7 @@ namespace EShop.Domain.Domain
         [Required]
         public double Price { get; set; }
 
-        public virtual EShopApplicationUser? CreatedBy { get; set; }
+        public virtual MusicStoreUser? CreatedBy { get; set; }
         public virtual ICollection<TicketInShoppingCart>? ProductsInShoppingCart { get; set; }
         public ICollection<TicketInOrder>? ProductInOrders { get; set; }
     }

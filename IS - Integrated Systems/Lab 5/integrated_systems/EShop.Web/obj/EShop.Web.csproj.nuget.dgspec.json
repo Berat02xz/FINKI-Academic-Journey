@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Web\\EShop.Web.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj",
+        "projectName": "MusicStore.Domain",
+        "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj",
+        "packagesPath": "C:\\Users\\berat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\berat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\MusicStore.Repository.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\MusicStore.Repository.csproj",
+        "projectName": "MusicStore.Repository",
+        "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\MusicStore.Repository.csproj",
+        "packagesPath": "C:\\Users\\berat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\berat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Service\\EShop.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Service\\EShop.Service.csproj",
+        "projectName": "EShop.Service",
+        "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Service\\EShop.Service.csproj",
+        "packagesPath": "C:\\Users\\berat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\berat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj"
+              },
+              "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\MusicStore.Repository.csproj": {
+                "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\MusicStore.Repository.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MailKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "MimeKit": {
+              "target": "Package",
+              "version": "[4.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Web\\EShop.Web.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Web\\EShop.Web.csproj",
+        "projectName": "EShop.Web",
+        "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Web\\EShop.Web.csproj",
+        "packagesPath": "C:\\Users\\berat\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Web\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\berat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj": {
+                "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Domain\\MusicStore.Domain.csproj"
+              },
+              "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\MusicStore.Repository.csproj": {
+                "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Repository\\MusicStore.Repository.csproj"
+              },
+              "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Service\\EShop.Service.csproj": {
+                "projectPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab 5\\integrated_systems\\EShop.Service\\EShop.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Identity.UI": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[8.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[8.0.3, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.2, )"
+            },
+            "Stripe.net": {
+              "target": "Package",
+              "version": "[44.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

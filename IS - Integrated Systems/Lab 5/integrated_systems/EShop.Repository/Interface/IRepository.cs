@@ -1,11 +1,6 @@
-﻿using EShop.Domain.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MusicStore.Domain.Domain;
 
-namespace EShop.Repository.Interface
+namespace MusicStore.Repository.Interface
 {
     public interface IRepository<T> where T : BaseEntity
     {

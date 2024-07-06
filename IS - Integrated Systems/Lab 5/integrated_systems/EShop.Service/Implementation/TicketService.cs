@@ -1,14 +1,9 @@
-﻿using EShop.Domain.Domain;
-using EShop.Repository.Interface;
-using EShop.Service.Interface;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.InteropServices;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MusicStore.Domain.Domain;
+using MusicStore.Domain.Domain;
+using MusicStore.Repository.Interface;
+using MusicStore.Service.Interface;
 
-namespace EShop.Service.Implementation
+namespace MusicStore.Service.Implementation
 {
     public class TicketService : ITicketService
     {

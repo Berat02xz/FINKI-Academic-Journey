@@ -1,16 +1,11 @@
-﻿using EShop.Domain.Domain;
-using EShop.Domain.DTO;
-using EShop.Repository.Interface;
-using EShop.Service.Interface;
-using Microsoft.EntityFrameworkCore;
+﻿using MusicStore.Domain.Domain;
 using Microsoft.IdentityModel.Tokens;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MusicStore.Service.Interface;
+using MusicStore.Domain.Domain;
+using MusicStore.Repository.Interface;
+using MusicStore.Domain.DTO;
 
-namespace EShop.Service.Implementation
+namespace MusicStore.Service.Implementation
 {
     public class ShoppingCartService : IShoppingCartService
     {

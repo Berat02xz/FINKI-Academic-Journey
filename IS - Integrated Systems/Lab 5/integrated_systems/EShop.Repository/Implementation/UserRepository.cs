@@ -1,31 +1,26 @@
-﻿using EShop.Domain.Identity;
-using EShop.Repository.Interface;
+﻿using MusicStore.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MusicStore.Domain.Identity;
 
-namespace EShop.Repository.Implementation
+namespace MusicStore.Repository.Implementation
 {
     public class UserRepository : IUserRepository
     {
         private readonly ApplicationDbContext context;
-        private DbSet<EShopApplicationUser> entities;
+        private DbSet<MusicStoreUser> entities;
         string errorMessage = string.Empty;
 
         public UserRepository(ApplicationDbContext context)
         {
             this.context = context;
-            entities = context.Set<EShopApplicationUser>();
+            entities = context.Set<MusicStoreUser>();
         }
-        public IEnumerable<EShopApplicationUser> GetAll()
+        public IEnumerable<MusicStoreUser> GetAll()
         {
             return entities.AsEnumerable();
         }
 
-        public EShopApplicationUser Get(string id)
+        public MusicStoreUser Get(string id)
         {
             var strGuid = id.ToString();
             return entities
@@ -34,7 +29,7 @@ namespace EShop.Repository.Implementation
                 .Include("UserCart.ProductInShoppingCarts.Ticket")
                 .First(s => s.Id == strGuid);
         }
-        public void Insert(EShopApplicationUser entity)
+        public void Insert(MusicStoreUser entity)
         {
             if (entity == null)
             {
@@ -44,7 +39,7 @@ namespace EShop.Repository.Implementation
             context.SaveChanges();
         }
 
-        public void Update(EShopApplicationUser entity)
+        public void Update(MusicStoreUser entity)
         {
             if (entity == null)
             {
@@ -54,7 +49,7 @@ namespace EShop.Repository.Implementation
             context.SaveChanges();
         }
 
-        public void Delete(EShopApplicationUser entity)
+        public void Delete(MusicStoreUser entity)
         {
             if (entity == null)
             {

@@ -1,12 +1,7 @@
-﻿using EShop.Domain.Domain;
-using EShop.Domain.DTO;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MusicStore.Domain.Domain;
+using MusicStore.Domain.DTO;
 
-namespace EShop.Service.Interface
+namespace MusicStore.Service.Interface
 {
     public interface IShoppingCartService
     {

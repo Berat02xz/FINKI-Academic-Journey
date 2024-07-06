@@ -1,18 +1,13 @@
-﻿using EShop.Domain.Identity;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using MusicStore.Domain.Identity;
 
-namespace EShop.Repository.Interface
+namespace MusicStore.Repository.Interface
 {
     public interface IUserRepository
     {
-        IEnumerable<EShopApplicationUser> GetAll();
-        EShopApplicationUser Get(string id);
-        void Insert(EShopApplicationUser entity);
-        void Update(EShopApplicationUser entity);
-        void Delete(EShopApplicationUser entity);
+        IEnumerable<MusicStoreUser> GetAll();
+        MusicStoreUser Get(string id);
+        void Insert(MusicStoreUser entity);
+        void Update(MusicStoreUser entity);
+        void Delete(MusicStoreUser entity);
     }
 }

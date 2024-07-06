@@ -1,12 +1,11 @@
-﻿using EShop.Domain.Identity;
-using System.ComponentModel.DataAnnotations;
+﻿using MusicStore.Domain.Identity;
 
-namespace EShop.Domain.Domain
+namespace MusicStore.Domain.Domain
 {
     public class Order : BaseEntity
     {
         public string? OwnerId { get; set; }
-        public EShopApplicationUser? Owner { get; set; }
+        public MusicStoreUser? Owner { get; set; }
         public ICollection<TicketInOrder>? ProductInOrders { get; set; }
     }
 }
