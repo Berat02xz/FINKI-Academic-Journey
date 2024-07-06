@@ -1,11 +1,12 @@
-using MusicStore.Repository;
-using MusicStore.Domain.Identity;
+using EShop.Repository;
+using EShop.Domain.Identity;
 using Microsoft.EntityFrameworkCore;
-using MusicStore.Service.Interface;
-using MusicStore.Service.Implementation;
-using MusicStore.Repository.Implementation;
-using MusicStore.Repository.Interface;
-using c.Repository.Implementation;
+using EShop.Service.Interface;
+using EShop.Service.Implementation;
+using EShop.Repository.Implementation;
+using EShop.Repository.Interface;
+using Movie_App.Service.Interface;
+using Movie_App.Service.Implementation;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,16 +16,18 @@ builder.Services.AddDbContext<ApplicationDbContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-builder.Services.AddDefaultIdentity<MusicStoreUser>(options => options.SignIn.RequireConfirmedAccount = true)
+builder.Services.AddDefaultIdentity<EShopApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
     .AddEntityFrameworkStores<ApplicationDbContext>();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped(typeof(IRepository<>), typeof(Repository<>));
 builder.Services.AddScoped(typeof(IUserRepository), typeof(UserRepository));
+builder.Services.AddScoped(typeof(IOrderRepository), typeof(OrderRepository));
 
 builder.Services.AddTransient<ITicketService, TicketService>();
 builder.Services.AddTransient<IShoppingCartService, ShoppingCartService>();
 builder.Services.AddTransient<IMovieService, MovieService>();
+builder.Services.AddTransient<IOrderService, OrderService>();
 
 builder.Services.AddControllersWithViews().AddNewtonsoftJson(options =>
     options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);

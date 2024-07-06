@@ -1,9 +1,13 @@
-﻿using MusicStore.Domain.Domain;
-using MusicStore.Repository.Interface;
+﻿using EShop.Domain.Domain;
+using EShop.Repository.Interface;
 using Microsoft.EntityFrameworkCore;
-using MusicStore.Repository;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace c.Repository.Implementation
+namespace EShop.Repository.Implementation
 {
     public class Repository<T> : IRepository<T> where T : BaseEntity
     {

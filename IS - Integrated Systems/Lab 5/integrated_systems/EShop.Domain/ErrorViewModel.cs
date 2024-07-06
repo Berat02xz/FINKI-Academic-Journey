@@ -1,4 +1,4 @@
-﻿namespace MusicStore.Domain
+﻿namespace EShop.Domain
 {
     public class ErrorViewModel
     {

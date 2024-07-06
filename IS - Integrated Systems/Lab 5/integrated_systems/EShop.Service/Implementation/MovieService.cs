@@ -1,8 +1,13 @@
-﻿using MusicStore.Domain.Domain;
-using MusicStore.Repository.Interface;
-using MusicStore.Service.Interface;
+﻿using EShop.Domain.Domain;
+using EShop.Repository.Interface;
+using Movie_App.Service.Interface;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace MusicStore.Service.Implementation
+namespace Movie_App.Service.Implementation
 {
     public class MovieService : IMovieService
     {

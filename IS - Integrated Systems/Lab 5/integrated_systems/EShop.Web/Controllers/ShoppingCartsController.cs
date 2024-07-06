@@ -1,8 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
-using MusicStore.Service.Interface;
+using Microsoft.AspNetCore.Mvc.Rendering;
+using Microsoft.EntityFrameworkCore;
+using EShop.Repository;
+using EShop.Domain.Domain;
 using System.Security.Claims;
+using System.Data;
+using EShop.Domain.DTO;
+using EShop.Service.Interface;
+using Microsoft.CodeAnalysis.Options;
+using Microsoft.Extensions.Options;
+using Stripe.Climate;
 
-namespace MusicStore.Web.Controllers
+namespace EShop.Web.Controllers
 {
     public class ShoppingCartsController : Controller
     {

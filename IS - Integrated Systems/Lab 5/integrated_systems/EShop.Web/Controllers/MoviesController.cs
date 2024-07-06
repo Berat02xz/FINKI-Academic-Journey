@@ -1,9 +1,18 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Security.Claims;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using MusicStore.Domain.Domain;
-using MusicStore.Service.Interface;
+using EShop.Domain.Domain;
+using EShop.Repository;
+using EShop.Repository.Interface;
+using EShop.Service.Interface;
+using Movie_App.Service.Interface;
 
-namespace MusicStore.Web.Controllers
+namespace Movie_App.Web.Controllers
 {
     public class MoviesController : Controller
     {

@@ -1,8 +1,8 @@
+using EShop.Domain;
 using Microsoft.AspNetCore.Mvc;
-using MusicStore.Domain;
 using System.Diagnostics;
 
-namespace MusicStore.Web.Controllers
+namespace EShop.Web.Controllers
 {
     public class HomeController : Controller
     {

@@ -1,12 +1,12 @@
 ﻿
-using MusicStore.Domain.Domain;
+using EShop.Domain.Domain;
+using EShop.Domain.Identity;
 using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
-using MusicStore.Domain.Identity;
 
-namespace MusicStore.Repository
+namespace EShop.Repository
 {
-    public class ApplicationDbContext : IdentityDbContext<MusicStoreUser>
+    public class ApplicationDbContext : IdentityDbContext<EShopApplicationUser>
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)

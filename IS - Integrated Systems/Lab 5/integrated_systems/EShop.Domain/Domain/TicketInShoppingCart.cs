@@ -1,4 +1,7 @@
-﻿namespace MusicStore.Domain.Domain
+﻿using System.ComponentModel.DataAnnotations;
+
+
+namespace EShop.Domain.Domain
 {
     public class TicketInShoppingCart : BaseEntity
     {
