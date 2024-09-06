@@ -1,0 +1,573 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\controllers\\ticketscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\views\\tickets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\views\\tickets\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\models\\domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\models\\domain\\ticket.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327215820_ticketsrequirefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Migrations\\20240327215820_ticketsrequirefix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\models\\domain\\concertplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\models\\domain\\concertplay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\controllers\\concertplayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\controllers\\concertplayscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\migrations\\20240327194209_ticketsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\migrations\\20240327194209_ticketsadd.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\models\\identity\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327192115_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Migrations\\20240327192115_init.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327190144_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327190144_start.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327185655_migrotirgo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327185655_migrotirgo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327185045_migromigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327185045_migromigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327184003_thirdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327184003_thirdi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327183650_Updt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327183650_Updt.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327183030_TicketFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327183030_TicketFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327182229_Controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327182229_Controllers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327181735_Add Concert Plus Tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327181735_Add Concert Plus Tickets.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\views\\shared\\_loginpartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327161101_testmigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327161101_testmigro.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155626_fourth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327155626_fourth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155515_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327155515_third.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155237_Identity3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327155237_Identity3.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155058_IdentityFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:ConcertShop\\Data\\Migrations\\20240327155058_IdentityFix.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\concertshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\concertshop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|c:\\users\\berat\\onedrive\\documents\\github\\finki\\is - integrated systems\\lab1\\concertshop\\concertshop\\migrations\\20240327194105_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35BAC67C-F3D3-462C-84E6-36B79E6756BB}|ConcertShop\\ConcertShop.csproj|solutionrelative:concertshop\\migrations\\20240327194105_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TicketsController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Controllers\\TicketsController.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Controllers\\TicketsController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Controllers\\TicketsController.cs",
+              "RelativeToolTip": "ConcertShop\\Controllers\\TicketsController.cs",
+              "ViewState": "AQIAACAAAAAAAAAAAAAwwDEAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:41:45.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Views\\Tickets\\Create.cshtml",
+              "RelativeDocumentMoniker": "ConcertShop\\Views\\Tickets\\Create.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Views\\Tickets\\Create.cshtml",
+              "RelativeToolTip": "ConcertShop\\Views\\Tickets\\Create.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAABAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T21:46:49.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ConcertPlay.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Models\\Domain\\ConcertPlay.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Models\\Domain\\ConcertPlay.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Models\\Domain\\ConcertPlay.cs",
+              "RelativeToolTip": "ConcertShop\\Models\\Domain\\ConcertPlay.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:13:55.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Ticket.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Models\\Domain\\Ticket.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Models\\Domain\\Ticket.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Models\\Domain\\Ticket.cs",
+              "RelativeToolTip": "ConcertShop\\Models\\Domain\\Ticket.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:15:13.046Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "20240327194209_TicketsAdd.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327194209_TicketsAdd.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Migrations\\20240327194209_TicketsAdd.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327194209_TicketsAdd.cs",
+              "RelativeToolTip": "ConcertShop\\Migrations\\20240327194209_TicketsAdd.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:42:09.932Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:39:25.991Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Models\\Identity\\ApplicationUser.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Models\\Identity\\ApplicationUser.cs",
+              "RelativeToolTip": "ConcertShop\\Models\\Identity\\ApplicationUser.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:37:19.874Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "ConcertShop\\ScaffoldingReadMe.txt",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "ConcertShop\\ScaffoldingReadMe.txt",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2024-03-27T15:42:00.256Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "ConcertShop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "ConcertShop\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACIAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T18:21:20.145Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "20240327215820_ticketsrequirefix.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327215820_ticketsrequirefix.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Migrations\\20240327215820_ticketsrequirefix.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327215820_ticketsrequirefix.cs",
+              "RelativeToolTip": "ConcertShop\\Migrations\\20240327215820_ticketsrequirefix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T21:58:20.44Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "20240327192115_init.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327192115_init.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Migrations\\20240327192115_init.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327192115_init.cs",
+              "RelativeToolTip": "ConcertShop\\Migrations\\20240327192115_init.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:21:15.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ConcertPlaysController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Controllers\\ConcertPlaysController.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Controllers\\ConcertPlaysController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Controllers\\ConcertPlaysController.cs",
+              "RelativeToolTip": "ConcertShop\\Controllers\\ConcertPlaysController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:20:21.849Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "20240327194105_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327194105_Initial.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Migrations\\20240327194105_Initial.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Migrations\\20240327194105_Initial.cs",
+              "RelativeToolTip": "ConcertShop\\Migrations\\20240327194105_Initial.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:41:05.538Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "20240327190144_start.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327190144_start.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327190144_start.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327190144_start.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327190144_start.cs",
+              "ViewState": "AQIAAKMAAAAAAAAAAAAgwAkAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T19:01:44.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "20240327185655_migrotirgo.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327185655_migrotirgo.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327185655_migrotirgo.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327185655_migrotirgo.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327185655_migrotirgo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:56:55.685Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "ConcertShop\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:34:17.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "20240327185045_migromigro.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327185045_migromigro.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327185045_migromigro.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327185045_migromigro.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327185045_migromigro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:50:45.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "20240327184003_thirdi.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327184003_thirdi.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327184003_thirdi.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327184003_thirdi.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327184003_thirdi.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:40:03.504Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "20240327183650_Updt.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327183650_Updt.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327183650_Updt.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327183650_Updt.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327183650_Updt.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:36:50.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "20240327183030_TicketFix.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327183030_TicketFix.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327183030_TicketFix.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327183030_TicketFix.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327183030_TicketFix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:30:31.026Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "20240327182229_Controllers.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327182229_Controllers.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327182229_Controllers.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327182229_Controllers.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327182229_Controllers.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:22:29.968Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "20240327181735_Add Concert Plus Tickets.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327181735_Add Concert Plus Tickets.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327181735_Add Concert Plus Tickets.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327181735_Add Concert Plus Tickets.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327181735_Add Concert Plus Tickets.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T18:17:36.073Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "_LoginPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeDocumentMoniker": "ConcertShop\\Views\\Shared\\_LoginPartial.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Views\\Shared\\_LoginPartial.cshtml",
+              "RelativeToolTip": "ConcertShop\\Views\\Shared\\_LoginPartial.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T15:38:46.52Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "RelativeToolTip": "ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAB0AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T15:42:34.554Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "ConcertShop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAwwH8AAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:42:57.005Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "20240327161101_testmigro.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327161101_testmigro.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327161101_testmigro.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327161101_testmigro.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327161101_testmigro.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T16:11:01.815Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Program.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Program.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Program.cs",
+              "RelativeToolTip": "ConcertShop\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:38:15.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "20240327155626_fourth.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155626_fourth.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327155626_fourth.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155626_fourth.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327155626_fourth.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:56:26.782Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "20240327155515_third.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155515_third.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327155515_third.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155515_third.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327155515_third.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:55:15.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "20240327155237_Identity3.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155237_Identity3.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327155237_Identity3.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155237_Identity3.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327155237_Identity3.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:52:37.264Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "20240327155058_IdentityFix.cs",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155058_IdentityFix.cs",
+              "RelativeDocumentMoniker": "ConcertShop\\Data\\Migrations\\20240327155058_IdentityFix.cs",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Data\\Migrations\\20240327155058_IdentityFix.cs",
+              "RelativeToolTip": "ConcertShop\\Data\\Migrations\\20240327155058_IdentityFix.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-27T15:50:58.267Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "ConcertShop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "RelativeToolTip": "ConcertShop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-27T15:42:07.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ConcertShop.csproj",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\ConcertShop.csproj",
+              "RelativeDocumentMoniker": "ConcertShop\\ConcertShop.csproj",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\ConcertShop.csproj",
+              "RelativeToolTip": "ConcertShop\\ConcertShop.csproj",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-03-27T15:41:00.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\appsettings.json",
+              "RelativeDocumentMoniker": "ConcertShop\\appsettings.json",
+              "ToolTip": "C:\\Users\\berat\\OneDrive\\Documents\\Github\\FINKI\\IS - Integrated Systems\\Lab1\\ConcertShop\\ConcertShop\\appsettings.json",
+              "RelativeToolTip": "ConcertShop\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-03-27T15:38:34.782Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
