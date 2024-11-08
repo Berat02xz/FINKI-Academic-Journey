@@ -1,5 +1,6 @@
 <?php
-function getDatabaseConnection() {
+function getDatabaseConnection(): SQLite3
+{
     $db = new SQLite3(__DIR__ . '/database/products_db.sqlite');
 
     // Check if the table exists and create it if it doesn't

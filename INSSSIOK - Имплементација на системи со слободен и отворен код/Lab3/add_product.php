@@ -1,13 +1,22 @@
 <?php
-include 'database3.php';
 
-$db = getDatabaseConnection();
+include 'db_connection.php';
 
-$stmt = $db->prepare('INSERT INTO products (name, description, price) VALUES (:name, :description, :price)');
-$stmt->bindValue(':name', $_POST['name']);
-$stmt->bindValue(':description', $_POST['description']);
-$stmt->bindValue(':price', $_POST['price']);
-$stmt->execute();
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $name = $_POST['name'];
+    $price = $_POST['price'];
+    $description = $_POST['description'];
 
-header('Location: Lab3.php');
+    $db = getDatabaseConnection();
+
+    $stmt = $db->prepare("INSERT INTO products (name, price, description) VALUES(:name, :price, :description)");
+    $stmt->bindValue(':name', $name);
+    $stmt->bindValue(':price', $price);
+    $stmt->bindValue(':description', $description);
+    $stmt->execute();
+    echo "New record created successfully";
+    header('Location: index.php');
+    echo "Headed to index";
+}
 exit();
+?>

@@ -1,13 +1,20 @@
 <?php
-include 'database3.php';
+include 'db_connection.php';
+
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+$id = $_POST['id'];
+$name = $_POST['name'];
+$price = $_POST['price'];
+$description = $_POST['description'];
 
 $db = getDatabaseConnection();
-$stmt = $db->prepare('UPDATE products SET name = :name, description = :description, price = :price WHERE id = :id');
-$stmt->bindValue(':name', $_POST['name']);
-$stmt->bindValue(':description', $_POST['description']);
-$stmt->bindValue(':price', $_POST['price']);
-$stmt->bindValue(':id', $_POST['id'], SQLITE3_INTEGER);
-$stmt->execute();
 
-header("Location: Lab3.php");
+$stmt = $db->prepare("UPDATE products SET name = :name, price = :price, description = :description WHERE id = :id");
+$stmt->bindValue(':name', $name);
+$stmt->bindValue(':price', $price);
+$stmt->bindValue(':description', $description);
+$stmt->bindValue(':id', $id);
+$stmt->execute();
+header('Location: index.php');
+}
 exit();
