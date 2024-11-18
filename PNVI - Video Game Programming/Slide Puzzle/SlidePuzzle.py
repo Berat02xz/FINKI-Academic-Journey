@@ -8,7 +8,7 @@ from pygame.locals import *
 
 # Create the constants (go ahead and experiment with different values)
 BOARDWIDTH = 8  # number of columns in the board
-BOARDHEIGHT = 8 # number of rows in the board
+BOARDHEIGHT = 6 # number of rows in the board
 TILESIZE = 90
 WINDOWWIDTH = 900
 WINDOWHEIGHT = 900
