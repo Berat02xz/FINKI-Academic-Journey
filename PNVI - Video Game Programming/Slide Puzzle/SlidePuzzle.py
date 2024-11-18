@@ -10,8 +10,8 @@ from pygame.locals import *
 BOARDWIDTH = 8  # number of columns in the board
 BOARDHEIGHT = 8 # number of rows in the board
 TILESIZE = 90
-WINDOWWIDTH = 640
-WINDOWHEIGHT = 480
+WINDOWWIDTH = 900
+WINDOWHEIGHT = 900
 FPS = 30
 BLANK = None
 
@@ -119,7 +119,7 @@ def main():
                     slideTo = DOWN
 
         if slideTo:
-            slideAnimation(mainBoard, slideTo, 'Click tile or press arrow keys to slide.', 8) # show slide on screen
+            slideAnimation(mainBoard, slideTo, 'Click tile or press arrow keys to slide.', 2) # show slide on screen
             makeMove(mainBoard, slideTo)
             allMoves.append(slideTo) # record the slide
             playerMovesCount += 1  # Track player moves
@@ -316,7 +316,7 @@ def generateNewPuzzle(numSlides):
     lastMove = None
     for i in range(numSlides):
         move = getRandomMove(board, lastMove)
-        slideAnimation(board, move, 'Generating new puzzle...', animationSpeed=int(TILESIZE / 3))
+        slideAnimation(board, move, 'Generating new puzzle...', animationSpeed=int(TILESIZE / 1))
         makeMove(board, move)
         sequence.append(move)
         lastMove = move
