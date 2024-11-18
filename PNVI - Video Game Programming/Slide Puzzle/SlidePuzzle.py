@@ -40,8 +40,11 @@ DOWN = 'down'
 LEFT = 'left'
 RIGHT = 'right'
 
+
+
 def main():
     global FPSCLOCK, DISPLAYSURF, BASICFONT, RESET_SURF, RESET_RECT, NEW_SURF, NEW_RECT, SOLVE_SURF, SOLVE_RECT
+    playerMovesCount = 0 # Track player moves
 
     pygame.init()
     FPSCLOCK = pygame.time.Clock()
@@ -66,7 +69,7 @@ def main():
         slideTo = None # the direction, if any, a tile should slide
         msg = 'Click tile or press arrow keys to slide.' # contains the message to show in the upper left corner.
         if mainBoard == SOLVEDBOARD:
-            msg = 'Solved!'
+            msg = 'Solved!' + ' with a total of ' + str(playerMovesCount) + ' moves'
 
         drawBoard(mainBoard, msg)
 
@@ -80,12 +83,17 @@ def main():
                     if RESET_RECT.collidepoint(event.pos):
                         resetAnimation(mainBoard, allMoves) # clicked on Reset button
                         allMoves = []
+                        playerMovesCount = 0  # Track player moves
+
                     elif NEW_RECT.collidepoint(event.pos):
                         mainBoard, solutionSeq = generateNewPuzzle(80) # clicked on New Game button
                         allMoves = []
+                        playerMovesCount = 0  # Track player moves
+
                     elif SOLVE_RECT.collidepoint(event.pos):
                         resetAnimation(mainBoard, solutionSeq + allMoves) # clicked on Solve button
                         allMoves = []
+                        playerMovesCount = len(solutionSeq)  # Track player moves
                 else:
                     # check if the clicked tile was next to the blank spot
 
@@ -114,6 +122,7 @@ def main():
             slideAnimation(mainBoard, slideTo, 'Click tile or press arrow keys to slide.', 8) # show slide on screen
             makeMove(mainBoard, slideTo)
             allMoves.append(slideTo) # record the slide
+            playerMovesCount += 1  # Track player moves
         pygame.display.update()
         FPSCLOCK.tick(FPS)
 
