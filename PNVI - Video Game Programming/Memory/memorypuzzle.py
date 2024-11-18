@@ -266,7 +266,22 @@ def startGameAnimation(board):
         coverBoxesAnimation(board, boxGroup)
 
 
+def Animation(board):
+    colors = [RED, GREEN]  # Alternating colors for the animation
+    animation_duration = 3000  # Animation duration in milliseconds
+    start_time = pygame.time.get_ticks()
 
+    while pygame.time.get_ticks() - start_time < animation_duration:
+        current_color = colors[(pygame.time.get_ticks() // 500) % 2]  # Alternate colors every 500ms
+
+        for boxx in range(BOARDWIDTH):
+            for boxy in range(BOARDHEIGHT):
+                left, top = leftTopCoordsOfBox(boxx, boxy)
+                # Draw a rectangle slightly larger than the box for the animation
+                pygame.draw.rect(DISPLAYSURF, current_color, (left - 5, top - 5, BOXSIZE + 10, BOXSIZE + 10), 3)
+
+        pygame.display.update()
+        FPSCLOCK.tick(FPS)
 
 
 
