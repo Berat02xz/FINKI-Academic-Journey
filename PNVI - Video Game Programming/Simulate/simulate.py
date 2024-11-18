@@ -71,6 +71,7 @@ def main():
     currentStep = 0 # the color the player must push next
     lastClickTime = 0 # timestamp of the player's last button push
     score = 0
+    iteration = 0 # the current iteration the player is on
     # when False, the pattern is playing. when True, waiting for the player to click a colored button:
     waitingForInput = False
 
@@ -107,7 +108,9 @@ def main():
             # play the pattern
             pygame.display.update()
             pygame.time.wait(1000)
-            pattern.append(random.choice((YELLOW, BLUE, RED, GREEN, PURPLE, CYAN, ORANGE)))
+            num_elements = 2 ** iteration # number of elements for this round
+            for i in range(num_elements):
+                pattern.append(random.choice((YELLOW, BLUE, RED, GREEN, PURPLE, CYAN, ORANGE)))
             for button in pattern:
                 flashButtonAnimation(button)
                 pygame.time.wait(FLASHDELAY)
@@ -122,6 +125,7 @@ def main():
 
                 if currentStep == len(pattern):
                     # pushed the last button in the pattern
+                    iteration += 1
                     changeBackgroundAnimation()
                     score += 1
                     waitingForInput = False
@@ -137,6 +141,7 @@ def main():
                 score = 0
                 pygame.time.wait(1000)
                 changeBackgroundAnimation()
+                iteration = 0
 
         pygame.display.update()
         FPSCLOCK.tick(FPS)
