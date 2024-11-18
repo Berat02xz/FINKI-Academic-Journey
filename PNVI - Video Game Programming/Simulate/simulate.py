@@ -7,8 +7,8 @@ import random, sys, time, pygame
 from pygame.locals import *
 
 FPS = 30
-WINDOWWIDTH = 640
-WINDOWHEIGHT = 480
+WINDOWWIDTH = 900
+WINDOWHEIGHT = 900
 FLASHSPEED = 500 # in milliseconds
 FLASHDELAY = 200 # in milliseconds
 BUTTONSIZE = 200
@@ -27,7 +27,11 @@ BLUE         = (  0,   0, 155)
 BRIGHTYELLOW = (255, 255,   0)
 YELLOW       = (155, 155,   0)
 DARKGRAY     = ( 40,  40,  40)
+PURPLE       = (128,   0, 128)
+CYAN         = (  0, 128, 128)
+ORANGE       = (255, 165,   0)
 bgColor = BLACK
+
 
 XMARGIN = int((WINDOWWIDTH - (2 * BUTTONSIZE) - BUTTONGAPSIZE) / 2)
 YMARGIN = int((WINDOWHEIGHT - (2 * BUTTONSIZE) - BUTTONGAPSIZE) / 2)
@@ -37,6 +41,10 @@ YELLOWRECT = pygame.Rect(XMARGIN, YMARGIN, BUTTONSIZE, BUTTONSIZE)
 BLUERECT   = pygame.Rect(XMARGIN + BUTTONSIZE + BUTTONGAPSIZE, YMARGIN, BUTTONSIZE, BUTTONSIZE)
 REDRECT    = pygame.Rect(XMARGIN, YMARGIN + BUTTONSIZE + BUTTONGAPSIZE, BUTTONSIZE, BUTTONSIZE)
 GREENRECT  = pygame.Rect(XMARGIN + BUTTONSIZE + BUTTONGAPSIZE, YMARGIN + BUTTONSIZE + BUTTONGAPSIZE, BUTTONSIZE, BUTTONSIZE)
+PURPLERECT = pygame.Rect(XMARGIN + BUTTONSIZE + BUTTONGAPSIZE, YMARGIN + BUTTONSIZE + BUTTONGAPSIZE, BUTTONSIZE, BUTTONSIZE)
+CYANRECT  = pygame.Rect(XMARGIN + BUTTONSIZE + BUTTONGAPSIZE, YMARGIN + BUTTONSIZE + BUTTONGAPSIZE, BUTTONSIZE, BUTTONSIZE)
+ORANGERECT = pygame.Rect(XMARGIN + BUTTONSIZE + BUTTONGAPSIZE, YMARGIN + BUTTONSIZE + BUTTONGAPSIZE, BUTTONSIZE, BUTTONSIZE)
+
 
 def main():
     global FPSCLOCK, DISPLAYSURF, BASICFONT, BEEP1, BEEP2, BEEP3, BEEP4
@@ -56,6 +64,7 @@ def main():
     BEEP2 = pygame.mixer.Sound('beep2.ogg')
     BEEP3 = pygame.mixer.Sound('beep3.ogg')
     BEEP4 = pygame.mixer.Sound('beep4.ogg')
+
 
     # Initialize some variables for a new game
     pattern = [] # stores the pattern of colors
@@ -98,7 +107,7 @@ def main():
             # play the pattern
             pygame.display.update()
             pygame.time.wait(1000)
-            pattern.append(random.choice((YELLOW, BLUE, RED, GREEN)))
+            pattern.append(random.choice((YELLOW, BLUE, RED, GREEN, PURPLE, CYAN, ORANGE)))
             for button in pattern:
                 flashButtonAnimation(button)
                 pygame.time.wait(FLASHDELAY)
@@ -164,6 +173,18 @@ def flashButtonAnimation(color, animationSpeed=50):
         sound = BEEP4
         flashColor = BRIGHTGREEN
         rectangle = GREENRECT
+    elif color == PURPLE:
+        sound = BEEP1
+        flashColor = PURPLE
+        rectangle = PURPLERECT
+    elif color == CYAN:
+        sound = BEEP2
+        flashColor = CYAN
+        rectangle = CYANRECT
+    elif color == ORANGE:
+        sound = BEEP3
+        flashColor = ORANGE
+        rectangle = ORANGERECT
 
     origSurf = DISPLAYSURF.copy()
     flashSurf = pygame.Surface((BUTTONSIZE, BUTTONSIZE))
@@ -186,6 +207,10 @@ def drawButtons():
     pygame.draw.rect(DISPLAYSURF, BLUE,   BLUERECT)
     pygame.draw.rect(DISPLAYSURF, RED,    REDRECT)
     pygame.draw.rect(DISPLAYSURF, GREEN,  GREENRECT)
+    pygame.draw.rect(DISPLAYSURF, PURPLE, PURPLERECT)
+    pygame.draw.rect(DISPLAYSURF, CYAN,   CYANRECT)
+    pygame.draw.rect(DISPLAYSURF, ORANGE, ORANGERECT)
+
 
 
 def changeBackgroundAnimation(animationSpeed=40):
@@ -244,6 +269,12 @@ def getButtonClicked(x, y):
         return RED
     elif GREENRECT.collidepoint( (x, y) ):
         return GREEN
+    elif PURPLERECT.collidepoint( (x, y) ):
+        return PURPLE
+    elif CYANRECT.collidepoint( (x, y) ):
+        return CYAN
+    elif ORANGERECT.collidepoint( (x, y) ):
+        return ORANGE
     return None
 
 
