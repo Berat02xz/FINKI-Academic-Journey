@@ -43,7 +43,7 @@ RIGHT = 'right'
 
 
 def main():
-    global FPSCLOCK, DISPLAYSURF, BASICFONT, RESET_SURF, RESET_RECT, NEW_SURF, NEW_RECT, SOLVE_SURF, SOLVE_RECT
+    global FPSCLOCK, DISPLAYSURF, BASICFONT, RESET_SURF, RESET_RECT, NEW_SURF, NEW_RECT, SOLVE_SURF, SOLVE_RECT, UNDO_SURF, UNDO_RECT
     playerMovesCount = 0 # Track player moves
 
     pygame.init()
@@ -56,7 +56,7 @@ def main():
     RESET_SURF, RESET_RECT = makeText('Reset',    TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 120, WINDOWHEIGHT - 90)
     NEW_SURF,   NEW_RECT   = makeText('New Game', TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 120, WINDOWHEIGHT - 60)
     SOLVE_SURF, SOLVE_RECT = makeText('Solve',    TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 120, WINDOWHEIGHT - 30)
-
+    UNDO_SURF, UNDO_RECT = makeText('Undo', TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 120, WINDOWHEIGHT -120)
 
     #Generate random number of steps between 1 and 100 to shuffle the board
     numSlides = random.randint(1, 100)
@@ -85,6 +85,21 @@ def main():
                         allMoves = []
                         playerMovesCount = 0  # Track player moves
 
+                    if UNDO_RECT.collidepoint(event.pos):
+                        if allMoves:
+                            lastMove = allMoves.pop()
+                            if lastMove == UP:
+                                oppositeMove = DOWN
+                            elif lastMove == DOWN:
+                                oppositeMove = UP
+                            elif lastMove == RIGHT:
+                                oppositeMove = LEFT
+                            elif lastMove == LEFT:
+                                oppositeMove = RIGHT
+                            slideAnimation(mainBoard, oppositeMove, '', animationSpeed=int(TILESIZE / 2))
+                            makeMove(mainBoard, oppositeMove)
+                            playerMovesCount -= 1
+
                     elif NEW_RECT.collidepoint(event.pos):
                         mainBoard, solutionSeq = generateNewPuzzle(80) # clicked on New Game button
                         allMoves = []
@@ -106,6 +121,7 @@ def main():
                         slideTo = UP
                     elif spotx == blankx and spoty == blanky - 1:
                         slideTo = DOWN
+
 
             elif event.type == KEYUP:
                 # check if the user pressed a key to slide a tile
@@ -262,6 +278,7 @@ def drawBoard(board, message):
     DISPLAYSURF.blit(RESET_SURF, RESET_RECT)
     DISPLAYSURF.blit(NEW_SURF, NEW_RECT)
     DISPLAYSURF.blit(SOLVE_SURF, SOLVE_RECT)
+    DISPLAYSURF.blit(UNDO_SURF, UNDO_RECT)
 
 
 def slideAnimation(board, direction, message, animationSpeed):
