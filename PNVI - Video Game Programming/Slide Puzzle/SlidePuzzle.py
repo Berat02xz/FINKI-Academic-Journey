@@ -41,9 +41,27 @@ LEFT = 'left'
 RIGHT = 'right'
 
 
+def highlightNeighboringCells(mainBoard):
+    blankx, blanky = getBlankPosition(mainBoard)
+    neighbors = []
+    if blankx > 0:
+        neighbors.append((blankx - 1, blanky))
+    if blankx < BOARDWIDTH - 1:
+        neighbors.append((blankx + 1, blanky))
+    if blanky > 0:
+        neighbors.append((blankx, blanky - 1))
+    if blanky < BOARDHEIGHT - 1:
+        neighbors.append((blankx, blanky + 1))
+
+    for x, y in neighbors:
+        left, top = getLeftTopOfTile(x, y)
+        pygame.draw.rect(DISPLAYSURF, WHITE, (left, top, TILESIZE, TILESIZE), 4)
+    pygame.display.update()
+    pygame.time.wait(1000)
+
 
 def main():
-    global FPSCLOCK, DISPLAYSURF, BASICFONT, RESET_SURF, RESET_RECT, NEW_SURF, NEW_RECT, SOLVE_SURF, SOLVE_RECT, UNDO_SURF, UNDO_RECT
+    global FPSCLOCK, DISPLAYSURF, BASICFONT, RESET_SURF, RESET_RECT, NEW_SURF, NEW_RECT, SOLVE_SURF, SOLVE_RECT, UNDO_SURF, UNDO_RECT, HELP_SURF, HELP_RECT
     playerMovesCount = 0 # Track player moves
 
     pygame.init()
@@ -57,6 +75,7 @@ def main():
     NEW_SURF,   NEW_RECT   = makeText('New Game', TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 120, WINDOWHEIGHT - 60)
     SOLVE_SURF, SOLVE_RECT = makeText('Solve',    TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 120, WINDOWHEIGHT - 30)
     UNDO_SURF, UNDO_RECT = makeText('Undo', TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 120, WINDOWHEIGHT -120)
+    HELP_SURF, HELP_RECT = makeText('Help', TEXTCOLOR, TILECOLOR, WINDOWWIDTH - 240, WINDOWHEIGHT - 120)
 
     #Generate random number of steps between 1 and 100 to shuffle the board
     numSlides = random.randint(1, 100)
@@ -99,6 +118,16 @@ def main():
                             slideAnimation(mainBoard, oppositeMove, '', animationSpeed=int(TILESIZE / 2))
                             makeMove(mainBoard, oppositeMove)
                             playerMovesCount -= 1
+                    if HELP_RECT.collidepoint(event.pos):
+                        print('HELP')
+                        print('The objective of the puzzle is to place the tiles in order by making sliding moves that use the empty space.')
+                        print('You can move the tiles by clicking on them or by using the arrow keys.')
+                        print('You can reset the puzzle by clicking on the Reset button.')
+                        print('You can generate a new puzzle by clicking on the New Game button.')
+                        print('You can solve the puzzle by clicking on the Solve button.')
+                        print('You can undo the last move by clicking on the Undo button.')
+                        print('You can close the game by clicking on the close button.')
+                        highlightNeighboringCells(mainBoard)
 
                     elif NEW_RECT.collidepoint(event.pos):
                         mainBoard, solutionSeq = generateNewPuzzle(80) # clicked on New Game button
@@ -279,6 +308,7 @@ def drawBoard(board, message):
     DISPLAYSURF.blit(NEW_SURF, NEW_RECT)
     DISPLAYSURF.blit(SOLVE_SURF, SOLVE_RECT)
     DISPLAYSURF.blit(UNDO_SURF, UNDO_RECT)
+    DISPLAYSURF.blit(HELP_SURF, HELP_RECT)
 
 
 def slideAnimation(board, direction, message, animationSpeed):
