@@ -206,15 +206,23 @@ def getShapeAndColor(board, boxx, boxy):
 
 
 def drawBoxCovers(board, boxes, coverage):
-    # Draws boxes being covered/revealed. "boxes" is a list
-    # of two-item lists, which have the x & y spot of the box.
     for box in boxes:
         left, top = leftTopCoordsOfBox(box[0], box[1])
+
+        # Clear previous box content and draw the icon
         pygame.draw.rect(DISPLAYSURF, BGCOLOR, (left, top, BOXSIZE, BOXSIZE))
         shape, color = getShapeAndColor(board, box[0], box[1])
         drawIcon(shape, color, box[0], box[1])
-        if coverage > 0: # only draw the cover if there is an coverage
-            pygame.draw.rect(DISPLAYSURF, BOXCOLOR, (left, top, coverage, BOXSIZE))
+
+        if coverage > 0:  # Only draw the cover if there is coverage
+            # Create cover options for left-to-right or top-to-bottom animations
+            cover_left = (left, top, coverage, BOXSIZE)  # Cover growing horizontally
+            cover_top = (left, top, BOXSIZE, coverage)  # Cover growing vertically
+
+            # Randomly choose one of the cover animations to draw
+            cover = random.choice([cover_left, cover_top])
+            pygame.draw.rect(DISPLAYSURF, BOXCOLOR, cover)
+
     pygame.display.update()
     FPSCLOCK.tick(FPS)
 
