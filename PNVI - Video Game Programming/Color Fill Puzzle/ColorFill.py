@@ -22,7 +22,6 @@ grid = [[-1 for _ in range(GRID_SIZE)] for _ in range(GRID_SIZE)]  # -1 indicate
 current_color = 0  # Start with the first color
 
 def draw_grid():
-    """Draw the grid on the screen."""
     screen.fill(BG_COLOR)
     for row in range(GRID_SIZE):
         for col in range(GRID_SIZE):
@@ -31,7 +30,6 @@ def draw_grid():
             pygame.draw.rect(screen, TEXT_COLOR, (col * SQUARE_SIZE, row * SQUARE_SIZE, SQUARE_SIZE, SQUARE_SIZE), 2)
 
 def is_valid_move(row, col, color):
-    """Check if placing a specific color at the given row and column is valid."""
     neighbors = [
         (row - 1, col), (row + 1, col),  # Top, Bottom
         (row, col - 1), (row, col + 1)   # Left, Right
@@ -42,7 +40,6 @@ def is_valid_move(row, col, color):
     return True
 
 def check_victory():
-    """Check if all cells are filled and adhere to the rules."""
     for row in range(GRID_SIZE):
         for col in range(GRID_SIZE):
             if grid[row][col] == -1 or not is_valid_move(row, col, grid[row][col]):
@@ -50,7 +47,6 @@ def check_victory():
     return True
 
 def display_message(message):
-    """Display a message on the screen."""
     text = FONT.render(message, True, TEXT_COLOR)
     text_rect = text.get_rect(center=(SCREEN_SIZE // 2, SCREEN_SIZE // 2))
     screen.blit(text, text_rect)
@@ -63,7 +59,7 @@ victory = False
 while running:
     draw_grid()
     if victory:
-        display_message("You Win!")
+        display_message("Pobedivte!")
     pygame.display.flip()
 
     for event in pygame.event.get():
