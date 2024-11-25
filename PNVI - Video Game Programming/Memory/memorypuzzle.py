@@ -229,9 +229,9 @@ def drawBoxCovers(board, boxes, coverage):
 
 def revealBoxesAnimation(board, boxesToReveal):
     # Do the "box reveal" animation.
-    for coverage in range(BOXSIZE, (-REVEALSPEED) - 1, -REVEALSPEED):
+    # Make every field have a different reveal direction
+    for coverage in range(0, BOXSIZE + REVEALSPEED, REVEALSPEED):
         drawBoxCovers(board, boxesToReveal, coverage)
-
 
 def coverBoxesAnimation(board, boxesToCover):
     # Do the "box cover" animation.
@@ -286,7 +286,7 @@ def Animation(board):
             for boxy in range(BOARDHEIGHT):
                 left, top = leftTopCoordsOfBox(boxx, boxy)
                 # Draw a rectangle slightly larger than the box for the animation
-                pygame.draw.rect(DISPLAYSURF, current_color, (left - 5, top - 5, BOXSIZE + 10, BOXSIZE + 10), 3)
+                pygame.draw.rect(DISPLAYSURF, current_color, (left - 5, top - 5, BOXSIZE + 10, BOXSIZE + 10), 20)
 
         pygame.display.update()
         FPSCLOCK.tick(FPS)
