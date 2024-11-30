@@ -26,22 +26,22 @@ class ClothingListScreen extends StatelessWidget {
   // Change final to const here and make the list of clothing items constant
   static const List<Map<String, String>> clothes = [
     {
-      'name': 'T-Shirt',
-      'image': 'https://via.placeholder.com/150',
-      'description': 'A comfortable cotton t-shirt.',
-      'price': '\$15',
+      'name': 'Aelfric Eden',
+      'image': 'https://i.pinimg.com/736x/ef/f1/c0/eff1c0e489ed7d48274ce2d0c0ca7e49.jpg',
+      'description': 'A comfortable cotton piece of art.',
+      'price': '\$115',
     },
     {
-      'name': 'Jeans',
-      'image': 'https://via.placeholder.com/150',
-      'description': 'Stylish blue jeans.',
-      'price': '\$40',
+      'name': 'Double O - Jacket',
+      'image': 'https://i.pinimg.com/736x/e1/96/0f/e1960f5b98f6dee433e0da7a51f3c5c0.jpg',
+      'description': 'Stylish art.',
+      'price': '\$400',
     },
     {
-      'name': 'Jacket',
-      'image': 'https://via.placeholder.com/150',
+      'name': 'Green Apple Jacket',
+      'image': 'https://i.pinimg.com/736x/11/54/41/115441dc46a13e0eb7cc097d20017111.jpg',
       'description': 'A warm and cozy jacket.',
-      'price': '\$60',
+      'price': '\$160',
     },
   ];
 
