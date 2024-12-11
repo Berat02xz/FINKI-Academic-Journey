@@ -1,0 +1,57 @@
+# General
+*.log
+*.swp
+*.swo
+*.bak
+*.tmp
+*.DS_Store
+Thumbs.db
+
+# C# / .NET
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+*.sqlite
+*.egg-info/
+dist/
+build/
+*.log
+*.bak
+
+# Java / IntelliJ
+.idea/
+*.iml
+*.ipr
+*.iws
+out/
+
+# JetBrains specific files
+.idea/
+.idea_modules/
+*.ipr
+*.iws
+*.iml
+
+# VSCode settings
+.vscode/
+
+# Windows Installer logs
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Other IDEs / Editor files
+.vscode/
+*.sublime-workspace
+*.sublime-project
