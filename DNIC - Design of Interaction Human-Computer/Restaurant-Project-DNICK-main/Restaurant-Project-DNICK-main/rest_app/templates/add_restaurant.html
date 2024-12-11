@@ -1,9 +1,0 @@
-{% extends "base.html" %}
-
-{% block content %} 
-    <form action="/add_restaurant/" method="post">
-        {% csrf_token %}
-        {{ form }}
-        <input type="submit" value="Submit">
-    </form>
-{% endblock %}
