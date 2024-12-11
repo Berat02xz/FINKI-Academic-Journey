@@ -1,7 +1,6 @@
 # lab_2
 
-Jokes LMAO XD
-
+Daily Joke & Joke categories app 
 ## Getting Started
 
 This project is a starting point for a Flutter application.
