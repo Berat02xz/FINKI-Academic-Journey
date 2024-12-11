@@ -14,6 +14,8 @@ obj/
 *.suo
 *.userosscache
 *.sln.docstates
+*.dotCover
+.vs/
 
 # Python
 __pycache__/
@@ -27,13 +29,37 @@ dist/
 build/
 *.log
 *.bak
+.venv/
+env/
+venv/
+.venv/
 
-# Java / IntelliJ
+# Django specific
+db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.coverage
+*.tox/
+*.nox/
+*.coverage
+*.hypothesis/
+*.pytest_cache/
+*.vscode/
+
+# Java / IntelliJ / Spring Boot
 .idea/
 *.iml
 *.ipr
 *.iws
 out/
+target/
+*.jar
+*.war
+*.ear
+*.class
 
 # JetBrains specific files
 .idea/
