@@ -1,0 +1,101 @@
+Response ID,Have you ever experienced working from home?,Do you think that working from home increases your work productivity?,Do you think that working from home prevents you from going out?,Do you think that working from home gives you more flexibility?,Do you think that working from home saves you more time?,"Which work type has the potential to cause you physical problems, such as the neck, back, and leg pain?","Which work type has the potential to cause mental disorders, such as stress, anxiety, and depression?",Do you think that working from home prevents you from getting in contact with people?,Which work type keeps you focused while working?,Which work type do you prefer the most?
+1,Yes,No,Yes,Yes,No,Working from home,Working from home,No,Working from home,A mixed mode of working
+2,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working from home
+3,No,Yes,Yes,Yes,No,Working from home,Working in an office,Yes,Working in an office,Working in an office
+4,Yes,Yes,No,Yes,No,Working in an office,Working from home,Yes,Working in an office,Working from home
+5,Yes,No,No,Yes,Yes,Working in an office,Working in an office,No,Working from home,Working in an office
+6,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working from home
+7,No,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,A mixed mode of working
+8,No,Yes,No,Yes,No,Working in an office,Working in an office,No,Working in an office,Working from home
+9,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+10,No,No,No,Yes,No,Working in an office,Working in an office,No,Working in an office,Working in an office
+11,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working from home
+12,Yes,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,A mixed mode of working
+13,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,Working in an office
+14,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+15,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+16,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working in an office
+17,No,No,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+18,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working from home
+19,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+20,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+21,Yes,No,No,Yes,No,Working from home,Working in an office,No,Working from home,Working in an office
+22,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+23,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+24,Yes,Yes,No,Yes,Yes,Working in an office,Working in an office,No,Working in an office,Working in an office
+25,Yes,No,No,Yes,No,Working in an office,Working in an office,No,Working from home,A mixed mode of working
+26,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working from home
+27,No,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,A mixed mode of working
+28,No,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,Working in an office
+29,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+30,No,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,A mixed mode of working
+31,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working in an office
+32,Yes,No,No,Yes,No,Working in an office,Working in an office,No,Working in an office,A mixed mode of working
+33,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,Working in an office
+34,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working from home
+35,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+36,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+37,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+38,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+39,No,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,A mixed mode of working
+40,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,Working from home
+41,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+42,Yes,No,No,Yes,Yes,Working from home,Working in an office,No,Working from home,A mixed mode of working
+43,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+44,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+45,Yes,No,No,Yes,No,Working in an office,Working in an office,No,Working in an office,A mixed mode of working
+46,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working in an office
+47,No,No,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+48,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working from home
+49,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+50,No,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,A mixed mode of working
+51,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working in an office
+52,Yes,No,No,Yes,Yes,Working in an office,Working in an office,No,Working in an office,A mixed mode of working
+53,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+54,No,No,No,Yes,No,Working in an office,Working in an office,No,Working from home,Working from home
+55,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+56,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+57,No,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+58,Yes,Yes,No,Yes,Yes,Working in an office,Working in an office,No,Working from home,A mixed mode of working
+59,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+60,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+61,Yes,No,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+62,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working from home
+63,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+64,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working in an office
+65,Yes,No,No,Yes,Yes,Working in an office,Working in an office,No,Working from home,A mixed mode of working
+66,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working from home
+67,No,No,No,Yes,Yes,Working from home,Working in an office,No,Working in an office,Working in an office
+68,No,No,No,Yes,No,Working in an office,Working in an office,No,Working in an office,A mixed mode of working
+69,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working from home
+70,No,No,No,Yes,No,Working in an office,Working in an office,No,Working in an office,Working in an office
+71,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working from home
+72,Yes,No,No,Yes,Yes,Working in an office,Working in an office,No,Working in an office,A mixed mode of working
+73,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+74,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+75,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,Working from home
+76,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+77,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+78,Yes,Yes,No,Yes,Yes,Working in an office,Working in an office,No,Working from home,Working from home
+79,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+80,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,Working in an office
+81,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+82,Yes,No,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+83,No,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,Working in an office
+84,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+85,Yes,No,No,Yes,No,Working in an office,Working in an office,No,Working in an office,A mixed mode of working
+86,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working from home
+87,No,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,Working in an office
+88,No,Yes,Yes,Yes,No,Working in an office,Working from home,Yes,Working in an office,Working in an office
+89,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+90,No,No,No,Yes,No,Working from home,Working in an office,No,Working in an office,A mixed mode of working
+91,Yes,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working from home,Working from home
+92,Yes,No,No,Yes,No,Working in an office,Working in an office,No,Working from home,A mixed mode of working
+93,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+94,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,A mixed mode of working
+95,Yes,Yes,No,Yes,Yes,Working in an office,Working in an office,No,Working in an office,Working from home
+96,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,Working in an office
+97,No,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+98,Yes,Yes,Yes,Yes,No,Working from home,Working from home,Yes,Working from home,Working in an office
+99,No,Yes,Yes,Yes,Yes,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
+100,Yes,No,Yes,Yes,No,Working from home,Working from home,Yes,Working in an office,A mixed mode of working
