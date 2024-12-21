@@ -1,11 +1,11 @@
 plugins {
     id "com.android.application"
+    // START: FlutterFire Configuration
+    id 'com.google.gms.google-services'
+    // END: FlutterFire Configuration
     id "kotlin-android"
     // The Flutter Gradle Plugin must be applied after the Android and Kotlin Gradle plugins.
     id "dev.flutter.flutter-gradle-plugin"
-    // START: FlutterFire Configuration
-    id 'com.google.gms.google-services'  // Apply Firebase google services plugin
-    // END: FlutterFire Configuration
 }
 
 android {
@@ -23,29 +23,22 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.example.lab_2"
-        minSdk = 23
-        targetSdk = flutter.targetSdkVersion
-        versionCode = flutter.versionCode
-        versionName = flutter.versionName
+        applicationId "com.example.lab_2"
+        minSdkVersion 23  // Ensure it's set to at least 23
+        targetSdkVersion 30
+        versionCode 1  // Set a version code
+        versionName "1.0.0"  // Set a version name
     }
-
 
     buildTypes {
         release {
+            // TODO: Add your own signing config for the release build.
+            // Signing with the debug keys for now, so `flutter run --release` works.
             signingConfig = signingConfigs.debug
         }
     }
 }
 
-dependencies {
-    // Firebase dependencies
-    implementation 'com.google.firebase:firebase-analytics'  // If you're using Firebase Analytics
-    implementation 'com.google.firebase:firebase-firestore'  // For Firestore
-    implementation 'com.google.firebase:firebase-auth'  // If you're using Firebase Authentication (optional)
-
-    // Add other Firebase packages you are using, such as for Firebase Storage, Cloud Messaging, etc.
+flutter {
+    source = "../.."
 }
-
-// Make sure the google-services plugin is applied at the bottom of the file
-apply plugin: 'com.google.gms.google-services'

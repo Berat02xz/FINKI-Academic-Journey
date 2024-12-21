@@ -31,12 +31,11 @@ dependencies:
   flutter:
     sdk: flutter
   http: ^1.2.2  # Updated version
-  cloud_firestore: any
-  firebase_core: any  # Update to this version
-  shared_preferences: any
+  firebase_core: any
+  firebase_auth: any
   firebase_messaging: any
   flutter_local_notifications: any
-
+  cloud_firestore: any
 
   # The following adds the Cupertino Icons font to your application.
   # Use with the CupertinoIcons class for iOS style icons.
@@ -51,7 +50,7 @@ dev_dependencies:
   # activated in the `analysis_options.yaml` file located at the root of your
   # package. See that file for information about deactivating specific lint
   # rules and activating additional ones.
-  flutter_lints: ^4.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

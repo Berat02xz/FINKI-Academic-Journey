@@ -1,22 +1,17 @@
-import 'dart:math';
-
 import 'package:cloud_firestore/cloud_firestore.dart';
-import 'package:firebase_messaging/firebase_messaging.dart';
-import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:lab_2/screens/liked_jokes.dart';
+import 'package:flutter/material.dart';
+import 'package:lab_2/screens/LikedJokeScreen.dart';
+import 'dart:math'; // For generating random userId
 import 'screens/joke_types_screen.dart';
 import 'screens/joke_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(); // Initialize Firebase before running the app
-  FirebaseMessaging.onBackgroundMessage(_firebaseMessagingBackgroundHandler);
+  await Firebase.initializeApp();
   runApp(const JokeApp());
 }
-Future<void> _firebaseMessagingBackgroundHandler(RemoteMessage message) async {
-  print("Handling a background message: ${message.messageId}");
-}
+
 class JokeApp extends StatelessWidget {
   const JokeApp({Key? key}) : super(key: key);
 

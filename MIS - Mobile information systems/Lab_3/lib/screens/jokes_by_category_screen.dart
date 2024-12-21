@@ -1,13 +1,11 @@
 import 'package:flutter/material.dart';
-import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/joke.dart';
 import '../services/api_services.dart';
 
 class JokesByCategoryScreen extends StatefulWidget {
   final String type;
-  final String userId;
 
-  const JokesByCategoryScreen({Key? key, required this.type, required this.userId}) : super(key: key);
+  const JokesByCategoryScreen({Key? key, required this.type}) : super(key: key);
 
   @override
   _JokesByCategoryScreenState createState() => _JokesByCategoryScreenState();
@@ -15,20 +13,12 @@ class JokesByCategoryScreen extends StatefulWidget {
 
 class _JokesByCategoryScreenState extends State<JokesByCategoryScreen> {
   late Future<List<Joke>> _jokes;
+  Map<int, bool> _likedJokes = {}; // Store like state for each joke
 
   @override
   void initState() {
     super.initState();
     _jokes = ApiServices.fetchJokesByType(widget.type) as Future<List<Joke>>; // Fetch jokes based on type
-  }
-
-  void _likeJoke(Joke joke) {
-    FirebaseFirestore.instance.collection('liked_jokes').add({
-      'setup': joke.setup,
-      'punchline': joke.punchline,
-      'user_id': widget.userId,
-      'created_at': FieldValue.serverTimestamp(),
-    });
   }
 
   @override
@@ -50,14 +40,59 @@ class _JokesByCategoryScreenState extends State<JokesByCategoryScreen> {
           } else {
             final jokes = snapshot.data!;
             return ListView.builder(
+              padding: const EdgeInsets.all(16.0),
               itemCount: jokes.length,
               itemBuilder: (context, index) {
-                return ListTile(
-                  title: Text(jokes[index].setup),
-                  subtitle: Text(jokes[index].punchline),
-                  trailing: IconButton(
-                    icon: Icon(Icons.favorite_border),
-                    onPressed: () => _likeJoke(jokes[index]),  // Like button functionality
+                final joke = jokes[index];
+                return Padding(
+                  padding: const EdgeInsets.only(bottom: 16.0), // Space between cards
+                  child: Card(
+                    color: Colors.deepPurpleAccent,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(12), // Rounded corners
+                    ),
+                    elevation: 5, // Shadow effect
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Column(
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Text(
+                            joke.setup,
+                            style: const TextStyle(
+                              color: Colors.white,
+                              fontSize: 18,
+                              fontWeight: FontWeight.bold,
+                            ),
+                          ),
+                          const SizedBox(height: 8),
+                          Text(
+                            joke.punchline,
+                            style: const TextStyle(
+                              color: Colors.white70,
+                              fontSize: 16,
+                            ),
+                          ),
+                          const SizedBox(height: 10),
+                          IconButton(
+                            icon: Icon(
+                              _likedJokes[index] == true
+                                  ? Icons.favorite
+                                  : Icons.favorite_border,
+                              size: 30,
+                              color: _likedJokes[index] == true
+                                  ? Colors.red
+                                  : Colors.grey,
+                            ),
+                            onPressed: () {
+                              setState(() {
+                                _likedJokes[index] = !(_likedJokes[index] ?? false);
+                              });
+                            },
+                          ),
+                        ],
+                      ),
+                    ),
                   ),
                 );
               },
