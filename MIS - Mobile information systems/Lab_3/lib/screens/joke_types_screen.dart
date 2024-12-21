@@ -4,7 +4,7 @@ import 'jokes_by_category_screen.dart'; // New screen to show jokes by category
 import 'dart:math'; // To generate random colors
 
 class JokeTypesScreen extends StatefulWidget {
-  const JokeTypesScreen({Key? key}) : super(key: key);
+  const JokeTypesScreen({Key? key, required String userId}) : super(key: key);
 
   @override
   _JokeTypesScreenState createState() => _JokeTypesScreenState();
@@ -75,7 +75,7 @@ class _JokeTypesScreenState extends State<JokeTypesScreen> {
                         Navigator.push(
                           context,
                           MaterialPageRoute(
-                            builder: (context) => JokesByCategoryScreen(type: jokeTypes[index]),
+                            builder: (context) => JokesByCategoryScreen(type: jokeTypes[index], userId: '',),
                           ),
                         );
                       },

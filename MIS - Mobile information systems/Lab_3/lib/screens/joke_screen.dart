@@ -1,9 +1,12 @@
 import 'package:flutter/material.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import '../models/joke.dart';
 import '../services/api_services.dart';
 
 class JokeScreen extends StatefulWidget {
-  const JokeScreen({Key? key}) : super(key: key);
+  final String userId;
+
+  const JokeScreen({Key? key, required this.userId}) : super(key: key);
 
   @override
   _JokeScreenState createState() => _JokeScreenState();
@@ -11,12 +14,29 @@ class JokeScreen extends StatefulWidget {
 
 class _JokeScreenState extends State<JokeScreen> {
   late Future<Joke> _joke;
-  bool _isLiked = false; // Variable to store the like state
 
   @override
   void initState() {
     super.initState();
     _joke = ApiServices.fetchJoke() as Future<Joke>;  // Call API for joke
+  }
+
+  // Function to handle liking a joke
+  void _likeJoke(Joke joke) {
+    FirebaseFirestore.instance.collection('liked_jokes').add({
+      'setup': joke.setup,
+      'punchline': joke.punchline,
+      'user_id': widget.userId,
+      'created_at': FieldValue.serverTimestamp(),
+    }).then((value) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('Joke liked!')),
+      );
+    }).catchError((error) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(content: Text('Error: $error')),
+      );
+    });
   }
 
   @override
@@ -25,80 +45,54 @@ class _JokeScreenState extends State<JokeScreen> {
       appBar: AppBar(
         title: const Text('Joke of the Day'),
       ),
-      body: Container(
-        decoration: BoxDecoration(
-          gradient: LinearGradient(
-            begin: Alignment.topLeft,
-            end: Alignment.bottomRight,
-            colors: [Colors.purpleAccent, Colors.blueAccent],  // Background gradient
-          ),
-        ),
-        child: Center(
-          child: FutureBuilder<Joke>(
-            future: _joke,
-            builder: (context, snapshot) {
-              if (snapshot.connectionState == ConnectionState.waiting) {
-                return const CircularProgressIndicator();  // Show loader while waiting for the response
-              } else if (snapshot.hasError) {
-                return Text('Error: ${snapshot.error}');
-              } else {
-                final joke = snapshot.data!;
-                return Padding(
-                  padding: const EdgeInsets.all(16.0),
-                  child: Card(
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(16.0),  // Rounded corners for the card
+      body: FutureBuilder<Joke>(
+        future: _joke,
+        builder: (context, snapshot) {
+          if (snapshot.connectionState == ConnectionState.waiting) {
+            return const Center(child: CircularProgressIndicator());  // Show loader while waiting
+          } else if (snapshot.hasError) {
+            return Center(child: Text('Error: ${snapshot.error}'));
+          } else if (snapshot.hasData) {
+            final joke = snapshot.data!;
+            return Center(
+              child: Padding(
+                padding: const EdgeInsets.all(16.0),
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  children: [
+                    // Display the setup of the joke
+                    Text(
+                      joke.setup,
+                      style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+                      textAlign: TextAlign.center,
                     ),
-                    elevation: 8.0,  // Adding shadow for card
-                    color: Colors.white.withOpacity(0.9),  // Card color with slight transparency
-                    child: Padding(
-                      padding: const EdgeInsets.all(24.0),
-                      child: Column(
-                        mainAxisAlignment: MainAxisAlignment.center,
-                        children: [
-                          // Setup Text with big, bold font
-                          Text(
-                            joke.setup,
-                            style: const TextStyle(
-                              fontSize: 28,  // Larger font size for the setup
-                              fontWeight: FontWeight.bold,  // Bold font for setup
-                              color: Colors.black,  // Text color for better contrast
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                          const SizedBox(height: 20),
-                          // Punchline Text with slightly smaller font but still prominent
-                          Text(
-                            joke.punchline,
-                            style: const TextStyle(
-                              fontSize: 24,  // Slightly smaller font for punchline
-                              fontWeight: FontWeight.w600,  // Bold but not as much as setup
-                              color: Colors.deepOrangeAccent,  // Text color for punchline
-                            ),
-                            textAlign: TextAlign.center,
-                          ),
-                          const SizedBox(height: 20),
-                          IconButton(
-                            icon: Icon(
-                              _isLiked ? Icons.favorite : Icons.favorite_border,
-                              color: _isLiked ? Colors.red : Colors.grey,
-                              size: 100,
-                            ),
-                            onPressed: () {
-                              setState(() {
-                                _isLiked = !_isLiked; // Toggle like status
-                              });
-                            },
-                          ),
-                        ],
+                    const SizedBox(height: 10),
+                    // Display the punchline of the joke
+                    Text(
+                      joke.punchline,
+                      style: const TextStyle(fontSize: 20, color: Colors.orange),
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: 20),
+                    // Like button to like the joke
+                    ElevatedButton(
+                      onPressed: () => _likeJoke(joke),  // Like the joke
+                      child: const Text('Like this Joke'),
+                      style: ElevatedButton.styleFrom(
+                        minimumSize: const Size(200, 50), // Button size
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(25),
+                        ),
                       ),
                     ),
-                  ),
-                );
-              }
-            },
-          ),
-        ),
+                  ],
+                ),
+              ),
+            );
+          } else {
+            return const Center(child: Text('No joke found.'));
+          }
+        },
       ),
     );
   }
