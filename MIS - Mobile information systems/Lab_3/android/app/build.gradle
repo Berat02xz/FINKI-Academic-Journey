@@ -23,12 +23,13 @@ android {
     }
 
     defaultConfig {
-        applicationId ="com.example.lab_3"
-        minSdkVersion= 23  // Change this to 23
-        targetSdkVersion =30
-        versionCode =flutterVersionCode
-        versionName= flutterVersionName
+        applicationId = "com.example.lab_2"
+        minSdk = 23
+        targetSdk = flutter.targetSdkVersion
+        versionCode = flutter.versionCode
+        versionName = flutter.versionName
     }
+
 
     buildTypes {
         release {
