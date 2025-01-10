@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "722308465160",
+    "project_id": "moviematch-a47cd",
+    "storage_bucket": "moviematch-a47cd.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:722308465160:android:4187604858d90c133447bd",
+        "android_client_info": {
+          "package_name": "com.homework2.homework2"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQNUFELKSTeowu02I5GJ_fPbpXnYoOBpk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
