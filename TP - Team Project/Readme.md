@@ -54,7 +54,3 @@ Each team member was responsible for:
 This hands-on project strengthened our skills in teamwork, design thinking, and digital communication.
 
 ---
-
----
-
-This project demonstrates the power of design and digital media in promoting social impact initiatives like MKSAFENET.
