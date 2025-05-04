@@ -1,16 +1,37 @@
-# homework2
+# 🎬 MovieMatch
 
-Prototype for MovieMatch
+MovieMatch is a mobile application built with **Flutter** that brings the swiping experience of Tinder to movie discovery. Swipe right to add a movie to your watchlist, swipe left to skip — simple, fun, and personal.
 
-## Getting Started
+<p align="center">
+  <img src="https://github.com/Berat02xz/FINKI-Academic-Journey/blob/main/MIS%20-%20Mobile%20Information%20System/Homework2/PROOF%20OF%20APP/Screenshot%202025-01-11%20155852.png?raw=true" width="200"/>
+  <img src="https://github.com/Berat02xz/FINKI-Academic-Journey/blob/main/MIS%20-%20Mobile%20Information%20System/Homework2/PROOF%20OF%20APP/Screenshot%202025-01-11%20155941.png?raw=true" width="200"/>
+  <img src="https://github.com/Berat02xz/FINKI-Academic-Journey/blob/main/MIS%20-%20Mobile%20Information%20System/Homework2/PROOF%20OF%20APP/Screenshot%202025-01-11%20160013.png?raw=true" width="200"/>
+  <img src="https://github.com/Berat02xz/FINKI-Academic-Journey/blob/main/MIS%20-%20Mobile%20Information%20System/Homework2/PROOF%20OF%20APP/Screenshot%202025-01-11%20160049.png?raw=true" width="200"/>
+</p>
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## 🚀 Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- 🔥 Swipe-based UI for discovering movies (Tinder-style).
+- 🎬 Real-time movie data fetched from the **TMDB API**.
+- 🔐 User authentication powered by **Firebase**.
+- 📝 Local watchlist using `localStorage` to store liked movies.
+- 🎨 UI/UX designed in **Figma** and implemented via Figma-to-code workflow.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 🛠 Tech Stack
+
+- **Flutter** – Cross-platform mobile development.
+- **Firebase Auth** – Secure and fast user login/registration.
+- **TMDB API** – Source of movie data (title, poster, description, etc.).
+- **LocalStorage** – Saves your liked movies locally as a watchlist.
+- **Figma** – Initial prototype design and UI inspiration.
+
+---
+
+## 📌 Notes
+
+This project was developed as part of the **Mobile Information Systems** course at **FINKI**, showcasing a practical use of APIs, authentication, and mobile UI/UX development.
+
